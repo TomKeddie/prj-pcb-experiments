@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name east-van)(type KiCad)(uri /home/tom/git/TomKeddie/tom-pcb-experiments/east-van/east-van)(options "")(descr ""))
+)
