@@ -165,8 +165,8 @@ L tom-mechanical:mech-only-no-pins H1
 U 1 1 5D615653
 P 2800 2400
 F 0 "H1" H 2825 2446 50  0000 L CNN
-F 1 "mech-only-no-pins" H 2825 2355 50  0000 L CNN
-F 2 "east-van:east-van-mask" H 2800 2400 50  0001 C CNN
+F 1 "mask" H 2825 2355 50  0000 L CNN
+F 2 "east-van:east-van-inv-mask" H 2800 2400 50  0001 C CNN
 F 3 "" H 2800 2400 50  0001 C CNN
 	1    2800 2400
 	1    0    0    -1  
@@ -176,7 +176,7 @@ L tom-mechanical:mech-only-no-pins H2
 U 1 1 5D6159FA
 P 2800 2600
 F 0 "H2" H 2825 2646 50  0000 L CNN
-F 1 "mech-only-no-pins" H 2825 2555 50  0000 L CNN
+F 1 "silk" H 2825 2555 50  0000 L CNN
 F 2 "east-van:east-van-silk" H 2800 2600 50  0001 C CNN
 F 3 "" H 2800 2600 50  0001 C CNN
 	1    2800 2600
@@ -186,4 +186,15 @@ Text Label 3950 2200 2    50   ~ 0
 C
 Text Label 4950 2200 0    50   ~ 0
 A
+$Comp
+L tom-mechanical:mech-only-no-pins H3
+U 1 1 5D60B2CC
+P 2800 2800
+F 0 "H3" H 2825 2846 50  0000 L CNN
+F 1 "copper" H 2825 2755 50  0000 L CNN
+F 2 "east-van:east-van-copper" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0001 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
