@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name east-van)(type KiCad)(uri ${KIPRJMOD}/../east-van)(options "")(descr ""))
+  (lib (name led-through-fibreglass)(type KiCad)(uri ${KIPRJMOD}/../../led-through-fibreglass)(options "")(descr ""))
+)

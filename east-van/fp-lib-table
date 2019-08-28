@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name east-van)(type KiCad)(uri /home/tom/git/TomKeddie/tom-pcb-experiments/east-van/east-van)(options "")(descr ""))
-  (lib (name led-through-fibreglass)(type KiCad)(uri /home/tom/git/TomKeddie/tom-pcb-experiments/led-through-fibreglass)(options "")(descr ""))
-)
