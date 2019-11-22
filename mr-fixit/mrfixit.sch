@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mrfixit-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,20 +20,9 @@ U 1 1 5DD7E60F
 P 6700 850
 F 0 "H1" H 6725 896 50  0000 L CNN
 F 1 "Solder Mask" H 6725 805 50  0000 L CNN
-F 2 "mr-fixit:mrfixit-mask-invert" H 6750 750 50  0001 L CNN
+F 2 "mr-fixit:mrfixit-mask" H 6750 750 50  0001 L CNN
 F 3 "" H 6700 850 50  0001 C CNN
 	1    6700 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L tom-mechanical:mech-only-no-pins H2
-U 1 1 5DD7E71C
-P 6700 1150
-F 0 "H2" H 6725 1241 50  0000 L CNN
-F 1 "Silk" H 6725 1150 50  0000 L CNN
-F 2 "mr-fixit:mrfixit-silk" H 6725 1059 50  0001 L CNN
-F 3 "" H 6700 1150 50  0001 C CNN
-	1    6700 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -48,8 +38,6 @@ F 3 "~" H 5550 1750 50  0001 C CNN
 $EndComp
 NoConn ~ 5850 1650
 NoConn ~ 5850 1750
-NoConn ~ 5850 1850
-NoConn ~ 5350 1850
 NoConn ~ 5350 1750
 NoConn ~ 5350 1650
 $Bitmap
@@ -2145,4 +2133,89 @@ E4 78 1C 94 E2 BF 17 CC 33 99 DC FD E5 CA 4A 69 F6 85 1C 1B 1F 97 14 45 5A B2 04
 88 31 41 70 97 88 31 41 70 D7 7F 00 CD 1C 40 63 3F F2 48 2C 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L tom-mechanical:mech-only-no-pins H2
+U 1 1 5DD814A0
+P 6700 1050
+F 0 "H2" H 6725 1096 50  0000 L CNN
+F 1 "Copper" H 6725 1005 50  0000 L CNN
+F 2 "mr-fixit:mrfixit-copper" H 6750 950 50  0001 L CNN
+F 3 "" H 6700 1050 50  0001 C CNN
+	1    6700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5DD8274D
+P 5150 1800
+F 0 "#PWR03" H 5150 1650 50  0001 C CNN
+F 1 "+3.3V" H 5165 1973 50  0000 C CNN
+F 2 "" H 5150 1800 50  0001 C CNN
+F 3 "" H 5150 1800 50  0001 C CNN
+	1    5150 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1850 5150 1850
+Wire Wire Line
+	5150 1850 5150 1800
+$Comp
+L power:GND #PWR04
+U 1 1 5DD82EE8
+P 5900 1900
+F 0 "#PWR04" H 5900 1650 50  0001 C CNN
+F 1 "GND" H 5905 1727 50  0000 C CNN
+F 2 "" H 5900 1900 50  0001 C CNN
+F 3 "" H 5900 1900 50  0001 C CNN
+	1    5900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1850 5900 1850
+Wire Wire Line
+	5900 1850 5900 1900
+$Comp
+L tom-opto:LED D1
+U 1 1 5DD83D17
+P 4400 1800
+F 0 "D1" V 4439 1683 50  0000 R CNN
+F 1 "LED" V 4348 1683 50  0000 R CNN
+F 2 "tom-opto:XZM2CYK45WT-9-NOMASK" H 4400 1800 50  0001 C CNN
+F 3 "~" H 4400 1800 50  0001 C CNN
+	1    4400 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-passives:R R1
+U 1 1 5DD8455D
+P 4400 2200
+F 0 "R1" H 4471 2238 40  0000 L CNN
+F 1 "220R" H 4471 2162 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4471 2124 30  0001 L CNN
+F 3 "" H 4400 2200 30  0001 C CNN
+	1    4400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5DD849C2
+P 4400 1650
+F 0 "#PWR01" H 4400 1500 50  0001 C CNN
+F 1 "+3.3V" H 4415 1823 50  0000 C CNN
+F 2 "" H 4400 1650 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+	1    4400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DD84CA8
+P 4400 2450
+F 0 "#PWR02" H 4400 2200 50  0001 C CNN
+F 1 "GND" H 4405 2277 50  0000 C CNN
+F 2 "" H 4400 2450 50  0001 C CNN
+F 3 "" H 4400 2450 50  0001 C CNN
+	1    4400 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
