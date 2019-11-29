@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name edison-led)(type KiCad)(uri ${KIPRJMOD}/edison-led.pretty)(options "")(descr ""))
+)
