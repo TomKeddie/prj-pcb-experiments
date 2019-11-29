@@ -1,4 +1,337 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L tom-opto:LED D1
+U 1 1 5DE06BB2
+P 2500 1700
+F 0 "D1" V 2539 1583 50  0000 R CNN
+F 1 "LED" V 2448 1583 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2500 1700 50  0001 C CNN
+F 3 "~" H 2500 1700 50  0001 C CNN
+	1    2500 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D2
+U 1 1 5DE08984
+P 2900 1700
+F 0 "D2" V 2939 1583 50  0000 R CNN
+F 1 "LED" V 2848 1583 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2900 1700 50  0001 C CNN
+F 3 "~" H 2900 1700 50  0001 C CNN
+	1    2900 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D3
+U 1 1 5DE08D7F
+P 3300 1700
+F 0 "D3" V 3339 1583 50  0000 R CNN
+F 1 "LED" V 3248 1583 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 3300 1700 50  0001 C CNN
+F 3 "~" H 3300 1700 50  0001 C CNN
+	1    3300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 1550 2500 1550
+Connection ~ 2500 1550
+Wire Wire Line
+	2500 1550 2900 1550
+Connection ~ 2900 1550
+Wire Wire Line
+	2900 1550 3300 1550
+Wire Wire Line
+	2500 1850 2400 1850
+Wire Wire Line
+	2900 1850 2900 1950
+Wire Wire Line
+	2900 1950 2400 1950
+Wire Wire Line
+	3300 1850 3300 2050
+Wire Wire Line
+	3300 2050 2400 2050
+Text GLabel 2400 1550 0    50   Input ~ 0
+D0
+Text GLabel 2400 1850 0    50   Input ~ 0
+D1
+Text GLabel 2400 1950 0    50   Input ~ 0
+D2
+Text GLabel 2400 2050 0    50   Input ~ 0
+D3
+$Comp
+L tom-connectors:PMOD-1x6-MALE J1
+U 1 1 5DE1638F
+P 1450 2250
+F 0 "J1" V 1035 2208 50  0000 C CNN
+F 1 "PMOD-1x6-MALE" V 1126 2208 50  0000 C CNN
+F 2 "tom-connectors:PMOD_1X6_PTH_RA_PLUG" H 1500 2150 50  0001 C CNN
+F 3 "" H 1500 2150 50  0001 C CNN
+	1    1450 2250
+	0    1    1    0   
+$EndComp
+NoConn ~ 1800 2100
+NoConn ~ 1100 2100
+$Comp
+L tom-passives:R R4
+U 1 1 5DE1FCD1
+P 1600 3150
+F 0 "R4" H 1529 3112 40  0000 R CNN
+F 1 "47R" H 1529 3188 40  0000 R CNN
+F 2 "tom-passives:R_0603_1608Metric" V 1530 3150 30  0001 C CNN
+F 3 "" H 1600 3150 30  0000 C CNN
+	1    1600 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L tom-passives:R R3
+U 1 1 5DE201B4
+P 1300 3150
+F 0 "R3" H 1229 3112 40  0000 R CNN
+F 1 "47R" H 1229 3188 40  0000 R CNN
+F 2 "tom-passives:R_0603_1608Metric" V 1230 3150 30  0001 C CNN
+F 3 "" H 1300 3150 30  0000 C CNN
+	1    1300 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L tom-passives:R R1
+U 1 1 5DE20953
+P 1100 2800
+F 0 "R1" H 1029 2762 40  0000 R CNN
+F 1 "47R" H 1029 2838 40  0000 R CNN
+F 2 "tom-passives:R_0603_1608Metric" V 1030 2800 30  0001 C CNN
+F 3 "" H 1100 2800 30  0000 C CNN
+	1    1100 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L tom-passives:R R2
+U 1 1 5DE2CC89
+P 1800 2800
+F 0 "R2" H 1729 2762 40  0000 R CNN
+F 1 "47R" H 1729 2838 40  0000 R CNN
+F 2 "tom-passives:R_0603_1608Metric" V 1730 2800 30  0001 C CNN
+F 3 "" H 1800 2800 30  0000 C CNN
+	1    1800 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 2550 1800 2550
+Wire Wire Line
+	1300 2550 1100 2550
+Wire Wire Line
+	1400 2550 1400 2700
+Wire Wire Line
+	1400 2700 1300 2700
+Wire Wire Line
+	1300 2700 1300 2900
+Wire Wire Line
+	1500 2550 1500 2700
+Wire Wire Line
+	1500 2700 1600 2700
+Wire Wire Line
+	1600 2700 1600 2900
+Wire Wire Line
+	1100 3050 1100 3400
+Wire Wire Line
+	1800 3050 1800 3400
+Text GLabel 1100 3400 3    50   Input ~ 0
+D3
+Text GLabel 1300 3400 3    50   Input ~ 0
+D2
+Text GLabel 1600 3400 3    50   Input ~ 0
+D1
+Text GLabel 1800 3400 3    50   Input ~ 0
+D0
+$Comp
+L tom-opto:LED D4
+U 1 1 5DE3CC56
+P 2500 2350
+F 0 "D4" V 2539 2233 50  0000 R CNN
+F 1 "LED" V 2448 2233 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2500 2350 50  0001 C CNN
+F 3 "~" H 2500 2350 50  0001 C CNN
+	1    2500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D5
+U 1 1 5DE3CC60
+P 2900 2350
+F 0 "D5" V 2939 2233 50  0000 R CNN
+F 1 "LED" V 2848 2233 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2900 2350 50  0001 C CNN
+F 3 "~" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D6
+U 1 1 5DE3CC6A
+P 3300 2350
+F 0 "D6" V 3339 2233 50  0000 R CNN
+F 1 "LED" V 3248 2233 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 3300 2350 50  0001 C CNN
+F 3 "~" H 3300 2350 50  0001 C CNN
+	1    3300 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2200 2500 2200
+Connection ~ 2500 2200
+Wire Wire Line
+	2500 2200 2900 2200
+Connection ~ 2900 2200
+Wire Wire Line
+	2900 2200 3300 2200
+Wire Wire Line
+	2500 2500 2400 2500
+Wire Wire Line
+	2900 2500 2900 2600
+Wire Wire Line
+	2900 2600 2400 2600
+Wire Wire Line
+	3300 2500 3300 2700
+Wire Wire Line
+	3300 2700 2400 2700
+Text GLabel 2400 2200 0    50   Input ~ 0
+D1
+Text GLabel 2400 2500 0    50   Input ~ 0
+D0
+Text GLabel 2400 2600 0    50   Input ~ 0
+D2
+Text GLabel 2400 2700 0    50   Input ~ 0
+D3
+$Comp
+L tom-opto:LED D7
+U 1 1 5DE3FC78
+P 2500 3000
+F 0 "D7" V 2539 2883 50  0000 R CNN
+F 1 "LED" V 2448 2883 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2500 3000 50  0001 C CNN
+F 3 "~" H 2500 3000 50  0001 C CNN
+	1    2500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D8
+U 1 1 5DE3FC82
+P 2900 3000
+F 0 "D8" V 2939 2883 50  0000 R CNN
+F 1 "LED" V 2848 2883 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2900 3000 50  0001 C CNN
+F 3 "~" H 2900 3000 50  0001 C CNN
+	1    2900 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D9
+U 1 1 5DE3FC8C
+P 3300 3000
+F 0 "D9" V 3339 2883 50  0000 R CNN
+F 1 "LED" V 3248 2883 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 3300 3000 50  0001 C CNN
+F 3 "~" H 3300 3000 50  0001 C CNN
+	1    3300 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2850 2500 2850
+Connection ~ 2500 2850
+Wire Wire Line
+	2500 2850 2900 2850
+Connection ~ 2900 2850
+Wire Wire Line
+	2900 2850 3300 2850
+Wire Wire Line
+	2500 3150 2400 3150
+Wire Wire Line
+	2900 3150 2900 3250
+Wire Wire Line
+	2900 3250 2400 3250
+Wire Wire Line
+	3300 3150 3300 3350
+Wire Wire Line
+	3300 3350 2400 3350
+Text GLabel 2400 2850 0    50   Input ~ 0
+D2
+Text GLabel 2400 3150 0    50   Input ~ 0
+D1
+Text GLabel 2400 3250 0    50   Input ~ 0
+D0
+Text GLabel 2400 3350 0    50   Input ~ 0
+D3
+$Comp
+L tom-opto:LED D10
+U 1 1 5DE3FCA4
+P 2500 3650
+F 0 "D10" V 2539 3533 50  0000 R CNN
+F 1 "LED" V 2448 3533 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2500 3650 50  0001 C CNN
+F 3 "~" H 2500 3650 50  0001 C CNN
+	1    2500 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D11
+U 1 1 5DE3FCAE
+P 2900 3650
+F 0 "D11" V 2939 3533 50  0000 R CNN
+F 1 "LED" V 2848 3533 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 2900 3650 50  0001 C CNN
+F 3 "~" H 2900 3650 50  0001 C CNN
+	1    2900 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:LED D12
+U 1 1 5DE3FCB8
+P 3300 3650
+F 0 "D12" V 3339 3533 50  0000 R CNN
+F 1 "LED" V 3248 3533 50  0000 R CNN
+F 2 "edison-led:EDISON-3014" H 3300 3650 50  0001 C CNN
+F 3 "~" H 3300 3650 50  0001 C CNN
+	1    3300 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 3500 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 3500 2900 3500
+Connection ~ 2900 3500
+Wire Wire Line
+	2900 3500 3300 3500
+Wire Wire Line
+	2500 3800 2400 3800
+Wire Wire Line
+	2900 3800 2900 3900
+Wire Wire Line
+	2900 3900 2400 3900
+Wire Wire Line
+	3300 3800 3300 4000
+Wire Wire Line
+	3300 4000 2400 4000
+Text GLabel 2400 3500 0    50   Input ~ 0
+D3
+Text GLabel 2400 3800 0    50   Input ~ 0
+D1
+Text GLabel 2400 3900 0    50   Input ~ 0
+D2
+Text GLabel 2400 4000 0    50   Input ~ 0
+D0
 $EndSCHEMATC
