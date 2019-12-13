@@ -3,4 +3,5 @@
   (lib (name tom-passives)(type Legacy)(uri /home/tom/git/TomKeddie/tom-pcb-experiments/tom-kicad/symbols/tom-passives.lib)(options "")(descr ""))
   (lib (name tom-semiconductors)(type Legacy)(uri /home/tom/git/TomKeddie/tom-pcb-experiments/tom-kicad/symbols/tom-semiconductors.lib)(options "")(descr ""))
   (lib (name tom-mechanical)(type Legacy)(uri /home/tom/git/TomKeddie/tom-pcb-experiments/tom-kicad/symbols/tom-mechanical.lib)(options "")(descr ""))
+  (lib (name east-van-rescue)(type Legacy)(uri ${KIPRJMOD}/east-van-rescue.lib)(options "")(descr ""))
 )
