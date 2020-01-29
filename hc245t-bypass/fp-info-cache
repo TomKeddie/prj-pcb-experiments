@@ -1,0 +1,752 @@
+166124896102808
+TestPoint
+TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
+Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
+CONN DEV
+0
+2
+2
+TestPoint
+TestPoint_2Pads_Pitch5.08mm_Drill1.3mm
+Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+CONN DEV
+0
+2
+2
+TestPoint
+TestPoint_Bridge_Pitch2.0mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.0mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.3mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch3.81mm_Drill1.3mm
+wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill0.7mm
+wire loop as test point, pitch 5.08mm, hole diameter 0.7mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill1.3mm
+wire loop as test point, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch6.35mm_Drill1.3mm
+wire loop as test point, pitch 6.35mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch7.62mm_Drill1.3mm
+wire loop as test point, pitch 7.62mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Keystone_5000-5004_Miniature
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5005-5009_Compact
+Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5010-5014_Multipurpose
+Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5015_Micro-Minature
+SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5019_Minature
+SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357
+Test Point
+0
+1
+1
+TestPoint
+TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile
+low profile wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.85mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded
+wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.6mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter 3.5mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.0mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.5mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.8mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.8mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.5x1.5mm
+SMD rectangular pad as test Point, square 1.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.5x2.5mm
+SMD rectangular pad as test Point, square 2.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_3.0x3.0mm
+SMD rectangular pad as test Point, square 3.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_4.0x4.0mm
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.0mm
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.5mm
+SMD pad as test Point, diameter 2.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D3.0mm
+SMD pad as test Point, diameter 3.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D4.0mm
+SMD pad as test Point, diameter 4.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D2.0mm
+Plated Hole as test Point, diameter 2.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D3.0mm
+Plated Hole as test Point, diameter 3.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D4.0mm
+Plated Hole as test Point, diameter 4.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D5.0mm
+Plated Hole as test Point, diameter 5.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.0x1.0mm_Drill0.5mm
+THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.5x1.5mm_Drill0.7mm
+THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.0x2.0mm_Drill1.0mm
+THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.5x2.5mm_Drill1.2mm
+THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_3.0x3.0mm_Drill1.5mm
+THT rectangular pad as test Point, square 3.0mm side length, hole diameter 1.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_4.0x4.0mm_Drill2.0mm
+THT rectangular pad as test Point, square 4.0mm  side length, hole diameter 2.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.0mm_Drill0.5mm
+THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.5mm_Drill0.7mm
+THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.0mm_Drill1.0mm
+THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.5mm_Drill1.2mm
+THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm 
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D3.0mm_Drill1.5mm
+THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D4.0mm_Drill2.0mm
+THT pad as test Point, diameter 4.0mm, hole diameter 2.0mm
+test point THT pad
+0
+1
+1
+tom-connectors
+1X6_SMD_RA_PLUG
+
+
+0
+6
+6
+tom-connectors
+2X6_SMD_RA_PLUG
+
+
+0
+12
+12
+tom-connectors
+2X6_SMD_RA_SOCKET
+
+
+0
+12
+12
+tom-connectors
+CONN_1.27_2x5
+
+
+0
+10
+10
+tom-connectors
+Crystal_SMD_0603_5x3.2
+Crystal, Quarz, SMD, 0603, 4 Pads,
+Crystal, Quarz, SMD, 0603, 4 Pads,
+0
+4
+4
+tom-connectors
+JST-2-SMD
+<h3>JST-Right Angle Male Header SMT</h3>
+<p>Specifications:
+<ul><li>Pin count: 2</li>
+<li>Pin pitch: 2mm</li>
+</ul></p>
+<p><a href=”http://www.4uconnector.com/online/object/4udrawing/20404.pdf”>Datasheet referenced for footprint</a></p>
+<p>Example device(s):
+<ul><li>CONN_02</li>
+<li>JST_2MM_MALE</li>
+</ul></p>
+
+0
+4
+4
+tom-connectors
+MICRO_SD_10_PIN
+
+
+0
+12
+11
+tom-connectors
+PCI-EXPRESS
+
+
+0
+70
+36
+tom-connectors
+PMOD_1X6_PTH_RA_PLUG
+
+
+0
+6
+6
+tom-connectors
+PMOD_2X6_PTH_RA_PLUG
+
+
+0
+12
+12
+tom-connectors
+PMOD_2X6_PTH_RA_SOCKET
+
+
+0
+12
+12
+tom-connectors
+PinHeader_1x09_P2.54mm_Horizontal
+Through hole angled pin header, 1x09, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x09 2.54mm single row
+0
+9
+9
+tom-connectors
+PinHeader_2x20_P2.54mm_Horizontal_Mirrored
+Through hole angled pin header, 2x20, 2.54mm pitch, 6mm pin length, double rows
+Through hole angled pin header THT 2x20 2.54mm double row
+0
+40
+40
+tom-connectors
+PinHeader_2x22_P1.27mm_Vertical
+Through hole straight pin header, 2x22, 1.27mm pitch, double rows
+Through hole pin header THT 2x22 1.27mm double row
+0
+44
+44
+tom-connectors
+PinHeader_2x22_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x22, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x22 1.27mm double row
+0
+44
+44
+tom-connectors
+PinSocket_2x03_P2.54mm_Vertical_SMD_SAO
+surface-mounted straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Surface mounted socket strip SMD 2x03 2.54mm double row
+0
+6
+6
+tom-connectors
+PinSocket_2x22_P1.27mm_Vertical
+Through hole straight socket strip, 2x22, 1.27mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x22 1.27mm double row
+0
+44
+44
+tom-connectors
+PinSocket_2x22_P1.27mm_Vertical_SMD
+surface-mounted straight socket strip, 2x22, 1.27mm pitch, double cols (from Kicad 4.0.7!), script generated
+Surface mounted socket strip SMD 2x22 1.27mm double row
+0
+44
+44
+tom-connectors
+USB-A-PCB
+
+
+0
+4
+3
+tom-connectors
+USB_C_Receptacle_GT-USB-7010
+USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
+USB C Type-C Receptacle SMD
+0
+24
+17
+tom-connectors
+USB_MICRO_TAOBAO_SMD_PTH
+
+
+0
+17
+7
+tom-mechanical
+Castellation_5.08_2.54
+
+
+0
+1
+1
+tom-mechanical
+PCIe_1x
+
+
+0
+72
+36
+tom-mechanical
+SW_Push_1P1T_NO_CK_KMR2
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+tom-mechanical
+SW_SPST_SMD_2PIN_3.5x6.0
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+SPST button tactile switch
+0
+2
+2
+tom-mechanical
+SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+2
+2
+tom-mechanical
+TestPoint_Loop_D2.50mm_Drill1.0mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+tom-mechanical
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+tom-mechanical
+TestPoint_Pad_D3.0mm
+SMD pad as test Point, diameter 3.0mm
+test point SMD pad
+0
+1
+1
+tom-mechanical
+cc-by-sa
+
+
+0
+0
+0
+tom-mechanical
+cc-by-sa-80x15
+
+
+0
+0
+0
+tom-opto
+LED_RGB_PLCC-6
+RGB LED PLCC-6
+RGB LED PLCC-6
+0
+6
+6
+tom-opto
+PLCC4-BACK
+
+
+0
+4
+4
+tom-opto
+SUNLIGHT_SMD_7SEG_SLS0561
+
+
+0
+10
+10
+tom-opto
+XZM2CYK45WT-9-NOMASK
+
+
+0
+2
+2
+tom-passives
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+tom-passives
+C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+tom-passives
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+tom-passives
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+tom-passives
+Crystal_SMD_0603_5x3.2
+Crystal, Quarz, SMD, 0603, 4 Pads,
+Crystal, Quarz, SMD, 0603, 4 Pads,
+0
+4
+4
+tom-passives
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+tom-passives
+R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+tom-semiconductors
+BGA-24_5x5_6.0x8.0mm
+
+
+0
+24
+24
+tom-semiconductors
+QFN-16-1EP_3x3mm_Pitch0.5mm_HS
+16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.5
+0
+20
+17
+tom-semiconductors
+QFP50P900X900X120-48N
+
+
+0
+48
+48
+tom-semiconductors
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+tom-semiconductors
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+tom-semiconductors
+SOT-23-5_HandSoldering
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
+tom-semiconductors
+TO-92-teardrop
+TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
