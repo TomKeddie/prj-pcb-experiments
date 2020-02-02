@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:hc245t-bypass-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -219,6 +220,214 @@ F 1 "TestPoint" V 2945 3688 50  0000 L CNN
 F 2 "tom-mechanical:Castellation_5.08_2.54" H 3100 3500 50  0001 C CNN
 F 3 "~" H 3100 3500 50  0001 C CNN
 	1    2900 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 1400 4200 1400
+Wire Wire Line
+	3750 1700 4200 1700
+Text Label 3900 1400 0    50   ~ 0
+a0b0
+Text Label 3900 1700 0    50   ~ 0
+a1b1
+$Comp
+L tom-mechanical:TestPoint TP21
+U 1 1 5E30EA85
+P 3750 1400
+F 0 "TP21" V 3945 1472 50  0000 C CNN
+F 1 "TestPoint" V 3854 1472 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 1400 50  0001 C CNN
+F 3 "~" H 3950 1400 50  0001 C CNN
+	1    3750 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP29
+U 1 1 5E30EA8F
+P 4200 1400
+F 0 "TP29" V 4154 1588 50  0000 L CNN
+F 1 "TestPoint" V 4245 1588 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 1400 50  0001 C CNN
+F 3 "~" H 4400 1400 50  0001 C CNN
+	1    4200 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP22
+U 1 1 5E30EA99
+P 3750 1700
+F 0 "TP22" V 3945 1772 50  0000 C CNN
+F 1 "TestPoint" V 3854 1772 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 1700 50  0001 C CNN
+F 3 "~" H 3950 1700 50  0001 C CNN
+	1    3750 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP30
+U 1 1 5E30EAA3
+P 4200 1700
+F 0 "TP30" V 4154 1888 50  0000 L CNN
+F 1 "TestPoint" V 4245 1888 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 1700 50  0001 C CNN
+F 3 "~" H 4400 1700 50  0001 C CNN
+	1    4200 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2000 4200 2000
+Text Label 3900 2000 0    50   ~ 0
+a2b2
+$Comp
+L tom-mechanical:TestPoint TP23
+U 1 1 5E30EAAF
+P 3750 2000
+F 0 "TP23" V 3945 2072 50  0000 C CNN
+F 1 "TestPoint" V 3854 2072 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 2000 50  0001 C CNN
+F 3 "~" H 3950 2000 50  0001 C CNN
+	1    3750 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP31
+U 1 1 5E30EAB9
+P 4200 2000
+F 0 "TP31" V 4154 2188 50  0000 L CNN
+F 1 "TestPoint" V 4245 2188 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 2000 50  0001 C CNN
+F 3 "~" H 4400 2000 50  0001 C CNN
+	1    4200 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2300 4200 2300
+Text Label 3900 2300 0    50   ~ 0
+a3b3
+$Comp
+L tom-mechanical:TestPoint TP24
+U 1 1 5E30EAC5
+P 3750 2300
+F 0 "TP24" V 3945 2372 50  0000 C CNN
+F 1 "TestPoint" V 3854 2372 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 2300 50  0001 C CNN
+F 3 "~" H 3950 2300 50  0001 C CNN
+	1    3750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP32
+U 1 1 5E30EACF
+P 4200 2300
+F 0 "TP32" V 4154 2488 50  0000 L CNN
+F 1 "TestPoint" V 4245 2488 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 2300 50  0001 C CNN
+F 3 "~" H 4400 2300 50  0001 C CNN
+	1    4200 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2600 4200 2600
+Wire Wire Line
+	3750 2900 4200 2900
+Text Label 3900 2600 0    50   ~ 0
+a4b4
+Text Label 3900 2900 0    50   ~ 0
+a5b5
+$Comp
+L tom-mechanical:TestPoint TP25
+U 1 1 5E30EADD
+P 3750 2600
+F 0 "TP25" V 3945 2672 50  0000 C CNN
+F 1 "TestPoint" V 3854 2672 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 2600 50  0001 C CNN
+F 3 "~" H 3950 2600 50  0001 C CNN
+	1    3750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP33
+U 1 1 5E30EAE7
+P 4200 2600
+F 0 "TP33" V 4154 2788 50  0000 L CNN
+F 1 "TestPoint" V 4245 2788 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 2600 50  0001 C CNN
+F 3 "~" H 4400 2600 50  0001 C CNN
+	1    4200 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP26
+U 1 1 5E30EAF1
+P 3750 2900
+F 0 "TP26" V 3945 2972 50  0000 C CNN
+F 1 "TestPoint" V 3854 2972 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 2900 50  0001 C CNN
+F 3 "~" H 3950 2900 50  0001 C CNN
+	1    3750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP34
+U 1 1 5E30EAFB
+P 4200 2900
+F 0 "TP34" V 4154 3088 50  0000 L CNN
+F 1 "TestPoint" V 4245 3088 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 2900 50  0001 C CNN
+F 3 "~" H 4400 2900 50  0001 C CNN
+	1    4200 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3200 4200 3200
+Text Label 3900 3200 0    50   ~ 0
+a6b6
+$Comp
+L tom-mechanical:TestPoint TP27
+U 1 1 5E30EB07
+P 3750 3200
+F 0 "TP27" V 3945 3272 50  0000 C CNN
+F 1 "TestPoint" V 3854 3272 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 3200 50  0001 C CNN
+F 3 "~" H 3950 3200 50  0001 C CNN
+	1    3750 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP35
+U 1 1 5E30EB11
+P 4200 3200
+F 0 "TP35" V 4154 3388 50  0000 L CNN
+F 1 "TestPoint" V 4245 3388 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 3200 50  0001 C CNN
+F 3 "~" H 4400 3200 50  0001 C CNN
+	1    4200 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3500 4200 3500
+Text Label 3900 3500 0    50   ~ 0
+a7b7
+$Comp
+L tom-mechanical:TestPoint TP28
+U 1 1 5E30EB1D
+P 3750 3500
+F 0 "TP28" V 3945 3572 50  0000 C CNN
+F 1 "TestPoint" V 3854 3572 50  0000 C CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 3950 3500 50  0001 C CNN
+F 3 "~" H 3950 3500 50  0001 C CNN
+	1    3750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-mechanical:TestPoint TP36
+U 1 1 5E30EB27
+P 4200 3500
+F 0 "TP36" V 4154 3688 50  0000 L CNN
+F 1 "TestPoint" V 4245 3688 50  0000 L CNN
+F 2 "tom-mechanical:Castellation_5.08_2.54" H 4400 3500 50  0001 C CNN
+F 3 "~" H 4400 3500 50  0001 C CNN
+	1    4200 3500
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
