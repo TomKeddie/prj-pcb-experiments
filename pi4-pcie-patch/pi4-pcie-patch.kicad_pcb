@@ -15,8 +15,8 @@
     (31 B.Cu signal)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (44 Edge.Cuts user)
@@ -108,7 +108,7 @@
     (add_net /USB2D_PXECLK_P)
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7F6E)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7F6E)
     (at 80.2 63.6)
     (path /5E5C9786)
     (fp_text reference TP59 (at -0.01 1.02) (layer F.SilkS) hide
@@ -117,11 +117,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 6 /USB2D_PXECLK_N))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7ED8)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7ED8)
     (at 80.2 63.2)
     (path /5E5C9770)
     (fp_text reference TP58 (at -0.01 1.02) (layer F.SilkS) hide
@@ -130,11 +130,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 5 /USB2D_PXECLK_P))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C80C4)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C80C4)
     (at 80.2 62.4)
     (path /5E5C653F)
     (fp_text reference TP56 (at -0.01 1.02) (layer F.SilkS) hide
@@ -143,11 +143,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 4 /PEXRX_SSRX_N))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7EC0)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7EC0)
     (at 80.2 62)
     (path /5E5C6529)
     (fp_text reference TP55 (at -0.01 1.02) (layer F.SilkS) hide
@@ -156,11 +156,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 3 /PEXRX_SSRX_P))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C8094)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C8094)
     (at 80.2 61.2)
     (path /5E5C5B51)
     (fp_text reference TP53 (at -0.01 1.02) (layer F.SilkS) hide
@@ -169,11 +169,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 2 /SSTX_PEXTX_N))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7E60)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7E60)
     (at 80.2 60.8)
     (path /5E5C4C41)
     (fp_text reference TP52 (at -0.01 1.02) (layer F.SilkS) hide
@@ -182,11 +182,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 1 /SSTX_PEXTX_P))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7E78)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7E78)
     (at 87.8 63.2 180)
     (path /5E5C6549)
     (fp_text reference TP28 (at -0.01 1.02) (layer F.SilkS) hide
@@ -195,11 +195,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 4 /PEXRX_SSRX_N))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7EA8)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7EA8)
     (at 87.8 63.6 180)
     (path /5E5C6533)
     (fp_text reference TP27 (at -0.01 1.02) (layer F.SilkS) hide
@@ -208,11 +208,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 3 /PEXRX_SSRX_P))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7E84)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7E84)
     (at 87.8 64.4 180)
     (path /5E5C5B5B)
     (fp_text reference TP25 (at -0.01 1.02) (layer F.SilkS) hide
@@ -221,11 +221,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 2 /SSTX_PEXTX_N))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7E6C)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7E6C)
     (at 87.8 64.8 180)
     (path /5E5C521A)
     (fp_text reference TP24 (at -0.01 1.02) (layer F.SilkS) hide
@@ -234,11 +234,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 1 /SSTX_PEXTX_P))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7E90)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7E90)
     (at 87.8 65.6 180)
     (path /5E5C9790)
     (fp_text reference TP22 (at -0.01 1.02) (layer F.SilkS) hide
@@ -247,11 +247,11 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 6 /USB2D_PXECLK_N))
   )
 
-  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385) (tstamp 5E5C7E9C)
+  (module pi4-pcie-patch:PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C952B) (tstamp 5E5C7E9C)
     (at 87.8 66 180)
     (path /5E5C977A)
     (fp_text reference TP21 (at -0.01 1.02) (layer F.SilkS) hide
@@ -260,7 +260,7 @@
     (fp_text value TestPoint (at -0.01 -1.21) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu F.Mask)
       (net 5 /USB2D_PXECLK_P))
   )
 
