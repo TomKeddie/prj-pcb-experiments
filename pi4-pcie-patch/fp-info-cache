@@ -1,4 +1,4 @@
-34410879422931
+35994004840931
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -148,6 +148,13 @@ solder jumper open
 3
 pi4-pcie-patch
 PAD_0.2_1.0MM
+
+
+0
+1
+1
+pi4-pcie-patch
+PAD_0.2_1.0MM_CAST
 
 
 0

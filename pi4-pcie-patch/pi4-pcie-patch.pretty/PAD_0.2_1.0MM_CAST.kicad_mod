@@ -1,0 +1,9 @@
+(module PAD_0.2_1.0MM_CAST (layer F.Cu) (tedit 5E5C9385)
+  (fp_text reference REF** (at -0.01 1.02) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PAD_0.2_1.0MM_CAST (at -0.01 -1.21) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 1 0.2) (drill 0.254 (offset 0.45 0)) (layers *.Cu *.Mask))
+)
