@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:glasgow-pmod-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1044,21 +1043,21 @@ Text Label 8000 3700 0    50   ~ 0
 Z7_P
 Text Label 8000 3800 0    50   ~ 0
 Z7_N
-Text Label 8000 5150 0    50   ~ 0
-Z4_P
-Text Label 8000 5250 0    50   ~ 0
-Z4_N
 Text Label 8000 5650 0    50   ~ 0
-Z1_P
+Z4_P
 Text Label 8000 5550 0    50   ~ 0
+Z4_N
+Text Label 8000 5750 0    50   ~ 0
+Z1_P
+Text Label 8000 5850 0    50   ~ 0
 Z1_N
 Text Label 8000 5350 0    50   ~ 0
 Z0_P
 Text Label 8000 5450 0    50   ~ 0
 Z0_N
-Text Label 8000 5850 0    50   ~ 0
+Text Label 8000 5250 0    50   ~ 0
 Z2_P
-Text Label 8000 5750 0    50   ~ 0
+Text Label 8000 5150 0    50   ~ 0
 Z2_N
 $Comp
 L power:GND #PWR0105
@@ -1295,6 +1294,7 @@ Wire Wire Line
 	6550 1950 6550 2400
 Wire Wire Line
 	6550 2400 5900 2400
+Connection ~ 5900 2400
 Wire Bus Line
 	4550 2800 5450 2800
 Wire Bus Line
@@ -1303,5 +1303,4 @@ Wire Bus Line
 	7800 3200 7800 5950
 Wire Bus Line
 	4550 2800 4550 5950
-Connection ~ 5900 2400
 $EndSCHEMATC
