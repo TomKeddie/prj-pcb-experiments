@@ -16,7 +16,7 @@ $EndDescr
 Text Label 4950 3650 2    50   ~ 0
 Z11_P
 $Comp
-L glasgow-pmod-rescue:Conn_02x22_Odd_Even-Connector_Generic-glasgow-rescue J1
+L tom-connectors:Conn_02x22_Odd_Even J1
 U 1 1 5C9E342D
 P 5150 4450
 AR Path="/5C9E342D" Ref="J1"  Part="1" 
@@ -1207,9 +1207,6 @@ Text Label 4200 3100 0    50   ~ 0
 Z3_P
 Text Label 4200 3250 0    50   ~ 0
 Z3_N
-NoConn ~ 5700 3350
-Text Notes 5750 3450 0    50   ~ 0
-3.3V unused
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DDAB5D5
@@ -1295,6 +1292,43 @@ Wire Wire Line
 Wire Wire Line
 	6550 2400 5900 2400
 Connection ~ 5900 2400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5ECB22E0
+P 5700 3350
+F 0 "#PWR?" H 5700 3200 50  0001 C CNN
+F 1 "+3V3" H 5715 3523 50  0000 C CNN
+F 2 "" H 5700 3350 50  0001 C CNN
+F 3 "" H 5700 3350 50  0001 C CNN
+	1    5700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5ECB36FF
+P 1000 6200
+F 0 "#PWR?" H 1000 6050 50  0001 C CNN
+F 1 "+3V3" H 1015 6373 50  0000 C CNN
+F 2 "" H 1000 6200 50  0001 C CNN
+F 3 "" H 1000 6200 50  0001 C CNN
+	1    1000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R_1OF2 R1
+U 1 1 5ECBBC74
+P 1650 6200
+F 0 "R1" V 1758 6000 40  0000 C CNN
+F 1 "R_1OF2" V 1750 6000 40  0001 C CNN
+F 2 "" V 1720 6300 30  0000 C CNN
+F 3 "" H 1650 6300 30  0000 C CNN
+	1    1650 6200
+	0    1    1    0   
+$EndComp
+Text Label 1450 5900 0    50   ~ 0
+VIO_AUX
+Wire Wire Line
+	1450 6100 1450 5900
 Wire Bus Line
 	4550 2800 5450 2800
 Wire Bus Line
