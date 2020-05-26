@@ -1043,13 +1043,13 @@ Text Label 8000 3700 0    50   ~ 0
 Z7_P
 Text Label 8000 3800 0    50   ~ 0
 Z7_N
-Text Label 8000 5650 0    50   ~ 0
-Z4_P
-Text Label 8000 5550 0    50   ~ 0
-Z4_N
-Text Label 8000 5750 0    50   ~ 0
-Z1_P
 Text Label 8000 5850 0    50   ~ 0
+Z4_P
+Text Label 8000 5750 0    50   ~ 0
+Z4_N
+Text Label 8000 5550 0    50   ~ 0
+Z1_P
+Text Label 8000 5650 0    50   ~ 0
 Z1_N
 Text Label 8000 5350 0    50   ~ 0
 Z0_P
@@ -1293,10 +1293,10 @@ Wire Wire Line
 	6550 2400 5900 2400
 Connection ~ 5900 2400
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0102
 U 1 1 5ECB22E0
 P 5700 3350
-F 0 "#PWR?" H 5700 3200 50  0001 C CNN
+F 0 "#PWR0102" H 5700 3200 50  0001 C CNN
 F 1 "+3V3" H 5715 3523 50  0000 C CNN
 F 2 "" H 5700 3350 50  0001 C CNN
 F 3 "" H 5700 3350 50  0001 C CNN
@@ -1304,14 +1304,14 @@ F 3 "" H 5700 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0109
 U 1 1 5ECB36FF
-P 1000 6200
-F 0 "#PWR?" H 1000 6050 50  0001 C CNN
-F 1 "+3V3" H 1015 6373 50  0000 C CNN
-F 2 "" H 1000 6200 50  0001 C CNN
-F 3 "" H 1000 6200 50  0001 C CNN
-	1    1000 6200
+P 900 6050
+F 0 "#PWR0109" H 900 5900 50  0001 C CNN
+F 1 "+3V3" H 915 6223 50  0000 C CNN
+F 2 "" H 900 6050 50  0001 C CNN
+F 3 "" H 900 6050 50  0001 C CNN
+	1    900  6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1320,8 +1320,8 @@ U 1 1 5ECBBC74
 P 1650 6200
 F 0 "R1" V 1758 6000 40  0000 C CNN
 F 1 "R_1OF2" V 1750 6000 40  0001 C CNN
-F 2 "" V 1720 6300 30  0000 C CNN
-F 3 "" H 1650 6300 30  0000 C CNN
+F 2 "tom-passives:C_0603_1608Metric_1OF2" V 1720 6300 30  0001 C CNN
+F 3 "" H 1650 6300 30  0001 C CNN
 	1    1650 6200
 	0    1    1    0   
 $EndComp
@@ -1329,6 +1329,95 @@ Text Label 1450 5900 0    50   ~ 0
 VIO_AUX
 Wire Wire Line
 	1450 6100 1450 5900
+$Comp
+L tom-semiconductors:AP2112K-1.8 U1
+U 1 1 5ECB2858
+P 1450 6800
+F 0 "U1" H 1450 7142 50  0000 C CNN
+F 1 "AP2112K-1.8" H 1450 7051 50  0000 C CNN
+F 2 "tom-semiconductors:SOT-23-5" H 1450 7125 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 1450 6900 50  0001 C CNN
+	1    1450 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C4
+U 1 1 5ECB7A3D
+P 900 7000
+F 0 "C4" H 1015 7038 40  0000 L CNN
+F 1 "1uF/6.3V" H 1015 6962 40  0000 L CNN
+F 2 "tom-passives:C_0402_1005Metric" H 1015 6924 30  0001 L CNN
+F 3 "" H 900 7000 60  0001 C CNN
+	1    900  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C5
+U 1 1 5ECB7F51
+P 2000 7000
+F 0 "C5" H 2115 7038 40  0000 L CNN
+F 1 "1uF/6.3V" H 2115 6962 40  0000 L CNN
+F 2 "tom-passives:C_0402_1005Metric" H 2038 6850 30  0001 C CNN
+F 3 "" H 2000 7000 60  0001 C CNN
+	1    2000 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6800 2000 6700
+Wire Wire Line
+	2000 6200 1900 6200
+Wire Wire Line
+	1750 6700 2000 6700
+Connection ~ 2000 6700
+Wire Wire Line
+	2000 6700 2000 6200
+Wire Wire Line
+	900  7200 1450 7200
+Wire Wire Line
+	1450 7100 1450 7200
+Connection ~ 1450 7200
+Wire Wire Line
+	1450 7200 2000 7200
+$Comp
+L power:GND #PWR01
+U 1 1 5ECCAD02
+P 1450 7200
+F 0 "#PWR01" H 1450 6950 50  0001 C CNN
+F 1 "GND" H 1455 7027 50  0000 C CNN
+F 2 "" H 1450 7200 50  0001 C CNN
+F 3 "" H 1450 7200 50  0001 C CNN
+	1    1450 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  6800 1150 6800
+Connection ~ 900  6800
+Wire Wire Line
+	1150 6700 900  6700
+Wire Wire Line
+	900  6700 900  6800
+Wire Wire Line
+	900  6050 900  6200
+Connection ~ 900  6700
+Wire Wire Line
+	1000 6200 900  6200
+Connection ~ 900  6200
+Wire Wire Line
+	900  6200 900  6700
+$Comp
+L power:+1V8 #PWR0110
+U 1 1 5ECC973B
+P 2000 6050
+F 0 "#PWR0110" H 2000 5900 50  0001 C CNN
+F 1 "+1V8" H 2015 6223 50  0000 C CNN
+F 2 "" H 2000 6050 50  0001 C CNN
+F 3 "" H 2000 6050 50  0001 C CNN
+	1    2000 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6050 2000 6200
+Connection ~ 2000 6200
 Wire Bus Line
 	4550 2800 5450 2800
 Wire Bus Line
