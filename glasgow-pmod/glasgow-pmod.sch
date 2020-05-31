@@ -1019,22 +1019,20 @@ Text Label 8000 3300 0    50   ~ 0
 Z6_P
 Text Label 8000 3400 0    50   ~ 0
 Z6_N
-Text Label 4950 2650 1    50   ~ 0
-Z8_P
-Text Label 4850 2650 1    50   ~ 0
-Z8_N
 Text Label 5150 2650 1    50   ~ 0
-Z10_P
+Z8_P
 Text Label 5050 2650 1    50   ~ 0
-Z10_N
-Text Label 5550 2650 1    50   ~ 0
-Z11_P
+Z8_N
 Text Label 5450 2650 1    50   ~ 0
+Z10_P
+Text Label 5550 2650 1    50   ~ 0
+Z10_N
+Text Label 4850 2650 1    50   ~ 0
+Z11_P
+Text Label 4950 2650 1    50   ~ 0
 Z11_N
-Text Label 5350 2650 1    50   ~ 0
-Z12_P
 Text Label 5250 2650 1    50   ~ 0
-Z12_N
+Z12_P
 Text Label 8000 3200 0    50   ~ 0
 Z9_P
 Text Label 8000 3100 0    50   ~ 0
@@ -1426,4 +1424,6 @@ Wire Bus Line
 	7800 3200 7800 5950
 Wire Bus Line
 	4550 2800 4550 5950
+Text Label 5300 2800 1    50   ~ 0
+Z12_N
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Sun 24 May 2020 07:30:10 PM
+update=Mon 25 May 2020 09:32:50 PM
 version=1
 last_client=kicad
 [general]
@@ -243,6 +243,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=J2_DP1.0/1.0
+Clearance=0.2
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=J3_J4_DP1.0/1.0
 Clearance=0.2
 TrackWidth=0.25
