@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name big-clive)(type KiCad)(uri ${KIPRJMOD}/big-clive.pretty)(options "")(descr ""))
+)
