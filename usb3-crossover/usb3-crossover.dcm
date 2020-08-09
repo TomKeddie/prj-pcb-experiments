@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GSB416445CHR
+F Manufacturer Recommendations
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP USB3_A
+D USB 3.0 A connector
+K usb universal serial bus
+F ~
+$ENDCMP
+#
+#End Doc Library
