@@ -1,0 +1,64 @@
+14309526397282
+artix7-pcie-v2
+16624-01YE
+
+
+0
+11
+11
+artix7-pcie-v2
+QFN50P400X400X100-25N-D
+NLG24P2
+Integrated Circuit
+0
+25
+25
+artix7-pcie-v2
+SOT95P280X110-6N
+
+
+0
+6
+6
+artix7-pcie-v2
+SOT95P280X145-5N
+
+
+0
+5
+5
+artix7-pcie-v2
+Socket_Strip_Angled_2x20
+Through hole socket strip
+socket strip
+0
+40
+40
+artix7-pcie-v2
+WSON-8-1EP_8x6mm_P1.27mm
+WSON, 8 Pin (http://ww1.microchip.com/downloads/en/AppNotes/S72030.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+8
+8
+artix7-pcie-v2
+Xilinx_FGG484
+Artix-7 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=275, NSMD pad definition Appendix A
+BGA 484 1 FG484 FGG484
+0
+484
+484
+artix7-pcie-v2
+mask
+
+
+0
+0
+0
+artix7-pcie-v2
+mask_600
+
+
+0
+0
+0

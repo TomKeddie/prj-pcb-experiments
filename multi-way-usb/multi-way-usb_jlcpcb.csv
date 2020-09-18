@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+"LED","D1,D2","tom-opto:LED_0805_2012Metric",""
+"100mA/250mA","F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16,F17,F18,F19,F20,F21,F22,F23,F24","tom-passives:C_1206_3216Metric","C20981"
+"USB_A","J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15","tom-connectors:OST_USB-A1HSW6","C42642"
+"USB_A","J16,J17,J18,J19,J20,J21,J22,J23,J24","tom-connectors:CUI_UJ2-AV-1-TH","C42538"
+"USB_B_Micro","J25,J26","tom-connectors:USB_MICRO_TAOBAO_SMD_PTH",""
+"Conn_01x02","J27,J28","tom-connectors:PinHeader_1x02_P2.54mm_Vertical",""
+"1K","R1,R2","tom-passives:C_0805_2012Metric","C17513"
+"GND","TP1,TP3","tom-mechanical:TestPoint_Pad_D3.0mm",""
+"5V","TP2,TP4","tom-mechanical:TestPoint_Pad_D3.0mm",""
