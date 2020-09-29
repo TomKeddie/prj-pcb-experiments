@@ -1,0 +1,1381 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X3
+U 1 1 5F70057F
+P 2350 3050
+F 0 "X3" H 2678 3050 50  0000 L CNN
+F 1 "B" H 2350 3050 50  0000 L CNN
+F 2 "badgelife_sao_v169bis:Badgelife-SAOv169-SAO-2x3" H 2350 3250 50  0001 C CNN
+F 3 "" H 2350 3250 50  0001 C CNN
+	1    2350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X4
+U 1 1 5F70083A
+P 3150 3050
+F 0 "X4" H 3478 3050 50  0000 L CNN
+F 1 "C" H 3150 3050 50  0000 L CNN
+F 2 "badgelife_sao_v169bis:Badgelife-SAOv169-SAO-2x3" H 3150 3250 50  0001 C CNN
+F 3 "" H 3150 3250 50  0001 C CNN
+	1    3150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5F701B5A
+P 2150 2150
+F 0 "#PWR0101" H 2150 2000 50  0001 C CNN
+F 1 "+3.3V" H 2165 2323 50  0000 C CNN
+F 2 "" H 2150 2150 50  0001 C CNN
+F 3 "" H 2150 2150 50  0001 C CNN
+	1    2150 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3600 2950 3700
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5F70B0E7
+P 8000 950
+F 0 "#PWR0102" H 8000 800 50  0001 C CNN
+F 1 "+3.3V" H 8015 1123 50  0000 C CNN
+F 2 "" H 8000 950 50  0001 C CNN
+F 3 "" H 8000 950 50  0001 C CNN
+	1    8000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:CRYSTAL X1
+U 1 1 5F70C530
+P 6000 1600
+F 0 "X1" H 6000 1892 60  0000 C CNN
+F 1 "16MHz" H 6000 1786 60  0000 C CNN
+F 2 "tom-passives:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 6000 1600 60  0001 C CNN
+F 3 "" H 6000 1600 60  0000 C CNN
+F 4 "CX5032GB16" H 6000 1600 50  0001 C CNN "MPN"
+	1    6000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R3
+U 1 1 5F70E3CE
+P 6850 1150
+F 0 "R3" H 6921 1188 40  0000 L CNN
+F 1 "10k" H 6921 1112 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" H 6921 1074 30  0001 L CNN
+F 3 "" H 6850 1150 30  0001 C CNN
+	1    6850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5F70EEC1
+P 6850 900
+F 0 "#PWR0103" H 6850 750 50  0001 C CNN
+F 1 "+3.3V" H 6865 1073 50  0000 C CNN
+F 2 "" H 6850 900 50  0001 C CNN
+F 3 "" H 6850 900 50  0001 C CNN
+	1    6850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F711618
+P 7900 4800
+F 0 "#PWR0104" H 7900 4550 50  0001 C CNN
+F 1 "GND" H 7905 4627 50  0000 C CNN
+F 2 "" H 7900 4800 50  0001 C CNN
+F 3 "" H 7900 4800 50  0001 C CNN
+	1    7900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2500 1500 2250
+Wire Wire Line
+	1500 2250 2350 2250
+Wire Wire Line
+	2350 2500 2350 2250
+Connection ~ 2350 2250
+Wire Wire Line
+	2350 2250 3150 2250
+Wire Wire Line
+	3150 2500 3150 2250
+Wire Wire Line
+	1500 3600 1500 3800
+Wire Wire Line
+	1500 3800 2350 3800
+Wire Wire Line
+	3150 3600 3150 3800
+Wire Wire Line
+	2350 3600 2350 3800
+Connection ~ 2350 3800
+Wire Wire Line
+	2350 3800 3150 3800
+Wire Wire Line
+	1700 2500 1700 2050
+Wire Wire Line
+	2550 2500 2550 2050
+Wire Wire Line
+	3350 2500 3350 2050
+Wire Wire Line
+	1700 3600 1700 4050
+Wire Wire Line
+	2550 3600 2550 4050
+Wire Wire Line
+	3350 3600 3350 4050
+Text Label 1700 2050 1    50   ~ 0
+A_GPIO1
+Text Label 2550 2050 1    50   ~ 0
+B_GPIO1
+Text Label 3350 2050 1    50   ~ 0
+C_GPIO1
+Text Label 1700 4050 3    50   ~ 0
+A_GPIO2
+Text Label 2550 4050 3    50   ~ 0
+B_GPIO2
+Text Label 3350 4050 3    50   ~ 0
+C_GPIO2
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X2
+U 1 1 5F6FEF9F
+P 1500 3050
+F 0 "X2" H 1828 3050 50  0000 L CNN
+F 1 "A" H 1450 3050 50  0000 L CNN
+F 2 "badgelife_sao_v169bis:Badgelife-SAOv169-SAO-2x3" H 1500 3250 50  0001 C CNN
+F 3 "" H 1500 3250 50  0001 C CNN
+	1    1500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5F72C26C
+P 1500 4700
+F 0 "#PWR0105" H 1500 4550 50  0001 C CNN
+F 1 "+3.3V" H 1515 4873 50  0000 C CNN
+F 2 "" H 1500 4700 50  0001 C CNN
+F 3 "" H 1500 4700 50  0001 C CNN
+	1    1500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F72C429
+P 950 5300
+F 0 "#PWR0106" H 950 5050 50  0001 C CNN
+F 1 "GND" H 955 5127 50  0000 C CNN
+F 2 "" H 950 5300 50  0001 C CNN
+F 3 "" H 950 5300 50  0001 C CNN
+	1    950  5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C5
+U 1 1 5F72C92A
+P 950 5000
+F 0 "C5" H 1065 5038 40  0000 L CNN
+F 1 "10uF/6.3V" H 1065 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 1065 4924 30  0001 L CNN
+F 3 "" H 950 5000 60  0001 C CNN
+	1    950  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C6
+U 1 1 5F72ECBD
+P 1500 5000
+F 0 "C6" H 1615 5038 40  0000 L CNN
+F 1 "10uF/6.3V" H 1615 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 1615 4924 30  0001 L CNN
+F 3 "" H 1500 5000 60  0001 C CNN
+	1    1500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C7
+U 1 1 5F72F05E
+P 2050 5000
+F 0 "C7" H 2165 5038 40  0000 L CNN
+F 1 "10uF/6.3V" H 2165 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 2165 4924 30  0001 L CNN
+F 3 "" H 2050 5000 60  0001 C CNN
+	1    2050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4800 950  4700
+Wire Wire Line
+	1500 4800 1500 4700
+Wire Wire Line
+	2050 4800 2050 4700
+Wire Wire Line
+	950  5200 950  5300
+Connection ~ 950  5300
+Wire Wire Line
+	1500 5200 1500 5300
+Connection ~ 1500 5300
+Wire Wire Line
+	1500 5300 950  5300
+Wire Wire Line
+	2050 5200 2050 5300
+Wire Wire Line
+	2050 5300 1500 5300
+$Comp
+L tom-passives:C C10
+U 1 1 5F7405B2
+P 4550 5000
+F 0 "C10" H 4665 5038 40  0000 L CNN
+F 1 "0.1uF/6.3V" H 4665 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 4588 4850 30  0001 C CNN
+F 3 "" H 4550 5000 60  0001 C CNN
+	1    4550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5F740CE9
+P 4550 4700
+F 0 "#PWR0107" H 4550 4550 50  0001 C CNN
+F 1 "+3.3V" H 4565 4873 50  0000 C CNN
+F 2 "" H 4550 4700 50  0001 C CNN
+F 3 "" H 4550 4700 50  0001 C CNN
+	1    4550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F7417C2
+P 4550 5300
+F 0 "#PWR0108" H 4550 5050 50  0001 C CNN
+F 1 "GND" H 4555 5127 50  0000 C CNN
+F 2 "" H 4550 5300 50  0001 C CNN
+F 3 "" H 4550 5300 50  0001 C CNN
+	1    4550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C1
+U 1 1 5F748697
+P 5700 1800
+F 0 "C1" H 5815 1838 40  0000 L CNN
+F 1 "18pF" H 5815 1762 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 5738 1650 30  0001 C CNN
+F 3 "" H 5700 1800 60  0001 C CNN
+	1    5700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C2
+U 1 1 5F748E6A
+P 6300 1800
+F 0 "C2" H 6415 1838 40  0000 L CNN
+F 1 "18pF" H 6415 1762 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 6338 1650 30  0001 C CNN
+F 3 "" H 6300 1800 60  0001 C CNN
+	1    6300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F7492B9
+P 5700 2000
+F 0 "#PWR0109" H 5700 1750 50  0001 C CNN
+F 1 "GND" H 5705 1827 50  0000 C CNN
+F 2 "" H 5700 2000 50  0001 C CNN
+F 3 "" H 5700 2000 50  0001 C CNN
+	1    5700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F749640
+P 6300 2000
+F 0 "#PWR0110" H 6300 1750 50  0001 C CNN
+F 1 "GND" H 6305 1827 50  0000 C CNN
+F 2 "" H 6300 2000 50  0001 C CNN
+F 3 "" H 6300 2000 50  0001 C CNN
+	1    6300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R4
+U 1 1 5F76D50D
+P 10000 2950
+F 0 "R4" H 10071 2988 40  0000 L CNN
+F 1 "10k" H 10071 2912 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" H 10071 2874 30  0001 L CNN
+F 3 "" H 10000 2950 30  0001 C CNN
+	1    10000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R5
+U 1 1 5F76E12C
+P 10250 2950
+F 0 "R5" H 10321 2988 40  0000 L CNN
+F 1 "10k" H 10321 2912 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" H 10321 2874 30  0001 L CNN
+F 3 "" H 10250 2950 30  0001 C CNN
+	1    10250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 5F76F81B
+P 10000 2550
+F 0 "#PWR0111" H 10000 2400 50  0001 C CNN
+F 1 "+3.3V" H 10015 2723 50  0000 C CNN
+F 2 "" H 10000 2550 50  0001 C CNN
+F 3 "" H 10000 2550 50  0001 C CNN
+	1    10000 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2550 10000 2600
+Wire Wire Line
+	10000 2600 10250 2600
+Wire Wire Line
+	10250 2600 10250 2700
+Connection ~ 10000 2600
+Wire Wire Line
+	10000 2600 10000 2700
+Wire Wire Line
+	10000 3200 10000 3350
+Wire Wire Line
+	10250 3200 10250 3350
+Text Label 10000 3350 3    50   ~ 0
+SDA
+Text Label 10250 3350 3    50   ~ 0
+SCL
+$Comp
+L tom-connectors:AVR-ISP-6 CON1
+U 1 1 5F78D2F0
+P 9900 1400
+F 0 "CON1" H 9900 1765 50  0000 C CNN
+F 1 "AVR-ISP-6" H 9900 1674 50  0000 C CNN
+F 2 "tom-connectors:PinSocket_2x03_P2.54mm_Vertical_SMD_SAO" V 9380 1440 50  0001 C CNN
+F 3 "" H 9900 1400 60  0000 C CNN
+	1    9900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1300 9600 1300
+Wire Wire Line
+	9600 1400 9050 1400
+Wire Wire Line
+	10200 1400 10500 1400
+Wire Wire Line
+	10500 1400 10500 850 
+Wire Wire Line
+	10500 850  8850 850 
+Text Notes 8500 5650 0    50   ~ 0
+wired for sparkfun atmega 32u4 breakout bootloader
+$Comp
+L power:GND #PWR0112
+U 1 1 5F7B40F9
+P 10300 1600
+F 0 "#PWR0112" H 10300 1350 50  0001 C CNN
+F 1 "GND" H 10305 1427 50  0000 C CNN
+F 2 "" H 10300 1600 50  0001 C CNN
+F 3 "" H 10300 1600 50  0001 C CNN
+	1    10300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 5F7B4ADE
+P 10300 1200
+F 0 "#PWR0113" H 10300 1050 50  0001 C CNN
+F 1 "+3.3V" H 10315 1373 50  0000 C CNN
+F 2 "" H 10300 1200 50  0001 C CNN
+F 3 "" H 10300 1200 50  0001 C CNN
+	1    10300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1200 10300 1300
+Wire Wire Line
+	10300 1300 10200 1300
+Wire Wire Line
+	10200 1500 10300 1500
+Wire Wire Line
+	10300 1500 10300 1600
+Wire Wire Line
+	8500 4000 8650 4000
+Wire Wire Line
+	8500 4100 8650 4100
+Wire Wire Line
+	8500 2100 8650 2100
+Wire Wire Line
+	8500 2400 8650 2400
+Wire Wire Line
+	8500 2300 8650 2300
+Text Label 8650 4000 0    50   ~ 0
+C_GPIO2
+Text Label 8650 4100 0    50   ~ 0
+C_GPIO1
+Text Label 8650 2400 0    50   ~ 0
+B_GPIO2
+Text Label 8650 2300 0    50   ~ 0
+B_GPIO1
+Text Label 8650 3900 0    50   ~ 0
+A_GPIO2
+Wire Wire Line
+	8500 3900 8650 3900
+Wire Wire Line
+	8650 3800 8500 3800
+$Comp
+L tom-semiconductors:ATmega32U4-MU U1
+U 1 1 5F895D6D
+P 7900 2900
+F 0 "U1" H 7450 1150 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 8300 1150 50  0000 C CNN
+F 2 "tom-semiconductors:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 7900 2900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 7900 2900 50  0001 C CNN
+	1    7900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1400 7050 1400
+Text Label 8650 3800 0    50   ~ 0
+A_GPIO1
+Text Label 8650 2700 0    50   ~ 0
+SDA
+Text Label 8650 2600 0    50   ~ 0
+SCL
+Wire Wire Line
+	8500 2700 8650 2700
+Wire Wire Line
+	8500 2600 8650 2600
+Wire Wire Line
+	1300 3600 1300 3700
+Wire Wire Line
+	7300 1800 6600 1800
+Wire Wire Line
+	6600 1800 6600 1600
+Wire Wire Line
+	6600 1600 6300 1600
+Connection ~ 6300 1600
+Wire Wire Line
+	7300 1600 6700 1600
+Wire Wire Line
+	6700 1600 6700 1250
+Wire Wire Line
+	6700 1250 5700 1250
+Wire Wire Line
+	5700 1250 5700 1600
+Connection ~ 5700 1600
+$Comp
+L tom-mechanical:TestPoint TP1
+U 1 1 5F9162EF
+P 7050 950
+F 0 "TP1" H 7108 1068 50  0000 L CNN
+F 1 "TestPoint" H 7108 977 50  0000 L CNN
+F 2 "tom-mechanical:TestPoint_Pad_D3.0mm" H 7250 950 50  0001 C CNN
+F 3 "~" H 7250 950 50  0001 C CNN
+	1    7050 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1100 7900 950 
+Wire Wire Line
+	7900 950  8000 950 
+Wire Wire Line
+	8000 1100 8000 950 
+Connection ~ 8000 950 
+Wire Wire Line
+	7800 4700 7800 4800
+Wire Wire Line
+	7800 4800 7900 4800
+Wire Wire Line
+	7900 4700 7900 4800
+Connection ~ 7900 4800
+$Comp
+L tom-passives:C C4
+U 1 1 5F929CAA
+P 6800 2900
+F 0 "C4" H 6915 2938 40  0000 L CNN
+F 1 "1uF/6.3V" H 6915 2862 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 6838 2750 30  0001 C CNN
+F 3 "" H 6800 2900 60  0001 C CNN
+	1    6800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5F92A832
+P 6800 3100
+F 0 "#PWR0114" H 6800 2850 50  0001 C CNN
+F 1 "GND" H 6805 2927 50  0000 C CNN
+F 2 "" H 6800 3100 50  0001 C CNN
+F 3 "" H 6800 3100 50  0001 C CNN
+	1    6800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1100 7800 950 
+$Comp
+L power:+5V #PWR0115
+U 1 1 5F932EFE
+P 7800 950
+F 0 "#PWR0115" H 7800 800 50  0001 C CNN
+F 1 "+5V" H 7815 1123 50  0000 C CNN
+F 2 "" H 7800 950 50  0001 C CNN
+F 3 "" H 7800 950 50  0001 C CNN
+	1    7800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 5F934A17
+P 7250 2200
+F 0 "#PWR0116" H 7250 2050 50  0001 C CNN
+F 1 "+5V" V 7265 2328 50  0000 L CNN
+F 2 "" H 7250 2200 50  0001 C CNN
+F 3 "" H 7250 2200 50  0001 C CNN
+	1    7250 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 2200 7300 2200
+$Comp
+L tom-passives:C C3
+U 1 1 5F945F66
+P 6800 2200
+F 0 "C3" H 6686 2162 40  0000 R CNN
+F 1 "0.1uF/6.3V" H 6686 2238 40  0000 R CNN
+F 2 "tom-passives:C_0805_2012Metric" H 6838 2050 30  0001 C CNN
+F 3 "" H 6800 2200 60  0001 C CNN
+	1    6800 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7300 2000 6800 2000
+$Comp
+L power:GND #PWR0117
+U 1 1 5F94A184
+P 6800 2400
+F 0 "#PWR0117" H 6800 2150 50  0001 C CNN
+F 1 "GND" H 6805 2227 50  0000 C CNN
+F 2 "" H 6800 2400 50  0001 C CNN
+F 3 "" H 6800 2400 50  0001 C CNN
+	1    6800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5F94A94D
+P 9000 3500
+F 0 "#PWR0118" H 9000 3250 50  0001 C CNN
+F 1 "GND" H 9005 3327 50  0000 C CNN
+F 2 "" H 9000 3500 50  0001 C CNN
+F 3 "" H 9000 3500 50  0001 C CNN
+	1    9000 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 3500 9000 3500
+Wire Wire Line
+	8950 1300 8950 1700
+Wire Wire Line
+	8950 1700 8500 1700
+Text Label 8650 1700 0    50   ~ 0
+MISO
+Wire Wire Line
+	9050 1400 9050 1500
+Wire Wire Line
+	9050 1500 8500 1500
+Text Label 8650 1500 0    50   ~ 0
+SCK
+Wire Wire Line
+	8850 850  8850 1600
+Wire Wire Line
+	8850 1600 8500 1600
+Text Label 8650 1600 0    50   ~ 0
+MOSI
+Wire Wire Line
+	7050 950  7050 1400
+Connection ~ 7050 1400
+Wire Wire Line
+	7050 1400 6850 1400
+Text Label 7050 1400 0    50   ~ 0
+!RESET
+Text Label 9400 1500 2    50   ~ 0
+!RESET
+Wire Wire Line
+	9400 1500 9600 1500
+$Comp
+L tom-passives:C C11
+U 1 1 5F9A55E5
+P 5150 5000
+F 0 "C11" H 5265 5038 40  0000 L CNN
+F 1 "0.1uF/6.3V" H 5265 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 5188 4850 30  0001 C CNN
+F 3 "" H 5150 5000 60  0001 C CNN
+	1    5150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C12
+U 1 1 5F9A5A3B
+P 5700 5000
+F 0 "C12" H 5815 5038 40  0000 L CNN
+F 1 "0.1uF/6.3V" H 5815 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 5738 4850 30  0001 C CNN
+F 3 "" H 5700 5000 60  0001 C CNN
+	1    5700 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7300 2400
+NoConn ~ 7300 2500
+$Comp
+L tom-passives:C C9
+U 1 1 5F9B8340
+P 3900 5000
+F 0 "C9" H 4015 5038 40  0000 L CNN
+F 1 "0.1uF/6.3V" H 4015 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 3938 4850 30  0001 C CNN
+F 3 "" H 3900 5000 60  0001 C CNN
+	1    3900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C8
+U 1 1 5F9B8735
+P 3300 5000
+F 0 "C8" H 3415 5038 40  0000 L CNN
+F 1 "10uF/6.3V" H 3415 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 3415 4924 30  0001 L CNN
+F 3 "" H 3300 5000 60  0001 C CNN
+	1    3300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 5F9FD345
+P 3300 4700
+F 0 "#PWR0119" H 3300 4550 50  0001 C CNN
+F 1 "+5V" H 3315 4873 50  0000 C CNN
+F 2 "" H 3300 4700 50  0001 C CNN
+F 3 "" H 3300 4700 50  0001 C CNN
+	1    3300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5F9FE21E
+P 3300 5300
+F 0 "#PWR0120" H 3300 5050 50  0001 C CNN
+F 1 "GND" H 3305 5127 50  0000 C CNN
+F 2 "" H 3300 5300 50  0001 C CNN
+F 3 "" H 3300 5300 50  0001 C CNN
+	1    3300 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4700 3300 4800
+Wire Wire Line
+	3300 5200 3300 5300
+Wire Wire Line
+	3300 4700 3900 4700
+Wire Wire Line
+	3900 4700 3900 4800
+Connection ~ 3300 4700
+Wire Wire Line
+	3900 5300 3300 5300
+Connection ~ 3300 5300
+Wire Wire Line
+	4550 4700 5150 4700
+Wire Wire Line
+	5700 4700 5700 4800
+Wire Wire Line
+	5700 5200 5700 5300
+Wire Wire Line
+	5700 5300 5150 5300
+Wire Wire Line
+	4550 5200 4550 5300
+Connection ~ 4550 5300
+Wire Wire Line
+	5150 5200 5150 5300
+Connection ~ 5150 5300
+Wire Wire Line
+	5150 5300 4550 5300
+Wire Wire Line
+	5150 4800 5150 4700
+Connection ~ 5150 4700
+Wire Wire Line
+	5150 4700 5700 4700
+Wire Wire Line
+	4550 4700 4550 4800
+Connection ~ 4550 4700
+$Comp
+L tom-semiconductors:TLV62569DBVR U2
+U 1 1 5FA51E67
+P 1850 6600
+F 0 "U2" H 1850 7170 50  0000 C CNN
+F 1 "TLV62569DBVR" H 1850 7079 50  0000 C CNN
+F 2 "tom-semiconductors:SOT-23-5" H 1850 6600 50  0001 L BNN
+F 3 "" H 1850 6600 50  0001 C CNN
+F 4 "C141836" H 1850 6600 50  0001 C CNN "LCSC"
+	1    1850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6600 950  6300
+Wire Wire Line
+	1150 6300 950  6300
+$Comp
+L tom-passives:INDUCTOR_SMALL L1
+U 1 1 5FA5CDA0
+P 2800 6300
+F 0 "L1" H 2800 6515 50  0000 C CNN
+F 1 "2.2uH/4.5A" H 2800 6424 50  0000 C CNN
+F 2 "tom-passives:L_MWSA0518S" H 2800 6300 60  0001 C CNN
+F 3 "" H 2800 6300 60  0000 C CNN
+	1    2800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R6
+U 1 1 5FA5E04E
+P 3050 6600
+F 0 "R6" H 3121 6638 40  0000 L CNN
+F 1 "450k" H 3121 6562 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" H 3121 6524 30  0001 L CNN
+F 3 "" H 3050 6600 30  0001 C CNN
+	1    3050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R7
+U 1 1 5FA600CA
+P 3050 7200
+F 0 "R7" H 3121 7238 40  0000 L CNN
+F 1 "100k" H 3121 7162 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" H 3121 7124 30  0001 L CNN
+F 3 "" H 3050 7200 30  0001 C CNN
+	1    3050 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5FA60462
+P 1850 7200
+F 0 "#PWR0121" H 1850 6950 50  0001 C CNN
+F 1 "GND" H 1855 7027 50  0000 C CNN
+F 2 "" H 1850 7200 50  0001 C CNN
+F 3 "" H 1850 7200 50  0001 C CNN
+	1    1850 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5FA6607D
+P 3050 7450
+F 0 "#PWR0122" H 3050 7200 50  0001 C CNN
+F 1 "GND" H 3055 7277 50  0000 C CNN
+F 2 "" H 3050 7450 50  0001 C CNN
+F 3 "" H 3050 7450 50  0001 C CNN
+	1    3050 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6300 3050 6350
+Wire Wire Line
+	2550 6900 3050 6900
+Wire Wire Line
+	3050 6900 3050 6850
+Wire Wire Line
+	3050 6900 3050 6950
+Connection ~ 3050 6900
+$Comp
+L tom-passives:C C14
+U 1 1 5FA75C05
+P 950 6800
+F 0 "C14" H 836 6762 40  0000 R CNN
+F 1 "10uF/10V" H 836 6838 40  0000 R CNN
+F 2 "tom-passives:C_0805_2012Metric" H 1065 6724 30  0001 L CNN
+F 3 "" H 950 6800 60  0001 C CNN
+	1    950  6800
+	1    0    0    1   
+$EndComp
+Connection ~ 950  6600
+Wire Wire Line
+	950  6600 1150 6600
+$Comp
+L power:GND #PWR0123
+U 1 1 5FA774BD
+P 950 7000
+F 0 "#PWR0123" H 950 6750 50  0001 C CNN
+F 1 "GND" H 955 6827 50  0000 C CNN
+F 2 "" H 950 7000 50  0001 C CNN
+F 3 "" H 950 7000 50  0001 C CNN
+	1    950  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0124
+U 1 1 5FA777EC
+P 950 6200
+F 0 "#PWR0124" H 950 6050 50  0001 C CNN
+F 1 "+5V" H 965 6373 50  0000 C CNN
+F 2 "" H 950 6200 50  0001 C CNN
+F 3 "" H 950 6200 50  0001 C CNN
+	1    950  6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 950  6300
+$Comp
+L power:+3.3V #PWR0125
+U 1 1 5FA77C09
+P 3500 6200
+F 0 "#PWR0125" H 3500 6050 50  0001 C CNN
+F 1 "+3.3V" H 3515 6373 50  0000 C CNN
+F 2 "" H 3500 6200 50  0001 C CNN
+F 3 "" H 3500 6200 50  0001 C CNN
+	1    3500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C13
+U 1 1 5FA7818F
+P 3500 6500
+F 0 "C13" H 3615 6538 40  0000 L CNN
+F 1 "10uF/6.3V" H 3615 6462 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 3615 6424 30  0001 L CNN
+F 3 "" H 3500 6500 60  0001 C CNN
+	1    3500 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6200 950  6300
+Wire Wire Line
+	3050 6300 3150 6300
+Connection ~ 3050 6300
+Wire Wire Line
+	3500 6200 3500 6300
+Connection ~ 3500 6300
+$Comp
+L power:GND #PWR0126
+U 1 1 5FA8C449
+P 3500 6700
+F 0 "#PWR0126" H 3500 6450 50  0001 C CNN
+F 1 "GND" H 3505 6527 50  0000 C CNN
+F 2 "" H 3500 6700 50  0001 C CNN
+F 3 "" H 3500 6700 50  0001 C CNN
+	1    3500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5200 3900 5300
+$Comp
+L tom-connectors:PMOD-2x6-FEMALE J2
+U 1 1 5FAA93EA
+P 6200 6550
+F 0 "J2" H 5922 6571 50  0000 R CNN
+F 1 "PMOD-2x6-FEMALE" H 5922 6480 50  0000 R CNN
+F 2 "tom-connectors:2X6_SMD_RA_SOCKET" H 6200 6550 50  0001 C CNN
+F 3 "" H 6200 6550 50  0001 C CNN
+	1    6200 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5FB00ABD
+P 4850 7250
+F 0 "#PWR0127" H 4850 7000 50  0001 C CNN
+F 1 "GND" H 4855 7077 50  0000 C CNN
+F 2 "" H 4850 7250 50  0001 C CNN
+F 3 "" H 4850 7250 50  0001 C CNN
+	1    4850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5FB0111D
+P 6350 7250
+F 0 "#PWR0128" H 6350 7000 50  0001 C CNN
+F 1 "GND" H 6355 7077 50  0000 C CNN
+F 2 "" H 6350 7250 50  0001 C CNN
+F 3 "" H 6350 7250 50  0001 C CNN
+	1    6350 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 7150 4950 7250
+Wire Wire Line
+	4950 7250 4850 7250
+Wire Wire Line
+	6250 7150 6250 7250
+Wire Wire Line
+	6250 7250 6350 7250
+Connection ~ 6350 7250
+$Comp
+L power:+5V #PWR0129
+U 1 1 5FB1AAFF
+P 4850 5800
+F 0 "#PWR0129" H 4850 5650 50  0001 C CNN
+F 1 "+5V" H 4865 5973 50  0000 C CNN
+F 2 "" H 4850 5800 50  0001 C CNN
+F 3 "" H 4850 5800 50  0001 C CNN
+	1    4850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0130
+U 1 1 5FB1B929
+P 6350 5800
+F 0 "#PWR0130" H 6350 5650 50  0001 C CNN
+F 1 "+5V" H 6365 5973 50  0000 C CNN
+F 2 "" H 6350 5800 50  0001 C CNN
+F 3 "" H 6350 5800 50  0001 C CNN
+	1    6350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5800 6350 6000
+Connection ~ 6350 5800
+Wire Wire Line
+	4850 5800 4850 6000
+Connection ~ 4850 5800
+Wire Wire Line
+	2950 3700 2150 3700
+Connection ~ 1300 3700
+Wire Wire Line
+	1300 3700 1300 3850
+Wire Wire Line
+	2150 3600 2150 3700
+Connection ~ 2150 3700
+Wire Wire Line
+	2150 3700 1300 3700
+$Comp
+L power:GND #PWR0131
+U 1 1 5FB709C1
+P 1300 3850
+F 0 "#PWR0131" H 1300 3600 50  0001 C CNN
+F 1 "GND" H 1305 3677 50  0000 C CNN
+F 2 "" H 1300 3850 50  0001 C CNN
+F 3 "" H 1300 3850 50  0001 C CNN
+	1    1300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2150 2150 2500
+$Comp
+L tom-semiconductors:AO3401A Q1
+U 1 1 5FBA3483
+P 1200 1450
+F 0 "Q1" H 1405 1496 50  0000 L CNN
+F 1 "AO3401A" H 1405 1405 50  0000 L CNN
+F 2 "tom-semiconductors:SOT-23" H 1400 1375 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 1200 1450 50  0001 L CNN
+	1    1200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R1
+U 1 1 5FBA7CF5
+P 1000 1050
+F 0 "R1" H 1071 1088 40  0000 L CNN
+F 1 "10k" H 1071 1012 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" H 1071 974 30  0001 L CNN
+F 3 "" H 1000 1050 30  0001 C CNN
+	1    1000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0132
+U 1 1 5FBAA2BA
+P 1300 800
+F 0 "#PWR0132" H 1300 650 50  0001 C CNN
+F 1 "+3.3V" H 1315 973 50  0000 C CNN
+F 2 "" H 1300 800 50  0001 C CNN
+F 3 "" H 1300 800 50  0001 C CNN
+	1    1300 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 800  1300 800 
+Wire Wire Line
+	1300 800  1300 1250
+Connection ~ 1300 800 
+Wire Wire Line
+	1000 1300 1000 1450
+Wire Wire Line
+	1300 1650 1300 2500
+Wire Wire Line
+	1000 1450 750  1450
+Connection ~ 1000 1450
+Text Label 750  1450 2    50   ~ 0
+A_PWM
+$Comp
+L tom-semiconductors:AO3401A Q2
+U 1 1 5FBD09F5
+P 2850 1450
+F 0 "Q2" H 3055 1496 50  0000 L CNN
+F 1 "AO3401A" H 3055 1405 50  0000 L CNN
+F 2 "tom-semiconductors:SOT-23" H 3050 1375 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 2850 1450 50  0001 L CNN
+	1    2850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R2
+U 1 1 5FBD09FF
+P 2650 1050
+F 0 "R2" H 2721 1088 40  0000 L CNN
+F 1 "10k" H 2721 1012 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" H 2721 974 30  0001 L CNN
+F 3 "" H 2650 1050 30  0001 C CNN
+	1    2650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0133
+U 1 1 5FBD0A09
+P 2950 800
+F 0 "#PWR0133" H 2950 650 50  0001 C CNN
+F 1 "+3.3V" H 2965 973 50  0000 C CNN
+F 2 "" H 2950 800 50  0001 C CNN
+F 3 "" H 2950 800 50  0001 C CNN
+	1    2950 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 800  2950 800 
+Wire Wire Line
+	2950 800  2950 1250
+Connection ~ 2950 800 
+Wire Wire Line
+	2650 1300 2650 1450
+Wire Wire Line
+	2650 1450 2400 1450
+Connection ~ 2650 1450
+Text Label 2400 1450 2    50   ~ 0
+C_PWM
+Wire Wire Line
+	2950 1650 2950 2500
+Wire Wire Line
+	8500 3300 8700 3300
+Wire Wire Line
+	8500 1900 8650 1900
+NoConn ~ 8500 4300
+NoConn ~ 8500 4200
+Connection ~ 3150 3800
+Text Label 3950 2050 1    50   ~ 0
+SDA
+Text Label 3950 4050 3    50   ~ 0
+SCL
+Text Label 8650 2100 0    50   ~ 0
+A_PWM
+Text Label 8650 1900 0    50   ~ 0
+C_PWM
+Text Label 8700 3300 0    50   ~ 0
+D_GPIO1
+Wire Wire Line
+	8500 2000 8650 2000
+Text Label 8650 2000 0    50   ~ 0
+D_GPIO2
+NoConn ~ 8500 2800
+NoConn ~ 8500 2900
+NoConn ~ 8500 3000
+NoConn ~ 8500 3100
+NoConn ~ 8500 3200
+Text Notes 9800 4650 0    50   ~ 0
+OC0A PB7\nOC1A PB5\nOC1B PB6\nOC3A PC6\nOC4A PC7\nOC4D PD7
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X5
+U 1 1 5FD252EB
+P 3950 3050
+F 0 "X5" H 4278 3050 50  0000 L CNN
+F 1 "D" H 3950 3050 50  0000 L CNN
+F 2 "badgelife_sao_v169bis:Badgelife-SAOv169-SAO-2x3" H 3950 3250 50  0001 C CNN
+F 3 "" H 3950 3250 50  0001 C CNN
+	1    3950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2250 3950 2250
+Wire Wire Line
+	3950 2250 3950 2500
+Connection ~ 3150 2250
+Wire Wire Line
+	3950 2250 3950 2050
+Connection ~ 3950 2250
+Wire Wire Line
+	2950 3700 3750 3700
+Wire Wire Line
+	3750 3700 3750 3600
+Connection ~ 2950 3700
+Wire Wire Line
+	3150 3800 3950 3800
+Wire Wire Line
+	3950 3800 3950 3600
+Wire Wire Line
+	3950 3800 3950 4050
+Connection ~ 3950 3800
+Wire Wire Line
+	4150 2500 4150 2050
+Wire Wire Line
+	4150 3600 4150 4050
+Text Label 4150 2050 1    50   ~ 0
+D_GPIO1
+Text Label 4150 4050 3    50   ~ 0
+D_GPIO2
+NoConn ~ 8500 3600
+NoConn ~ 8500 1800
+NoConn ~ 8500 1400
+Wire Wire Line
+	6800 2700 7300 2700
+$Comp
+L tom-passives:C C15
+U 1 1 5FDAD655
+P 2600 5000
+F 0 "C15" H 2715 5038 40  0000 L CNN
+F 1 "10uF/6.3V" H 2715 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 2715 4924 30  0001 L CNN
+F 3 "" H 2600 5000 60  0001 C CNN
+	1    2600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4800 2600 4700
+Wire Wire Line
+	2050 5300 2600 5300
+Wire Wire Line
+	2600 5300 2600 5200
+Connection ~ 2050 5300
+Text Label 1300 2050 1    50   ~ 0
+A_VCC
+Text Label 2950 2050 1    50   ~ 0
+C_VCC
+$Comp
+L power:+3.3V #PWR0134
+U 1 1 5FDC8AD8
+P 2600 4700
+F 0 "#PWR0134" H 2600 4550 50  0001 C CNN
+F 1 "+3.3V" H 2615 4873 50  0000 C CNN
+F 2 "" H 2600 4700 50  0001 C CNN
+F 3 "" H 2600 4700 50  0001 C CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+Text Label 950  4700 1    50   ~ 0
+A_VCC
+Text Label 2050 4700 1    50   ~ 0
+C_VCC
+Text Label 2700 6900 0    50   ~ 0
+FB
+Text Label 2550 6300 3    50   ~ 0
+SW
+Text Label 7050 1600 0    50   ~ 0
+XTAL1
+Text Label 7050 1800 0    50   ~ 0
+XTAL2
+Text Label 7050 2000 0    50   ~ 0
+AREF
+Text Label 7050 2700 0    50   ~ 0
+UCAP
+$Comp
+L power:+3.3V #PWR0135
+U 1 1 5FDF1426
+P 3750 2150
+F 0 "#PWR0135" H 3750 2000 50  0001 C CNN
+F 1 "+3.3V" H 3765 2323 50  0000 C CNN
+F 2 "" H 3750 2150 50  0001 C CNN
+F 3 "" H 3750 2150 50  0001 C CNN
+	1    3750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2150 3750 2500
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FDFB26A
+P 3150 6200
+F 0 "#FLG0101" H 3150 6275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 6373 50  0000 C CNN
+F 2 "" H 3150 6200 50  0001 C CNN
+F 3 "~" H 3150 6200 50  0001 C CNN
+	1    3150 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6200 3150 6300
+Connection ~ 3150 6300
+Wire Wire Line
+	3150 6300 3500 6300
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FE030B1
+P 5400 5800
+F 0 "#FLG0102" H 5400 5875 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 5973 50  0000 C CNN
+F 2 "" H 5400 5800 50  0001 C CNN
+F 3 "~" H 5400 5800 50  0001 C CNN
+	1    5400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:C C16
+U 1 1 5FE17BA3
+P 6250 5000
+F 0 "C16" H 6365 5038 40  0000 L CNN
+F 1 "0.1uF/6.3V" H 6365 4962 40  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" H 6288 4850 30  0001 C CNN
+F 3 "" H 6250 5000 60  0001 C CNN
+	1    6250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4700 6250 4700
+Wire Wire Line
+	6250 4700 6250 4800
+Connection ~ 5700 4700
+Wire Wire Line
+	6250 5200 6250 5300
+Wire Wire Line
+	6250 5300 5700 5300
+Connection ~ 5700 5300
+Wire Wire Line
+	4850 5800 5400 5800
+$Comp
+L tom-connectors:PMOD-2x6-MALE J1
+U 1 1 5FAA7E76
+P 5050 6450
+F 0 "J1" H 4723 6371 50  0000 R CNN
+F 1 "PMOD-2x6-MALE" H 4723 6280 50  0000 R CNN
+F 2 "tom-connectors:2X6_SMD_RA_PLUG" H 5050 6450 50  0001 C CNN
+F 3 "" H 5050 6450 50  0001 C CNN
+	1    5050 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5800 5400 6200
+Wire Wire Line
+	5400 6500 5300 6500
+Connection ~ 5400 5800
+Wire Wire Line
+	5300 6400 5400 6400
+Connection ~ 5400 6400
+Wire Wire Line
+	5400 6400 5400 6500
+Wire Wire Line
+	5300 6300 5400 6300
+Connection ~ 5400 6300
+Wire Wire Line
+	5400 6300 5400 6400
+Wire Wire Line
+	5300 6200 5400 6200
+Connection ~ 5400 6200
+Wire Wire Line
+	5400 6200 5400 6300
+Wire Wire Line
+	5300 6600 5400 6600
+Wire Wire Line
+	5400 6600 5400 6700
+Wire Wire Line
+	5400 7250 4950 7250
+Connection ~ 4950 7250
+Wire Wire Line
+	5300 6700 5400 6700
+Connection ~ 5400 6700
+Wire Wire Line
+	5400 6700 5400 6800
+Wire Wire Line
+	5300 6800 5400 6800
+Connection ~ 5400 6800
+Wire Wire Line
+	5400 6800 5400 6900
+Wire Wire Line
+	5300 6900 5400 6900
+Connection ~ 5400 6900
+Wire Wire Line
+	5400 6900 5400 7250
+Wire Wire Line
+	4850 7150 4550 7150
+Wire Wire Line
+	4550 7150 4550 5800
+Wire Wire Line
+	4550 5800 4850 5800
+Wire Wire Line
+	4950 6000 4950 5900
+Wire Wire Line
+	4950 5900 4650 5900
+Wire Wire Line
+	4650 5900 4650 7250
+Wire Wire Line
+	4650 7250 4850 7250
+Connection ~ 4850 7250
+Wire Wire Line
+	5900 6500 5800 6500
+Wire Wire Line
+	5800 6500 5800 6400
+Wire Wire Line
+	5800 6200 5900 6200
+Connection ~ 5800 6200
+Wire Wire Line
+	5800 6200 5800 5800
+Wire Wire Line
+	5800 6300 5900 6300
+Connection ~ 5800 6300
+Wire Wire Line
+	5800 6300 5800 6200
+Wire Wire Line
+	5800 6400 5900 6400
+Connection ~ 5800 6400
+Wire Wire Line
+	5800 6400 5800 6300
+Wire Wire Line
+	5800 5800 6350 5800
+Wire Wire Line
+	6250 6000 6250 5900
+Wire Wire Line
+	6250 5900 6550 5900
+Wire Wire Line
+	6550 5900 6550 7250
+Wire Wire Line
+	6550 7250 6350 7250
+Wire Wire Line
+	6350 7150 6650 7150
+Wire Wire Line
+	6650 7150 6650 5800
+Wire Wire Line
+	6650 5800 6350 5800
+Wire Wire Line
+	5800 6600 5800 6700
+Wire Wire Line
+	5800 7250 6250 7250
+Connection ~ 6250 7250
+Wire Wire Line
+	5800 6600 5900 6600
+Wire Wire Line
+	5800 6700 5900 6700
+Connection ~ 5800 6700
+Wire Wire Line
+	5800 6700 5800 6800
+Wire Wire Line
+	5800 6800 5900 6800
+Connection ~ 5800 6800
+Wire Wire Line
+	5800 6800 5800 6900
+Wire Wire Line
+	5800 6900 5900 6900
+Connection ~ 5800 6900
+Wire Wire Line
+	5800 6900 5800 7250
+$EndSCHEMATC
