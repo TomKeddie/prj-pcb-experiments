@@ -1,3 +1,9 @@
 [submodule "tom-kicad"]
 	path = tom-kicad
 	url = git@github.com:TomKeddie/tom-kicad.git
+[submodule "esp8266-iot/kicad-ESP8266"]
+	path = esp8266-iot/kicad-ESP8266
+	url = https://github.com/jdunmire/kicad-ESP8266.git
+[submodule "sao-wall/badgelife-parts"]
+	path = sao-wall/badgelife-parts
+	url = git@github.com:devec0/badgelife-parts.git
