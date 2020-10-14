@@ -1,64 +1,262 @@
-14309526397282
-artix7-pcie-v2
-16624-01YE
-
-
-0
-11
-11
-artix7-pcie-v2
-QFN50P400X400X100-25N-D
-NLG24P2
-Integrated Circuit
-0
-25
-25
-artix7-pcie-v2
-SOT95P280X110-6N
+57512169112467
+tom-connectors
+1X6_SMD_RA_PLUG
 
 
 0
 6
 6
-artix7-pcie-v2
-SOT95P280X145-5N
+tom-connectors
+2X6_SMD_RA_PLUG
 
 
 0
+12
+12
+tom-connectors
+2X6_SMD_RA_SOCKET
+
+
+0
+12
+12
+tom-connectors
+CONN_1.27_2x5
+
+
+0
+10
+10
+tom-connectors
+CUI_UJ2-AV-1-TH
+
+
+0
+6
 5
+tom-connectors
+Crystal_SMD_0603_5x3.2
+Crystal, Quarz, SMD, 0603, 4 Pads,
+Crystal, Quarz, SMD, 0603, 4 Pads,
+0
+4
+4
+tom-connectors
+JST-2-SMD
+<h3>JST-Right Angle Male Header SMT</h3>
+<p>Specifications:
+<ul><li>Pin count: 2</li>
+<li>Pin pitch: 2mm</li>
+</ul></p>
+<p><a href=”http://www.4uconnector.com/online/object/4udrawing/20404.pdf”>Datasheet referenced for footprint</a></p>
+<p>Example device(s):
+<ul><li>CONN_02</li>
+<li>JST_2MM_MALE</li>
+</ul></p>
+
+0
+4
+4
+tom-connectors
+MICRO_SD_10_PIN
+
+
+0
+12
+11
+tom-connectors
+OST_USB-A1HSW6
+
+
+0
+6
 5
-artix7-pcie-v2
-Socket_Strip_Angled_2x20
-Through hole socket strip
-socket strip
+tom-connectors
+OST_USB-A1HSW6-INVERTED
+
+
+0
+6
+5
+tom-connectors
+PCI-EXPRESS
+
+
+0
+70
+36
+tom-connectors
+PMOD_1X6_PTH_RA_PLUG
+
+
+0
+6
+6
+tom-connectors
+PMOD_2X6_PTH_RA_PLUG
+
+
+0
+12
+12
+tom-connectors
+PMOD_2X6_PTH_RA_SOCKET
+
+
+0
+12
+12
+tom-connectors
+PhoenixContact_MC_1,5_4-G-5.08_1x04_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/4-G-5.08; number of pins: 04; pin pitch: 5.08mm; Angled || order number: 1836202 8A 320V
+phoenix_contact connector MC_01x04_G_5.08mm
+0
+4
+4
+tom-connectors
+PinHeader_1x02_P1.27mm_Vertical
+Through hole straight pin header, 1x02, 1.27mm pitch, single row
+Through hole pin header THT 1x02 1.27mm single row
+0
+2
+2
+tom-connectors
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+tom-connectors
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+tom-connectors
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+tom-connectors
+PinHeader_1x06_P2.54mm_Horizontal
+Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x06 2.54mm single row
+0
+6
+6
+tom-connectors
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+tom-connectors
+PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight pin header, 1x06, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x06 2.54mm single row style1 pin1 left
+0
+6
+6
+tom-connectors
+PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right
+surface-mounted straight pin header, 1x06, 2.54mm pitch, single row, style 2 (pin 1 right)
+Surface mounted pin header SMD 1x06 2.54mm single row style2 pin1 right
+0
+6
+6
+tom-connectors
+PinHeader_1x09_P2.54mm_Horizontal
+Through hole angled pin header, 1x09, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x09 2.54mm single row
+0
+9
+9
+tom-connectors
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+tom-connectors
+PinHeader_2x20_P2.54mm_Horizontal_Mirrored
+Through hole angled pin header, 2x20, 2.54mm pitch, 6mm pin length, double rows
+Through hole angled pin header THT 2x20 2.54mm double row
 0
 40
 40
-artix7-pcie-v2
-WSON-8-1EP_8x6mm_P1.27mm
-WSON, 8 Pin (http://ww1.microchip.com/downloads/en/AppNotes/S72030.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-WSON NoLead
+tom-connectors
+PinHeader_2x22_P1.27mm_Vertical
+Through hole straight pin header, 2x22, 1.27mm pitch, double rows
+Through hole pin header THT 2x22 1.27mm double row
 0
-8
-8
-artix7-pcie-v2
-Xilinx_FGG484
-Artix-7 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=275, NSMD pad definition Appendix A
-BGA 484 1 FG484 FGG484
+44
+44
+tom-connectors
+PinHeader_2x22_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x22, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x22 1.27mm double row
 0
-484
-484
-artix7-pcie-v2
-mask
+44
+44
+tom-connectors
+PinSocket_2x03_P2.54mm_Vertical_SMD_SAO
+surface-mounted straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Surface mounted socket strip SMD 2x03 2.54mm double row
+0
+6
+6
+tom-connectors
+PinSocket_2x08_P2.54mm_Horizontal
+Through hole angled socket strip, 2x08, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
+Through hole angled socket strip THT 2x08 2.54mm double row
+0
+16
+16
+tom-connectors
+PinSocket_2x22_P1.27mm_Vertical
+Through hole straight socket strip, 2x22, 1.27mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x22 1.27mm double row
+0
+44
+44
+tom-connectors
+PinSocket_2x22_P1.27mm_Vertical_SMD
+surface-mounted straight socket strip, 2x22, 1.27mm pitch, double cols (from Kicad 4.0.7!), script generated
+Surface mounted socket strip SMD 2x22 1.27mm double row
+0
+44
+44
+tom-connectors
+USB-A-PCB
 
 
 0
+4
+3
+tom-connectors
+USB3_A_Aliexpress
+USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
+USB 3.0 type A right angle
 0
+11
+10
+tom-connectors
+USB_C_Receptacle_GT-USB-7010
+USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
+USB C Type-C Receptacle SMD
 0
-artix7-pcie-v2
-mask_600
+24
+17
+tom-connectors
+USB_MICRO_TAOBAO_SMD_PTH
 
 
 0
-0
-0
+13
+7
