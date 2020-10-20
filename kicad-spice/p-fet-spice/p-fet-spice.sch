@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:VSOURCE V1
+U 1 1 5F8E10C1
+P 2200 1700
+F 0 "V1" H 2428 1746 50  0000 L CNN
+F 1 "0" H 2428 1655 50  0000 L CNN
+F 2 "" H 2200 1700 50  0001 C CNN
+F 3 "~" H 2200 1700 50  0001 C CNN
+F 4 "V" H 2200 1700 50  0001 C CNN "Spice_Primitive"
+F 5 "pulse(0 10 0 10u 10u 5m 10m)" H 2200 1700 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2200 1700 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    2200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F8E12C7
+P 2200 2000
+F 0 "#PWR01" H 2200 1750 50  0001 C CNN
+F 1 "GND" H 2205 1827 50  0000 C CNN
+F 2 "" H 2200 2000 50  0001 C CNN
+F 3 "" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1400 2200 1250
+Text GLabel 2200 1250 0    50   Input ~ 0
+Vg
+Text Notes 2100 2550 0    50   ~ 0
+.tran 10u 20m 0
+$Comp
+L pspice:R R1
+U 1 1 5F8E15D5
+P 2750 1150
+F 0 "R1" H 2682 1104 50  0000 R CNN
+F 1 "100k" H 2682 1195 50  0000 R CNN
+F 2 "" H 2750 1150 50  0001 C CNN
+F 3 "~" H 2750 1150 50  0001 C CNN
+	1    2750 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 1400 2750 1400
+Connection ~ 2200 1400
+$Comp
+L pspice:VSOURCE V2
+U 1 1 5F8E2019
+P 5000 1700
+F 0 "V2" H 5228 1746 50  0000 L CNN
+F 1 "10" H 5228 1655 50  0000 L CNN
+F 2 "" H 5000 1700 50  0001 C CNN
+F 3 "~" H 5000 1700 50  0001 C CNN
+	1    5000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F8E2417
+P 5000 2000
+F 0 "#PWR02" H 5000 1750 50  0001 C CNN
+F 1 "GND" H 5005 1827 50  0000 C CNN
+F 2 "" H 5000 2000 50  0001 C CNN
+F 3 "" H 5000 2000 50  0001 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 900  5000 1400
+Text GLabel 5000 900  2    50   Input ~ 0
+VCC
+Wire Wire Line
+	2750 1400 3500 1400
+Wire Wire Line
+	3500 1400 3500 1100
+Connection ~ 2750 1400
+$Comp
+L pspice:R R2
+U 1 1 5F8E37FA
+P 3800 1550
+F 0 "R2" H 3732 1504 50  0000 R CNN
+F 1 "1k" H 3732 1595 50  0000 R CNN
+F 2 "" H 3800 1550 50  0001 C CNN
+F 3 "~" H 3800 1550 50  0001 C CNN
+	1    3800 1550
+	-1   0    0    1   
+$EndComp
+Text GLabel 3900 1300 2    50   Input ~ 0
+Vd
+Wire Wire Line
+	3800 1300 3900 1300
+Wire Wire Line
+	2750 900  3800 900 
+$Comp
+L pspice:MPMOS M1
+U 1 1 5F8E5044
+P 3700 1100
+F 0 "M1" H 3988 1146 50  0000 L CNN
+F 1 "MPMOS" H 3988 1055 50  0000 L CNN
+F 2 "" H 3700 1100 50  0001 C CNN
+F 3 "~" H 3700 1100 50  0001 C CNN
+F 4 "X" H 3700 1100 50  0001 C CNN "Spice_Primitive"
+F 5 "AO3401" H 3700 1100 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3700 1100 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "AO3401.lib" H 3700 1100 50  0001 C CNN "Spice_Lib_File"
+	1    3700 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 1300
+Wire Wire Line
+	3900 900  5000 900 
+Wire Wire Line
+	3800 900  3900 900 
+Connection ~ 3800 900 
+Connection ~ 3900 900 
+$Comp
+L power:GND #PWR03
+U 1 1 5F8E5B07
+P 3800 2200
+F 0 "#PWR03" H 3800 1950 50  0001 C CNN
+F 1 "GND" H 3805 2027 50  0000 C CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1750 3800 1800
+$Comp
+L pspice:DIODE D1
+U 1 1 5F8E5699
+P 3800 2000
+F 0 "D1" V 3754 2128 50  0000 L CNN
+F 1 "DIODE" V 3845 2128 50  0000 L CNN
+F 2 "" H 3800 2000 50  0001 C CNN
+F 3 "~" H 3800 2000 50  0001 C CNN
+F 4 "D" H 3800 2000 50  0001 C CNN "Spice_Primitive"
+F 5 "LB_Q39E_typ" H 3800 2000 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3800 2000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "LB_Q39E.lib" H 3800 2000 50  0001 C CNN "Spice_Lib_File"
+	1    3800 2000
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
