@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/multi-way-usb/multi-way-usb.sch</source>
-    <date>Fri 18 Sep 2020 07:37:26 AM</date>
-    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
+    <date>Sun 29 Nov 2020 10:04:34 AM</date>
+    <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="J1">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -30,9 +30,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6332F4</tstamp>
     </comp>
-    <comp ref="J7">
+    <comp ref="J5">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -41,7 +41,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F646653</tstamp>
     </comp>
-    <comp ref="F7">
+    <comp ref="F5">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -51,9 +51,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64666B</tstamp>
     </comp>
-    <comp ref="J3">
+    <comp ref="J7">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -62,7 +62,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6486AF</tstamp>
     </comp>
-    <comp ref="F3">
+    <comp ref="F7">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -72,9 +72,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6486C7</tstamp>
     </comp>
-    <comp ref="J9">
+    <comp ref="J10">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -83,7 +83,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6486DC</tstamp>
     </comp>
-    <comp ref="F9">
+    <comp ref="F10">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -95,7 +95,7 @@
     </comp>
     <comp ref="J2">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -114,9 +114,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64DE8D</tstamp>
     </comp>
-    <comp ref="J8">
+    <comp ref="J6">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -125,7 +125,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64DEA2</tstamp>
     </comp>
-    <comp ref="F8">
+    <comp ref="F6">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -135,9 +135,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64DEBA</tstamp>
     </comp>
-    <comp ref="J4">
+    <comp ref="J3">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -146,7 +146,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64DECF</tstamp>
     </comp>
-    <comp ref="F4">
+    <comp ref="F3">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -156,9 +156,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64DEE7</tstamp>
     </comp>
-    <comp ref="J10">
+    <comp ref="J9">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -167,7 +167,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64DEFC</tstamp>
     </comp>
-    <comp ref="F10">
+    <comp ref="F9">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -177,7 +177,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F64DF14</tstamp>
     </comp>
-    <comp ref="J27">
+    <comp ref="X3">
       <value>Conn_01x02</value>
       <footprint>tom-connectors:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -211,9 +211,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F63F9F4</tstamp>
     </comp>
-    <comp ref="J5">
+    <comp ref="J4">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -222,7 +222,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6B4549</tstamp>
     </comp>
-    <comp ref="F5">
+    <comp ref="F4">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -234,7 +234,7 @@
     </comp>
     <comp ref="J11">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -253,9 +253,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6B458E</tstamp>
     </comp>
-    <comp ref="J6">
+    <comp ref="J8">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -264,7 +264,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6B45A3</tstamp>
     </comp>
-    <comp ref="F6">
+    <comp ref="F8">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -276,7 +276,7 @@
     </comp>
     <comp ref="J12">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -295,7 +295,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6B45E8</tstamp>
     </comp>
-    <comp ref="J25">
+    <comp ref="X1">
       <value>USB_B_Micro</value>
       <footprint>tom-connectors:USB_MICRO_TAOBAO_SMD_PTH</footprint>
       <datasheet>~</datasheet>
@@ -303,7 +303,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F68638A</tstamp>
     </comp>
-    <comp ref="D1">
+    <comp ref="D2">
       <value>LED</value>
       <footprint>tom-opto:LED_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
@@ -311,7 +311,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F653D6F</tstamp>
     </comp>
-    <comp ref="R1">
+    <comp ref="R2">
       <value>1K</value>
       <footprint>tom-passives:C_0805_2012Metric</footprint>
       <fields>
@@ -321,7 +321,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F652F46</tstamp>
     </comp>
-    <comp ref="J26">
+    <comp ref="X2">
       <value>USB_B_Micro</value>
       <footprint>tom-connectors:USB_MICRO_TAOBAO_SMD_PTH</footprint>
       <datasheet>~</datasheet>
@@ -329,7 +329,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7AE44C</tstamp>
     </comp>
-    <comp ref="J28">
+    <comp ref="X4">
       <value>Conn_01x02</value>
       <footprint>tom-connectors:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -353,7 +353,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7D2588</tstamp>
     </comp>
-    <comp ref="D2">
+    <comp ref="D1">
       <value>LED</value>
       <footprint>tom-opto:LED_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
@@ -361,7 +361,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7DE1A6</tstamp>
     </comp>
-    <comp ref="R2">
+    <comp ref="R1">
       <value>1K</value>
       <footprint>tom-passives:C_0805_2012Metric</footprint>
       <fields>
@@ -373,7 +373,7 @@
     </comp>
     <comp ref="J13">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -382,9 +382,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7EFA81</tstamp>
     </comp>
-    <comp ref="J14">
+    <comp ref="J17">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -393,7 +393,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7EFAAE</tstamp>
     </comp>
-    <comp ref="F14">
+    <comp ref="F17">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -413,9 +413,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7EFAE5</tstamp>
     </comp>
-    <comp ref="J15">
+    <comp ref="J14">
       <value>USB_A</value>
-      <footprint>tom-connectors:OST_USB-A1HSW6</footprint>
+      <footprint>tom-connectors:OST_USB-A1HSW6-INVERTED</footprint>
       <datasheet> ~</datasheet>
       <fields>
         <field name="LCSC">C42642</field>
@@ -424,7 +424,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F8328CA</tstamp>
     </comp>
-    <comp ref="F15">
+    <comp ref="F14">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -433,72 +433,6 @@
       <libsource lib="tom-passives" part="FUSE" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F8328E2</tstamp>
-    </comp>
-    <comp ref="J16">
-      <value>USB_A</value>
-      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
-      <datasheet> ~</datasheet>
-      <fields>
-        <field name="Digikey">102-3995-ND</field>
-        <field name="LCSC">C42538</field>
-      </fields>
-      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F85F9F6</tstamp>
-    </comp>
-    <comp ref="F16">
-      <value>100mA/250mA</value>
-      <footprint>tom-passives:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="LCSC">C20981</field>
-      </fields>
-      <libsource lib="tom-passives" part="FUSE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F85FA0E</tstamp>
-    </comp>
-    <comp ref="J17">
-      <value>USB_A</value>
-      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
-      <datasheet> ~</datasheet>
-      <fields>
-        <field name="Digikey">102-3995-ND</field>
-        <field name="LCSC">C42538</field>
-      </fields>
-      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F8B4696</tstamp>
-    </comp>
-    <comp ref="F17">
-      <value>100mA/250mA</value>
-      <footprint>tom-passives:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="LCSC">C20981</field>
-      </fields>
-      <libsource lib="tom-passives" part="FUSE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F8B46AE</tstamp>
-    </comp>
-    <comp ref="J19">
-      <value>USB_A</value>
-      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
-      <datasheet> ~</datasheet>
-      <fields>
-        <field name="Digikey">102-3995-ND</field>
-        <field name="LCSC">C42538</field>
-      </fields>
-      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F8B9949</tstamp>
-    </comp>
-    <comp ref="F19">
-      <value>100mA/250mA</value>
-      <footprint>tom-passives:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="LCSC">C20981</field>
-      </fields>
-      <libsource lib="tom-passives" part="FUSE" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F8B9961</tstamp>
     </comp>
     <comp ref="J20">
       <value>USB_A</value>
@@ -510,9 +444,75 @@
       </fields>
       <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F8B9977</tstamp>
+      <tstamp>5F85F9F6</tstamp>
     </comp>
     <comp ref="F20">
+      <value>100mA/250mA</value>
+      <footprint>tom-passives:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C20981</field>
+      </fields>
+      <libsource lib="tom-passives" part="FUSE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F85FA0E</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>USB_A</value>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Digikey">102-3995-ND</field>
+        <field name="LCSC">C42538</field>
+      </fields>
+      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B4696</tstamp>
+    </comp>
+    <comp ref="F19">
+      <value>100mA/250mA</value>
+      <footprint>tom-passives:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C20981</field>
+      </fields>
+      <libsource lib="tom-passives" part="FUSE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B46AE</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>USB_A</value>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Digikey">102-3995-ND</field>
+        <field name="LCSC">C42538</field>
+      </fields>
+      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B9949</tstamp>
+    </comp>
+    <comp ref="F23">
+      <value>100mA/250mA</value>
+      <footprint>tom-passives:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C20981</field>
+      </fields>
+      <libsource lib="tom-passives" part="FUSE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B9961</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>USB_A</value>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Digikey">102-3995-ND</field>
+        <field name="LCSC">C42538</field>
+      </fields>
+      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B9977</tstamp>
+    </comp>
+    <comp ref="F22">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -566,7 +566,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F8FF546</tstamp>
     </comp>
-    <comp ref="J22">
+    <comp ref="J26">
       <value>USB_A</value>
       <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
       <datasheet> ~</datasheet>
@@ -578,7 +578,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F8FF55C</tstamp>
     </comp>
-    <comp ref="F22">
+    <comp ref="F26">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -588,7 +588,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F8FF574</tstamp>
     </comp>
-    <comp ref="J23">
+    <comp ref="J25">
       <value>USB_A</value>
       <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
       <datasheet> ~</datasheet>
@@ -600,7 +600,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F91D6B5</tstamp>
     </comp>
-    <comp ref="F23">
+    <comp ref="F25">
       <value>100mA/250mA</value>
       <footprint>tom-passives:C_1206_3216Metric</footprint>
       <fields>
@@ -631,6 +631,48 @@
       <libsource lib="tom-passives" part="FUSE" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F91D6FB</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>USB_A</value>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C42642</field>
+      </fields>
+      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCB2635</tstamp>
+    </comp>
+    <comp ref="F16">
+      <value>100mA/250mA</value>
+      <footprint>tom-passives:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C20981</field>
+      </fields>
+      <libsource lib="tom-passives" part="FUSE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCB264E</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>USB_A</value>
+      <footprint>tom-connectors:CUI_UJ2-AV-1-TH</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="LCSC">C42642</field>
+      </fields>
+      <libsource lib="tom-connectors" part="USB_A" description="USB Type A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF0E97</tstamp>
+    </comp>
+    <comp ref="F15">
+      <value>100mA/250mA</value>
+      <footprint>tom-passives:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C20981</field>
+      </fields>
+      <libsource lib="tom-passives" part="FUSE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF0EB0</tstamp>
     </comp>
   </components>
   <libparts>
@@ -764,206 +806,228 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J15-Pad2)">
-      <node ref="J15" pin="2"/>
-    </net>
-    <net code="2" name="+5VA">
-      <node ref="TP4" pin="1"/>
-      <node ref="F21" pin="2"/>
-      <node ref="J28" pin="1"/>
-      <node ref="F16" pin="2"/>
-      <node ref="F24" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="F22" pin="2"/>
-      <node ref="J26" pin="1"/>
-      <node ref="F20" pin="2"/>
-      <node ref="F18" pin="2"/>
-      <node ref="F14" pin="2"/>
-      <node ref="F23" pin="2"/>
-      <node ref="F13" pin="2"/>
-      <node ref="F17" pin="2"/>
-      <node ref="F19" pin="2"/>
-      <node ref="F15" pin="2"/>
-    </net>
-    <net code="3" name="Net-(F15-Pad1)">
-      <node ref="J15" pin="1"/>
-      <node ref="F15" pin="1"/>
-    </net>
-    <net code="4" name="GND">
-      <node ref="J2" pin="5"/>
-      <node ref="J2" pin="4"/>
-      <node ref="J10" pin="5"/>
-      <node ref="J19" pin="5"/>
-      <node ref="J10" pin="4"/>
-      <node ref="J19" pin="4"/>
-      <node ref="J21" pin="5"/>
-      <node ref="J18" pin="5"/>
-      <node ref="J21" pin="4"/>
-      <node ref="J18" pin="4"/>
-      <node ref="J8" pin="5"/>
-      <node ref="J8" pin="4"/>
-      <node ref="J20" pin="4"/>
-      <node ref="J20" pin="5"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="J5" pin="4"/>
-      <node ref="J5" pin="5"/>
+    <net code="1" name="GND">
       <node ref="J25" pin="5"/>
-      <node ref="J25" pin="6"/>
-      <node ref="D1" pin="1"/>
-      <node ref="J6" pin="4"/>
-      <node ref="J6" pin="5"/>
+      <node ref="X4" pin="2"/>
+      <node ref="J25" pin="4"/>
+      <node ref="X3" pin="2"/>
+      <node ref="J18" pin="4"/>
+      <node ref="J18" pin="5"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="4"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="J26" pin="4"/>
+      <node ref="J26" pin="5"/>
+      <node ref="J15" pin="5"/>
       <node ref="J11" pin="5"/>
       <node ref="J11" pin="4"/>
-      <node ref="J27" pin="2"/>
+      <node ref="J24" pin="4"/>
+      <node ref="J24" pin="5"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J21" pin="4"/>
+      <node ref="J21" pin="5"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J15" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J10" pin="5"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J7" pin="5"/>
       <node ref="J1" pin="4"/>
       <node ref="J1" pin="5"/>
       <node ref="J7" pin="4"/>
-      <node ref="J7" pin="5"/>
-      <node ref="J4" pin="4"/>
-      <node ref="J12" pin="4"/>
-      <node ref="J12" pin="5"/>
-      <node ref="J4" pin="5"/>
-      <node ref="J3" pin="4"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="X1" pin="6"/>
+      <node ref="X1" pin="5"/>
+      <node ref="J6" pin="4"/>
+      <node ref="X2" pin="6"/>
       <node ref="J3" pin="5"/>
+      <node ref="J12" pin="5"/>
+      <node ref="J12" pin="4"/>
+      <node ref="X2" pin="5"/>
       <node ref="J9" pin="4"/>
       <node ref="J9" pin="5"/>
       <node ref="J13" pin="4"/>
-      <node ref="J23" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="J13" pin="5"/>
+      <node ref="J14" pin="5"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J19" pin="4"/>
+      <node ref="J23" pin="5"/>
+      <node ref="J20" pin="4"/>
+      <node ref="J20" pin="5"/>
+      <node ref="J22" pin="5"/>
       <node ref="J22" pin="4"/>
+      <node ref="J23" pin="4"/>
+      <node ref="J16" pin="4"/>
+      <node ref="J16" pin="5"/>
       <node ref="J17" pin="5"/>
       <node ref="J17" pin="4"/>
-      <node ref="J14" pin="4"/>
-      <node ref="J15" pin="4"/>
-      <node ref="J22" pin="5"/>
-      <node ref="J15" pin="5"/>
-      <node ref="D2" pin="1"/>
-      <node ref="J16" pin="5"/>
-      <node ref="J14" pin="5"/>
-      <node ref="J26" pin="5"/>
-      <node ref="J26" pin="6"/>
-      <node ref="J16" pin="4"/>
-      <node ref="J28" pin="2"/>
-      <node ref="J23" pin="5"/>
-      <node ref="TP3" pin="1"/>
-      <node ref="J24" pin="4"/>
-      <node ref="J13" pin="5"/>
-      <node ref="J24" pin="5"/>
+      <node ref="J19" pin="5"/>
     </net>
-    <net code="5" name="Net-(J15-Pad3)">
-      <node ref="J15" pin="3"/>
+    <net code="2" name="Net-(J19-Pad2)">
+      <node ref="J19" pin="2"/>
     </net>
-    <net code="6" name="Net-(F16-Pad1)">
-      <node ref="F16" pin="1"/>
-      <node ref="J16" pin="1"/>
+    <net code="3" name="Net-(J19-Pad3)">
+      <node ref="J19" pin="3"/>
     </net>
-    <net code="7" name="Net-(F13-Pad1)">
-      <node ref="F13" pin="1"/>
-      <node ref="J13" pin="1"/>
+    <net code="4" name="Net-(F19-Pad1)">
+      <node ref="J19" pin="1"/>
+      <node ref="F19" pin="1"/>
     </net>
-    <net code="8" name="Net-(F14-Pad1)">
+    <net code="5" name="+5VA">
+      <node ref="F15" pin="2"/>
+      <node ref="F20" pin="2"/>
+      <node ref="F21" pin="2"/>
+      <node ref="X4" pin="1"/>
+      <node ref="F23" pin="2"/>
+      <node ref="X2" pin="1"/>
+      <node ref="F25" pin="2"/>
+      <node ref="F19" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="F24" pin="2"/>
+      <node ref="F8" pin="2"/>
+      <node ref="F14" pin="2"/>
+      <node ref="F18" pin="2"/>
+      <node ref="F17" pin="2"/>
+      <node ref="F16" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="F22" pin="2"/>
+      <node ref="F26" pin="2"/>
+      <node ref="F13" pin="2"/>
+    </net>
+    <net code="6" name="Net-(F20-Pad1)">
+      <node ref="F20" pin="1"/>
+      <node ref="J20" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J20-Pad2)">
+      <node ref="J20" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J20-Pad3)">
+      <node ref="J20" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J22-Pad2)">
+      <node ref="J22" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J22-Pad3)">
+      <node ref="J22" pin="3"/>
+    </net>
+    <net code="11" name="Net-(F22-Pad1)">
+      <node ref="J22" pin="1"/>
+      <node ref="F22" pin="1"/>
+    </net>
+    <net code="12" name="Net-(F23-Pad1)">
+      <node ref="J23" pin="1"/>
+      <node ref="F23" pin="1"/>
+    </net>
+    <net code="13" name="Net-(F14-Pad1)">
       <node ref="J14" pin="1"/>
       <node ref="F14" pin="1"/>
     </net>
-    <net code="9" name="Net-(F17-Pad1)">
+    <net code="14" name="Net-(J23-Pad2)">
+      <node ref="J23" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J23-Pad3)">
+      <node ref="J23" pin="3"/>
+    </net>
+    <net code="16" name="Net-(J13-Pad2)">
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J13-Pad3)">
+      <node ref="J13" pin="3"/>
+    </net>
+    <net code="18" name="Net-(F13-Pad1)">
+      <node ref="F13" pin="1"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(F17-Pad1)">
       <node ref="J17" pin="1"/>
       <node ref="F17" pin="1"/>
     </net>
-    <net code="10" name="Net-(J17-Pad2)">
-      <node ref="J17" pin="2"/>
-    </net>
-    <net code="11" name="Net-(J17-Pad3)">
-      <node ref="J17" pin="3"/>
-    </net>
-    <net code="12" name="Net-(J16-Pad2)">
-      <node ref="J16" pin="2"/>
-    </net>
-    <net code="13" name="Net-(J16-Pad3)">
-      <node ref="J16" pin="3"/>
-    </net>
-    <net code="14" name="Net-(J26-Pad4)">
-      <node ref="J26" pin="4"/>
-    </net>
-    <net code="15" name="Net-(J26-Pad3)">
-      <node ref="J26" pin="3"/>
-    </net>
-    <net code="16" name="Net-(J26-Pad2)">
-      <node ref="J26" pin="2"/>
-    </net>
-    <net code="17" name="Net-(J14-Pad2)">
+    <net code="21" name="Net-(J14-Pad2)">
       <node ref="J14" pin="2"/>
     </net>
-    <net code="18" name="Net-(J14-Pad3)">
+    <net code="22" name="Net-(J14-Pad3)">
       <node ref="J14" pin="3"/>
     </net>
-    <net code="19" name="Net-(J13-Pad2)">
-      <node ref="J13" pin="2"/>
+    <net code="23" name="Net-(J17-Pad2)">
+      <node ref="J17" pin="2"/>
     </net>
-    <net code="20" name="Net-(J13-Pad3)">
-      <node ref="J13" pin="3"/>
+    <net code="24" name="Net-(J17-Pad3)">
+      <node ref="J17" pin="3"/>
     </net>
-    <net code="21" name="Net-(D2-Pad2)">
-      <node ref="R2" pin="2"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="22" name="Net-(J23-Pad3)">
-      <node ref="J23" pin="3"/>
-    </net>
-    <net code="23" name="Net-(J23-Pad2)">
-      <node ref="J23" pin="2"/>
-    </net>
-    <net code="24" name="Net-(F23-Pad1)">
-      <node ref="F23" pin="1"/>
-      <node ref="J23" pin="1"/>
-    </net>
-    <net code="25" name="Net-(F22-Pad1)">
-      <node ref="F22" pin="1"/>
-      <node ref="J22" pin="1"/>
-    </net>
-    <net code="26" name="Net-(J22-Pad2)">
-      <node ref="J22" pin="2"/>
-    </net>
-    <net code="27" name="Net-(J22-Pad3)">
-      <node ref="J22" pin="3"/>
-    </net>
-    <net code="28" name="Net-(F21-Pad1)">
-      <node ref="F21" pin="1"/>
-      <node ref="J21" pin="1"/>
-    </net>
-    <net code="29" name="Net-(J24-Pad2)">
-      <node ref="J24" pin="2"/>
-    </net>
-    <net code="30" name="Net-(F24-Pad1)">
-      <node ref="F24" pin="1"/>
-      <node ref="J24" pin="1"/>
-    </net>
-    <net code="31" name="Net-(J24-Pad3)">
+    <net code="25" name="Net-(J24-Pad3)">
       <node ref="J24" pin="3"/>
     </net>
-    <net code="32" name="Net-(J21-Pad2)">
+    <net code="26" name="Net-(J16-Pad3)">
+      <node ref="J16" pin="3"/>
+    </net>
+    <net code="27" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="28" name="Net-(F16-Pad1)">
+      <node ref="F16" pin="1"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="29" name="Net-(F24-Pad1)">
+      <node ref="J24" pin="1"/>
+      <node ref="F24" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J24-Pad2)">
+      <node ref="J24" pin="2"/>
+    </net>
+    <net code="31" name="Net-(F25-Pad1)">
+      <node ref="J25" pin="1"/>
+      <node ref="F25" pin="1"/>
+    </net>
+    <net code="32" name="+5V">
+      <node ref="TP2" pin="1"/>
+      <node ref="F7" pin="2"/>
+      <node ref="F11" pin="2"/>
+      <node ref="X3" pin="1"/>
+      <node ref="F12" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="X1" pin="1"/>
+      <node ref="F4" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="F5" pin="2"/>
+      <node ref="F3" pin="2"/>
+      <node ref="F9" pin="2"/>
+      <node ref="F2" pin="2"/>
+      <node ref="F10" pin="2"/>
+      <node ref="F6" pin="2"/>
+    </net>
+    <net code="33" name="Net-(F15-Pad1)">
+      <node ref="F15" pin="1"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="34" name="Net-(J15-Pad2)">
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J15-Pad3)">
+      <node ref="J15" pin="3"/>
+    </net>
+    <net code="36" name="Net-(J25-Pad2)">
+      <node ref="J25" pin="2"/>
+    </net>
+    <net code="37" name="Net-(J21-Pad2)">
       <node ref="J21" pin="2"/>
     </net>
-    <net code="33" name="Net-(F19-Pad1)">
-      <node ref="F19" pin="1"/>
-      <node ref="J19" pin="1"/>
-    </net>
-    <net code="34" name="Net-(J20-Pad2)">
-      <node ref="J20" pin="2"/>
-    </net>
-    <net code="35" name="Net-(J20-Pad3)">
-      <node ref="J20" pin="3"/>
-    </net>
-    <net code="36" name="Net-(F20-Pad1)">
-      <node ref="J20" pin="1"/>
-      <node ref="F20" pin="1"/>
-    </net>
-    <net code="37" name="Net-(J19-Pad2)">
-      <node ref="J19" pin="2"/>
-    </net>
-    <net code="38" name="Net-(J19-Pad3)">
-      <node ref="J19" pin="3"/>
-    </net>
-    <net code="39" name="Net-(J21-Pad3)">
+    <net code="38" name="Net-(J21-Pad3)">
       <node ref="J21" pin="3"/>
+    </net>
+    <net code="39" name="Net-(F21-Pad1)">
+      <node ref="F21" pin="1"/>
+      <node ref="J21" pin="1"/>
     </net>
     <net code="40" name="Net-(F18-Pad1)">
       <node ref="F18" pin="1"/>
@@ -975,155 +1039,159 @@
     <net code="42" name="Net-(J18-Pad3)">
       <node ref="J18" pin="3"/>
     </net>
-    <net code="43" name="Net-(J8-Pad2)">
-      <node ref="J8" pin="2"/>
+    <net code="43" name="Net-(J25-Pad3)">
+      <node ref="J25" pin="3"/>
     </net>
-    <net code="44" name="Net-(J8-Pad3)">
-      <node ref="J8" pin="3"/>
+    <net code="44" name="Net-(F26-Pad1)">
+      <node ref="F26" pin="1"/>
+      <node ref="J26" pin="1"/>
     </net>
-    <net code="45" name="Net-(F8-Pad1)">
-      <node ref="J8" pin="1"/>
-      <node ref="F8" pin="1"/>
+    <net code="45" name="Net-(J26-Pad2)">
+      <node ref="J26" pin="2"/>
     </net>
-    <net code="46" name="+5V">
-      <node ref="F6" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="F5" pin="2"/>
-      <node ref="F11" pin="2"/>
-      <node ref="F10" pin="2"/>
-      <node ref="J27" pin="1"/>
-      <node ref="TP2" pin="1"/>
-      <node ref="F1" pin="2"/>
-      <node ref="J25" pin="1"/>
-      <node ref="F8" pin="2"/>
-      <node ref="F3" pin="2"/>
-      <node ref="F4" pin="2"/>
-      <node ref="F9" pin="2"/>
-      <node ref="F7" pin="2"/>
-      <node ref="F12" pin="2"/>
-      <node ref="F2" pin="2"/>
+    <net code="46" name="Net-(J26-Pad3)">
+      <node ref="J26" pin="3"/>
     </net>
-    <net code="47" name="Net-(F2-Pad1)">
-      <node ref="F2" pin="1"/>
+    <net code="47" name="Net-(F6-Pad1)">
+      <node ref="F6" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="48" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="49" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="50" name="Net-(F2-Pad1)">
       <node ref="J2" pin="1"/>
+      <node ref="F2" pin="1"/>
     </net>
-    <net code="48" name="Net-(J2-Pad2)">
+    <net code="51" name="Net-(J2-Pad2)">
       <node ref="J2" pin="2"/>
     </net>
-    <net code="49" name="Net-(J2-Pad3)">
+    <net code="52" name="Net-(J2-Pad3)">
       <node ref="J2" pin="3"/>
     </net>
-    <net code="50" name="Net-(J10-Pad3)">
-      <node ref="J10" pin="3"/>
-    </net>
-    <net code="51" name="Net-(J10-Pad2)">
-      <node ref="J10" pin="2"/>
-    </net>
-    <net code="52" name="Net-(F10-Pad1)">
-      <node ref="F10" pin="1"/>
-      <node ref="J10" pin="1"/>
-    </net>
-    <net code="53" name="Net-(F4-Pad1)">
-      <node ref="J4" pin="1"/>
-      <node ref="F4" pin="1"/>
-    </net>
-    <net code="54" name="Net-(J4-Pad2)">
-      <node ref="J4" pin="2"/>
-    </net>
-    <net code="55" name="Net-(J4-Pad3)">
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="56" name="Net-(F7-Pad1)">
-      <node ref="J7" pin="1"/>
-      <node ref="F7" pin="1"/>
-    </net>
-    <net code="57" name="Net-(J7-Pad2)">
-      <node ref="J7" pin="2"/>
-    </net>
-    <net code="58" name="Net-(J7-Pad3)">
-      <node ref="J7" pin="3"/>
-    </net>
-    <net code="59" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="60" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="61" name="Net-(F9-Pad1)">
+    <net code="53" name="Net-(F9-Pad1)">
       <node ref="J9" pin="1"/>
       <node ref="F9" pin="1"/>
     </net>
-    <net code="62" name="Net-(J9-Pad2)">
+    <net code="54" name="Net-(J9-Pad2)">
       <node ref="J9" pin="2"/>
     </net>
-    <net code="63" name="Net-(J9-Pad3)">
+    <net code="55" name="Net-(J9-Pad3)">
       <node ref="J9" pin="3"/>
     </net>
-    <net code="64" name="Net-(F3-Pad1)">
+    <net code="56" name="Net-(F3-Pad1)">
       <node ref="J3" pin="1"/>
       <node ref="F3" pin="1"/>
     </net>
-    <net code="65" name="Net-(J3-Pad2)">
+    <net code="57" name="Net-(J3-Pad2)">
       <node ref="J3" pin="2"/>
     </net>
-    <net code="66" name="Net-(J3-Pad3)">
+    <net code="58" name="Net-(J3-Pad3)">
       <node ref="J3" pin="3"/>
     </net>
-    <net code="67" name="Net-(F12-Pad1)">
-      <node ref="F12" pin="1"/>
-      <node ref="J12" pin="1"/>
-    </net>
-    <net code="68" name="Net-(J12-Pad2)">
-      <node ref="J12" pin="2"/>
-    </net>
-    <net code="69" name="Net-(J12-Pad3)">
-      <node ref="J12" pin="3"/>
-    </net>
-    <net code="70" name="Net-(F6-Pad1)">
-      <node ref="J6" pin="1"/>
-      <node ref="F6" pin="1"/>
-    </net>
-    <net code="71" name="Net-(J6-Pad2)">
-      <node ref="J6" pin="2"/>
-    </net>
-    <net code="72" name="Net-(J6-Pad3)">
-      <node ref="J6" pin="3"/>
-    </net>
-    <net code="73" name="Net-(J25-Pad3)">
-      <node ref="J25" pin="3"/>
-    </net>
-    <net code="74" name="Net-(D1-Pad2)">
-      <node ref="R1" pin="2"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="75" name="Net-(J25-Pad4)">
-      <node ref="J25" pin="4"/>
-    </net>
-    <net code="76" name="Net-(J25-Pad2)">
-      <node ref="J25" pin="2"/>
-    </net>
-    <net code="77" name="Net-(J5-Pad3)">
-      <node ref="J5" pin="3"/>
-    </net>
-    <net code="78" name="Net-(J5-Pad2)">
+    <net code="59" name="Net-(J5-Pad2)">
       <node ref="J5" pin="2"/>
     </net>
-    <net code="79" name="Net-(F5-Pad1)">
+    <net code="60" name="Net-(F7-Pad1)">
+      <node ref="F7" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="61" name="Net-(F5-Pad1)">
       <node ref="F5" pin="1"/>
       <node ref="J5" pin="1"/>
     </net>
-    <net code="80" name="Net-(F1-Pad1)">
+    <net code="62" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="63" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="64" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="65" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="66" name="Net-(F10-Pad1)">
+      <node ref="J10" pin="1"/>
+      <node ref="F10" pin="1"/>
+    </net>
+    <net code="67" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="68" name="Net-(J10-Pad3)">
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="69" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="70" name="Net-(X1-Pad3)">
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="71" name="Net-(X1-Pad2)">
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="72" name="Net-(X1-Pad4)">
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="73" name="Net-(F12-Pad1)">
+      <node ref="F12" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="74" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="75" name="Net-(J12-Pad3)">
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="76" name="Net-(X2-Pad4)">
+      <node ref="X2" pin="4"/>
+    </net>
+    <net code="77" name="Net-(X2-Pad3)">
+      <node ref="X2" pin="3"/>
+    </net>
+    <net code="78" name="Net-(X2-Pad2)">
+      <node ref="X2" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="80" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="81" name="Net-(F11-Pad1)">
+      <node ref="F11" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="82" name="Net-(F4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="F4" pin="1"/>
+    </net>
+    <net code="83" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="84" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="85" name="Net-(F1-Pad1)">
       <node ref="J1" pin="1"/>
       <node ref="F1" pin="1"/>
     </net>
-    <net code="81" name="Net-(F11-Pad1)">
-      <node ref="J11" pin="1"/>
-      <node ref="F11" pin="1"/>
+    <net code="86" name="Net-(F8-Pad1)">
+      <node ref="F8" pin="1"/>
+      <node ref="J8" pin="1"/>
     </net>
-    <net code="82" name="Net-(J11-Pad2)">
-      <node ref="J11" pin="2"/>
+    <net code="87" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
     </net>
-    <net code="83" name="Net-(J11-Pad3)">
+    <net code="88" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="89" name="Net-(J11-Pad3)">
       <node ref="J11" pin="3"/>
     </net>
   </nets>
