@@ -1,0 +1,56 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4900 2850 850  500 
+U 5FD3CF79
+F0 "column" 50
+F1 "column.sch" 50
+F2 "CATHODE_G[1..16]" I L 4900 3050 50 
+F3 "CATHODE_B[1..16]" I L 4900 3150 50 
+F4 "CATHODE_R[1..16]" I L 4900 3250 50 
+F5 "ANODE_EN" I L 4900 2950 50 
+$EndSheet
+$Sheet
+S 4900 3650 850  500 
+U 5FD59B0B
+F0 "sheet5FD59B0B" 50
+F1 "column.sch" 50
+F2 "CATHODE_G[1..16]" I L 4900 3850 50 
+F3 "CATHODE_B[1..16]" I L 4900 3950 50 
+F4 "CATHODE_R[1..16]" I L 4900 4050 50 
+F5 "ANODE_EN" I L 4900 3750 50 
+$EndSheet
+$Sheet
+S 4900 4400 850  500 
+U 5FD7D6F6
+F0 "sheet5FD7D6F6" 50
+F1 "column.sch" 50
+F2 "CATHODE_G[1..16]" I L 4900 4600 50 
+F3 "CATHODE_B[1..16]" I L 4900 4700 50 
+F4 "CATHODE_R[1..16]" I L 4900 4800 50 
+F5 "ANODE_EN" I L 4900 4500 50 
+$EndSheet
+$Sheet
+S 4900 5150 850  500 
+U 5FD9C85A
+F0 "sheet5FD9C85A" 50
+F1 "column.sch" 50
+F2 "CATHODE_G[1..16]" I L 4900 5350 50 
+F3 "CATHODE_B[1..16]" I L 4900 5450 50 
+F4 "CATHODE_R[1..16]" I L 4900 5550 50 
+F5 "ANODE_EN" I L 4900 5250 50 
+$EndSheet
+$EndSCHEMATC

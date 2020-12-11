@@ -1,0 +1,635 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L tom-opto:FC-B1010RGBT-HG D1
+U 1 1 5FCF8653
+P 3650 1450
+AR Path="/5FD3CF79/5FCF8653" Ref="D1"  Part="1" 
+AR Path="/5FD59B0B/5FCF8653" Ref="D17"  Part="1" 
+AR Path="/5FD7D6F6/5FCF8653" Ref="D33"  Part="1" 
+AR Path="/5FD9C85A/5FCF8653" Ref="D?"  Part="1" 
+AR Path="/5FCF8653" Ref="D?"  Part="1" 
+F 0 "D?" V 3800 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 3650 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 3650 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 3650 1000 50  0001 C CNN
+F 4 "C158099" V 3559 1070 50  0001 R CNN "LCSC"
+	1    3650 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D2
+U 1 1 5FCF865F
+P 4400 1450
+AR Path="/5FD3CF79/5FCF865F" Ref="D2"  Part="1" 
+AR Path="/5FD59B0B/5FCF865F" Ref="D18"  Part="1" 
+AR Path="/5FD7D6F6/5FCF865F" Ref="D34"  Part="1" 
+AR Path="/5FD9C85A/5FCF865F" Ref="D?"  Part="1" 
+F 0 "D?" V 4550 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 4400 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 4400 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 4400 1000 50  0001 C CNN
+F 4 "C158099" V 4309 1070 50  0001 R CNN "LCSC"
+	1    4400 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D3
+U 1 1 5FCF866A
+P 5150 1450
+AR Path="/5FD3CF79/5FCF866A" Ref="D3"  Part="1" 
+AR Path="/5FD59B0B/5FCF866A" Ref="D19"  Part="1" 
+AR Path="/5FD7D6F6/5FCF866A" Ref="D35"  Part="1" 
+AR Path="/5FD9C85A/5FCF866A" Ref="D?"  Part="1" 
+F 0 "D?" V 5300 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 5150 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 5150 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 5150 1000 50  0001 C CNN
+F 4 "C158099" V 5059 1070 50  0001 R CNN "LCSC"
+	1    5150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D4
+U 1 1 5FCF8676
+P 5900 1450
+AR Path="/5FD3CF79/5FCF8676" Ref="D4"  Part="1" 
+AR Path="/5FD59B0B/5FCF8676" Ref="D20"  Part="1" 
+AR Path="/5FD7D6F6/5FCF8676" Ref="D36"  Part="1" 
+AR Path="/5FD9C85A/5FCF8676" Ref="D?"  Part="1" 
+F 0 "D?" V 6050 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 5900 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 5900 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 5900 1000 50  0001 C CNN
+F 4 "C158099" V 5809 1070 50  0001 R CNN "LCSC"
+	1    5900 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D5
+U 1 1 5FCF8681
+P 6650 1450
+AR Path="/5FD3CF79/5FCF8681" Ref="D5"  Part="1" 
+AR Path="/5FD59B0B/5FCF8681" Ref="D21"  Part="1" 
+AR Path="/5FD7D6F6/5FCF8681" Ref="D37"  Part="1" 
+AR Path="/5FD9C85A/5FCF8681" Ref="D?"  Part="1" 
+F 0 "D?" V 6800 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 6650 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 6650 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 6650 1000 50  0001 C CNN
+F 4 "C158099" V 6559 1070 50  0001 R CNN "LCSC"
+	1    6650 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D6
+U 1 1 5FCF868D
+P 7400 1450
+AR Path="/5FD3CF79/5FCF868D" Ref="D6"  Part="1" 
+AR Path="/5FD59B0B/5FCF868D" Ref="D22"  Part="1" 
+AR Path="/5FD7D6F6/5FCF868D" Ref="D38"  Part="1" 
+AR Path="/5FD9C85A/5FCF868D" Ref="D?"  Part="1" 
+F 0 "D?" V 7550 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 7400 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 7400 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 7400 1000 50  0001 C CNN
+F 4 "C158099" V 7309 1070 50  0001 R CNN "LCSC"
+	1    7400 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D7
+U 1 1 5FCF8698
+P 8150 1450
+AR Path="/5FD3CF79/5FCF8698" Ref="D7"  Part="1" 
+AR Path="/5FD59B0B/5FCF8698" Ref="D23"  Part="1" 
+AR Path="/5FD7D6F6/5FCF8698" Ref="D39"  Part="1" 
+AR Path="/5FD9C85A/5FCF8698" Ref="D?"  Part="1" 
+F 0 "D?" V 8300 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 8150 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 8150 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 8150 1000 50  0001 C CNN
+F 4 "C158099" V 8059 1070 50  0001 R CNN "LCSC"
+	1    8150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D8
+U 1 1 5FCF86A4
+P 8900 1450
+AR Path="/5FD3CF79/5FCF86A4" Ref="D8"  Part="1" 
+AR Path="/5FD59B0B/5FCF86A4" Ref="D24"  Part="1" 
+AR Path="/5FD7D6F6/5FCF86A4" Ref="D40"  Part="1" 
+AR Path="/5FD9C85A/5FCF86A4" Ref="D?"  Part="1" 
+F 0 "D?" V 9050 1800 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 8900 1070 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 8900 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 8900 1000 50  0001 C CNN
+F 4 "C158099" V 8809 1070 50  0001 R CNN "LCSC"
+	1    8900 1450
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2550 750  0    50   Input ~ 0
+ANODE[1..16]
+Wire Wire Line
+	3650 1250 3650 850 
+Entry Wire Line
+	3550 750  3650 850 
+Text Label 3650 1200 1    50   ~ 0
+ANODE
+Wire Wire Line
+	4400 1250 4400 850 
+Entry Wire Line
+	4300 750  4400 850 
+Wire Wire Line
+	5150 1250 5150 850 
+Entry Wire Line
+	5050 750  5150 850 
+Wire Wire Line
+	5900 1250 5900 850 
+Entry Wire Line
+	5800 750  5900 850 
+Text Label 5900 1200 1    50   ~ 0
+ANODE
+Wire Wire Line
+	6650 1250 6650 850 
+Entry Wire Line
+	6550 750  6650 850 
+Text Label 6650 1200 1    50   ~ 0
+ANODE
+Wire Wire Line
+	7400 1250 7400 850 
+Entry Wire Line
+	7300 750  7400 850 
+Text Label 7400 1200 1    50   ~ 0
+ANODE
+Wire Wire Line
+	8150 1250 8150 850 
+Entry Wire Line
+	8050 750  8150 850 
+Text Label 8150 1200 1    50   ~ 0
+ANODE
+Wire Wire Line
+	8900 1250 8900 850 
+Entry Wire Line
+	8800 750  8900 850 
+Text Label 8900 1200 1    50   ~ 0
+ANODE
+Text Label 5150 1200 1    50   ~ 0
+ANODE
+Text Label 4400 1200 1    50   ~ 0
+ANODE
+Wire Wire Line
+	3600 3550 3600 3150
+Entry Wire Line
+	3500 3050 3600 3150
+Text Label 3600 3500 1    50   ~ 0
+ANODE
+Wire Wire Line
+	4350 3550 4350 3150
+Entry Wire Line
+	4250 3050 4350 3150
+Wire Wire Line
+	5100 3550 5100 3150
+Entry Wire Line
+	5000 3050 5100 3150
+Wire Wire Line
+	5850 3550 5850 3150
+Entry Wire Line
+	5750 3050 5850 3150
+Text Label 5850 3500 1    50   ~ 0
+ANODE
+Wire Wire Line
+	6600 3550 6600 3150
+Entry Wire Line
+	6500 3050 6600 3150
+Text Label 6600 3500 1    50   ~ 0
+ANODE
+Wire Wire Line
+	7350 3550 7350 3150
+Entry Wire Line
+	7250 3050 7350 3150
+Text Label 7350 3500 1    50   ~ 0
+ANODE
+Wire Wire Line
+	8100 3550 8100 3150
+Entry Wire Line
+	8000 3050 8100 3150
+Text Label 8100 3500 1    50   ~ 0
+ANODE
+Wire Wire Line
+	8850 3550 8850 3150
+Entry Wire Line
+	8750 3050 8850 3150
+Text Label 8850 3500 1    50   ~ 0
+ANODE
+Text Label 5100 3500 1    50   ~ 0
+ANODE
+Text Label 4350 3500 1    50   ~ 0
+ANODE
+Wire Bus Line
+	3150 3050 3150 750 
+Wire Bus Line
+	2550 750  3150 750 
+Connection ~ 3150 750 
+$Comp
+L tom-opto:FC-B1010RGBT-HG D9
+U 1 1 5FF763E1
+P 3600 3750
+AR Path="/5FD3CF79/5FF763E1" Ref="D9"  Part="1" 
+AR Path="/5FD59B0B/5FF763E1" Ref="D25"  Part="1" 
+AR Path="/5FD7D6F6/5FF763E1" Ref="D41"  Part="1" 
+AR Path="/5FD9C85A/5FF763E1" Ref="D?"  Part="1" 
+F 0 "D?" V 3750 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 3600 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 3600 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 3600 3300 50  0001 C CNN
+F 4 "C158099" V 3509 3370 50  0001 R CNN "LCSC"
+	1    3600 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D10
+U 1 1 5FF763EC
+P 4350 3750
+AR Path="/5FD3CF79/5FF763EC" Ref="D10"  Part="1" 
+AR Path="/5FD59B0B/5FF763EC" Ref="D26"  Part="1" 
+AR Path="/5FD7D6F6/5FF763EC" Ref="D42"  Part="1" 
+AR Path="/5FD9C85A/5FF763EC" Ref="D?"  Part="1" 
+F 0 "D?" V 4500 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 4350 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 4350 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 4350 3300 50  0001 C CNN
+F 4 "C158099" V 4259 3370 50  0001 R CNN "LCSC"
+	1    4350 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D11
+U 1 1 5FF763F7
+P 5100 3750
+AR Path="/5FD3CF79/5FF763F7" Ref="D11"  Part="1" 
+AR Path="/5FD59B0B/5FF763F7" Ref="D27"  Part="1" 
+AR Path="/5FD7D6F6/5FF763F7" Ref="D43"  Part="1" 
+AR Path="/5FD9C85A/5FF763F7" Ref="D?"  Part="1" 
+F 0 "D?" V 5250 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 5100 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 5100 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 5100 3300 50  0001 C CNN
+F 4 "C158099" V 5009 3370 50  0001 R CNN "LCSC"
+	1    5100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D12
+U 1 1 5FF76402
+P 5850 3750
+AR Path="/5FD3CF79/5FF76402" Ref="D12"  Part="1" 
+AR Path="/5FD59B0B/5FF76402" Ref="D28"  Part="1" 
+AR Path="/5FD7D6F6/5FF76402" Ref="D44"  Part="1" 
+AR Path="/5FD9C85A/5FF76402" Ref="D?"  Part="1" 
+F 0 "D?" V 6000 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 5850 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 5850 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 5850 3300 50  0001 C CNN
+F 4 "C158099" V 5759 3370 50  0001 R CNN "LCSC"
+	1    5850 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D13
+U 1 1 5FF7640D
+P 6600 3750
+AR Path="/5FD3CF79/5FF7640D" Ref="D13"  Part="1" 
+AR Path="/5FD59B0B/5FF7640D" Ref="D29"  Part="1" 
+AR Path="/5FD7D6F6/5FF7640D" Ref="D45"  Part="1" 
+AR Path="/5FD9C85A/5FF7640D" Ref="D?"  Part="1" 
+F 0 "D?" V 6750 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 6600 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 6600 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 6600 3300 50  0001 C CNN
+F 4 "C158099" V 6509 3370 50  0001 R CNN "LCSC"
+	1    6600 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D14
+U 1 1 5FF76418
+P 7350 3750
+AR Path="/5FD3CF79/5FF76418" Ref="D14"  Part="1" 
+AR Path="/5FD59B0B/5FF76418" Ref="D30"  Part="1" 
+AR Path="/5FD7D6F6/5FF76418" Ref="D46"  Part="1" 
+AR Path="/5FD9C85A/5FF76418" Ref="D?"  Part="1" 
+F 0 "D?" V 7500 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 7350 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 7350 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 7350 3300 50  0001 C CNN
+F 4 "C158099" V 7259 3370 50  0001 R CNN "LCSC"
+	1    7350 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D15
+U 1 1 5FF76423
+P 8100 3750
+AR Path="/5FD3CF79/5FF76423" Ref="D15"  Part="1" 
+AR Path="/5FD59B0B/5FF76423" Ref="D31"  Part="1" 
+AR Path="/5FD7D6F6/5FF76423" Ref="D47"  Part="1" 
+AR Path="/5FD9C85A/5FF76423" Ref="D?"  Part="1" 
+F 0 "D?" V 8250 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 8100 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 8100 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 8100 3300 50  0001 C CNN
+F 4 "C158099" V 8009 3370 50  0001 R CNN "LCSC"
+	1    8100 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tom-opto:FC-B1010RGBT-HG D16
+U 1 1 5FF7642E
+P 8850 3750
+AR Path="/5FD3CF79/5FF7642E" Ref="D16"  Part="1" 
+AR Path="/5FD59B0B/5FF7642E" Ref="D32"  Part="1" 
+AR Path="/5FD7D6F6/5FF7642E" Ref="D48"  Part="1" 
+AR Path="/5FD9C85A/5FF7642E" Ref="D?"  Part="1" 
+F 0 "D?" V 9000 4100 50  0000 R CNN
+F 1 "FC-B1010RGBT-HG" V 8850 3370 50  0001 R CNN
+F 2 "tom-opto:B1010RGBT-HG" H 8850 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912311012_Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG_C158099.pdf" H 8850 3300 50  0001 C CNN
+F 4 "C158099" V 8759 3370 50  0001 R CNN "LCSC"
+	1    8850 3750
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2550 2200 0    50   Input ~ 0
+CATHODE_R
+Wire Wire Line
+	2550 2200 3050 2200
+Wire Wire Line
+	8900 2200 8900 1650
+Text HLabel 2550 2300 0    50   Input ~ 0
+CATHODE_G
+Text HLabel 2550 2400 0    50   Input ~ 0
+CATHODE_B
+Wire Wire Line
+	8700 2300 8700 1650
+Wire Wire Line
+	9100 1650 9100 2400
+Wire Wire Line
+	9100 2400 8350 2400
+Wire Wire Line
+	7950 1650 7950 2300
+Connection ~ 7950 2300
+Wire Wire Line
+	7950 2300 8700 2300
+Wire Wire Line
+	7200 1650 7200 2300
+Connection ~ 7200 2300
+Wire Wire Line
+	7200 2300 7950 2300
+Wire Wire Line
+	6450 1650 6450 2300
+Connection ~ 6450 2300
+Wire Wire Line
+	6450 2300 7200 2300
+Wire Wire Line
+	5700 1650 5700 2300
+Connection ~ 5700 2300
+Wire Wire Line
+	5700 2300 6450 2300
+Wire Wire Line
+	4950 1650 4950 2300
+Connection ~ 4950 2300
+Wire Wire Line
+	4950 2300 5700 2300
+Wire Wire Line
+	4200 1650 4200 2300
+Connection ~ 4200 2300
+Wire Wire Line
+	4200 2300 4950 2300
+Wire Wire Line
+	3450 1650 3450 2300
+Wire Wire Line
+	2550 2300 2950 2300
+Connection ~ 3450 2300
+Wire Wire Line
+	3450 2300 4200 2300
+Wire Wire Line
+	3850 1650 3850 2400
+Connection ~ 3850 2400
+Wire Wire Line
+	3850 2400 2850 2400
+Wire Wire Line
+	4600 1650 4600 2400
+Connection ~ 4600 2400
+Wire Wire Line
+	4600 2400 3850 2400
+Wire Wire Line
+	5350 1650 5350 2400
+Connection ~ 5350 2400
+Wire Wire Line
+	5350 2400 4600 2400
+Wire Wire Line
+	6100 1650 6100 2400
+Connection ~ 6100 2400
+Wire Wire Line
+	6100 2400 5350 2400
+Wire Wire Line
+	6850 1650 6850 2400
+Connection ~ 6850 2400
+Wire Wire Line
+	6850 2400 6100 2400
+Connection ~ 7600 2400
+Wire Wire Line
+	7600 2400 6850 2400
+Wire Wire Line
+	8350 1650 8350 2400
+Connection ~ 8350 2400
+Wire Wire Line
+	8350 2400 7600 2400
+Wire Wire Line
+	8150 1650 8150 2200
+Connection ~ 8150 2200
+Wire Wire Line
+	8150 2200 8900 2200
+Wire Wire Line
+	7400 1650 7400 2200
+Connection ~ 7400 2200
+Wire Wire Line
+	7400 2200 8150 2200
+Wire Wire Line
+	6650 1650 6650 2200
+Connection ~ 6650 2200
+Wire Wire Line
+	6650 2200 7400 2200
+Wire Wire Line
+	5900 1650 5900 2200
+Connection ~ 5900 2200
+Wire Wire Line
+	5900 2200 6650 2200
+Wire Wire Line
+	5150 1650 5150 2200
+Connection ~ 5150 2200
+Wire Wire Line
+	5150 2200 5900 2200
+Wire Wire Line
+	4400 1650 4400 2200
+Connection ~ 4400 2200
+Wire Wire Line
+	4400 2200 5150 2200
+Wire Wire Line
+	3650 1650 3650 2200
+Connection ~ 3650 2200
+Wire Wire Line
+	3650 2200 4400 2200
+Wire Wire Line
+	8850 4500 8850 3950
+Wire Wire Line
+	8650 4600 8650 3950
+Wire Wire Line
+	9050 3950 9050 4700
+Wire Wire Line
+	9050 4700 8300 4700
+Wire Wire Line
+	7900 3950 7900 4600
+Connection ~ 7900 4600
+Wire Wire Line
+	7900 4600 8650 4600
+Wire Wire Line
+	7150 3950 7150 4600
+Connection ~ 7150 4600
+Wire Wire Line
+	7150 4600 7900 4600
+Wire Wire Line
+	6400 3950 6400 4600
+Connection ~ 6400 4600
+Wire Wire Line
+	6400 4600 7150 4600
+Wire Wire Line
+	5650 3950 5650 4600
+Connection ~ 5650 4600
+Wire Wire Line
+	5650 4600 6400 4600
+Wire Wire Line
+	4900 3950 4900 4600
+Connection ~ 4900 4600
+Wire Wire Line
+	4900 4600 5650 4600
+Wire Wire Line
+	4150 3950 4150 4600
+Connection ~ 4150 4600
+Wire Wire Line
+	4150 4600 4900 4600
+Wire Wire Line
+	3400 3950 3400 4600
+Connection ~ 3400 4600
+Wire Wire Line
+	3400 4600 4150 4600
+Wire Wire Line
+	3800 3950 3800 4700
+Connection ~ 3800 4700
+Wire Wire Line
+	3800 4700 2850 4700
+Wire Wire Line
+	4550 3950 4550 4700
+Connection ~ 4550 4700
+Wire Wire Line
+	4550 4700 3800 4700
+Wire Wire Line
+	5300 3950 5300 4700
+Connection ~ 5300 4700
+Wire Wire Line
+	5300 4700 4550 4700
+Wire Wire Line
+	6050 3950 6050 4700
+Connection ~ 6050 4700
+Wire Wire Line
+	6050 4700 5300 4700
+Wire Wire Line
+	6800 3950 6800 4700
+Connection ~ 6800 4700
+Wire Wire Line
+	6800 4700 6050 4700
+Connection ~ 7550 4700
+Wire Wire Line
+	7550 4700 6800 4700
+Wire Wire Line
+	8300 3950 8300 4700
+Connection ~ 8300 4700
+Wire Wire Line
+	8300 4700 7550 4700
+Wire Wire Line
+	8100 3950 8100 4500
+Connection ~ 8100 4500
+Wire Wire Line
+	8100 4500 8850 4500
+Wire Wire Line
+	7350 3950 7350 4500
+Connection ~ 7350 4500
+Wire Wire Line
+	7350 4500 8100 4500
+Wire Wire Line
+	6600 3950 6600 4500
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 4500 7350 4500
+Wire Wire Line
+	5850 3950 5850 4500
+Connection ~ 5850 4500
+Wire Wire Line
+	5850 4500 6600 4500
+Wire Wire Line
+	5100 3950 5100 4500
+Connection ~ 5100 4500
+Wire Wire Line
+	5100 4500 5850 4500
+Wire Wire Line
+	4350 3950 4350 4500
+Connection ~ 4350 4500
+Wire Wire Line
+	4350 4500 5100 4500
+Wire Wire Line
+	3600 3950 3600 4500
+Connection ~ 3600 4500
+Wire Wire Line
+	3600 4500 4350 4500
+Wire Wire Line
+	7600 1650 7600 2400
+Wire Wire Line
+	7550 3950 7550 4700
+Wire Wire Line
+	3050 2200 3050 4500
+Connection ~ 3050 2200
+Wire Wire Line
+	3050 2200 3650 2200
+Wire Wire Line
+	3050 4500 3600 4500
+Wire Wire Line
+	2950 4600 2950 2300
+Wire Wire Line
+	2950 4600 3400 4600
+Connection ~ 2950 2300
+Wire Wire Line
+	2950 2300 3450 2300
+Wire Wire Line
+	2850 2400 2850 4700
+Connection ~ 2850 2400
+Wire Wire Line
+	2850 2400 2550 2400
+Wire Bus Line
+	3150 3050 8750 3050
+Wire Bus Line
+	3150 750  8800 750 
+$EndSCHEMATC
