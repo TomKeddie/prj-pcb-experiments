@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name syzygy-stencil)(type KiCad)(uri ${KIPRJMOD}/syzygy-stencil.pretty)(options "")(descr ""))
+)
