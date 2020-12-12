@@ -6,4 +6,5 @@
   (lib (name tom-opto)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-opto.lib)(options "")(descr ""))
   (lib (name tom-passives)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-passives.lib)(options "")(descr ""))
   (lib (name tom-semiconductors)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-semiconductors.lib)(options "")(descr ""))
+  (lib (name 2020-12-02_15-48-55)(type Legacy)(uri ${KIPRJMOD}/tmp/KiCAD/2020-12-02_15-48-55/2020-12-02_15-48-55.lib)(options "")(descr ""))
 )
