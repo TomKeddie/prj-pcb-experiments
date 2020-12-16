@@ -19,7 +19,7 @@ U 1 1 5FD535D8
 P 3400 2650
 F 0 "X1" H 3728 2696 50  0000 L CNN
 F 1 "Badgelife_sao_connector_v169bis" H 3728 2605 50  0000 L CNN
-F 2 "tom-connectors:Badgelife-SAOv169-SAO-2x3-SMD-NOCENTREPINS" H 3400 2850 50  0001 C CNN
+F 2 "tom-connectors:Badgelife-SAOv169-SAO-2x3-SMD" H 3400 2850 50  0001 C CNN
 F 3 "" H 3400 2850 50  0001 C CNN
 	1    3400 2650
 	1    0    0    -1  
