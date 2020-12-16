@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C1","1uF/10V","C_0603_1608Metric",105.250000,-107.500000,0.000000,top
 "C2","10uF/10V","C_0603_1608Metric",113.500000,-98.750000,270.000000,top
 "C3","100uF/6.3V","CP_EIA-3528-15_AVX-H",117.500000,-92.500000,0.000000,top
