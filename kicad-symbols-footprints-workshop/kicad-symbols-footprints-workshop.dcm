@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CZ-3A01
+D Coreless Current Sensor, Bidirectional, 3.3V supply, +/- 12.9A, PACKAGE
+K hall effect current sensor
+F https://www.akm.com/content/dam/documents/products/current-sensor/cz3a01/cz3a01-en-datasheet.pdf
+$ENDCMP
+#
+$CMP CZ-3A02
+D Coreless Current Sensor, Bidirectional, 3.3V supply, +/- 32.9A, PACKAGE
+K hall effect current sensor
+F https://www.akm.com/content/dam/documents/products/current-sensor/cz3a01/cz3a01-en-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
