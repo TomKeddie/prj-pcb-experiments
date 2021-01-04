@@ -1,0 +1,68 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L tom-connectors:USB_A J1
+U 1 1 5FF2A3D4
+P 2450 2300
+F 0 "J1" H 2450 2800 50  0000 C CNN
+F 1 "USB_A" H 2450 2700 50  0000 C CNN
+F 2 "tom-connectors:OST_USB-A1HSW6" H 2600 2250 50  0001 C CNN
+F 3 " ~" H 2600 2250 50  0001 C CNN
+	1    2450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-connectors:USB_A J2
+U 1 1 5FF2A8A5
+P 3400 2300
+F 0 "J2" H 3450 2800 50  0000 R CNN
+F 1 "USB_A" H 3500 2700 50  0000 R CNN
+F 2 "tom-connectors:USB_A_PLUG_MOLEX_480372200" H 3550 2250 50  0001 C CNN
+F 3 " ~" H 3550 2250 50  0001 C CNN
+	1    3400 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2300 3100 2300
+Wire Wire Line
+	2750 2400 3100 2400
+Wire Wire Line
+	2450 2700 2950 2700
+Wire Wire Line
+	3500 2700 3500 2800
+Wire Wire Line
+	3500 2800 2350 2800
+Wire Wire Line
+	2350 2800 2350 2700
+NoConn ~ 3100 2100
+NoConn ~ 2750 2100
+$Comp
+L power:GND #PWR0101
+U 1 1 5FF2D42B
+P 2950 2900
+F 0 "#PWR0101" H 2950 2650 50  0001 C CNN
+F 1 "GND" H 2955 2727 50  0000 C CNN
+F 2 "" H 2950 2900 50  0001 C CNN
+F 3 "" H 2950 2900 50  0001 C CNN
+	1    2950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2700 2950 2900
+Connection ~ 2950 2700
+Wire Wire Line
+	2950 2700 3400 2700
+$EndSCHEMATC
