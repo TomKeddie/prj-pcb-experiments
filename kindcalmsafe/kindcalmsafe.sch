@@ -868,10 +868,10 @@ F 3 "" H 9500 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tom-mechanical:mech-only-no-pins H?
+L tom-mechanical:mech-only-no-pins H4
 U 1 1 600D7EA7
 P 9500 5900
-F 0 "H?" H 9525 5991 50  0000 L CNN
+F 0 "H4" H 9525 5991 50  0000 L CNN
 F 1 "kindcalmsafe-front-silk" H 9525 5900 50  0000 L CNN
 F 2 "kindcalmsafe:kindcalmsafe-silk-invert" H 9525 5809 50  0000 L CNN
 F 3 "" H 9500 5900 50  0001 C CNN
