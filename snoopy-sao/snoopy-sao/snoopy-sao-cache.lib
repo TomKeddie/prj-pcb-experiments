@@ -1,0 +1,139 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# tom-connectors_Badgelife_sao_connector_v169bis
+#
+DEF tom-connectors_Badgelife_sao_connector_v169bis X 0 40 Y Y 1 F N
+F0 "X" 0 0 50 H V C CNN
+F1 "tom-connectors_Badgelife_sao_connector_v169bis" 0 800 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+S -300 350 300 -350 0 1 0 N
+X VCC 1 -200 550 200 D 50 50 1 1 I
+X GND 2 -200 -550 200 U 50 50 1 1 I
+X SDA 3 0 550 200 D 50 50 1 1 I
+X SCL 4 0 -550 200 U 50 50 1 1 I
+X GPIO1 5 200 550 200 D 50 50 1 1 I
+X GPIO2 6 200 -550 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# tom-mechanical_TestPoint
+#
+DEF tom-mechanical_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "tom-mechanical_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# tom-mechanical_mech-only-no-pins
+#
+DEF tom-mechanical_mech-only-no-pins H 0 0 N N 1 F N
+F0 "H" 0 0 50 H V C CNN
+F1 "tom-mechanical_mech-only-no-pins" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# tom-opto_LED
+#
+DEF tom-opto_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "tom-opto_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# tom-passives_R
+#
+DEF tom-passives_R R? 0 0 N Y 1 F N
+F0 "R?" 80 0 40 V V C CNN
+F1 "tom-passives_R" 7 1 40 V V C CNN
+F2 "" -70 0 30 V I C CNN
+F3 "" 0 0 30 H I C CNN
+F4 "DNP" 138 0 40 V V C CNN "LCSC"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 12 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
