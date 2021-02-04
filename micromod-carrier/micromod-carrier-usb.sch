@@ -1,0 +1,1761 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L tom-connectors:USB_C_Receptacle_USB2.0 J2
+U 1 1 600FDDE6
+P 1800 2650
+F 0 "J2" H 1907 3517 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1907 3426 50  0000 C CNN
+F 2 "tom-connectors:USB_C_Receptacle_GT-USB-7010" H 1950 2650 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1950 2650 50  0001 C CNN
+	1    1800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-semiconductors:GL850 U1
+U 1 1 600FF287
+P 4750 2800
+F 0 "U1" H 4300 1900 60  0000 C CNN
+F 1 "GL850" H 5200 1900 60  0000 C CNN
+F 2 "tom-semiconductors:SSOP-28_5.3x10.2mm_P0.65mm" H 4750 2800 60  0001 C CNN
+F 3 "" H 4750 2800 60  0001 C CNN
+F 4 "C136617" H 4750 2800 50  0001 C CNN "LCSC"
+	1    4750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2850 2500 2850
+Wire Wire Line
+	2500 2850 2500 2750
+Wire Wire Line
+	2500 2750 2400 2750
+Wire Wire Line
+	2500 2750 4000 2750
+Connection ~ 2500 2750
+Wire Wire Line
+	2400 2550 2500 2550
+Wire Wire Line
+	2500 2550 2500 2650
+Wire Wire Line
+	2500 2650 2400 2650
+Wire Wire Line
+	2500 2650 3900 2650
+Wire Wire Line
+	3900 2650 3900 2850
+Wire Wire Line
+	3900 2850 4000 2850
+Connection ~ 2500 2650
+Text Label 2650 2750 0    50   ~ 0
+USBC_P
+Text Label 2650 2650 0    50   ~ 0
+USBC_N
+$Comp
+L power:GND #PWR021
+U 1 1 60101E6D
+P 1800 3550
+F 0 "#PWR021" H 1800 3300 50  0001 C CNN
+F 1 "GND" H 1805 3377 50  0000 C CNN
+F 2 "" H 1800 3550 50  0001 C CNN
+F 3 "" H 1800 3550 50  0001 C CNN
+	1    1800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-resistor-0603:5.1k R6
+U 1 1 60102DB4
+P 2600 2250
+F 0 "R6" V 2404 2250 50  0000 C CNN
+F 1 "5.1k" V 2495 2250 50  0000 C CNN
+F 2 "tom-passives:R_0603_1608Metric" V 2530 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5101T5E_C23186.pdf" V 2600 2250 50  0001 C CNN
+F 4 "C23186" V 2600 2250 50  0001 C CNN "LCSC"
+	1    2600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L jlcpcb-basic-resistor-0603:5.1k R7
+U 1 1 60103520
+P 2850 2350
+F 0 "R7" V 2550 2350 50  0000 C CNN
+F 1 "5.1k" V 2650 2350 50  0000 C CNN
+F 2 "tom-passives:R_0603_1608Metric" V 2780 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF5101T5E_C23186.pdf" V 2850 2350 50  0001 C CNN
+F 4 "C23186" V 2850 2350 50  0001 C CNN "LCSC"
+	1    2850 2350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2400 2250 2500 2250
+Wire Wire Line
+	2400 2350 2750 2350
+$Comp
+L power:GND #PWR018
+U 1 1 601044BF
+P 3100 2800
+F 0 "#PWR018" H 3100 2550 50  0001 C CNN
+F 1 "GND" H 3105 2627 50  0000 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2350 3100 2350
+Wire Wire Line
+	3100 2350 3100 2500
+Wire Wire Line
+	2700 2250 3100 2250
+Wire Wire Line
+	3100 2250 3100 2350
+Connection ~ 3100 2350
+$Comp
+L power:+5V #PWR015
+U 1 1 60105275
+P 2500 950
+F 0 "#PWR015" H 2500 800 50  0001 C CNN
+F 1 "+5V" H 2515 1123 50  0000 C CNN
+F 2 "" H 2500 950 50  0001 C CNN
+F 3 "" H 2500 950 50  0001 C CNN
+	1    2500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2050 2500 2050
+Wire Wire Line
+	2500 2050 2500 1700
+NoConn ~ 2400 3150
+NoConn ~ 2400 3250
+$Comp
+L power:GND #PWR022
+U 1 1 60108C1B
+P 3900 3600
+F 0 "#PWR022" H 3900 3350 50  0001 C CNN
+F 1 "GND" H 3905 3427 50  0000 C CNN
+F 2 "" H 3900 3600 50  0001 C CNN
+F 3 "" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 601096B6
+P 4750 3800
+F 0 "#PWR024" H 4750 3550 50  0001 C CNN
+F 1 "GND" H 4755 3627 50  0000 C CNN
+F 2 "" H 4750 3800 50  0001 C CNN
+F 3 "" H 4750 3800 50  0001 C CNN
+	1    4750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-resistor-0603:680R R5
+U 1 1 6010A3F9
+P 3250 2200
+F 0 "R5" V 3054 2200 50  0000 C CNN
+F 1 "680R" V 3145 2200 50  0000 C CNN
+F 2 "tom-passives:R_0603_1608Metric" V 3180 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF6800T5E_C23228.pdf" V 3250 2200 50  0001 C CNN
+F 4 "C23228" V 3250 2200 50  0001 C CNN "LCSC"
+	1    3250 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 2200 3100 2200
+Wire Wire Line
+	3100 2200 3100 2250
+Connection ~ 3100 2250
+Wire Wire Line
+	3350 2200 4000 2200
+$Comp
+L jlcpcb-basic-resistor-0603:10k R4
+U 1 1 6010C3A0
+P 3900 1900
+F 0 "R4" H 3959 1946 50  0000 L CNN
+F 1 "10k" H 3959 1855 50  0000 L CNN
+F 2 "tom-passives:R_0603_1608Metric" V 3830 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 3900 1900 50  0001 C CNN
+F 4 "C25804" V 3900 1900 50  0001 C CNN "LCSC"
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2300 3900 2300
+Wire Wire Line
+	3900 2300 3900 2000
+$Comp
+L jlcpcb-basic-resistor-0603:100k R3
+U 1 1 6010D590
+P 3800 1900
+F 0 "R3" H 3742 1854 50  0000 R CNN
+F 1 "100k" H 3742 1945 50  0000 R CNN
+F 2 "tom-passives:R_0603_1608Metric" V 3730 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf" V 3800 1900 50  0001 C CNN
+F 4 "C25803" V 3800 1900 50  0001 C CNN "LCSC"
+	1    3800 1900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2000 3800 2400
+Wire Wire Line
+	3800 2400 4000 2400
+$Comp
+L power:+3.3V #PWR012
+U 1 1 6010E91F
+P 3900 1700
+F 0 "#PWR012" H 3900 1550 50  0001 C CNN
+F 1 "+3.3V" H 3915 1873 50  0000 C CNN
+F 2 "" H 3900 1700 50  0001 C CNN
+F 3 "" H 3900 1700 50  0001 C CNN
+	1    3900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1800 3800 1700
+Wire Wire Line
+	3800 1700 3900 1700
+Wire Wire Line
+	3900 1700 3900 1800
+Connection ~ 3900 1700
+$Comp
+L jlcpcb-basic-resistor-0603:10k R8
+U 1 1 6010FCA7
+P 3450 1800
+F 0 "R8" V 3254 1800 50  0000 C CNN
+F 1 "10k" V 3345 1800 50  0000 C CNN
+F 2 "tom-passives:R_0603_1608Metric" V 3380 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 3450 1800 50  0001 C CNN
+F 4 "C25804" V 3450 1800 50  0001 C CNN "LCSC"
+	1    3450 1800
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 60110344
+P 3450 1700
+F 0 "#PWR011" H 3450 1550 50  0001 C CNN
+F 1 "+5V" H 3465 1873 50  0000 C CNN
+F 2 "" H 3450 1700 50  0001 C CNN
+F 3 "" H 3450 1700 50  0001 C CNN
+	1    3450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:1uF C9
+U 1 1 60111DBC
+P 3250 2500
+F 0 "C9" V 3021 2500 50  0000 C CNN
+F 1 "1uF" V 3112 2500 50  0000 C CNN
+F 2 "tom-passives:C_0603_1608Metric" H 3288 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" V 3250 2500 50  0001 C CNN
+F 4 "C15849" V 3250 2500 50  0001 C CNN "LCSC"
+	1    3250 2500
+	0    -1   1    0   
+$EndComp
+$Comp
+L tom-passives:CRYSTAL_4PIN X2
+U 1 1 60113853
+P 3100 3450
+F 0 "X2" H 3100 3742 60  0000 C CNN
+F 1 "12MHz" H 3100 3636 60  0000 C CNN
+F 2 "tom-passives:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3100 3636 60  0001 C CNN
+F 3 "" H 3100 3450 60  0001 C CNN
+F 4 "C9002" H 3100 3450 50  0001 C CNN "LCSC"
+	1    3100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 60114178
+P 3400 3850
+F 0 "#PWR025" H 3400 3600 50  0001 C CNN
+F 1 "GND" H 3405 3677 50  0000 C CNN
+F 2 "" H 3400 3850 50  0001 C CNN
+F 3 "" H 3400 3850 50  0001 C CNN
+	1    3400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3750 3050 3850
+Wire Wire Line
+	3150 3750 3150 3850
+Wire Wire Line
+	3400 3450 3400 3100
+Wire Wire Line
+	3400 3100 4000 3100
+Wire Wire Line
+	4000 3000 2800 3000
+Wire Wire Line
+	2800 3000 2800 3450
+Wire Wire Line
+	2800 3450 2800 3600
+Connection ~ 2800 3450
+Wire Wire Line
+	3400 3450 3400 3600
+Connection ~ 3400 3450
+Wire Wire Line
+	2800 3800 2800 3850
+Wire Wire Line
+	2800 3850 3050 3850
+Wire Wire Line
+	3400 3850 3400 3800
+Wire Wire Line
+	3150 3850 3400 3850
+Connection ~ 3400 3850
+Wire Wire Line
+	3050 3850 3150 3850
+Connection ~ 3050 3850
+Connection ~ 3150 3850
+Wire Wire Line
+	4900 1850 5000 1850
+Connection ~ 5000 1850
+Wire Wire Line
+	5000 1850 5100 1850
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C6
+U 1 1 601219E4
+P 5350 1750
+F 0 "C6" H 5442 1796 50  0000 L CNN
+F 1 "100nF" H 5442 1705 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 5388 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 5350 1750 50  0001 C CNN
+F 4 "C14663" V 5350 1750 50  0001 C CNN "LCSC"
+	1    5350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C7
+U 1 1 601224D7
+P 5750 1750
+F 0 "C7" H 5842 1796 50  0000 L CNN
+F 1 "100nF" H 5842 1705 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 5788 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 5750 1750 50  0001 C CNN
+F 4 "C14663" V 5750 1750 50  0001 C CNN "LCSC"
+	1    5750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C8
+U 1 1 60122AE4
+P 6150 1750
+F 0 "C8" H 6242 1796 50  0000 L CNN
+F 1 "100nF" H 6242 1705 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 6188 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 6150 1750 50  0001 C CNN
+F 4 "C14663" V 6150 1750 50  0001 C CNN "LCSC"
+	1    6150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60123166
+P 6150 1850
+F 0 "#PWR013" H 6150 1600 50  0001 C CNN
+F 1 "GND" H 6155 1677 50  0000 C CNN
+F 2 "" H 6150 1850 50  0001 C CNN
+F 3 "" H 6150 1850 50  0001 C CNN
+	1    6150 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1850 5750 1850
+Connection ~ 6150 1850
+Connection ~ 5750 1850
+Wire Wire Line
+	5750 1850 6150 1850
+Wire Wire Line
+	6150 1650 5750 1650
+Wire Wire Line
+	5100 1650 5100 1850
+Connection ~ 5350 1650
+Wire Wire Line
+	5350 1650 5100 1650
+Connection ~ 5750 1650
+Wire Wire Line
+	5750 1650 5350 1650
+Connection ~ 5100 1850
+$Comp
+L tom-passives:INDUCTOR_SMALL L1
+U 1 1 60127211
+P 5100 1400
+F 0 "L1" V 5054 1478 50  0000 L CNN
+F 1 "INDUCTOR_SMALL" V 5145 1478 50  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" V 5191 1478 60  0001 L CNN
+F 3 "" H 5100 1400 60  0001 C CNN
+	1    5100 1400
+	0    1    1    0   
+$EndComp
+Connection ~ 5100 1650
+$Comp
+L power:+3.3V #PWR07
+U 1 1 60127EFA
+P 5100 1150
+F 0 "#PWR07" H 5100 1000 50  0001 C CNN
+F 1 "+3.3V" H 5115 1323 50  0000 C CNN
+F 2 "" H 5100 1150 50  0001 C CNN
+F 3 "" H 5100 1150 50  0001 C CNN
+	1    5100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 60128E99
+P 4500 1150
+F 0 "#PWR05" H 4500 1000 50  0001 C CNN
+F 1 "+5V" H 4515 1323 50  0000 C CNN
+F 2 "" H 4500 1150 50  0001 C CNN
+F 3 "" H 4500 1150 50  0001 C CNN
+	1    4500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1150 4500 1850
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C5
+U 1 1 6012D231
+P 4150 1250
+F 0 "C5" H 4242 1296 50  0000 L CNN
+F 1 "100nF" H 4242 1205 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 4188 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 4150 1250 50  0001 C CNN
+F 4 "C14663" V 4150 1250 50  0001 C CNN "LCSC"
+	1    4150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:10uF C4
+U 1 1 6012DFE8
+P 4000 1250
+F 0 "C4" H 3909 1204 50  0000 R CNN
+F 1 "10uF" H 3909 1295 50  0000 R CNN
+F 2 "tom-passives:C_0603_1608Metric" H 4038 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" V 4000 1250 50  0001 C CNN
+F 4 "C19702" V 4000 1250 50  0001 C CNN "LCSC"
+	1    4000 1250
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 6013AEC4
+P 4150 1350
+F 0 "#PWR010" H 4150 1100 50  0001 C CNN
+F 1 "GND" H 4155 1177 50  0000 C CNN
+F 2 "" H 4150 1350 50  0001 C CNN
+F 3 "" H 4150 1350 50  0001 C CNN
+	1    4150 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1350 4150 1350
+Connection ~ 4150 1350
+Wire Wire Line
+	4000 1150 4150 1150
+Connection ~ 4500 1150
+Connection ~ 4150 1150
+Wire Wire Line
+	4150 1150 4500 1150
+Wire Wire Line
+	4600 1850 4600 1750
+Wire Wire Line
+	4600 1750 4700 1750
+Wire Wire Line
+	4700 1750 4700 1850
+$Comp
+L power:+3.3V #PWR06
+U 1 1 6013F6F2
+P 4700 1150
+F 0 "#PWR06" H 4700 1000 50  0001 C CNN
+F 1 "+3.3V" H 4715 1323 50  0000 C CNN
+F 2 "" H 4700 1150 50  0001 C CNN
+F 3 "" H 4700 1150 50  0001 C CNN
+	1    4700 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1150 4700 1750
+Connection ~ 4700 1750
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C3
+U 1 1 60142AB4
+P 6050 1100
+F 0 "C3" H 6142 1146 50  0000 L CNN
+F 1 "100nF" H 6142 1055 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 6088 950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 6050 1100 50  0001 C CNN
+F 4 "C14663" V 6050 1100 50  0001 C CNN "LCSC"
+	1    6050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:10uF C2
+U 1 1 60142D51
+P 5900 1100
+F 0 "C2" H 5809 1054 50  0000 R CNN
+F 1 "10uF" H 5809 1145 50  0000 R CNN
+F 2 "tom-passives:C_0603_1608Metric" H 5938 950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" V 5900 1100 50  0001 C CNN
+F 4 "C19702" V 5900 1100 50  0001 C CNN "LCSC"
+	1    5900 1100
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 60142D5B
+P 6050 1200
+F 0 "#PWR08" H 6050 950 50  0001 C CNN
+F 1 "GND" H 6055 1027 50  0000 C CNN
+F 2 "" H 6050 1200 50  0001 C CNN
+F 3 "" H 6050 1200 50  0001 C CNN
+	1    6050 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1200 6050 1200
+Connection ~ 6050 1200
+Wire Wire Line
+	5900 1000 6050 1000
+$Comp
+L power:+3.3V #PWR04
+U 1 1 60148D86
+P 6050 1000
+F 0 "#PWR04" H 6050 850 50  0001 C CNN
+F 1 "+3.3V" H 6065 1173 50  0000 C CNN
+F 2 "" H 6050 1000 50  0001 C CNN
+F 3 "" H 6050 1000 50  0001 C CNN
+	1    6050 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 1000
+Wire Wire Line
+	3450 2500 3350 2500
+Wire Wire Line
+	3150 2500 3100 2500
+Connection ~ 3100 2500
+Wire Wire Line
+	3100 2500 3100 2800
+$Comp
+L jlcpcb-basic-resistor-0603:10k R10
+U 1 1 60189A12
+P 3900 3400
+F 0 "R10" V 3704 3400 50  0000 C CNN
+F 1 "10k" V 3795 3400 50  0000 C CNN
+F 2 "tom-passives:R_0603_1608Metric" V 3830 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 3900 3400 50  0001 C CNN
+F 4 "C25804" V 3900 3400 50  0001 C CNN "LCSC"
+	1    3900 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR019
+U 1 1 6018B277
+P 3800 3400
+F 0 "#PWR019" H 3800 3250 50  0001 C CNN
+F 1 "+5V" V 3815 3528 50  0000 L CNN
+F 2 "" H 3800 3400 50  0001 C CNN
+F 3 "" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5550 2900
+NoConn ~ 5550 3000
+Wire Wire Line
+	4000 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 3600
+Wire Wire Line
+	4000 3400 4000 3300
+NoConn ~ 5550 3300
+NoConn ~ 5550 3400
+Connection ~ 4000 3400
+$Comp
+L power:GND #PWR020
+U 1 1 601C3B15
+P 1500 3550
+F 0 "#PWR020" H 1500 3300 50  0001 C CNN
+F 1 "GND" H 1505 3377 50  0000 C CNN
+F 2 "" H 1500 3550 50  0001 C CNN
+F 3 "" H 1500 3550 50  0001 C CNN
+	1    1500 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 5650 2300 2    50   BiDi ~ 0
+USB1_P
+Text HLabel 5650 2400 2    50   BiDi ~ 0
+USB1_N
+Wire Wire Line
+	5550 2300 5650 2300
+Wire Wire Line
+	5550 2400 5650 2400
+$Comp
+L tom-semiconductors:FT4232H-56Q-REEL U2
+U 1 1 6021CF10
+P 8250 4000
+F 0 "U2" H 8250 6167 50  0000 C CNN
+F 1 "FT4232H-56Q-REEL" H 8250 6076 50  0000 C CNN
+F 2 "tom-semiconductors:QFN50P800X800X100-57N" H 8250 4000 50  0001 L BNN
+F 3 "" H 8250 4000 50  0001 L BNN
+F 4 "FTDI" H 8250 4000 50  0001 L BNN "MANUFACTURER"
+	1    8250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2500 7350 2500
+Wire Wire Line
+	5550 2600 7350 2600
+$Comp
+L power:+5V #PWR09
+U 1 1 6023431E
+P 6700 1300
+F 0 "#PWR09" H 6700 1150 50  0001 C CNN
+F 1 "+5V" H 6715 1473 50  0000 C CNN
+F 2 "" H 6700 1300 50  0001 C CNN
+F 3 "" H 6700 1300 50  0001 C CNN
+	1    6700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1300 6700 1350
+Wire Wire Line
+	6700 1550 6700 1600
+Wire Wire Line
+	6700 1600 7350 1600
+Wire Wire Line
+	7350 1600 7350 2300
+Text Notes 6900 1600 0    50   ~ 0
+FTDI_RESET
+Text Notes 5750 1650 0    50   ~ 0
+GL850_AVDD
+Text Notes 5950 2500 0    50   ~ 0
+FTDI_USB_P
+Text Notes 5950 2600 0    50   ~ 0
+FTDI_USB_N
+Text Notes 3450 3000 0    50   ~ 0
+GL850_X1
+Text Notes 3450 3100 0    50   ~ 0
+GL850_X2
+$Comp
+L power:GND #PWR016
+U 1 1 602436E8
+P 7250 2400
+F 0 "#PWR016" H 7250 2150 50  0001 C CNN
+F 1 "GND" H 7255 2227 50  0000 C CNN
+F 2 "" H 7250 2400 50  0001 C CNN
+F 3 "" H 7250 2400 50  0001 C CNN
+	1    7250 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 2400 7350 2400
+$Comp
+L jlcpcb-basic-resistor-0603:12k R9
+U 1 1 60246A45
+P 7150 2700
+F 0 "R9" V 7050 2700 50  0000 C CNN
+F 1 "12k" V 7150 2700 50  0000 C CNN
+F 2 "tom-passives:R_0603_1608Metric" V 7080 2700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1202T5E_C22790.pdf" V 7150 2700 50  0001 C CNN
+F 4 "C22790" V 7150 2700 50  0001 C CNN "LCSC"
+	1    7150 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 60247E6A
+P 7050 2700
+F 0 "#PWR017" H 7050 2450 50  0001 C CNN
+F 1 "GND" H 7055 2527 50  0000 C CNN
+F 2 "" H 7050 2700 50  0001 C CNN
+F 3 "" H 7050 2700 50  0001 C CNN
+	1    7050 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 2700 7350 2700
+$Comp
+L tom-passives:CRYSTAL_4PIN X1
+U 1 1 6024F7A9
+P 6300 3350
+F 0 "X1" H 6300 3642 60  0000 C CNN
+F 1 "12MHz" H 6300 3536 60  0000 C CNN
+F 2 "tom-passives:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 6300 3536 60  0001 C CNN
+F 3 "" H 6300 3350 60  0001 C CNN
+F 4 "C9002" H 6300 3350 50  0001 C CNN "LCSC"
+	1    6300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 6024FB95
+P 6600 3750
+F 0 "#PWR023" H 6600 3500 50  0001 C CNN
+F 1 "GND" H 6605 3577 50  0000 C CNN
+F 2 "" H 6600 3750 50  0001 C CNN
+F 3 "" H 6600 3750 50  0001 C CNN
+	1    6600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3650 6250 3750
+Wire Wire Line
+	6350 3650 6350 3750
+Wire Wire Line
+	6600 3350 6600 3000
+Wire Wire Line
+	6000 2900 6000 3350
+Wire Wire Line
+	6000 3350 6000 3500
+Connection ~ 6000 3350
+Wire Wire Line
+	6600 3350 6600 3500
+Connection ~ 6600 3350
+Wire Wire Line
+	6000 3700 6000 3750
+Wire Wire Line
+	6000 3750 6250 3750
+Wire Wire Line
+	6600 3750 6600 3700
+Wire Wire Line
+	6350 3750 6600 3750
+Connection ~ 6600 3750
+Wire Wire Line
+	6250 3750 6350 3750
+Connection ~ 6250 3750
+Connection ~ 6350 3750
+Wire Wire Line
+	6000 2900 7350 2900
+Wire Wire Line
+	6600 3000 7350 3000
+$Comp
+L jlcpcb-basic-mlcc-0603:20pF C12
+U 1 1 60266406
+P 2800 3700
+F 0 "C12" H 2892 3746 50  0000 L CNN
+F 1 "20pF" H 2892 3655 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 2838 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf" V 2800 3700 50  0001 C CNN
+F 4 "C1648" V 2800 3700 50  0001 C CNN "LCSC"
+	1    2800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:20pF C13
+U 1 1 60266983
+P 3400 3700
+F 0 "C13" H 3492 3746 50  0000 L CNN
+F 1 "20pF" H 3492 3655 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 3438 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf" V 3400 3700 50  0001 C CNN
+F 4 "C1648" V 3400 3700 50  0001 C CNN "LCSC"
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:20pF C10
+U 1 1 60266EE2
+P 6000 3600
+F 0 "C10" H 6092 3646 50  0000 L CNN
+F 1 "20pF" H 6092 3555 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 6038 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf" V 6000 3600 50  0001 C CNN
+F 4 "C1648" V 6000 3600 50  0001 C CNN "LCSC"
+	1    6000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:20pF C11
+U 1 1 60268821
+P 6600 3600
+F 0 "C11" H 6692 3646 50  0000 L CNN
+F 1 "20pF" H 6692 3555 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 6638 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf" V 6600 3600 50  0001 C CNN
+F 4 "C1648" V 6600 3600 50  0001 C CNN "LCSC"
+	1    6600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 5400 9250 5400
+Wire Wire Line
+	9250 5400 9250 5500
+$Comp
+L power:GND #PWR026
+U 1 1 602736D3
+P 9250 5600
+F 0 "#PWR026" H 9250 5350 50  0001 C CNN
+F 1 "GND" H 9255 5427 50  0000 C CNN
+F 2 "" H 9250 5600 50  0001 C CNN
+F 3 "" H 9250 5600 50  0001 C CNN
+	1    9250 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 5500 9250 5500
+Connection ~ 9250 5500
+Wire Wire Line
+	9250 5500 9250 5600
+Text Label 9150 3200 0    50   ~ 0
+FTDI_EECLK
+Text Label 7350 3200 2    50   ~ 0
+FTDI_EECS
+Text Label 7350 3300 2    50   ~ 0
+FTDI_EEDATA
+$Comp
+L tom-semiconductors:74HC595 U3
+U 1 1 6027B0B9
+P 2000 6750
+F 0 "U3" H 1750 6100 50  0000 C CNN
+F 1 "74HC595" H 2200 6100 50  0000 C CNN
+F 2 "tom-semiconductors:SOIC-16_4.55x10.3mm_P1.27mm" H 2000 6750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2000 6750 50  0001 C CNN
+	1    2000 6750
+	1    0    0    -1  
+$EndComp
+Text Label 9150 2800 0    50   ~ 0
+FTDI_PWREN
+Text Label 1200 6950 2    50   ~ 0
+FTDI_PWREN
+Text Label 1200 6850 2    50   ~ 0
+FTDI_EECS
+Text Label 1200 6550 2    50   ~ 0
+FTDI_EECLK
+Text Label 1200 6350 2    50   ~ 0
+FTDI_EEDATA
+Wire Wire Line
+	1200 6350 1600 6350
+Wire Wire Line
+	1200 6550 1600 6550
+Wire Wire Line
+	1200 6850 1600 6850
+Wire Wire Line
+	1200 6950 1400 6950
+$Comp
+L jlcpcb-basic-resistor-0603:10k R11
+U 1 1 60297FA7
+P 1400 6100
+F 0 "R11" H 1459 6146 50  0000 L CNN
+F 1 "10k" H 1459 6055 50  0000 L CNN
+F 2 "tom-passives:R_0603_1608Metric" V 1330 6100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 1400 6100 50  0001 C CNN
+F 4 "C25804" V 1400 6100 50  0001 C CNN "LCSC"
+	1    1400 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6650 1500 6650
+Wire Wire Line
+	1500 6650 1500 5900
+$Comp
+L power:+3.3V #PWR027
+U 1 1 6029CBFC
+P 1500 5900
+F 0 "#PWR027" H 1500 5750 50  0001 C CNN
+F 1 "+3.3V" H 1515 6073 50  0000 C CNN
+F 2 "" H 1500 5900 50  0001 C CNN
+F 3 "" H 1500 5900 50  0001 C CNN
+	1    1500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR028
+U 1 1 6029D16D
+P 2000 5900
+F 0 "#PWR028" H 2000 5750 50  0001 C CNN
+F 1 "+3.3V" H 2015 6073 50  0000 C CNN
+F 2 "" H 2000 5900 50  0001 C CNN
+F 3 "" H 2000 5900 50  0001 C CNN
+	1    2000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5900 2000 6150
+Wire Wire Line
+	1400 6200 1400 6950
+Connection ~ 1400 6950
+Wire Wire Line
+	1400 6950 1600 6950
+Wire Wire Line
+	1400 6000 1400 5900
+Wire Wire Line
+	1400 5900 1500 5900
+Connection ~ 1500 5900
+$Comp
+L power:GND #PWR029
+U 1 1 602ADD19
+P 2000 7450
+F 0 "#PWR029" H 2000 7200 50  0001 C CNN
+F 1 "GND" H 2005 7277 50  0000 C CNN
+F 2 "" H 2000 7450 50  0001 C CNN
+F 3 "" H 2000 7450 50  0001 C CNN
+	1    2000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Red D7
+U 1 1 602B9BED
+P 4050 7100
+F 0 "D7" V 4089 6982 50  0000 R CNN
+F 1 "TX4" V 3998 6982 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 4050 7100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4050 7100 50  0001 C CNN
+F 4 "C2286" V 4050 7100 50  0001 C CNN "LCSC"
+	1    4050 7100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2400 7250
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Green D8
+U 1 1 602C2885
+P 3750 7200
+F 0 "D8" V 3789 7082 50  0000 R CNN
+F 1 "RX4" V 3698 7082 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 3750 7200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" V 3750 7200 50  0001 C CNN
+F 4 "C72043" V 3750 7200 50  0001 C CNN "LCSC"
+	1    3750 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 602C4A48
+P 3750 7450
+F 0 "#PWR030" H 3750 7200 50  0001 C CNN
+F 1 "GND" H 3755 7277 50  0000 C CNN
+F 2 "" H 3750 7450 50  0001 C CNN
+F 3 "" H 3750 7450 50  0001 C CNN
+	1    3750 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7350 3750 7450
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Red D5
+U 1 1 602C886C
+P 4650 6900
+F 0 "D5" V 4689 6782 50  0000 R CNN
+F 1 "TX3" V 4598 6782 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 4650 6900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4650 6900 50  0001 C CNN
+F 4 "C2286" V 4650 6900 50  0001 C CNN "LCSC"
+	1    4650 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Green D6
+U 1 1 602C8A3B
+P 4350 7000
+F 0 "D6" V 4389 6882 50  0000 R CNN
+F 1 "RX3" V 4298 6882 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 4350 7000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" V 4350 7000 50  0001 C CNN
+F 4 "C72043" V 4350 7000 50  0001 C CNN "LCSC"
+	1    4350 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Red D3
+U 1 1 602D0763
+P 5250 6700
+F 0 "D3" V 5289 6582 50  0000 R CNN
+F 1 "TX2" V 5198 6582 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 5250 6700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 6700 50  0001 C CNN
+F 4 "C2286" V 5250 6700 50  0001 C CNN "LCSC"
+	1    5250 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Green D4
+U 1 1 602D0962
+P 4950 6800
+F 0 "D4" V 4989 6682 50  0000 R CNN
+F 1 "RX2" V 4898 6682 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 4950 6800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" V 4950 6800 50  0001 C CNN
+F 4 "C72043" V 4950 6800 50  0001 C CNN "LCSC"
+	1    4950 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Red D1
+U 1 1 602D096D
+P 5850 6500
+F 0 "D1" V 5889 6382 50  0000 R CNN
+F 1 "TX1" V 5798 6382 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 5850 6500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5850 6500 50  0001 C CNN
+F 4 "C2286" V 5850 6500 50  0001 C CNN "LCSC"
+	1    5850 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jlcpcb-basic-led:D_LED_0603_Green D2
+U 1 1 602D0978
+P 5550 6600
+F 0 "D2" V 5589 6482 50  0000 R CNN
+F 1 "RX1" V 5498 6482 50  0000 R CNN
+F 2 "tom-opto:LED_0603_1608Metric" H 5550 6600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" V 5550 6600 50  0001 C CNN
+F 4 "C72043" V 5550 6600 50  0001 C CNN "LCSC"
+	1    5550 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 7450 4050 7450
+Wire Wire Line
+	5850 7450 5850 6650
+Connection ~ 3750 7450
+Wire Wire Line
+	5550 6750 5550 7450
+Connection ~ 5550 7450
+Wire Wire Line
+	5550 7450 5850 7450
+Wire Wire Line
+	5250 6850 5250 7450
+Connection ~ 5250 7450
+Wire Wire Line
+	5250 7450 5550 7450
+Wire Wire Line
+	4950 6950 4950 7450
+Connection ~ 4950 7450
+Wire Wire Line
+	4950 7450 5250 7450
+Wire Wire Line
+	4650 7050 4650 7450
+Connection ~ 4650 7450
+Wire Wire Line
+	4650 7450 4950 7450
+Wire Wire Line
+	4350 7150 4350 7450
+Connection ~ 4350 7450
+Wire Wire Line
+	4350 7450 4650 7450
+Wire Wire Line
+	4050 7250 4050 7450
+Connection ~ 4050 7450
+Wire Wire Line
+	4050 7450 4350 7450
+$Comp
+L tom-passives:R_PACK4 RP1
+U 1 1 60318243
+P 3350 6700
+F 0 "RP1" H 3350 7242 40  0000 C CNN
+F 1 "470R" H 3350 7166 40  0000 C CNN
+F 2 "tom-passives:R_Array_Convex_4x0603" H 3350 6700 60  0001 C CNN
+F 3 "" H 3350 6700 60  0001 C CNN
+F 4 "C25510" H 3350 6700 50  0001 C CNN "LCSC"
+F 5 "4D03WGJ0471T5E" H 3350 6700 50  0001 C CNN "MPN"
+	1    3350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R_PACK4 RP2
+U 1 1 60319491
+P 3350 7100
+F 0 "RP2" H 3350 7000 40  0000 C CNN
+F 1 "470R" H 3350 7050 40  0000 C CNN
+F 2 "tom-passives:R_Array_Convex_4x0603" H 3350 7100 60  0001 C CNN
+F 3 "" H 3350 7100 60  0001 C CNN
+F 4 "C25510" H 3350 7100 50  0001 C CNN "LCSC"
+F 5 "4D03WGJ0471T5E" H 3350 7100 50  0001 C CNN "MPN"
+	1    3350 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 7050 3750 7050
+Wire Wire Line
+	3550 6950 4050 6950
+Wire Wire Line
+	3550 6850 4350 6850
+Wire Wire Line
+	3550 6750 4650 6750
+Wire Wire Line
+	3550 6650 4950 6650
+Wire Wire Line
+	3550 6550 5250 6550
+Wire Wire Line
+	3550 6450 5550 6450
+Wire Wire Line
+	3550 6350 5850 6350
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C33
+U 1 1 60378BCA
+P 1000 7350
+F 0 "C33" H 1092 7396 50  0000 L CNN
+F 1 "100nF" H 1092 7305 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 1038 7200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 1000 7350 50  0001 C CNN
+F 4 "C14663" V 1000 7350 50  0001 C CNN "LCSC"
+	1    1000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 6037905B
+P 1000 7450
+F 0 "#PWR061" H 1000 7200 50  0001 C CNN
+F 1 "GND" H 1005 7277 50  0000 C CNN
+F 2 "" H 1000 7450 50  0001 C CNN
+F 3 "" H 1000 7450 50  0001 C CNN
+	1    1000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR060
+U 1 1 60379068
+P 1000 7250
+F 0 "#PWR060" H 1000 7100 50  0001 C CNN
+F 1 "+3.3V" H 1015 7423 50  0000 C CNN
+F 2 "" H 1000 7250 50  0001 C CNN
+F 3 "" H 1000 7250 50  0001 C CNN
+	1    1000 7250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9150 2900
+Wire Wire Line
+	9150 2600 9250 2600
+Wire Wire Line
+	9250 2600 9250 2100
+Wire Wire Line
+	9250 2100 9150 2100
+$Comp
+L power:+3.3V #PWR050
+U 1 1 603B4745
+P 9400 1350
+F 0 "#PWR050" H 9400 1200 50  0001 C CNN
+F 1 "+3.3V" H 9415 1523 50  0000 C CNN
+F 2 "" H 9400 1350 50  0001 C CNN
+F 3 "" H 9400 1350 50  0001 C CNN
+	1    9400 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1350 9400 2200
+Wire Wire Line
+	9400 2200 9150 2200
+Wire Wire Line
+	9400 2200 9400 2500
+Wire Wire Line
+	9400 2500 9150 2500
+Connection ~ 9400 2200
+$Comp
+L tom-passives:INDUCTOR_SMALL L3
+U 1 1 603C3B60
+P 10450 1650
+F 0 "L3" V 10404 1728 50  0000 L CNN
+F 1 "100mA" V 10495 1728 50  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" V 10541 1728 60  0001 L CNN
+F 3 "" H 10450 1650 60  0001 C CNN
+	1    10450 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L tom-passives:INDUCTOR_SMALL L2
+U 1 1 603C4DF0
+P 10350 1650
+F 0 "L2" V 10304 1728 50  0000 L CNN
+F 1 "100mA" V 10395 1728 50  0000 L CNN
+F 2 "tom-passives:C_0805_2012Metric" V 10441 1728 60  0001 L CNN
+F 3 "" H 10350 1650 60  0001 C CNN
+	1    10350 1650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9400 1350 10350 1350
+Wire Wire Line
+	10450 1350 10450 1400
+Connection ~ 9400 1350
+Wire Wire Line
+	10350 1400 10350 1350
+Connection ~ 10350 1350
+Wire Wire Line
+	10350 1350 10450 1350
+Wire Wire Line
+	10350 1900 10350 2300
+Wire Wire Line
+	10350 2300 9150 2300
+Wire Wire Line
+	10450 1900 10450 2400
+Wire Wire Line
+	10450 2400 9150 2400
+$Comp
+L jlcpcb-basic-mlcc-0603:4.7uF C23
+U 1 1 603DDC7B
+P 10450 2500
+F 0 "C23" H 10542 2546 50  0000 L CNN
+F 1 "4.7uF" H 10542 2455 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10488 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" V 10450 2500 50  0001 C CNN
+F 4 "C19666" V 10450 2500 50  0001 C CNN "LCSC"
+	1    10450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C24
+U 1 1 603DF4C0
+P 10850 2500
+F 0 "C24" H 10942 2546 50  0000 L CNN
+F 1 "100nF" H 10942 2455 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10888 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 10850 2500 50  0001 C CNN
+F 4 "C14663" V 10850 2500 50  0001 C CNN "LCSC"
+	1    10850 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10450 2400
+Wire Wire Line
+	10450 2400 10850 2400
+Wire Wire Line
+	10450 2600 10850 2600
+$Comp
+L power:GND #PWR052
+U 1 1 603EE4F4
+P 10850 2600
+F 0 "#PWR052" H 10850 2350 50  0001 C CNN
+F 1 "GND" H 10855 2427 50  0000 C CNN
+F 2 "" H 10850 2600 50  0001 C CNN
+F 3 "" H 10850 2600 50  0001 C CNN
+	1    10850 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 2600
+$Comp
+L jlcpcb-basic-mlcc-0603:4.7uF C27
+U 1 1 603F01D8
+P 10450 3000
+F 0 "C27" H 10542 3046 50  0000 L CNN
+F 1 "4.7uF" H 10542 2955 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10488 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" V 10450 3000 50  0001 C CNN
+F 4 "C19666" V 10450 3000 50  0001 C CNN "LCSC"
+	1    10450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C28
+U 1 1 603F0421
+P 10850 3000
+F 0 "C28" H 10942 3046 50  0000 L CNN
+F 1 "100nF" H 10942 2955 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10888 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 10850 3000 50  0001 C CNN
+F 4 "C14663" V 10850 3000 50  0001 C CNN "LCSC"
+	1    10850 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 10450 2900
+Wire Wire Line
+	10450 2900 10850 2900
+Wire Wire Line
+	10450 3100 10850 3100
+$Comp
+L power:GND #PWR054
+U 1 1 603F042F
+P 10850 3100
+F 0 "#PWR054" H 10850 2850 50  0001 C CNN
+F 1 "GND" H 10855 2927 50  0000 C CNN
+F 2 "" H 10850 3100 50  0001 C CNN
+F 3 "" H 10850 3100 50  0001 C CNN
+	1    10850 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 3100
+Wire Wire Line
+	10350 2300 10350 2900
+Wire Wire Line
+	10350 2900 10450 2900
+Connection ~ 10350 2300
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C22
+U 1 1 603FF864
+P 8850 1450
+F 0 "C22" H 8942 1496 50  0000 L CNN
+F 1 "100nF" H 8942 1405 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 8888 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 8850 1450 50  0001 C CNN
+F 4 "C14663" V 8850 1450 50  0001 C CNN "LCSC"
+	1    8850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C21
+U 1 1 603FFE81
+P 8450 1450
+F 0 "C21" H 8542 1496 50  0000 L CNN
+F 1 "100nF" H 8542 1405 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 8488 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 8450 1450 50  0001 C CNN
+F 4 "C14663" V 8450 1450 50  0001 C CNN "LCSC"
+	1    8450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C20
+U 1 1 6040037C
+P 8050 1450
+F 0 "C20" H 8142 1496 50  0000 L CNN
+F 1 "100nF" H 8142 1405 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 8088 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 8050 1450 50  0001 C CNN
+F 4 "C14663" V 8050 1450 50  0001 C CNN "LCSC"
+	1    8050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C19
+U 1 1 6040080F
+P 7650 1450
+F 0 "C19" H 7742 1496 50  0000 L CNN
+F 1 "100nF" H 7742 1405 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 7688 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 7650 1450 50  0001 C CNN
+F 4 "C14663" V 7650 1450 50  0001 C CNN "LCSC"
+	1    7650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 60400DD1
+P 8850 1550
+F 0 "#PWR051" H 8850 1300 50  0001 C CNN
+F 1 "GND" H 8855 1377 50  0000 C CNN
+F 2 "" H 8850 1550 50  0001 C CNN
+F 3 "" H 8850 1550 50  0001 C CNN
+	1    8850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1550 8050 1550
+Connection ~ 8850 1550
+Connection ~ 8050 1550
+Wire Wire Line
+	8050 1550 8450 1550
+Connection ~ 8450 1550
+Wire Wire Line
+	8450 1550 8850 1550
+Wire Wire Line
+	7650 1350 8050 1350
+Connection ~ 8050 1350
+Wire Wire Line
+	8050 1350 8450 1350
+Connection ~ 8450 1350
+Wire Wire Line
+	8450 1350 8850 1350
+Connection ~ 8850 1350
+Wire Wire Line
+	8850 1350 9400 1350
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C26
+U 1 1 6040F6DD
+P 10050 3000
+F 0 "C26" H 10142 3046 50  0000 L CNN
+F 1 "100nF" H 10142 2955 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10088 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 10050 3000 50  0001 C CNN
+F 4 "C14663" V 10050 3000 50  0001 C CNN "LCSC"
+	1    10050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2500 10050 2500
+Wire Wire Line
+	10050 2500 10050 2900
+Connection ~ 9400 2500
+Wire Wire Line
+	10050 3100 10450 3100
+Connection ~ 10450 3100
+$Comp
+L jlcpcb-basic-mlcc-0603:4.7uF C25
+U 1 1 60450384
+P 9750 2700
+F 0 "C25" H 9842 2746 50  0000 L CNN
+F 1 "4.7uF" H 9842 2655 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 9788 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" V 9750 2700 50  0001 C CNN
+F 4 "C19666" V 9750 2700 50  0001 C CNN "LCSC"
+	1    9750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C32
+U 1 1 6045038F
+P 10850 3550
+F 0 "C32" H 10942 3596 50  0000 L CNN
+F 1 "100nF" H 10942 3505 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10888 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 10850 3550 50  0001 C CNN
+F 4 "C14663" V 10850 3550 50  0001 C CNN "LCSC"
+	1    10850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 6045039C
+P 10850 3650
+F 0 "#PWR055" H 10850 3400 50  0001 C CNN
+F 1 "GND" H 10855 3477 50  0000 C CNN
+F 2 "" H 10850 3650 50  0001 C CNN
+F 3 "" H 10850 3650 50  0001 C CNN
+	1    10850 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 3650
+Wire Wire Line
+	9250 2600 9650 2600
+Wire Wire Line
+	9650 2600 9650 3450
+Wire Wire Line
+	9650 3450 10050 3450
+Connection ~ 9250 2600
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C30
+U 1 1 60463C37
+P 10050 3550
+F 0 "C30" H 10142 3596 50  0000 L CNN
+F 1 "100nF" H 10142 3505 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10088 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 10050 3550 50  0001 C CNN
+F 4 "C14663" V 10050 3550 50  0001 C CNN "LCSC"
+	1    10050 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10050 3450
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C29
+U 1 1 604642FE
+P 9650 3550
+F 0 "C29" H 9742 3596 50  0000 L CNN
+F 1 "100nF" H 9742 3505 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 9688 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 9650 3550 50  0001 C CNN
+F 4 "C14663" V 9650 3550 50  0001 C CNN "LCSC"
+	1    9650 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 9650 3450
+Wire Wire Line
+	9650 3650 10050 3650
+Connection ~ 10050 3650
+$Comp
+L power:GND #PWR053
+U 1 1 6046EFD5
+P 9750 2800
+F 0 "#PWR053" H 9750 2550 50  0001 C CNN
+F 1 "GND" H 9755 2627 50  0000 C CNN
+F 2 "" H 9750 2800 50  0001 C CNN
+F 3 "" H 9750 2800 50  0001 C CNN
+	1    9750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2600 9750 2600
+Wire Wire Line
+	10050 3450 10450 3450
+Wire Wire Line
+	10050 3650 10450 3650
+Connection ~ 9650 2600
+$Comp
+L jlcpcb-basic-mlcc-0603:100nF C31
+U 1 1 60477909
+P 10450 3550
+F 0 "C31" H 10542 3596 50  0000 L CNN
+F 1 "100nF" H 10542 3505 50  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric" H 10488 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" V 10450 3550 50  0001 C CNN
+F 4 "C14663" V 10450 3550 50  0001 C CNN "LCSC"
+	1    10450 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10450 3450
+Wire Wire Line
+	10450 3450 10850 3450
+Connection ~ 10450 3650
+Wire Wire Line
+	10450 3650 10850 3650
+$Comp
+L jlcpcb-basic-mlcc-0603:10uF C18
+U 1 1 60484E27
+P 2650 1050
+F 0 "C18" H 2559 1004 50  0000 R CNN
+F 1 "10uF" H 2559 1095 50  0000 R CNN
+F 2 "tom-passives:C_0603_1608Metric" H 2688 900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" V 2650 1050 50  0001 C CNN
+F 4 "C19702" V 2650 1050 50  0001 C CNN "LCSC"
+	1    2650 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 950  2650 950 
+Connection ~ 2500 950 
+$Comp
+L power:GND #PWR049
+U 1 1 6049C1CD
+P 2650 1150
+F 0 "#PWR049" H 2650 900 50  0001 C CNN
+F 1 "GND" H 2655 977 50  0000 C CNN
+F 2 "" H 2650 1150 50  0001 C CNN
+F 3 "" H 2650 1150 50  0001 C CNN
+	1    2650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:FUSE F1
+U 1 1 604D86AF
+P 2500 1450
+F 0 "F1" V 2462 1553 40  0000 L CNN
+F 1 "500mA" V 2538 1553 40  0000 L CNN
+F 2 "tom-passives:C_1206_3216Metric" H 2500 1450 60  0001 C CNN
+F 3 "" H 2500 1450 60  0001 C CNN
+	1    2500 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1200 2500 950 
+Text Label 2500 1950 1    50   ~ 0
+VBUS
+Text Label 3450 2500 0    50   ~ 0
+GL850_RESET
+Wire Wire Line
+	3450 1900 3450 2500
+Connection ~ 3450 2500
+Wire Wire Line
+	3450 2500 4000 2500
+Text Label 6600 2900 0    50   ~ 0
+FTDI_OSCI
+Text Label 6600 3000 0    50   ~ 0
+FTDI_OSCO
+$Comp
+L jlcpcb-basic-resistor-0603:10k R2
+U 1 1 6053423A
+P 6700 1450
+F 0 "R2" H 6759 1496 50  0000 L CNN
+F 1 "10k" H 6759 1405 50  0000 L CNN
+F 2 "tom-passives:R_0603_1608Metric" V 6630 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 6700 1450 50  0001 C CNN
+F 4 "C25804" V 6700 1450 50  0001 C CNN "LCSC"
+	1    6700 1450
+	1    0    0    -1  
+$EndComp
+Text HLabel 7350 3600 0    50   Output ~ 0
+FTDI_TX1
+Text HLabel 7350 3700 0    50   Input ~ 0
+FTDI_RX1
+Text HLabel 7350 3900 0    50   Input ~ 0
+FTDI_CTS1
+Text HLabel 7350 3800 0    50   Output ~ 0
+FTDI_RTS1
+Text HLabel 7350 4500 0    50   Output ~ 0
+FTDI_TX2
+Text HLabel 7350 4600 0    50   Input ~ 0
+FTDI_RX2
+NoConn ~ 7350 4000
+NoConn ~ 7350 4100
+NoConn ~ 7350 4200
+NoConn ~ 7350 4300
+NoConn ~ 7350 4700
+NoConn ~ 7350 4800
+NoConn ~ 7350 4900
+NoConn ~ 7350 5000
+NoConn ~ 7350 5100
+NoConn ~ 7350 5200
+Text HLabel 9150 3600 2    50   Output ~ 0
+FTDI_TCK
+Text HLabel 9150 3700 2    50   Output ~ 0
+FTDI_TDI
+Text HLabel 9150 3800 2    50   Input ~ 0
+FTDI_TDO
+NoConn ~ 9150 4000
+NoConn ~ 9150 4100
+NoConn ~ 9150 4200
+NoConn ~ 9150 4300
+NoConn ~ 9150 3900
+NoConn ~ 9150 4500
+Text HLabel 9150 4600 2    50   Input ~ 0
+FTDI_SWO
+NoConn ~ 9150 4700
+NoConn ~ 9150 4800
+NoConn ~ 9150 4900
+NoConn ~ 9150 5000
+NoConn ~ 9150 5100
+NoConn ~ 9150 5200
+Wire Wire Line
+	5550 2800 5650 2800
+$Comp
+L tom-connectors:USB_A J8
+U 1 1 6064A79E
+P 1650 4300
+F 0 "J8" H 1707 4767 50  0000 C CNN
+F 1 "USBHUB" H 1707 4676 50  0000 C CNN
+F 2 "tom-connectors:OST_USB-A1HSW6" H 1800 4250 50  0001 C CNN
+F 3 " ~" H 1800 4250 50  0001 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2800 5650 4400
+Wire Wire Line
+	5650 4400 1950 4400
+Wire Wire Line
+	1950 4300 5750 4300
+Wire Wire Line
+	5550 2700 5750 2700
+Text Label 2100 4300 0    50   ~ 0
+USBHUB_P
+Text Label 2100 4400 0    50   ~ 0
+USBHUB_N
+$Comp
+L power:GND #PWR056
+U 1 1 60665461
+P 1550 4700
+F 0 "#PWR056" H 1550 4450 50  0001 C CNN
+F 1 "GND" H 1555 4527 50  0000 C CNN
+F 2 "" H 1550 4700 50  0001 C CNN
+F 3 "" H 1550 4700 50  0001 C CNN
+	1    1550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR057
+U 1 1 60665837
+P 1650 4700
+F 0 "#PWR057" H 1650 4450 50  0001 C CNN
+F 1 "GND" H 1655 4527 50  0000 C CNN
+F 2 "" H 1650 4700 50  0001 C CNN
+F 3 "" H 1650 4700 50  0001 C CNN
+	1    1650 4700
+	1    0    0    -1  
+$EndComp
+Text Label 1950 4100 0    50   ~ 0
+VBUS
+Wire Wire Line
+	5750 4300 5750 2700
+$Comp
+L tom-connectors:USB_A J9
+U 1 1 6068D692
+P 900 5200
+F 0 "J9" H 957 5667 50  0000 C CNN
+F 1 "USBHOST" H 957 5576 50  0000 C CNN
+F 2 "tom-connectors:OST_USB-A1HSW6" H 1050 5150 50  0001 C CNN
+F 3 " ~" H 1050 5150 50  0001 C CNN
+	1    900  5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR058
+U 1 1 6068DD3C
+P 800 5600
+F 0 "#PWR058" H 800 5350 50  0001 C CNN
+F 1 "GND" H 805 5427 50  0000 C CNN
+F 2 "" H 800 5600 50  0001 C CNN
+F 3 "" H 800 5600 50  0001 C CNN
+	1    800  5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR059
+U 1 1 6068DD46
+P 900 5600
+F 0 "#PWR059" H 900 5350 50  0001 C CNN
+F 1 "GND" H 905 5427 50  0000 C CNN
+F 2 "" H 900 5600 50  0001 C CNN
+F 3 "" H 900 5600 50  0001 C CNN
+	1    900  5600
+	1    0    0    -1  
+$EndComp
+Text Label 1200 5000 0    50   ~ 0
+VBUS
+Text HLabel 1200 5200 2    50   BiDi ~ 0
+USBHOST_P
+Text HLabel 1200 5300 2    50   BiDi ~ 0
+USBHOST_N
+Text Label 3700 6350 0    50   ~ 0
+TX1_LED
+Text Label 3700 6450 0    50   ~ 0
+RX1_LED
+Text Label 3700 6550 0    50   ~ 0
+TX2_LED
+Text Label 3700 6650 0    50   ~ 0
+RX2_LED
+Text Label 3700 6750 0    50   ~ 0
+TX2_LED
+Text Label 3700 6850 0    50   ~ 0
+RX3_LED
+Text Label 3700 6950 0    50   ~ 0
+TX4_LED
+Text Label 3700 7050 0    50   ~ 0
+RX4_LED
+Wire Wire Line
+	3150 6650 2850 6650
+Wire Wire Line
+	2850 6650 2850 6350
+Wire Wire Line
+	2850 6350 2400 6350
+Wire Wire Line
+	3150 6350 2950 6350
+Wire Wire Line
+	2950 6350 2950 6250
+Wire Wire Line
+	2950 6250 2750 6250
+Wire Wire Line
+	2750 6250 2750 6650
+Wire Wire Line
+	2750 6650 2400 6650
+Wire Wire Line
+	3150 6450 2650 6450
+Wire Wire Line
+	2650 6450 2650 6550
+Wire Wire Line
+	2650 6550 2400 6550
+Wire Wire Line
+	3150 6550 3050 6550
+Wire Wire Line
+	3050 6150 2550 6150
+Wire Wire Line
+	2550 6150 2550 6450
+Wire Wire Line
+	2550 6450 2400 6450
+Wire Wire Line
+	3050 6150 3050 6550
+Wire Wire Line
+	2400 6750 2950 6750
+Wire Wire Line
+	2950 6750 2950 7050
+Wire Wire Line
+	2950 7050 3150 7050
+Wire Wire Line
+	3150 6750 3050 6750
+Wire Wire Line
+	3050 6750 3050 7150
+Wire Wire Line
+	3050 7150 2400 7150
+Wire Wire Line
+	2400 7150 2400 7050
+Wire Wire Line
+	3150 6850 2600 6850
+Wire Wire Line
+	2600 6850 2600 6950
+Wire Wire Line
+	2600 6950 2400 6950
+Wire Wire Line
+	2400 6850 2500 6850
+Wire Wire Line
+	2500 6850 2500 7050
+Wire Wire Line
+	2500 7050 2700 7050
+Wire Wire Line
+	2700 7050 2700 6950
+Wire Wire Line
+	2700 6950 3150 6950
+$EndSCHEMATC
