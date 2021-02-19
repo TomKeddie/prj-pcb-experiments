@@ -7,3 +7,6 @@
 [submodule "peace-sign/badgelife-parts"]
 	path = peace-sign/badgelife-parts
 	url = https://github.com/devec0/badgelife-parts
+[submodule "esp8266-wiz550io/kicad-ESP8266"]
+	path = esp8266-wiz550io/kicad-ESP8266
+	url = https://github.com/jdunmire/kicad-ESP8266.git
