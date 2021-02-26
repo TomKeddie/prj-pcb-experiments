@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -24,18 +24,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1950 26
 	1    1800 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L tom-semiconductors:GL850 U1
-U 1 1 600FF287
-P 4750 2800
-F 0 "U1" H 4300 1900 60  0000 C CNN
-F 1 "GL850" H 5200 1900 60  0000 C CNN
-F 2 "tom-semiconductors:SSOP-28_5.3x10.2mm_P0.65mm" H 4750 2800 60  0001 C CNN
-F 3 "" H 4750 2800 60  0001 C CNN
-F 4 "C136617" H 4750 2800 50  0001 C CNN "LCSC"
-	1    4750 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 2850 2500 2850
 Wire Wire Line
@@ -43,7 +31,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 2750 2400 2750
 Wire Wire Line
-	2500 2750 4000 2750
+	2500 2750 3900 2750
 Connection ~ 2500 2750
 Wire Wire Line
 	2400 2550 2500 2550
@@ -53,10 +41,6 @@ Wire Wire Line
 	2500 2650 2400 2650
 Wire Wire Line
 	2500 2650 3900 2650
-Wire Wire Line
-	3900 2650 3900 2850
-Wire Wire Line
-	3900 2850 4000 2850
 Connection ~ 2500 2650
 Text Label 2650 2750 0    50   ~ 0
 USBC_P
@@ -115,8 +99,6 @@ $EndComp
 Wire Wire Line
 	2950 2350 3100 2350
 Wire Wire Line
-	3100 2350 3100 2500
-Wire Wire Line
 	2700 2250 3100 2250
 Wire Wire Line
 	3100 2250 3100 2350
@@ -138,191 +120,6 @@ Wire Wire Line
 	2500 2050 2500 1700
 NoConn ~ 2400 3150
 NoConn ~ 2400 3250
-$Comp
-L power:GND #PWR022
-U 1 1 60108C1B
-P 3900 3600
-F 0 "#PWR022" H 3900 3350 50  0001 C CNN
-F 1 "GND" H 3905 3427 50  0000 C CNN
-F 2 "" H 3900 3600 50  0001 C CNN
-F 3 "" H 3900 3600 50  0001 C CNN
-	1    3900 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 601096B6
-P 4750 3800
-F 0 "#PWR024" H 4750 3550 50  0001 C CNN
-F 1 "GND" H 4755 3627 50  0000 C CNN
-F 2 "" H 4750 3800 50  0001 C CNN
-F 3 "" H 4750 3800 50  0001 C CNN
-	1    4750 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L jlcpcb-basic-resistor-0603:680R R5
-U 1 1 6010A3F9
-P 3250 2200
-F 0 "R5" V 3054 2200 50  0000 C CNN
-F 1 "680R" V 3145 2200 50  0000 C CNN
-F 2 "tom-passives:R_0603_1608Metric" V 3180 2200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF6800T5E_C23228.pdf" V 3250 2200 50  0001 C CNN
-F 4 "C23228" V 3250 2200 50  0001 C CNN "LCSC"
-	1    3250 2200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3150 2200 3100 2200
-Wire Wire Line
-	3100 2200 3100 2250
-Connection ~ 3100 2250
-Wire Wire Line
-	3350 2200 4000 2200
-$Comp
-L jlcpcb-basic-resistor-0603:10k R4
-U 1 1 6010C3A0
-P 3900 1900
-F 0 "R4" H 3959 1946 50  0000 L CNN
-F 1 "10k" H 3959 1855 50  0000 L CNN
-F 2 "tom-passives:R_0603_1608Metric" V 3830 1900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 3900 1900 50  0001 C CNN
-F 4 "C25804" V 3900 1900 50  0001 C CNN "LCSC"
-	1    3900 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2300 3900 2300
-Wire Wire Line
-	3900 2300 3900 2000
-$Comp
-L jlcpcb-basic-resistor-0603:100k R3
-U 1 1 6010D590
-P 3800 1900
-F 0 "R3" H 3742 1854 50  0000 R CNN
-F 1 "100k" H 3742 1945 50  0000 R CNN
-F 2 "tom-passives:R_0603_1608Metric" V 3730 1900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf" V 3800 1900 50  0001 C CNN
-F 4 "C25803" V 3800 1900 50  0001 C CNN "LCSC"
-	1    3800 1900
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3800 2000 3800 2400
-Wire Wire Line
-	3800 2400 4000 2400
-$Comp
-L power:+3.3V #PWR012
-U 1 1 6010E91F
-P 3900 1700
-F 0 "#PWR012" H 3900 1550 50  0001 C CNN
-F 1 "+3.3V" H 3915 1873 50  0000 C CNN
-F 2 "" H 3900 1700 50  0001 C CNN
-F 3 "" H 3900 1700 50  0001 C CNN
-	1    3900 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 1800 3800 1700
-Wire Wire Line
-	3800 1700 3900 1700
-Wire Wire Line
-	3900 1700 3900 1800
-Connection ~ 3900 1700
-$Comp
-L jlcpcb-basic-resistor-0603:10k R8
-U 1 1 6010FCA7
-P 3450 1800
-F 0 "R8" V 3254 1800 50  0000 C CNN
-F 1 "10k" V 3345 1800 50  0000 C CNN
-F 2 "tom-passives:R_0603_1608Metric" V 3380 1800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 3450 1800 50  0001 C CNN
-F 4 "C25804" V 3450 1800 50  0001 C CNN "LCSC"
-	1    3450 1800
-	1    0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR011
-U 1 1 60110344
-P 3450 1700
-F 0 "#PWR011" H 3450 1550 50  0001 C CNN
-F 1 "+5V" H 3465 1873 50  0000 C CNN
-F 2 "" H 3450 1700 50  0001 C CNN
-F 3 "" H 3450 1700 50  0001 C CNN
-	1    3450 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L jlcpcb-basic-mlcc-0603:1uF C9
-U 1 1 60111DBC
-P 3250 2500
-F 0 "C9" V 3021 2500 50  0000 C CNN
-F 1 "1uF" V 3112 2500 50  0000 C CNN
-F 2 "tom-passives:C_0603_1608Metric" H 3288 2350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" V 3250 2500 50  0001 C CNN
-F 4 "C15849" V 3250 2500 50  0001 C CNN "LCSC"
-	1    3250 2500
-	0    -1   1    0   
-$EndComp
-$Comp
-L tom-passives:CRYSTAL_4PIN X2
-U 1 1 60113853
-P 3100 3450
-F 0 "X2" H 3100 3742 60  0000 C CNN
-F 1 "12MHz" H 3100 3636 60  0000 C CNN
-F 2 "tom-passives:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3100 3636 60  0001 C CNN
-F 3 "" H 3100 3450 60  0001 C CNN
-F 4 "C9002" H 3100 3450 50  0001 C CNN "LCSC"
-	1    3100 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 60114178
-P 3400 3850
-F 0 "#PWR025" H 3400 3600 50  0001 C CNN
-F 1 "GND" H 3405 3677 50  0000 C CNN
-F 2 "" H 3400 3850 50  0001 C CNN
-F 3 "" H 3400 3850 50  0001 C CNN
-	1    3400 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 3750 3050 3850
-Wire Wire Line
-	3150 3750 3150 3850
-Wire Wire Line
-	3400 3450 3400 3100
-Wire Wire Line
-	3400 3100 4000 3100
-Wire Wire Line
-	4000 3000 2800 3000
-Wire Wire Line
-	2800 3000 2800 3450
-Wire Wire Line
-	2800 3450 2800 3600
-Connection ~ 2800 3450
-Wire Wire Line
-	3400 3450 3400 3600
-Connection ~ 3400 3450
-Wire Wire Line
-	2800 3800 2800 3850
-Wire Wire Line
-	2800 3850 3050 3850
-Wire Wire Line
-	3400 3850 3400 3800
-Wire Wire Line
-	3150 3850 3400 3850
-Connection ~ 3400 3850
-Wire Wire Line
-	3050 3850 3150 3850
-Connection ~ 3050 3850
-Connection ~ 3150 3850
-Wire Wire Line
-	4900 1850 5000 1850
-Connection ~ 5000 1850
-Wire Wire Line
-	5000 1850 5100 1850
 $Comp
 L jlcpcb-basic-mlcc-0603:100nF C6
 U 1 1 601219E4
@@ -386,7 +183,6 @@ Wire Wire Line
 Connection ~ 5750 1650
 Wire Wire Line
 	5750 1650 5350 1650
-Connection ~ 5100 1850
 $Comp
 L tom-passives:INDUCTOR_SMALL L1
 U 1 1 60127211
@@ -539,47 +335,6 @@ F 3 "" H 6050 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6050 1000
-Wire Wire Line
-	3450 2500 3350 2500
-Wire Wire Line
-	3150 2500 3100 2500
-Connection ~ 3100 2500
-Wire Wire Line
-	3100 2500 3100 2800
-$Comp
-L jlcpcb-basic-resistor-0603:10k R10
-U 1 1 60189A12
-P 3900 3400
-F 0 "R10" V 3704 3400 50  0000 C CNN
-F 1 "10k" V 3795 3400 50  0000 C CNN
-F 2 "tom-passives:R_0603_1608Metric" V 3830 3400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" V 3900 3400 50  0001 C CNN
-F 4 "C25804" V 3900 3400 50  0001 C CNN "LCSC"
-	1    3900 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR019
-U 1 1 6018B277
-P 3800 3400
-F 0 "#PWR019" H 3800 3250 50  0001 C CNN
-F 1 "+5V" V 3815 3528 50  0000 L CNN
-F 2 "" H 3800 3400 50  0001 C CNN
-F 3 "" H 3800 3400 50  0001 C CNN
-	1    3800 3400
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 5550 2900
-NoConn ~ 5550 3000
-Wire Wire Line
-	4000 3500 3900 3500
-Wire Wire Line
-	3900 3500 3900 3600
-Wire Wire Line
-	4000 3400 4000 3300
-NoConn ~ 5550 3300
-NoConn ~ 5550 3400
-Connection ~ 4000 3400
 $Comp
 L power:GND #PWR020
 U 1 1 601C3B15
@@ -642,10 +397,6 @@ Text Notes 5950 2500 0    50   ~ 0
 FTDI_USB_P
 Text Notes 5950 2600 0    50   ~ 0
 FTDI_USB_N
-Text Notes 3450 3000 0    50   ~ 0
-GL850_X1
-Text Notes 3450 3100 0    50   ~ 0
-GL850_X2
 $Comp
 L power:GND #PWR016
 U 1 1 602436E8
@@ -738,30 +489,6 @@ Wire Wire Line
 	6000 2900 7350 2900
 Wire Wire Line
 	6600 3000 7350 3000
-$Comp
-L jlcpcb-basic-mlcc-0603:20pF C12
-U 1 1 60266406
-P 2800 3700
-F 0 "C12" H 2892 3746 50  0000 L CNN
-F 1 "20pF" H 2892 3655 50  0000 L CNN
-F 2 "tom-passives:C_0603_1608Metric" H 2838 3550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf" V 2800 3700 50  0001 C CNN
-F 4 "C1648" V 2800 3700 50  0001 C CNN "LCSC"
-	1    2800 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L jlcpcb-basic-mlcc-0603:20pF C13
-U 1 1 60266983
-P 3400 3700
-F 0 "C13" H 3492 3746 50  0000 L CNN
-F 1 "20pF" H 3492 3655 50  0000 L CNN
-F 2 "tom-passives:C_0603_1608Metric" H 3438 3550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C200JB8NNNC_C1648.pdf" V 3400 3700 50  0001 C CNN
-F 4 "C1648" V 3400 3700 50  0001 C CNN "LCSC"
-	1    3400 3700
-	1    0    0    -1  
-$EndComp
 $Comp
 L jlcpcb-basic-mlcc-0603:20pF C10
 U 1 1 60266EE2
@@ -1525,13 +1252,6 @@ Wire Wire Line
 	2500 1200 2500 950 
 Text Label 2500 1950 1    50   ~ 0
 VBUS
-Text Label 3450 2500 0    50   ~ 0
-GL850_RESET
-Wire Wire Line
-	3450 1900 3450 2500
-Connection ~ 3450 2500
-Wire Wire Line
-	3450 2500 4000 2500
 Text Label 6600 2900 0    50   ~ 0
 FTDI_OSCI
 Text Label 6600 3000 0    50   ~ 0
@@ -1590,8 +1310,6 @@ NoConn ~ 9150 4900
 NoConn ~ 9150 5000
 NoConn ~ 9150 5100
 NoConn ~ 9150 5200
-Wire Wire Line
-	5550 2800 5650 2800
 $Comp
 L tom-connectors:USB_A J8
 U 1 1 6064A79E
@@ -1604,13 +1322,9 @@ F 3 " ~" H 1800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 2800 5650 4400
+	3900 4400 1950 4400
 Wire Wire Line
-	5650 4400 1950 4400
-Wire Wire Line
-	1950 4300 5750 4300
-Wire Wire Line
-	5550 2700 5750 2700
+	1950 4300 3900 4300
 Text Label 2100 4300 0    50   ~ 0
 USBHUB_P
 Text Label 2100 4400 0    50   ~ 0
@@ -1639,8 +1353,6 @@ F 3 "" H 1650 4700 50  0001 C CNN
 $EndComp
 Text Label 1950 4100 0    50   ~ 0
 VBUS
-Wire Wire Line
-	5750 4300 5750 2700
 $Comp
 L tom-connectors:USB_A J9
 U 1 1 6068D692
@@ -1758,4 +1470,22 @@ Wire Wire Line
 	2700 7050 2700 6950
 Wire Wire Line
 	2700 6950 3150 6950
+Wire Wire Line
+	4900 1850 5100 1850
+Wire Wire Line
+	3100 2350 3100 2800
+$Sheet
+S 3900 2200 1650 2300
+U 602938DF
+F0 "micromod-carrier-usb-hub" 50
+F1 "micromod-carrier-usb-hub.sch" 50
+F2 "USB1_P" I R 5550 2300 50 
+F3 "USB1_N" I R 5550 2400 50 
+F4 "USB2_P" I R 5550 2500 50 
+F5 "USB2_N" I R 5550 2600 50 
+F6 "USB3_P" I L 3900 2650 50 
+F7 "USB3_N" I L 3900 2750 50 
+F8 "USB4_P" I L 3900 4300 50 
+F9 "USB4_N" I L 3900 4400 50 
+$EndSheet
 $EndSCHEMATC
