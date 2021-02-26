@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pi4-pcie-patch)(type KiCad)(uri ${KIPRJMOD}/pi4-pcie-patch.pretty)(options "")(descr ""))
+)
