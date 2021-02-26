@@ -848,4 +848,8 @@ Text Label 2250 4800 0    50   ~ 0
 AC12B
 Text Label 4700 5950 0    50   ~ 0
 VBUS
+Text Notes 4500 3150 0    50   ~ 0
+1.4V @ 20mA
+Text Notes 3650 3150 0    50   ~ 0
+48V/20k = 2.4mA
 $EndSCHEMATC
