@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.6-c6e7f7d~87~ubuntu19.10.1"
+      "Version":     "5.1.7-a382d34a8~88~ubuntu20.04.1"
     },
-    "CreationDate":  "2020-12-17T14:15:56-08:00"
+    "CreationDate":  "2021-01-14T11:41:57-08:00"
   },
   "GeneralSpecs":
   {
@@ -19,7 +19,7 @@
     },
     "Size":
     {
-      "X": 32.840,
+      "X": 46.780,
       "Y": 8.432
     },
     "LayerNumber": 2,
