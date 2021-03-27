@@ -1,0 +1,4 @@
+Reference, Quantity, Value, Footprint, Datasheet
+U1 ,1,"GAL22V10PLCC","tom-semiconductors:PLCC-28_THT-Socket",""
+U2 ,1,"27C040","tom-semiconductors:PLCC-32_THT-Socket","http://ww1.microchip.com/downloads/en/devicedoc/doc0189.pdf"
+U3 ,1,"DIP_32","tom-semiconductors:DIP-32_W15.24mm_LongPads",""

@@ -1,0 +1,8 @@
+** Drc report for /home/tom/git/TomKeddie/prj-pcb-experiments/galep4-plcc-28/galep4-plcc-28.kicad_pcb **
+** Created on 2021-03-27 06:24:56 **
+
+** Found 0 DRC errors **
+
+** Found 0 unconnected pads **
+
+** End of Report **
