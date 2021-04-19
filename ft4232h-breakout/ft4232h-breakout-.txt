@@ -1,0 +1,15 @@
+ERC report (Sun Apr 18 20:06:34 2021, Encoding UTF8 )
+
+***** Sheet /
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(175.26 mm, 128.27 mm): Pin 1 (Power input) of component #PWR0110 is not driven (Net 12).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(165.10 mm, 96.52 mm): Pin 1 (Power input) of component #PWR0117 is not driven (Net 32).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(113.03 mm, 40.64 mm): Pin 3-12 (Power input) of component X1 is not driven (Net 33).
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @(101.60 mm, 69.85 mm): Pin 2-5 on X1 is connected to both +3V3 and Net-(X1-Pad2-5)
+ErrType(2): Pin not connected (use a "no connection" flag to suppress this error)
+    @(137.16 mm, 125.73 mm): Pin 2-12 (Bidirectional) of component X1 is unconnected.
+
+ ** ERC messages: 5  Errors 1  Warnings 4
