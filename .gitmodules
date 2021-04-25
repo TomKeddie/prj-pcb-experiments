@@ -10,3 +10,6 @@
 [submodule "tom-kicad"]
 	path = tom-kicad
 	url = git@github.com:TomKeddie/tom-kicad.git
+[submodule "keypad-prototype/keypad-base/keyboardio-kicad-libraries"]
+	path = keypad-prototype/keypad-base/keyboardio-kicad-libraries
+	url = git@github.com:keyboardio/keyboardio-kicad-libraries.git
