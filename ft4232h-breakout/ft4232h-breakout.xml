@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/ft4232h-breakout/ft4232h-breakout.sch</source>
-    <date>Sun Apr 18 20:21:29 2021</date>
+    <date>Sun Apr 25 16:06:19 2021</date>
     <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -172,22 +172,20 @@
       <value>TestPoint</value>
       <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="" part="TestPoint" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6094F833</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="TestPoint">
-      <description>test point</description>
-      <docs>~</docs>
+    <libpart lib="" part="Connector_TestPoint">
       <footprints>
         <fp>Pin*</fp>
         <fp>Test*</fp>
       </footprints>
       <fields>
         <field name="Reference">TP</field>
-        <field name="Value">TestPoint</field>
+        <field name="Value">Connector_TestPoint</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -380,9 +378,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector">
-      <uri>/usr/share/kicad/library/Connector.lib</uri>
-    </library>
     <library logical="ft4232h-breakout">
       <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/ft4232h-breakout/ft4232h-breakout.lib</uri>
     </library>
