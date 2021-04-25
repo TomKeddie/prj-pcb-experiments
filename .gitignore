@@ -4,13 +4,13 @@
 # Temporary files
 *.000
 *.bak
+*-bak
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
 *~
 _autosave-*
 *.tmp
-<<<<<<< HEAD
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
@@ -25,3 +25,5 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+tmp/
