@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
-Rev ""
+Date "2021-04-25"
+Rev "Apr2021"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L tom-mechanical:Switch_SW_Push SW1
+L tom-mechanical:SW_SPST SW1
 U 1 1 6080321B
 P 1050 850
 F 0 "SW1" H 1050 1135 50  0000 C CNN
 F 1 "Switch_SW_Push" H 1050 1044 50  0000 C CNN
-F 2 "tom-mechanical:MX-KailhClip-1.00u-no-top-ring" H 1050 1050 50  0001 C CNN
+F 2 "tom-mechanical:SW_SPST_SMD_SIDE_7.0x3.5" H 1050 1050 50  0001 C CNN
 F 3 "" H 1050 1050 50  0001 C CNN
 	1    1050 850 
 	1    0    0    -1  
@@ -91,12 +91,12 @@ F 3 "" H 1050 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tom-mechanical:Switch_SW_Push SW8
+L tom-mechanical:SW_SPST SW8
 U 1 1 60806E1F
 P 1050 3650
 F 0 "SW8" H 1050 3935 50  0000 C CNN
 F 1 "Switch_SW_Push" H 1050 3844 50  0000 C CNN
-F 2 "tom-mechanical:MX-KailhClip-1.00u-no-top-ring" H 1050 3850 50  0001 C CNN
+F 2 "tom-mechanical:SW_SPST_SMD_SIDE_7.0x3.5" H 1050 3850 50  0001 C CNN
 F 3 "" H 1050 3850 50  0001 C CNN
 	1    1050 3650
 	1    0    0    -1  
@@ -699,86 +699,8 @@ Text Label 4800 6050 0    50   ~ 0
 SW8
 Wire Wire Line
 	3000 4150 3450 4150
-$Comp
-L tom-modules:IE096HQ1301CL U2
-U 1 1 60878F17
-P 2550 1350
-F 0 "U2" H 2700 1900 50  0000 C CNN
-F 1 "IE096HQ1301CL" H 2950 850 50  0000 C CNN
-F 2 "tom-mechanical:IE096HQ1301CL" H 2550 1150 50  0001 C CNN
-F 3 "" H 2550 1150 50  0001 C CNN
-	1    2550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 6088E5CF
-P 2550 1900
-F 0 "#PWR0117" H 2550 1650 50  0001 C CNN
-F 1 "GND" H 2555 1727 50  0000 C CNN
-F 2 "" H 2550 1900 50  0001 C CNN
-F 3 "" H 2550 1900 50  0001 C CNN
-	1    2550 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 1900 2550 1900
-Connection ~ 2550 1900
-Wire Wire Line
-	2550 1900 2650 1900
-Text Label 2900 1100 0    50   ~ 0
-SDA
-Text Label 2900 1200 0    50   ~ 0
-SCL
-Text Label 2900 1300 0    50   ~ 0
-D\C
-$Comp
-L power:+3.3V #PWR0118
-U 1 1 60897FBE
-P 2550 750
-F 0 "#PWR0118" H 2550 600 50  0001 C CNN
-F 1 "+3.3V" H 2565 923 50  0000 C CNN
-F 2 "" H 2550 750 50  0001 C CNN
-F 3 "" H 2550 750 50  0001 C CNN
-	1    2550 750 
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2200 1050
-NoConn ~ 2200 950 
-$Comp
-L power:+5V #PWR0119
-U 1 1 608A1B4F
-P 2100 1450
-F 0 "#PWR0119" H 2100 1300 50  0001 C CNN
-F 1 "+5V" V 2115 1578 50  0000 L CNN
-F 2 "" H 2100 1450 50  0001 C CNN
-F 3 "" H 2100 1450 50  0001 C CNN
-	1    2100 1450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2100 1450 2200 1450
-$Comp
-L tom-passives:R R4
-U 1 1 608A5F9E
-P 2000 1800
-F 0 "R4" H 2071 1838 40  0000 L CNN
-F 1 "470R" H 2071 1762 40  0000 L CNN
-F 2 "tom-passives:R_0805_2012Metric" H 2071 1724 30  0001 L CNN
-F 3 "" H 2000 1800 30  0001 C CNN
-	1    2000 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 1550 2000 1550
-Text Label 2900 1000 0    50   ~ 0
-~CS1
 Text Notes 7950 750  0    50   ~ 0
 Backlight, R  = (5 - 3.2) / 5mA = 360R  use 470R
-Text Label 2200 1250 2    50   ~ 0
-~LCDRESET
-Text Label 2000 2050 3    50   ~ 0
-BACKLIGHTK
 $Comp
 L tom-modules:IE096HQ1301CL U3
 U 1 1 608C04B6
@@ -1264,84 +1186,6 @@ Text Label 8900 3100 2    50   ~ 0
 Text Label 8700 3900 3    50   ~ 0
 BACKLIGHTK
 $Comp
-L tom-modules:IE096HQ1301CL U9
-U 1 1 60918688
-P 10600 3200
-F 0 "U9" H 10750 3750 50  0000 C CNN
-F 1 "IE096HQ1301CL" H 11000 2700 50  0000 C CNN
-F 2 "tom-mechanical:IE096HQ1301CL" H 10600 3000 50  0001 C CNN
-F 3 "" H 10600 3000 50  0001 C CNN
-	1    10600 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0138
-U 1 1 60918692
-P 10600 3750
-F 0 "#PWR0138" H 10600 3500 50  0001 C CNN
-F 1 "GND" H 10605 3577 50  0000 C CNN
-F 2 "" H 10600 3750 50  0001 C CNN
-F 3 "" H 10600 3750 50  0001 C CNN
-	1    10600 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 3750 10600 3750
-Connection ~ 10600 3750
-Wire Wire Line
-	10600 3750 10700 3750
-Text Label 10950 2950 0    50   ~ 0
-SDA
-Text Label 10950 3050 0    50   ~ 0
-SCL
-Text Label 10950 3150 0    50   ~ 0
-D\C
-$Comp
-L power:+3.3V #PWR0139
-U 1 1 609186A2
-P 10600 2600
-F 0 "#PWR0139" H 10600 2450 50  0001 C CNN
-F 1 "+3.3V" H 10615 2773 50  0000 C CNN
-F 2 "" H 10600 2600 50  0001 C CNN
-F 3 "" H 10600 2600 50  0001 C CNN
-	1    10600 2600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10250 2900
-NoConn ~ 10250 2800
-$Comp
-L power:+5V #PWR0140
-U 1 1 609186AE
-P 10150 3300
-F 0 "#PWR0140" H 10150 3150 50  0001 C CNN
-F 1 "+5V" V 10165 3428 50  0000 L CNN
-F 2 "" H 10150 3300 50  0001 C CNN
-F 3 "" H 10150 3300 50  0001 C CNN
-	1    10150 3300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10150 3300 10250 3300
-$Comp
-L tom-passives:R R11
-U 1 1 609186B9
-P 10050 3650
-F 0 "R11" H 10121 3688 40  0000 L CNN
-F 1 "470R" H 10121 3612 40  0000 L CNN
-F 2 "tom-passives:R_0805_2012Metric" H 10121 3574 30  0001 L CNN
-F 3 "" H 10050 3650 30  0001 C CNN
-	1    10050 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 3400 10050 3400
-Text Label 10950 2850 0    50   ~ 0
-~CS8
-Text Label 10250 3100 2    50   ~ 0
-~LCDRESET
-Text Label 10050 3900 3    50   ~ 0
-BACKLIGHTK
-$Comp
 L tom-semiconductors:AO3400A Q1
 U 1 1 6097D634
 P 10550 4900
@@ -1751,17 +1595,6 @@ F 3 "" H 9400 1350 50  0001 C CNN
 $EndComp
 Connection ~ 9400 1350
 $Comp
-L tom-passives:C C10
-U 1 1 60C09438
-P 5650 4600
-F 0 "C10" H 5765 4638 40  0000 L CNN
-F 1 "0.1uF/6.3V" H 5765 4562 40  0000 L CNN
-F 2 "tom-passives:C_0805_2012Metric" H 5688 4450 30  0001 C CNN
-F 3 "" H 5650 4600 60  0001 C CNN
-	1    5650 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L tom-passives:C C11
 U 1 1 60C09B20
 P 6200 4600
@@ -1772,7 +1605,6 @@ F 3 "" H 6200 4600 60  0001 C CNN
 	1    6200 4600
 	1    0    0    -1  
 $EndComp
-Connection ~ 5650 4400
 Wire Wire Line
 	5650 4400 6200 4400
 $Comp
@@ -1856,22 +1688,8 @@ F 3 "" H 8950 4600 60  0001 C CNN
 	1    8950 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L tom-passives:C C19
-U 1 1 60C3C001
-P 9500 4600
-F 0 "C19" H 9615 4638 40  0000 L CNN
-F 1 "0.1uF/6.3V" H 9615 4562 40  0000 L CNN
-F 2 "tom-passives:C_0805_2012Metric" H 9538 4450 30  0001 C CNN
-F 3 "" H 9500 4600 60  0001 C CNN
-	1    9500 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6750 4400 7300 4400
-Connection ~ 8950 4400
-Wire Wire Line
-	8950 4400 9500 4400
 Connection ~ 8400 4400
 Wire Wire Line
 	8400 4400 8950 4400
@@ -1883,16 +1701,12 @@ Wire Wire Line
 	7300 4400 7850 4400
 Wire Wire Line
 	5650 4800 6200 4800
-Connection ~ 5650 4800
 Connection ~ 6200 4800
 Wire Wire Line
 	6200 4800 6750 4800
 Connection ~ 6750 4800
 Wire Wire Line
 	6750 4800 7300 4800
-Connection ~ 8950 4800
-Wire Wire Line
-	8950 4800 9500 4800
 Connection ~ 8400 4800
 Wire Wire Line
 	8400 4800 8950 4800
@@ -2050,4 +1864,50 @@ F 3 "" H 6350 6750 50  0001 C CNN
 $EndComp
 Text Label 6350 6650 0    50   ~ 0
 ~RESET
+NoConn ~ 4800 4850
+NoConn ~ 4800 4550
+$Comp
+L tom-mechanical:mech-only-no-pins H2
+U 1 1 6092DA39
+P 7850 6750
+F 0 "H2" H 7875 6796 50  0000 L CNN
+F 1 "mech-only-no-pins" H 7875 6705 50  0000 L CNN
+F 2 "tom-mechanical:STUD_SOLDER_M3" H 7850 6750 50  0001 C CNN
+F 3 "" H 7850 6750 50  0001 C CNN
+	1    7850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-mechanical:mech-only-no-pins H3
+U 1 1 6093A2F6
+P 7850 6950
+F 0 "H3" H 7875 6996 50  0000 L CNN
+F 1 "mech-only-no-pins" H 7875 6905 50  0000 L CNN
+F 2 "tom-mechanical:STUD_SOLDER_M3" H 7850 6950 50  0001 C CNN
+F 3 "" H 7850 6950 50  0001 C CNN
+	1    7850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-mechanical:mech-only-no-pins H4
+U 1 1 6094DC5B
+P 8750 6750
+F 0 "H4" H 8775 6796 50  0000 L CNN
+F 1 "mech-only-no-pins" H 8775 6705 50  0000 L CNN
+F 2 "tom-mechanical:STUD_SOLDER_M3" H 8750 6750 50  0001 C CNN
+F 3 "" H 8750 6750 50  0001 C CNN
+	1    8750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-mechanical:mech-only-no-pins H5
+U 1 1 6094DFAB
+P 8750 6950
+F 0 "H5" H 8775 6996 50  0000 L CNN
+F 1 "mech-only-no-pins" H 8775 6905 50  0000 L CNN
+F 2 "tom-mechanical:STUD_SOLDER_M3" H 8750 6950 50  0001 C CNN
+F 3 "" H 8750 6950 50  0001 C CNN
+	1    8750 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
