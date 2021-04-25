@@ -1,0 +1,46 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: false
+  run_drc: false
+  check_zone_fills: true
+
+global:
+  output: '%f-%r.%x'
+  kiauto_time_out_scale: 2.0
+
+outputs:
+  - name: 'gerbers'
+    type: gerber
+    dir: gerber
+    options:
+      create_gerber_job_file: false
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      gerber_precision: 4.6
+      output: '%f-%i%v.%x'
+      tent_vias: true
+      use_aux_axis_as_origin: true
+      use_gerber_x2_attributes: false
+    layers:
+        - copper
+        - technical
+        - 'Edge.Cuts'
+
+  - name: 'drills'
+    type: excellon
+    dir: gerber
+    options:
+      pth_and_npth_single_file: true
+      use_aux_axis_as_origin: true
+      metric_units: true
+
+  - name: 'gerber-zip-file'
+    type: compress
+    options:
+      output: '%f-%r-%D-%T.%x'
+      format: 'ZIP'
+      files:
+        - from_output: 'gerbers'
+        - from_output: 'drills'

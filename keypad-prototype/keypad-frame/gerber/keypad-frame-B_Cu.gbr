@@ -1,0 +1,25 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.7-a382d34a8~88~ubuntu20.04.1*
+G04 #@! TF.CreationDate,2021-04-25T15:40:14-07:00*
+G04 #@! TF.ProjectId,keypad-frame,6b657970-6164-42d6-9672-616d652e6b69,Apr2021*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L2,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.1.7-a382d34a8~88~ubuntu20.04.1) date 2021-04-25 15:40:14*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ViaPad*
+%ADD10C,4.810000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.N,*
+X225500000Y-111900000D03*
+X225500000Y-59900000D03*
+X107500000Y-111900000D03*
+X107500000Y-59900000D03*
+G04 #@! TD*
+M02*
