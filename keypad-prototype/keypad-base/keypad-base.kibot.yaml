@@ -1,0 +1,153 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: false
+  update_xml: true
+  run_drc: false
+  check_zone_fills: true
+  ignore_unconnected: false
+
+global:
+  output: '%f-%r.%x'
+  kiauto_time_out_scale: 2.0
+
+outputs:
+  - name: 'gerbers'
+    type: gerber
+    dir: gerber
+    options:
+      create_gerber_job_file: false
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      gerber_precision: 4.6
+      output: '%f-%i%v.%x'
+      tent_vias: true
+      use_aux_axis_as_origin: true
+      use_gerber_x2_attributes: false
+    layers:
+        - copper
+        - technical
+
+  - name: 'drills'
+    type: excellon
+    dir: gerber
+    options:
+      pth_and_npth_single_file: true
+      use_aux_axis_as_origin: true
+      metric_units: true
+
+  - name: 'bom'
+    type: bom
+    dir: bom
+    options:
+      output: '%f-jlc-%r.%x'
+      ref_separator: ','
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: 'sch_svg'
+    type: svg_sch_print
+    dir: doc
+    options:
+      output: '%f-sch-%r.%x'
+
+  - name: 'sch_pdf'
+    type: pdf_sch_print
+    dir: doc
+    options:
+      output: '%f-sch-%r.%x'
+
+  - name: 'pcb_svg_f'
+    type: svg
+    dir: doc
+    options:
+      output: '%f-front-%r.%x'
+      mirror_plot: false
+    layers:
+      - 'Edge.Cuts'
+      - 'F.Cu'
+      - 'F.SilkS'
+      - 'F.Paste'
+      - 'F.Mask'
+
+  - name: 'pcb_svg_b'
+    type: svg
+    dir: doc
+    options:
+      output: '%f-back-%r.%x'
+      mirror_plot: true
+    layers:
+      - 'Edge.Cuts'
+      - 'B.Cu'
+      - 'B.SilkS'
+      - 'B.Paste'
+      - 'B.Mask'
+
+  - name: 'pcb_pdf_f'
+    type: pdf_pcb_print
+    dir: doc
+    options:
+      output: '%f-front-%r.%x'
+      mirror_plot: true
+    layers:
+      - 'Edge.Cuts'
+      - 'F.Cu'
+      - 'F.SilkS'
+      - 'F.Paste'
+      - 'F.Mask'
+
+  - name: 'pcb_pdf_b'
+    type: pdf_pcb_print
+    dir: doc
+    options:
+      output: '%f-back-%r.%x'
+      mirror_plot: true
+    layers:
+      - 'Edge.Cuts'
+      - 'B.Cu'
+      - 'B.SilkS'
+      - 'B.Paste'
+      - 'B.Mask'
+
+  - name: 'ibom'
+    type: ibom
+    dir: bom
+    options:
+      include_tracks: true
+
+  - name: 'step'
+    type: step
+    dir: 3d
+
+  - name: 'dxf'
+    type: dxf
+    dir: dxf
+    options:
+      use_aux_axis_as_origin: true
+      plot_footprint_values: false
+      plot_footprint_refs: false
+      metric_units: true
+      exclude_edge_layer: true
+      sketch_plot: true
+      drill_marks: 'none'
+      polygon_mode: false
+    layers:
+      - 'Edge.Cuts'
+      - 'Eco1.User'
+
+  - name: 'gerber-zip-file'
+    type: compress
+    options:
+      output: '%f-%r-%D-%T.%x'
+      format: 'ZIP'
+      files:
+        - from_output: 'gerbers'
+        - from_output: 'drills'

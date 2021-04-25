@@ -1,0 +1,32 @@
+** Drc report for /home/tom/git/TomKeddie/prj-pcb-experiments/keypad-prototype/keypad-base/keypad-base.kicad_pcb **
+** Created on 2021-04-25 14:27:57 **
+
+** Found 8 DRC errors **
+ErrType(19): Pad too close to pad
+    @(96.810 mm, 80.010 mm): Pad of J1 on All copper layers
+    @(98.150 mm, 79.850 mm): Pad B1 of J1 on B.Cu and others
+ErrType(19): Pad too close to pad
+    @(96.810 mm, 85.790 mm): Pad of J1 on All copper layers
+    @(98.150 mm, 85.450 mm): Pad A4 of J1 on B.Cu and others
+ErrType(19): Pad too close to pad
+    @(122.810 mm, 97.460 mm): Pad 2 of SW2 on All copper layers
+    @(124.080 mm, 100.000 mm): Pad of SW2 on All copper layers
+ErrType(19): Pad too close to pad
+    @(141.810 mm, 97.460 mm): Pad 2 of SW3 on All copper layers
+    @(143.080 mm, 100.000 mm): Pad of SW3 on All copper layers
+ErrType(19): Pad too close to pad
+    @(160.810 mm, 97.460 mm): Pad 2 of SW4 on All copper layers
+    @(162.080 mm, 100.000 mm): Pad of SW4 on All copper layers
+ErrType(19): Pad too close to pad
+    @(179.810 mm, 97.460 mm): Pad 2 of SW5 on All copper layers
+    @(181.080 mm, 100.000 mm): Pad of SW5 on All copper layers
+ErrType(19): Pad too close to pad
+    @(198.810 mm, 97.460 mm): Pad 2 of SW6 on All copper layers
+    @(200.080 mm, 100.000 mm): Pad of SW6 on All copper layers
+ErrType(19): Pad too close to pad
+    @(217.810 mm, 97.460 mm): Pad 2 of SW7 on All copper layers
+    @(219.080 mm, 100.000 mm): Pad of SW7 on All copper layers
+
+** Found 0 unconnected pads **
+
+** End of Report **

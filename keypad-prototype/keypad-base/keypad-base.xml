@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tom/git/TomKeddie/prj-pcb-experiments/keypad-prototype/keypad-base/keypad-base.sch</source>
+    <date>Sun Apr 25 14:41:56 2021</date>
+    <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>Apr2021</rev>
+        <date>2021-04-25</date>
+        <source>keypad-base.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:SW_SPST_SMD_SIDE_7.0x3.5</footprint>
+      <libsource lib="tom-mechanical" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6080321B</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:MX-KailhClip-1.00u-no-top-ring</footprint>
+      <libsource lib="tom-mechanical" part="Switch_SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60805AE6</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:MX-KailhClip-1.00u-no-top-ring</footprint>
+      <libsource lib="tom-mechanical" part="Switch_SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60805EB1</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:MX-KailhClip-1.00u-no-top-ring</footprint>
+      <libsource lib="tom-mechanical" part="Switch_SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60805EF9</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:MX-KailhClip-1.00u-no-top-ring</footprint>
+      <libsource lib="tom-mechanical" part="Switch_SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60806D97</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:MX-KailhClip-1.00u-no-top-ring</footprint>
+      <libsource lib="tom-mechanical" part="Switch_SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60806E0B</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:MX-KailhClip-1.00u-no-top-ring</footprint>
+      <libsource lib="tom-mechanical" part="Switch_SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60806E15</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>Switch_SW_Push</value>
+      <footprint>tom-mechanical:SW_SPST_SMD_SIDE_7.0x3.5</footprint>
+      <libsource lib="tom-mechanical" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60806E1F</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>16MHz</value>
+      <footprint>tom-passives:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
+      <fields>
+        <field name="MPN">CX5032GB16</field>
+      </fields>
+      <libsource lib="tom-passives" part="CRYSTAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E0F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E15</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>18pF</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E27</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>18pF</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E2D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E3F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E45</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>AVR-ISP-6</value>
+      <footprint>tom-connectors:PinTestpoint_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="tom-connectors" part="AVR-ISP-6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E5A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U4-MU</value>
+      <footprint>tom-semiconductors:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="tom-semiconductors" part="ATmega32U4-MU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824E81</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824EA4</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824EBE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824EE1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824EE7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824F08</tstamp>
+    </comp>
+    <comp ref="TCK1">
+      <value>TCK</value>
+      <footprint>tom-mechanical:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="tom-mechanical" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824F18</tstamp>
+    </comp>
+    <comp ref="TMS1">
+      <value>TMS</value>
+      <footprint>tom-mechanical:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="tom-mechanical" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824F1E</tstamp>
+    </comp>
+    <comp ref="TDO1">
+      <value>TDO</value>
+      <footprint>tom-mechanical:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="tom-mechanical" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824F24</tstamp>
+    </comp>
+    <comp ref="TDI1">
+      <value>TDI</value>
+      <footprint>tom-mechanical:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="tom-mechanical" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60824F2A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>IE096HQ1301CL</value>
+      <footprint>tom-mechanical:IE096HQ1301CL</footprint>
+      <libsource lib="tom-modules" part="IE096HQ1301CL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C04B6</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C0797</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>IE096HQ1301CL</value>
+      <footprint>tom-mechanical:IE096HQ1301CL</footprint>
+      <libsource lib="tom-modules" part="IE096HQ1301CL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608CD025</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608CD44C</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>IE096HQ1301CL</value>
+      <footprint>tom-mechanical:IE096HQ1301CL</footprint>
+      <libsource lib="tom-modules" part="IE096HQ1301CL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608CD45A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>470R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608CD48B</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>IE096HQ1301CL</value>
+      <footprint>tom-mechanical:IE096HQ1301CL</footprint>
+      <libsource lib="tom-modules" part="IE096HQ1301CL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60918109</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609185FC</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>IE096HQ1301CL</value>
+      <footprint>tom-mechanical:IE096HQ1301CL</footprint>
+      <libsource lib="tom-modules" part="IE096HQ1301CL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6091860A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6091863B</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>IE096HQ1301CL</value>
+      <footprint>tom-mechanical:IE096HQ1301CL</footprint>
+      <libsource lib="tom-modules" part="IE096HQ1301CL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60918649</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6091867A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>tom-semiconductors:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <libsource lib="tom-semiconductors" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6097D634</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60985C73</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>1550Z109</value>
+      <footprint>keypad-base:1550Z109</footprint>
+      <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A59A71</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>tom-connectors:USB_C_Receptacle_GT-USB-7010</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="tom-connectors" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A7D396</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>22R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9A278</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>22R</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A9AC38</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>5.1k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AA8802</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>5.1k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAE6F2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B6D079</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF/10V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B94250</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>AP2112K-3.3</value>
+      <footprint>tom-semiconductors:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <libsource lib="tom-semiconductors" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5 package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BB5599</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BDF4FD</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE1BEC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C09B20</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C09B32</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C09B56</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3B86B</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3BFED</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3BFF7</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>W25Q128JVS</value>
+      <footprint>tom-semiconductors:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</datasheet>
+      <libsource lib="tom-semiconductors" part="W25Q128JVS" description="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6085BF6C</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF/6.3V</value>
+      <footprint>tom-passives:C_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60902111</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>tom-connectors:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="tom-connectors" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60906B4E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>tom-connectors:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="tom-connectors" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6090B57A</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>mech-only-no-pins</value>
+      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6092DA39</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>mech-only-no-pins</value>
+      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6093A2F6</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>mech-only-no-pins</value>
+      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6094DC5B</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>mech-only-no-pins</value>
+      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6094DFAB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6098757C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>tom-passives:R_0805_2012Metric</footprint>
+      <libsource lib="tom-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A55C0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="tom-connectors" part="AVR-ISP-6">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">AVR-ISP-6</field>
+        <field name="Footprint">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="RST" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-connectors" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-connectors" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-mechanical" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-mechanical" part="Switch_SW_Push">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch_SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-mechanical" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-mechanical" part="mech-only-no-pins">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">mech-only-no-pins</field>
+      </fields>
+    </libpart>
+    <libpart lib="tom-modules" part="IE096HQ1301CL">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IE096HQ1301CL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP0" type="BiDi"/>
+        <pin num="2" name="TP1" type="BiDi"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="D/C" type="input"/>
+        <pin num="6" name="~RESET" type="input"/>
+        <pin num="7" name="~CS" type="input"/>
+        <pin num="8" name="GND" type="BiDi"/>
+        <pin num="10" name="VDD" type="power_in"/>
+        <pin num="11" name="LEDK" type="BiDi"/>
+        <pin num="12" name="LEDA" type="BiDi"/>
+        <pin num="13" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-passives" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C?</field>
+        <field name="Value">C</field>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-passives" part="CRYSTAL">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-passives" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R?</field>
+        <field name="Value">R</field>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-semiconductors" part="2N7002">
+      <aliases>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">tom-semiconductors:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-semiconductors" part="AP2204K-1.8">
+      <aliases>
+        <alias>AP2204K-2.5</alias>
+        <alias>AP2204K-2.8</alias>
+        <alias>AP2204K-3.0</alias>
+        <alias>AP2204K-3.3</alias>
+        <alias>AP2204K-5.0</alias>
+        <alias>AP2127K-1.0</alias>
+        <alias>AP2127K-1.2</alias>
+        <alias>AP2127K-1.5</alias>
+        <alias>AP2127K-1.8</alias>
+        <alias>AP2127K-2.5</alias>
+        <alias>AP2127K-2.8</alias>
+        <alias>AP2127K-3.0</alias>
+        <alias>AP2127K-3.3</alias>
+        <alias>AP2127K-4.2</alias>
+        <alias>AP2127K-4.75</alias>
+        <alias>AP2112K-1.2</alias>
+        <alias>AP2112K-1.8</alias>
+        <alias>AP2112K-2.5</alias>
+        <alias>AP2112K-2.6</alias>
+        <alias>AP2112K-3.3</alias>
+      </aliases>
+      <description>150mA low dropout linear regulator, wide input voltage range, 1.8V fixed positive output, SOT-23-5 package</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2204.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2204K-1.8</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-semiconductors" part="ATmega16U4RC-MU">
+      <aliases>
+        <alias>ATmega32U4-MU</alias>
+        <alias>ATmega32U4RC-MU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, RC Osc, QFN-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4RC-MU</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tom-semiconductors" part="W25Q128JVS">
+      <description>32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">tom-semiconductors:SOIC-8_5.23x5.23mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="DO(IO1)" type="BiDi"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="BiDi"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="tom-connectors">
+      <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-connectors.lib</uri>
+    </library>
+    <library logical="tom-mechanical">
+      <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-mechanical.lib</uri>
+    </library>
+    <library logical="tom-modules">
+      <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-modules.lib</uri>
+    </library>
+    <library logical="tom-passives">
+      <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-passives.lib</uri>
+    </library>
+    <library logical="tom-semiconductors">
+      <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-semiconductors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="SW5" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U8" pin="13"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U4" pin="13"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U11" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="45"/>
+      <node ref="CON1" pin="6"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="35"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="U3" pin="13"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U8" pin="8"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U6" pin="13"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J1" pin="S1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J1" pin="B12"/>
+    </net>
+    <net code="2" name="/BACKLIGHT">
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="3" name="/CC1">
+      <node ref="J1" pin="A5"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="4" name="/~LCDRESET">
+      <node ref="U1" pin="28"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="5" name="/~CS7">
+      <node ref="U1" pin="29"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="U6" pin="10"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="U1" pin="34"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U11" pin="8"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U8" pin="10"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="7" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="U6" pin="12"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="U7" pin="12"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U8" pin="12"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J1" pin="A4"/>
+    </net>
+    <net code="10" name="Net-(R10-Pad1)">
+      <node ref="U8" pin="11"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="11" name="/BACKLIGHTK">
+      <node ref="R10" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="12" name="/D_P">
+      <node ref="J1" pin="A6"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="13" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="14" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="15" name="/USB_P">
+      <node ref="U1" pin="4"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="16" name="/USB_N">
+      <node ref="U1" pin="3"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="17" name="/D_N">
+      <node ref="R15" pin="2"/>
+      <node ref="J1" pin="B7"/>
+      <node ref="J1" pin="A7"/>
+    </net>
+    <net code="18" name="/CC2">
+      <node ref="J1" pin="B5"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="19" name="/D\C">
+      <node ref="U8" pin="5"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="20" name="/~CS5">
+      <node ref="U5" pin="7"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="21" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R7-Pad1)">
+      <node ref="U5" pin="11"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="24" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="25" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R9-Pad1)">
+      <node ref="U7" pin="11"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="27" name="/SDA">
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="28" name="/SCL">
+      <node ref="R2" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="29" name="/~CS6">
+      <node ref="U7" pin="7"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="30" name="/~FLASH_CS">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="31" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="32" name="Net-(R11-Pad2)">
+      <node ref="U11" pin="7"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="33" name="/~RESET">
+      <node ref="CON1" pin="5"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="34" name="Net-(U10-Pad4)">
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="35" name="/~CS3">
+      <node ref="U1" pin="41"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="36" name="/~CS2">
+      <node ref="U3" pin="7"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="37" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="38" name="/SW6">
+      <node ref="SW6" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="39" name="/SW1">
+      <node ref="U1" pin="18"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="40" name="/SW2">
+      <node ref="U1" pin="19"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="41" name="/SW3">
+      <node ref="U1" pin="20"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="42" name="/SW4">
+      <node ref="U1" pin="21"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="43" name="/SW5">
+      <node ref="SW5" pin="2"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="44" name="/SW7">
+      <node ref="SW7" pin="2"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="45" name="/SW8">
+      <node ref="U1" pin="27"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="50" name="Net-(R5-Pad1)">
+      <node ref="U3" pin="11"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="51" name="/~CS4">
+      <node ref="U6" pin="7"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="52" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="54" name="Net-(R6-Pad1)">
+      <node ref="U4" pin="11"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="55" name="/XTAL1">
+      <node ref="X1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="56" name="/XTAL2">
+      <node ref="X1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="57" name="/UCAP">
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="58" name="/AREF">
+      <node ref="U1" pin="42"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="59" name="/MISO">
+      <node ref="U1" pin="11"/>
+      <node ref="CON1" pin="1"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="60" name="/SCK">
+      <node ref="U11" pin="6"/>
+      <node ref="U1" pin="9"/>
+      <node ref="CON1" pin="3"/>
+    </net>
+    <net code="61" name="/MOSI">
+      <node ref="U11" pin="5"/>
+      <node ref="CON1" pin="4"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="62" name="/TDO">
+      <node ref="U1" pin="37"/>
+      <node ref="TDO1" pin="1"/>
+    </net>
+    <net code="63" name="/TCK">
+      <node ref="U1" pin="39"/>
+      <node ref="TCK1" pin="1"/>
+    </net>
+    <net code="64" name="/TMS">
+      <node ref="TMS1" pin="1"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="65" name="/TDI">
+      <node ref="TDI1" pin="1"/>
+      <node ref="U1" pin="36"/>
+    </net>
+  </nets>
+</export>
