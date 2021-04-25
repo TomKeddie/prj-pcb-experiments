@@ -28,6 +28,7 @@ outputs:
     layers:
         - copper
         - technical
+        - 'Edge.Cuts'
 
   - name: 'drills'
     type: excellon
