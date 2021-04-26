@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/keypad-prototype/keypad-base/keypad-base.sch</source>
-    <date>Sun Apr 25 15:43:48 2021</date>
+    <date>Sun Apr 25 17:54:27 2021</date>
     <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
-        <rev>Apr2021</rev>
+        <rev>Apr2021a</rev>
         <date>2021-04-25</date>
         <source>keypad-base.sch</source>
         <comment number="1" value=""/>
@@ -455,28 +455,28 @@
     </comp>
     <comp ref="H2">
       <value>mech-only-no-pins</value>
-      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <footprint>tom-mechanical:STUD_SOLDER_M2_WURTH</footprint>
       <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6092DA39</tstamp>
     </comp>
     <comp ref="H3">
       <value>mech-only-no-pins</value>
-      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <footprint>tom-mechanical:STUD_SOLDER_M2_WURTH</footprint>
       <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6093A2F6</tstamp>
     </comp>
     <comp ref="H4">
       <value>mech-only-no-pins</value>
-      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <footprint>tom-mechanical:STUD_SOLDER_M2_WURTH</footprint>
       <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6094DC5B</tstamp>
     </comp>
     <comp ref="H5">
       <value>mech-only-no-pins</value>
-      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <footprint>tom-mechanical:STUD_SOLDER_M2_WURTH</footprint>
       <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6094DFAB</tstamp>
