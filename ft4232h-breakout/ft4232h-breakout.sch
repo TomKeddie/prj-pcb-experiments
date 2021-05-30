@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2021-04-18"
-Rev "Apr2021"
+Date "2021-05-29"
+Rev "May2021"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -784,12 +784,12 @@ TDI-B
 Text Label 8450 4850 0    50   ~ 0
 SWO
 $Comp
-L Connector:TestPoint TP1
+L tom-mechanical:TestPoint TP1
 U 1 1 6094F833
 P 7450 6850
 F 0 "TP1" H 7508 6968 50  0000 L CNN
 F 1 "TestPoint" H 7508 6877 50  0000 L CNN
-F 2 "tom-mechanical:STUD_SOLDER_M3" H 7650 6850 50  0001 C CNN
+F 2 "tom-mechanical:STUD_SOLDER_SMTSO_M3" H 7650 6850 50  0001 C CNN
 F 3 "~" H 7650 6850 50  0001 C CNN
 	1    7450 6850
 	1    0    0    -1  
@@ -836,10 +836,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 2200 3900 2200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 607D30C4
 P 7450 6850
-F 0 "#PWR?" H 7450 6600 50  0001 C CNN
+F 0 "#PWR0124" H 7450 6600 50  0001 C CNN
 F 1 "GND" H 7455 6677 50  0000 C CNN
 F 2 "" H 7450 6850 50  0001 C CNN
 F 3 "" H 7450 6850 50  0001 C CNN

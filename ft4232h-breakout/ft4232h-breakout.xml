@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/ft4232h-breakout/ft4232h-breakout.sch</source>
-    <date>Sun Apr 25 16:06:19 2021</date>
+    <date>Sat May 29 17:07:58 2021</date>
     <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
-        <rev>Apr2021</rev>
-        <date>2021-04-18</date>
+        <rev>May2021</rev>
+        <date>2021-05-29</date>
         <source>ft4232h-breakout.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -170,27 +170,14 @@
     </comp>
     <comp ref="TP1">
       <value>TestPoint</value>
-      <footprint>tom-mechanical:STUD_SOLDER_M3</footprint>
+      <footprint>tom-mechanical:STUD_SOLDER_SMTSO_M3</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="" part="TestPoint" description=""/>
+      <libsource lib="tom-mechanical" part="TestPoint" description="test point"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6094F833</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="Connector_TestPoint">
-      <footprints>
-        <fp>Pin*</fp>
-        <fp>Test*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">Connector_TestPoint</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="ft4232h-breakout" part="C">
       <footprints>
         <fp>SM*</fp>
@@ -316,6 +303,21 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="tom-mechanical" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="tom-modules" part="FT4232H-MODULE">
       <fields>
         <field name="Reference">X</field>
@@ -383,6 +385,9 @@
     </library>
     <library logical="tom-connectors">
       <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-connectors.lib</uri>
+    </library>
+    <library logical="tom-mechanical">
+      <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-mechanical.lib</uri>
     </library>
     <library logical="tom-modules">
       <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-modules.lib</uri>

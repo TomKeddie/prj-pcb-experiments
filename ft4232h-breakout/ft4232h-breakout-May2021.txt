@@ -1,0 +1,8 @@
+** Drc report for /home/tom/git/TomKeddie/prj-pcb-experiments/ft4232h-breakout/ft4232h-breakout.kicad_pcb **
+** Created on 2021-05-29 17:08:04 **
+
+** Found 0 DRC errors **
+
+** Found 0 unconnected pads **
+
+** End of Report **
