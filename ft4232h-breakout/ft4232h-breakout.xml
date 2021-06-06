@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/ft4232h-breakout/ft4232h-breakout.sch</source>
-    <date>Sat May 29 17:07:58 2021</date>
+    <date>Sat Jun  5 17:46:40 2021</date>
     <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
-        <rev>May2021</rev>
-        <date>2021-05-29</date>
+        <rev>Jun2021</rev>
+        <date>2021-06-05</date>
         <source>ft4232h-breakout.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
