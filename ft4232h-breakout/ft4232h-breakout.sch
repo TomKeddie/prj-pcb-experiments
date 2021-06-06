@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date "2021-06-05"
-Rev "Jun2021"
+Rev "Jun2021a"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -844,6 +844,51 @@ F 1 "GND" H 7455 6677 50  0000 C CNN
 F 2 "" H 7450 6850 50  0001 C CNN
 F 3 "" H 7450 6850 50  0001 C CNN
 	1    7450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-passives:R R2
+U 1 1 60BD363D
+P 1650 2450
+F 0 "R2" H 1721 2488 40  0000 L CNN
+F 1 "1k" H 1721 2412 40  0000 L CNN
+F 2 "tom-passives:R_0805_2012Metric" V 1580 2450 30  0001 C CNN
+F 3 "" H 1650 2450 30  0001 C CNN
+F 4 "DNP" H 1721 2374 40  0001 L CNN "LCSC"
+	1    1650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 60BD616E
+P 1650 2200
+F 0 "#PWR0125" H 1650 2050 50  0001 C CNN
+F 1 "+5V" H 1665 2373 50  0000 C CNN
+F 2 "" H 1650 2200 50  0001 C CNN
+F 3 "" H 1650 2200 50  0001 C CNN
+	1    1650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L tom-opto:LED D1
+U 1 1 60BDAEB4
+P 1650 2850
+F 0 "D1" V 1689 2733 50  0000 R CNN
+F 1 "LED" V 1598 2733 50  0000 R CNN
+F 2 "tom-opto:LED_0805_2012Metric" H 1650 2850 50  0001 C CNN
+F 3 "~" H 1650 2850 50  0001 C CNN
+	1    1650 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 60BDBA1A
+P 1650 3000
+F 0 "#PWR0126" H 1650 2750 50  0001 C CNN
+F 1 "GND" H 1655 2827 50  0000 C CNN
+F 2 "" H 1650 3000 50  0001 C CNN
+F 3 "" H 1650 3000 50  0001 C CNN
+	1    1650 3000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
