@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2021-04-25"
-Rev "Apr2021a"
+Date "2021-06-05"
+Rev "Jun2021"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1866,7 +1866,7 @@ U 1 1 6092DA39
 P 7850 6750
 F 0 "H2" H 7875 6796 50  0000 L CNN
 F 1 "mech-only-no-pins" H 7875 6705 50  0000 L CNN
-F 2 "tom-mechanical:STUD_SOLDER_M2_WURTH" H 7850 6750 50  0001 C CNN
+F 2 "tom-mechanical:STUD_SOLDER_SMTSO_M3" H 7850 6750 50  0001 C CNN
 F 3 "" H 7850 6750 50  0001 C CNN
 	1    7850 6750
 	1    0    0    -1  
@@ -1877,7 +1877,7 @@ U 1 1 6093A2F6
 P 7850 6950
 F 0 "H3" H 7875 6996 50  0000 L CNN
 F 1 "mech-only-no-pins" H 7875 6905 50  0000 L CNN
-F 2 "tom-mechanical:STUD_SOLDER_M2_WURTH" H 7850 6950 50  0001 C CNN
+F 2 "tom-mechanical:STUD_SOLDER_SMTSO_M3" H 7850 6950 50  0001 C CNN
 F 3 "" H 7850 6950 50  0001 C CNN
 	1    7850 6950
 	1    0    0    -1  
@@ -1888,7 +1888,7 @@ U 1 1 6094DC5B
 P 8750 6750
 F 0 "H4" H 8775 6796 50  0000 L CNN
 F 1 "mech-only-no-pins" H 8775 6705 50  0000 L CNN
-F 2 "tom-mechanical:STUD_SOLDER_M2_WURTH" H 8750 6750 50  0001 C CNN
+F 2 "tom-mechanical:STUD_SOLDER_SMTSO_M3" H 8750 6750 50  0001 C CNN
 F 3 "" H 8750 6750 50  0001 C CNN
 	1    8750 6750
 	1    0    0    -1  
@@ -1899,7 +1899,7 @@ U 1 1 6094DFAB
 P 8750 6950
 F 0 "H5" H 8775 6996 50  0000 L CNN
 F 1 "mech-only-no-pins" H 8775 6905 50  0000 L CNN
-F 2 "tom-mechanical:STUD_SOLDER_M2_WURTH" H 8750 6950 50  0001 C CNN
+F 2 "tom-mechanical:STUD_SOLDER_SMTSO_M3" H 8750 6950 50  0001 C CNN
 F 3 "" H 8750 6950 50  0001 C CNN
 	1    8750 6950
 	1    0    0    -1  
