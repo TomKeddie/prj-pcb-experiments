@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, Datasheet, LCSC
+C1 C2 C3 C4 C5 C6 ,6,"10uF/10V","tom-passives:C_0805_2012Metric","","DNP"
+D1 ,1,"LED","tom-opto:LED_0805_2012Metric","~"
+J1 J2 J3 J4 ,4,"Conn_01x03","tom-connectors:PinHeader_1x03_P2.54mm_Vertical","~"
+J5 J6 J7 J8 ,4,"Conn_01x07","tom-connectors:PinHeader_1x07_P2.54mm_Horizontal","~"
+R2 ,1,"1k","tom-passives:R_0805_2012Metric","","DNP"
+TP1 ,1,"TestPoint","tom-mechanical:STUD_SOLDER_SMTSO_M3","~"
+X1 ,1,"FT4232H-MODULE","tom-modules:FT4232H-MODULE",""
