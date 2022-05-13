@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "jlcpcb-basic-capacitor-0603")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb-basic-capacitor-0603.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-resistor-0402")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb-basic-resistor-0402.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-capacitor-0402")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb-basic-capacitor-0402.kicad_sym")(options "")(descr ""))
+)
