@@ -2,4 +2,5 @@
   (lib (name "jlcpcb-basic-capacitor-0603")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb-basic-capacitor-0603.kicad_sym")(options "")(descr ""))
   (lib (name "jlcpcb-basic-resistor-0402")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb-basic-resistor-0402.kicad_sym")(options "")(descr ""))
   (lib (name "jlcpcb-basic-capacitor-0402")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb-basic-capacitor-0402.kicad_sym")(options "")(descr ""))
+  (lib (name "ft4232h-breakout")(type "KiCad")(uri "${KIPRJMOD}/ft4232h-breakout.kicad_sym")(options "")(descr ""))
 )
