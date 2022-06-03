@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/ft4232h-breakout/v3.x/ft4232h-breakout.kicad_sch</source>
-    <date>Sun 15 May 2022 07:32:03 AM</date>
-    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <date>Thu 19 May 2022 01:47:25 PM</date>
+    <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -1750,9 +1750,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Memory_EEPROM">
-      <uri>/usr/share/kicad/symbols/Memory_EEPROM.kicad_sym</uri>
-    </library>
     <library logical="jlcpcb-basic-capacitor-0402">
       <uri>/home/tom/git/TomKeddie/prj-pcb-experiments/ft4232h-breakout/v3.x/jlcpcb-basic-capacitor-0402.kicad_sym</uri>
     </library>
