@@ -1427,6 +1427,20 @@
         )
       )
     )
+    (symbol "tom-mechanical:mech-only-no-pins" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "mech-only-no-pins" (id 1) (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+    )
     (symbol "tom-opto:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -3156,6 +3170,23 @@
     (pin "2" (uuid e3aeedc5-c550-4a0f-ae42-3413ecff4782))
   )
 
+  (symbol (lib_id "tom-mechanical:mech-only-no-pins") (at 245.745 172.085 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 15bddf37-dc29-4d69-a259-f9180086fa04)
+    (property "Reference" "H1" (id 0) (at 246.38 170.8149 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Front Octopus" (id 1) (at 246.38 173.3549 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ch348_octo_serial:octopus" (id 2) (at 245.745 172.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 245.745 172.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "tom-connectors:Conn_01x01") (at 224.155 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 16c5f7e6-b87a-4c9e-9378-bb47014ffeb7)
@@ -3557,7 +3588,7 @@
   (symbol (lib_id "power:GND") (at 180.975 48.26 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 54566073-a62a-4a49-be08-980d88e1243c)
-    (property "Reference" "#PWR032" (id 0) (at 187.325 48.26 0)
+    (property "Reference" "#PWR033" (id 0) (at 187.325 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 183.515 48.26 90)
@@ -3873,6 +3904,23 @@
     )
     (pin "1" (uuid 751f15b6-fc51-40c5-9075-5d17689c141c))
     (pin "2" (uuid d263c87a-f4df-4b32-8afb-7afb571c246d))
+  )
+
+  (symbol (lib_id "tom-mechanical:mech-only-no-pins") (at 263.525 172.085 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 69383d1a-b9b0-44c2-8864-b03863b50223)
+    (property "Reference" "H2" (id 0) (at 264.16 170.8149 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Back Octopus" (id 1) (at 264.16 173.3549 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ch348_octo_serial:octopus_120" (id 2) (at 263.525 172.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 263.525 172.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "power:+2V5") (at 259.08 86.995 0) (unit 1)
@@ -4264,7 +4312,7 @@
   (symbol (lib_id "power:GND") (at 189.865 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 909a2bc2-c3e5-422d-93af-c0a86268267b)
-    (property "Reference" "#PWR035" (id 0) (at 189.865 34.29 0)
+    (property "Reference" "#PWR034" (id 0) (at 189.865 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 191.77 31.115 0)
@@ -4428,7 +4476,7 @@
   (symbol (lib_id "power:GND") (at 174.625 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a2226f90-feb8-47b5-8281-3a3c2cdf2fe5)
-    (property "Reference" "#PWR033" (id 0) (at 174.625 34.29 0)
+    (property "Reference" "#PWR032" (id 0) (at 174.625 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 176.53 31.115 0)
@@ -4690,7 +4738,7 @@
   (symbol (lib_id "power:GND") (at 192.405 45.72 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b510a78a-55bd-4d15-be8c-0aa2330031df)
-    (property "Reference" "#PWR034" (id 0) (at 198.755 45.72 0)
+    (property "Reference" "#PWR035" (id 0) (at 198.755 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 194.945 45.72 90)
@@ -5659,16 +5707,16 @@
     (path "/5ef9eec4-0882-44f5-bcc0-53f987f9b3b6"
       (reference "#PWR031") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/54566073-a62a-4a49-be08-980d88e1243c"
+    (path "/a2226f90-feb8-47b5-8281-3a3c2cdf2fe5"
       (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a2226f90-feb8-47b5-8281-3a3c2cdf2fe5"
+    (path "/54566073-a62a-4a49-be08-980d88e1243c"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
-    (path "/b510a78a-55bd-4d15-be8c-0aa2330031df"
+    (path "/909a2bc2-c3e5-422d-93af-c0a86268267b"
       (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
-    (path "/909a2bc2-c3e5-422d-93af-c0a86268267b"
+    (path "/b510a78a-55bd-4d15-be8c-0aa2330031df"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
     (path "/5ffc0aca-2e16-4ea5-934d-53f15c493791"
@@ -5883,6 +5931,12 @@
     )
     (path "/b8216cd9-f8ca-412b-b016-393842d6bfea"
       (reference "D4") (unit 1) (value "GREEN") (footprint "tom-opto:LED_0603_1608Metric")
+    )
+    (path "/15bddf37-dc29-4d69-a259-f9180086fa04"
+      (reference "H1") (unit 1) (value "Front Octopus") (footprint "ch348_octo_serial:octopus")
+    )
+    (path "/69383d1a-b9b0-44c2-8864-b03863b50223"
+      (reference "H2") (unit 1) (value "Back Octopus") (footprint "ch348_octo_serial:octopus_120")
     )
     (path "/8f01758d-3dc3-4cba-9a53-ecb070228d1c"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "tom-connectors:USB_C_Receptacle_LCSC_C165948")

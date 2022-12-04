@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/ch348_octo_serial/ch348_octo_serial.kicad_sch</source>
-    <date>Fri 02 Dec 2022 02:34:59 PM</date>
+    <date>Sat 03 Dec 2022 05:22:58 PM</date>
     <tool>Eeschema 6.0.9-8da3e8f707~117~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -526,6 +526,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b8216cd9-f8ca-412b-b016-393842d6bfea</tstamps>
     </comp>
+    <comp ref="H1">
+      <value>Front Octopus</value>
+      <footprint>ch348_octo_serial:octopus</footprint>
+      <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch348_octo_serial.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15bddf37-dc29-4d69-a259-f9180086fa04</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>Back Octopus</value>
+      <footprint>ch348_octo_serial:octopus_120</footprint>
+      <libsource lib="tom-mechanical" part="mech-only-no-pins" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch348_octo_serial.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69383d1a-b9b0-44c2-8864-b03863b50223</tstamps>
+    </comp>
     <comp ref="J1">
       <value>USB_C_Receptacle_USB2.0</value>
       <footprint>tom-connectors:USB_C_Receptacle_LCSC_C165948</footprint>
@@ -860,12 +878,12 @@
       <footprint>tom-passives:R_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf</datasheet>
       <fields>
-        <field name="LCSC">C17168</field>
+        <field name="LCSC">DNP</field>
         <field name="MFG">UNI-ROYAL(Uniroyal Elec)</field>
         <field name="MFGPN">0402WGF0000TCE</field>
       </fields>
       <libsource lib="jlcpcb-basic-resistor-0402" part="0" description="1% 1 16W Thick Film Resistors 50V   800ppm    -55    155   0   0402 Chip Resistor - Surface Mount ROHS"/>
-      <property name="LCSC" value="C17168"/>
+      <property name="LCSC" value="DNP"/>
       <property name="MFG" value="UNI-ROYAL(Uniroyal Elec)"/>
       <property name="MFGPN" value="0402WGF0000TCE"/>
       <property name="Sheetname" value=""/>
@@ -1015,7 +1033,11 @@
     <comp ref="J8">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 4"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 4/" tstamps="/9bf4da50-bcec-4594-8cb4-51d9231c471d/"/>
@@ -1058,7 +1080,11 @@
     <comp ref="J10">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 5"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 5/" tstamps="/6c33ae0d-c952-4b9d-a76d-c13b0fac4965/"/>
@@ -1101,7 +1127,11 @@
     <comp ref="J12">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 6"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 6/" tstamps="/b9606a6c-ec5f-474a-a546-92dc6bb653ea/"/>
@@ -1144,7 +1174,11 @@
     <comp ref="J14">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 7"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 7/" tstamps="/051b28d6-0b23-402c-8a55-0c540cbbe467/"/>
@@ -1187,7 +1221,11 @@
     <comp ref="J16">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 0"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 0/" tstamps="/f2aee325-266c-41b5-bcb2-483d7ef7e8e0/"/>
@@ -1230,7 +1268,11 @@
     <comp ref="J18">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 1"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 1/" tstamps="/497981c4-6136-4279-b4b4-d66eaadef58f/"/>
@@ -1273,7 +1315,11 @@
     <comp ref="J20">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 2"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 2/" tstamps="/52be174e-3ccd-4ab1-93ea-2489c3b0c1ee/"/>
@@ -1316,7 +1362,11 @@
     <comp ref="J22">
       <value>Conn_01x07</value>
       <footprint>tom-connectors:PinHeader_1x07_P2.54mm_Horizontal_Teardrop</footprint>
+      <fields>
+        <field name="LCSC">C492415</field>
+      </fields>
       <libsource lib="tom-connectors" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C492415"/>
       <property name="Sheetname" value="Serial Connector 3"/>
       <property name="Sheetfile" value="serial-connectors.kicad_sch"/>
       <sheetpath names="/Serial Connector 3/" tstamps="/34e96fc4-a182-4163-9f87-59b36dc79cf8/"/>
@@ -1683,6 +1733,12 @@
         <pin num="10" name="10" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="tom-mechanical" part="mech-only-no-pins">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">mech-only-no-pins</field>
+      </fields>
+    </libpart>
     <libpart lib="tom-opto" part="LED">
       <description>Light emitting diode</description>
       <docs>~</docs>
@@ -1917,193 +1973,228 @@
       <node ref="VR2" pin="3" pinfunction="VIN" pintype="input"/>
       <node ref="VR3" pin="3" pinfunction="VIN" pintype="input"/>
     </net>
-    <net code="5" name="/Serial Connector 0/CTS">
+    <net code="5" name="/ACT">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="ACT" pintype="output"/>
+    </net>
+    <net code="6" name="/CFG">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CFG" pintype="input"/>
+    </net>
+    <net code="7" name="/RESET">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="8" name="/RX_S">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="77" pinfunction="RX_S" pintype="output"/>
+    </net>
+    <net code="9" name="/Serial Connector 0/CTS">
       <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="70" pinfunction="CTS0/GPIO0" pintype="input"/>
     </net>
-    <net code="6" name="/Serial Connector 0/DTR">
+    <net code="10" name="/Serial Connector 0/DTR">
       <node ref="J16" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="72" pinfunction="DTR0/TNOW0/GPIO8" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/Serial Connector 0/RTS">
+    <net code="11" name="/Serial Connector 0/RTS">
       <node ref="J16" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="71" pinfunction="RTS0/GPIO1" pintype="output"/>
     </net>
-    <net code="8" name="/Serial Connector 0/RXD">
+    <net code="12" name="/Serial Connector 0/RXD">
       <node ref="J15" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="J16" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="69" pinfunction="RXD0" pintype="input"/>
     </net>
-    <net code="9" name="/Serial Connector 0/TXD">
+    <net code="13" name="/Serial Connector 0/TXD">
       <node ref="J15" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="J16" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="68" pinfunction="TXD0" pintype="output"/>
     </net>
-    <net code="10" name="/Serial Connector 1/CTS">
+    <net code="14" name="/Serial Connector 1/CTS">
       <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="23" pinfunction="CTS1/GPIO2" pintype="input"/>
     </net>
-    <net code="11" name="/Serial Connector 1/DTR">
+    <net code="15" name="/Serial Connector 1/DTR">
       <node ref="J18" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="30" pinfunction="DTR1/TNOW1/GPIO9" pintype="bidirectional"/>
     </net>
-    <net code="12" name="/Serial Connector 1/RTS">
+    <net code="16" name="/Serial Connector 1/RTS">
       <node ref="J18" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="24" pinfunction="RTS1/GPIO3" pintype="output"/>
     </net>
-    <net code="13" name="/Serial Connector 1/RXD">
+    <net code="17" name="/Serial Connector 1/RXD">
       <node ref="J17" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="J18" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="RXD1" pintype="input"/>
     </net>
-    <net code="14" name="/Serial Connector 1/TXD">
+    <net code="18" name="/Serial Connector 1/TXD">
       <node ref="J17" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="J18" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="TXD1" pintype="output"/>
     </net>
-    <net code="15" name="/Serial Connector 2/CTS">
+    <net code="19" name="/Serial Connector 2/CTS">
       <node ref="J20" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="52" pinfunction="CTS2/GPIO4" pintype="input"/>
     </net>
-    <net code="16" name="/Serial Connector 2/DTR">
+    <net code="20" name="/Serial Connector 2/DTR">
       <node ref="J20" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="67" pinfunction="DTR2/TNOW2/GPIO10" pintype="bidirectional"/>
     </net>
-    <net code="17" name="/Serial Connector 2/RTS">
+    <net code="21" name="/Serial Connector 2/RTS">
       <node ref="J20" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="53" pinfunction="RTS2/GPIO5" pintype="output"/>
     </net>
-    <net code="18" name="/Serial Connector 2/RXD">
+    <net code="22" name="/Serial Connector 2/RXD">
       <node ref="J19" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="J20" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="48" pinfunction="RXD2" pintype="input"/>
     </net>
-    <net code="19" name="/Serial Connector 2/TXD">
+    <net code="23" name="/Serial Connector 2/TXD">
       <node ref="J19" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="J20" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="47" pinfunction="TXD2" pintype="output"/>
     </net>
-    <net code="20" name="/Serial Connector 3/CTS">
+    <net code="24" name="/Serial Connector 3/CTS">
       <node ref="J22" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="51" pinfunction="CTS3/GPIO6" pintype="input"/>
     </net>
-    <net code="21" name="/Serial Connector 3/DTR">
+    <net code="25" name="/Serial Connector 3/DTR">
       <node ref="J22" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="89" pinfunction="DTR3/TNOW3/GPIO11" pintype="bidirectional"/>
     </net>
-    <net code="22" name="/Serial Connector 3/RTS">
+    <net code="26" name="/Serial Connector 3/RTS">
       <node ref="J22" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="54" pinfunction="RTS3/GPIO7" pintype="output"/>
     </net>
-    <net code="23" name="/Serial Connector 3/RXD">
+    <net code="27" name="/Serial Connector 3/RXD">
       <node ref="J21" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="J22" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="79" pinfunction="RXD3" pintype="input"/>
     </net>
-    <net code="24" name="/Serial Connector 3/TXD">
+    <net code="28" name="/Serial Connector 3/TXD">
       <node ref="J21" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="J22" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="78" pinfunction="TXD3" pintype="output"/>
     </net>
-    <net code="25" name="/Serial Connector 4/CTS">
+    <net code="29" name="/Serial Connector 4/CTS">
       <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="90" pinfunction="CTS4/GPIO12" pintype="input"/>
     </net>
-    <net code="26" name="/Serial Connector 4/DTR">
+    <net code="30" name="/Serial Connector 4/DTR">
       <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="63" pinfunction="DTR4/TNOW4/GPIO20" pintype="bidirectional"/>
     </net>
-    <net code="27" name="/Serial Connector 4/RTS">
+    <net code="31" name="/Serial Connector 4/RTS">
       <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="91" pinfunction="RTS4/GPIO13" pintype="output"/>
     </net>
-    <net code="28" name="/Serial Connector 4/RXD">
+    <net code="32" name="/Serial Connector 4/RXD">
       <node ref="J7" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="83" pinfunction="RXD4" pintype="input"/>
     </net>
-    <net code="29" name="/Serial Connector 4/TXD">
+    <net code="33" name="/Serial Connector 4/TXD">
       <node ref="J7" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="80" pinfunction="TXD4" pintype="output"/>
     </net>
-    <net code="30" name="/Serial Connector 5/CTS">
+    <net code="34" name="/Serial Connector 5/CTS">
       <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="95" pinfunction="CTS5/GPIO14" pintype="input"/>
     </net>
-    <net code="31" name="/Serial Connector 5/DTR">
+    <net code="35" name="/Serial Connector 5/DTR">
       <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="64" pinfunction="DTR5/TNOW5/GPIO21" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/Serial Connector 5/RTS">
+    <net code="36" name="/Serial Connector 5/RTS">
       <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="96" pinfunction="RTS5/GPIO15" pintype="output"/>
     </net>
-    <net code="33" name="/Serial Connector 5/RXD">
+    <net code="37" name="/Serial Connector 5/RXD">
       <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J9" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="RXD5" pintype="input"/>
     </net>
-    <net code="34" name="/Serial Connector 5/TXD">
+    <net code="38" name="/Serial Connector 5/TXD">
       <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J9" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="TXD5" pintype="output"/>
     </net>
-    <net code="35" name="/Serial Connector 6/CTS">
+    <net code="39" name="/Serial Connector 6/CTS">
       <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="CTS6/GPIO16" pintype="input"/>
     </net>
-    <net code="36" name="/Serial Connector 6/DTR">
+    <net code="40" name="/Serial Connector 6/DTR">
       <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="65" pinfunction="DTR6/TNOW6/GPIO22" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/Serial Connector 6/RTS">
+    <net code="41" name="/Serial Connector 6/RTS">
       <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="32" pinfunction="RTS6/GPIO17" pintype="output"/>
     </net>
-    <net code="38" name="/Serial Connector 6/RXD">
+    <net code="42" name="/Serial Connector 6/RXD">
       <node ref="J11" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="RXD6" pintype="input"/>
     </net>
-    <net code="39" name="/Serial Connector 6/TXD">
+    <net code="43" name="/Serial Connector 6/TXD">
       <node ref="J11" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="TXD6" pintype="output"/>
     </net>
-    <net code="40" name="/Serial Connector 7/CTS">
+    <net code="44" name="/Serial Connector 7/CTS">
       <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="35" pinfunction="CTS7/GPIO18" pintype="input"/>
     </net>
-    <net code="41" name="/Serial Connector 7/DTR">
+    <net code="45" name="/Serial Connector 7/DTR">
       <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="66" pinfunction="DTR7/TNOW7/GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="42" name="/Serial Connector 7/RTS">
+    <net code="46" name="/Serial Connector 7/RTS">
       <node ref="J14" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="36" pinfunction="RTS7/GPIO19" pintype="output"/>
     </net>
-    <net code="43" name="/Serial Connector 7/RXD">
+    <net code="47" name="/Serial Connector 7/RXD">
       <node ref="J13" pin="2" pinfunction="RING" pintype="passive"/>
       <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="34" pinfunction="RXD7" pintype="input"/>
     </net>
-    <net code="44" name="/Serial Connector 7/TXD">
+    <net code="48" name="/Serial Connector 7/TXD">
       <node ref="J13" pin="4" pinfunction="TIP" pintype="passive"/>
       <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="TXD7" pintype="output"/>
     </net>
-    <net code="45" name="/USB_N">
+    <net code="49" name="/TEST">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="94" pinfunction="TEST" pintype="input"/>
+    </net>
+    <net code="50" name="/TX_S">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="76" pinfunction="TX_S" pintype="output"/>
+    </net>
+    <net code="51" name="/USB_N">
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="U1" pin="92" pinfunction="USB_N" pintype="bidirectional"/>
     </net>
-    <net code="46" name="/USB_P">
+    <net code="52" name="/USB_P">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="U1" pin="93" pinfunction="USB_P" pintype="bidirectional"/>
     </net>
-    <net code="47" name="GND">
+    <net code="53" name="/XI">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="XI" pintype="input"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="54" name="/XO">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="XO" pintype="output"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -2170,84 +2261,49 @@
       <node ref="U1" pin="74" pinfunction="GND" pintype="passive"/>
       <node ref="U1" pin="99" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="U1" pin="14" pinfunction="RESET" pintype="input"/>
-    </net>
-    <net code="49" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="U1" pin="12" pinfunction="XI" pintype="input"/>
-      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="50" name="Net-(C9-Pad1)">
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="U1" pin="13" pinfunction="XO" pintype="output"/>
-      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="51" name="Net-(C16-Pad1)">
+    <net code="56" name="Net-(C16-Pad1)">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="SW1" pin="6" pinfunction="6" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(D1-Pad2)">
+    <net code="57" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="29" pinfunction="ACT" pintype="output"/>
-    </net>
-    <net code="54" name="Net-(D2-Pad2)">
+    <net code="58" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(D3-Pad2)">
+    <net code="59" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(D4-Pad2)">
+    <net code="60" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(J1-PadA5)">
+    <net code="61" name="Net-(J1-PadA5)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(J1-PadB5)">
+    <net code="62" name="Net-(J1-PadB5)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(R2-Pad2)">
+    <net code="63" name="Net-(R2-Pad2)">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="VR1" pin="1" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(R4-Pad2)">
+    <net code="64" name="Net-(R4-Pad2)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="VR2" pin="1" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(R6-Pad2)">
+    <net code="65" name="Net-(R6-Pad2)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="VR3" pin="1" pinfunction="GND" pintype="passive"/>
-    </net>
-    <net code="62" name="Net-(R12-Pad2)">
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="U1" pin="94" pinfunction="TEST" pintype="input"/>
-    </net>
-    <net code="63" name="Net-(R13-Pad2)">
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="CFG" pintype="input"/>
-    </net>
-    <net code="64" name="Net-(R14-Pad1)">
-      <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="U1" pin="77" pinfunction="RX_S" pintype="output"/>
-    </net>
-    <net code="65" name="Net-(R15-Pad1)">
-      <node ref="R15" pin="1" pintype="passive"/>
-      <node ref="U1" pin="76" pinfunction="TX_S" pintype="output"/>
     </net>
     <net code="66" name="Vdrive">
       <node ref="C10" pin="1" pintype="passive"/>

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "tigard")(type "KiCad")(uri "/home/tom/git/tigard-tools/tigard/tigard.pretty")(options "")(descr ""))
+  (lib (name "ch348_octo_serial")(type "KiCad")(uri "${KIPRJMOD}/ch348_octo_serial.pretty")(options "")(descr ""))
 )
