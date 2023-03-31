@@ -1,6 +1,6 @@
 PREFIX=$(subst .kicad_pro,,$(shell ls -1 *.kicad_pro))
 
-all: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.html $(PREFIX).kicad_sch.jlc.csv gerbers/$(PREFIX)-Edge_Cuts.gm1
+all: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.html $(PREFIX).kicad_sch.jlc.csv gerbers/$(PREFIX)-Edge_Cuts.gm1 3d/$(PREFIX).kicad_pcb.step
 
 %.kicad_sch.pdf : %.kicad_sch
 	kicad-cli sch export pdf $< -o $@
@@ -13,6 +13,10 @@ all: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.html $(PREFIX).kicad_sch.jlc.cs
 
 %.kicad_sch.jlc.csv : %.kicad_sch.xml
 	xsltproc -o $@ "/home/tom/git/arturo182/bom2grouped_csv_jlcpcb/bom2grouped_csv_jlcpcb.xsl" $<
+
+3d/%.kicad_pcb.step : %.kicad_pcb
+	mkdir -p 3d
+	kicad-cli pcb export step --board-only -o $@ $<
 
 gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	rm -rf gerbers/
