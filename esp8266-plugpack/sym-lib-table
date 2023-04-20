@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "tom-connectors")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-libs/connectors/tom-connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "tom-mechanical")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-libs/mechanical/tom-mechanical.kicad_sym")(options "")(descr ""))
+  (lib (name "tom-modules")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-libs/modules/tom-modules.kicad_sym")(options "")(descr ""))
+  (lib (name "tom-opto")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-libs/opto/tom-opto.kicad_sym")(options "")(descr ""))
+  (lib (name "tom-passives")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-libs/passives/tom-passives.kicad_sym")(options "")(descr ""))
+  (lib (name "tom-semiconductors")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-libs/semiconductors/tom-semiconductors.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-capacitor-0603")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/libraries/jlcpcb-basic-capacitor-0603.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-resistor-0603")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/libraries/jlcpcb-basic-resistor-0603.kicad_sym")(options "")(descr ""))
+)
