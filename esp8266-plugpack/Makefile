@@ -26,7 +26,7 @@ gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	sed -e "s/Ref,/Designator,/" -e "s/,PosX,/,Mid X,/" -e "s/,PosY,/,Mid Y,/" -e "s/,Rot,/,Rotation,/" -e "s/,Side/,Layer/" < gerbers/$<.top.pos.csv > gerbers/$<.top.pos.jlc.csv
 	kicad-cli pcb export pos --format csv --units mm --side back --output gerbers/$<.bottom.pos.csv $<
 	sed -e "s/Ref,/Designator,/" -e "s/,PosX,/,Mid X,/" -e "s/,PosY,/,Mid Y,/" -e "s/,Rot,/,Rotation,/" -e "s/,Side/,Layer/" < gerbers/$<.bottom.pos.csv > gerbers/$<.bottom.pos.jlc.csv
-	kicad-cli pcb export drill --format excellon --units mm -o gerbers/ $<
+	kicad-cli pcb export drill --format excellon --excellon-units mm -o gerbers/ $<
 	zip -r $<.`date +%Y-%m-%d-%H-%M`.zip gerbers/
 
 clean:
