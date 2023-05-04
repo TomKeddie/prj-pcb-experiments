@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"J1","SAM","PinSocket_2x05_P1.27mm_Vertical",125.730000,-127.000000,180.000000,top
+"J2","Conn_01x06","PinHeader_1x06_P2.54mm_Vertical",141.500000,-124.460000,90.000000,top
+"J3","Conn_02x03_Odd_Even","PinHeader_2x03_P2.54mm_Vertical",159.500000,-125.730000,90.000000,top
+"J4","AVR","PinSocket_2x05_P1.27mm_Vertical",170.294999,-121.920000,0.000000,top
+"SW1","SW_DPDT_x2","SW_DPDT_SMD",134.000000,-124.460000,0.000000,top

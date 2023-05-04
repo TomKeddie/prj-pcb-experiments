@@ -1,0 +1,25 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.2-6a45011f42~172~ubuntu22.04.1*
+G04 #@! TF.CreationDate,2023-05-04T12:37:46-07:00*
+G04 #@! TF.ProjectId,atmelice-swd-breakout-switch,61746d65-6c69-4636-952d-7377642d6272,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.2-6a45011f42~172~ubuntu22.04.1) date 2023-05-04 12:37:46*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.000000X3.000000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,SW1*
+X131460000Y-121920000D03*
+X134000000Y-121920000D03*
+X136550000Y-121920000D03*
+X131460000Y-127000000D03*
+X134000000Y-127000000D03*
+X136540000Y-127000000D03*
+G04 #@! TD*
+M02*

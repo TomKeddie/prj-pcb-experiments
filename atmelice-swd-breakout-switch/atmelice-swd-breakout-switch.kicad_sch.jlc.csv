@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC
+"SAM","J1","tom-connectors:PinSocket_2x05_P1.27mm_Vertical",""
+"Conn_01x06","J2","tom-connectors:PinHeader_1x06_P2.54mm_Vertical",""
+"Conn_02x03_Odd_Even","J3","tom-connectors:PinHeader_2x03_P2.54mm_Vertical",""
+"AVR","J4","tom-connectors:PinSocket_2x05_P1.27mm_Vertical",""
+"SW_DPDT_x2","SW1","tom-mechanical:SW_DPDT_SMD",""
