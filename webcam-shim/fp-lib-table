@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "webcam-shim")(type "KiCad")(uri "${KIPRJMOD}/webcam-shim.pretty")(options "")(descr ""))
+)
