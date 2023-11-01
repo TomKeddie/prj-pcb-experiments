@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.7"
     },
-    "CreationDate": "2023-09-23T15:21:37-07:00"
+    "CreationDate": "2023-10-31T19:09:09-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -36,8 +36,28 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "baggage-label-small-In1_Cu.g2",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "baggage-label-small-In2_Cu.g3",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "baggage-label-small-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "baggage-label-small-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "baggage-label-small-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
