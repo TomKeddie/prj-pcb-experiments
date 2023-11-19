@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.9-unknown-1000.20231106gitacd7d5a.fc37*
+G04 #@! TF.CreationDate,2023-11-18T18:08:37-08:00*
+G04 #@! TF.ProjectId,strange-parts-sao,73747261-6e67-4652-9d70-617274732d73,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.9-unknown-1000.20231106gitacd7d5a.fc37) date 2023-11-18 18:08:37*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X149819675Y-100000000D02*
+G75*
+G03*
+X149819675Y-100000000I-49819675J0D01*
+G01*
+M02*
