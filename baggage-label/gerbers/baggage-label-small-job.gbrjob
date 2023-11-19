@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.7"
+      "Version": "7.0.9-unknown-1000.20231106gitacd7d5a.fc37"
     },
-    "CreationDate": "2023-10-31T19:09:09-07:00"
+    "CreationDate": "2023-11-08T17:04:09-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -33,16 +33,6 @@
     {
       "Path": "baggage-label-small-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "baggage-label-small-In1_Cu.g2",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "baggage-label-small-In2_Cu.g3",
-      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
