@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -55,24 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|101300000|104525000|c17cb0a6-866c-487e-9275-0925281cfdbb|928abae5-619d-4f73-97f7-2de20f39d0ea",
-        "clearance|101900000|99945000|723516ab-c8cb-401c-ac4d-bc8371ffbd0b|d3a8fab4-9e2c-4ae8-b4d2-5525a8d63f4b",
-        "clearance|103840000|104525000|fb73119f-1757-4a62-a575-3cd8fdf306dd|2cbb8b6e-1c2c-4d6a-b8c1-f49401ebd951",
-        "clearance|104440000|99945000|1e2415bd-98e6-484e-abfc-717163b8fe7d|29ac40e5-f43d-4988-9335-17505cdaa239",
-        "clearance|96220000|104525000|7d060937-aeb8-4ff7-bd9b-136403dfeeb9|566c6a03-ad54-41e4-b1be-75ea5a624a3f",
-        "clearance|96820000|99945000|8aa83eaf-5f0c-4436-b95a-b6c1962e7e20|5628364d-99ff-46e3-94fe-12a2a16d3ce0",
-        "clearance|98760000|104525000|51664b0d-6c6e-480a-a8dc-d34a5db0df52|3ffd7b1e-4fd3-4c88-9fdd-8533f72c8358",
-        "clearance|99360000|99945000|d5729a7c-ab68-42f1-b6be-93b35dd874cd|f2c3e163-9c7e-41bc-b573-f3966112296c",
-        "solder_mask_bridge|101300000|104525000|c17cb0a6-866c-487e-9275-0925281cfdbb|928abae5-619d-4f73-97f7-2de20f39d0ea",
-        "solder_mask_bridge|101900000|99945000|723516ab-c8cb-401c-ac4d-bc8371ffbd0b|d3a8fab4-9e2c-4ae8-b4d2-5525a8d63f4b",
-        "solder_mask_bridge|103840000|104525000|fb73119f-1757-4a62-a575-3cd8fdf306dd|2cbb8b6e-1c2c-4d6a-b8c1-f49401ebd951",
-        "solder_mask_bridge|104440000|99945000|1e2415bd-98e6-484e-abfc-717163b8fe7d|29ac40e5-f43d-4988-9335-17505cdaa239",
-        "solder_mask_bridge|96220000|104525000|7d060937-aeb8-4ff7-bd9b-136403dfeeb9|566c6a03-ad54-41e4-b1be-75ea5a624a3f",
-        "solder_mask_bridge|96820000|99945000|8aa83eaf-5f0c-4436-b95a-b6c1962e7e20|5628364d-99ff-46e3-94fe-12a2a16d3ce0",
-        "solder_mask_bridge|98760000|104525000|51664b0d-6c6e-480a-a8dc-d34a5db0df52|3ffd7b1e-4fd3-4c88-9fdd-8533f72c8358",
-        "solder_mask_bridge|99360000|99945000|d5729a7c-ab68-42f1-b6be-93b35dd874cd|f2c3e163-9c7e-41bc-b573-f3966112296c"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -108,8 +91,8 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
