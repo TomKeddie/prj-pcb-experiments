@@ -14,5 +14,5 @@
        - 6 vias (corners and middle of long side)
 ## First proto - flashlight
 - CC led driver
-- leds on one end using C409529 side mounted LEDs (also look for UV version)
+- leds on one end using C409529 or C965866 side mounted LEDs (also look for UV version)
 - 2 x CR2016
