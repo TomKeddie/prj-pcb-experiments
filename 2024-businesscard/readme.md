@@ -16,3 +16,5 @@
 - CC led driver
 - leds on one end using C409529 or C965866 side mounted LEDs (also look for UV version)
 - 2 x CR2016
+- C842736 for LED driver
+- C256108 for button
