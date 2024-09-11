@@ -2349,6 +2349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b92ca1a5-5287-417c-ac32-3b412e6140cf")
 		)
@@ -2570,7 +2579,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C344190"
+		(property "LCSC" "C1525"
 			(at 58.42 95.25 0)
 			(effects
 				(font

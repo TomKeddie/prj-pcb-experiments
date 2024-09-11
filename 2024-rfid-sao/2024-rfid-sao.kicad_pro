@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|83656896|110419170|09ba423a-923e-4b83-89a9-f91cf48616b0|bcd6d7a0-5bd6-4a3d-8ff5-85dfc22b7c7e",
+        "clearance|83660271|110910272|09ba423a-923e-4b83-89a9-f91cf48616b0|87fbe599-e377-4f95-9eca-73729b21b26f",
+        "clearance|93660273|110910272|e54c6a78-d44e-4911-82e4-8c515bbb8f86|5e3fd72e-18b0-46e5-bc3f-44b9d8996038",
+        "solder_mask_bridge|83656896|110419170|bcd6d7a0-5bd6-4a3d-8ff5-85dfc22b7c7e|09ba423a-923e-4b83-89a9-f91cf48616b0",
+        "solder_mask_bridge|83660271|110910272|87fbe599-e377-4f95-9eca-73729b21b26f|09ba423a-923e-4b83-89a9-f91cf48616b0",
+        "solder_mask_bridge|93660273|110910272|5e3fd72e-18b0-46e5-bc3f-44b9d8996038|e54c6a78-d44e-4911-82e4-8c515bbb8f86"
+      ],
       "meta": {
         "version": 2
       },
