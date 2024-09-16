@@ -1,0 +1,4 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"D1","LED","XZM2CYK45WT-9-NOMASK",106.720000,-56.480000,0.000000,bottom
+"J1","Conn_02x03_Odd_Even","PinSocket_2x03_P2.54mm_Vertical_SMD_SAO",129.090000,-132.110000,90.000000,bottom
+"R1","220R","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",120.850000,-134.310000,0.000000,bottom
