@@ -11581,17 +11581,6 @@
 		(layer "F.Cu")
 		(uuid "33af6ad3-76ca-4ec2-b65a-077185418b0a")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 0 21)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "4d4ed0c8-8c71-40f5-9d97-2d903e26ac7f")
-	)
 	(pad "1" thru_hole circle
 		(at 10 0)
 		(size 0.8 0.8)
