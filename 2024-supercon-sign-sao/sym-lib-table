@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-capacitor-0402")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/libraries/jlcpcb-basic-capacitor-0402.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "jlcpcb-basic-resistor-0402")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/libraries/jlcpcb-basic-resistor-0402.kicad_sym")(options "")(descr "")(disabled))
+)
