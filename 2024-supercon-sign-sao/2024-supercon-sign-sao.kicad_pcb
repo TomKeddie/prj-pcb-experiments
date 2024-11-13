@@ -7998,7 +7998,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R63"
-			(at 0 0 0)
+			(at 0 0.25 0)
 			(layer "B.SilkS")
 			(uuid "0c7a6032-a45f-4e64-886b-4febfc163da6")
 			(effects
@@ -9252,7 +9252,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R62"
-			(at 0 0 0)
+			(at 0 0.25 0)
 			(layer "B.SilkS")
 			(uuid "681a64f8-d546-4887-89be-4edbdaf64dd3")
 			(effects
@@ -35768,6 +35768,18 @@
 					(xy 144.268584 125.167774) (xy 144.331237 125.470597) (xy 144.507599 125.702888) (xy 144.780273 125.836471)
 				)
 			)
+		)
+	)
+	(gr_text "@TomKeddie\nNov2024\n2024-supercon-sign-sao\nhttps://github.com/TomKeddie/prj-pcb-experiments"
+		(at 122 96 45)
+		(layer "B.SilkS")
+		(uuid "69344a5c-7b03-4e25-bfb6-4a7ebe1b0483")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "SAOs are the \nproperty of\ntheir creators\nor Hackaday.\nPlease leave \nthem here."
