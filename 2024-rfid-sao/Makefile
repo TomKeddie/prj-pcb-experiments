@@ -2,7 +2,7 @@ PREFIX=$(subst .kicad_pro,,$(shell ls -1 *.kicad_pro))
 
 all: pcb schematic
 
-schematic: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.html $(PREFIX).kicad_sch.jlc.csv
+schematic: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.jlc.csv
 
 pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf
 
@@ -15,14 +15,8 @@ pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf
 %.kicad_sch.pdf : %.kicad_sch
 	kicad-cli sch export pdf $< -o $@
 
-%.kicad_sch.xml : %.kicad_sch
-	kicad-cli sch export python-bom --output $@ $<
-
-%.kicad_sch.html : %.kicad_sch.xml
-	PYTHONPATH=/usr/share/kicad/plugins python3 /home/tom/.kicad/scripting/plugins/bom_html_grouped_by_value.py $< $(CURDIR)/$@
-
-%.kicad_sch.jlc.csv : %.kicad_sch.xml
-	PYTHONPATH=/usr/share/kicad/plugins python3 /home/tom/git/TomKeddie/prj-kicad-scripts/jlcpcb/bom_csv_jlcpcb_nogroup.py $< $(CURDIR)/$@
+%.kicad_sch.jlc.csv : %.kicad_sch
+	kicad-cli sch export bom --fields "Value,Reference,Footprint,LCSC" --labels "Comment,Designator,Footprint,LCSC" --output $@ $<
 
 gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	rm -rf gerbers/
@@ -39,6 +33,6 @@ gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	zip -r $<.`date +%Y-%m-%d-%H-%M`.zip gerbers/*.[gd]*
 
 clean:
-	rm -f $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.html se15643-daughter.kicad_pcb.mechanical.pdf
+	rm -f $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.jlc.csv $(PREFIX).kicad_pcb.dxf %.kicad_pcb.step
 	rm -rf gerbers
 

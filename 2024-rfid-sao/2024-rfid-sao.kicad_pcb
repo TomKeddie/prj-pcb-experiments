@@ -14303,7 +14303,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e38b0a1e-4599-4631-87c2-d98053bb13bb")
 	)
-	(gr_text "@TomKeddie\nRFID-SAO\nOct2024"
+	(gr_text "@TomKeddie\nRFID-SAO\nNov2024\ni2c: 0x53/0x57"
 		(at 73.660272 110.910272 45)
 		(layer "B.SilkS")
 		(uuid "6499dedd-121a-4b92-b4ea-361f59cb6187")
@@ -14312,18 +14312,6 @@
 				(size 3 3)
 				(thickness 0.5)
 				(bold yes)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "JLCJLCJLCJLC"
-		(at 113.965359 151.215359 -45)
-		(layer "B.SilkS")
-		(uuid "e0f7ea78-b682-4cfd-9516-10353ee70723")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
 			)
 			(justify mirror)
 		)
