@@ -14142,6 +14142,16 @@
 			)
 		)
 	)
+	(gr_line
+		(start 95 132)
+		(end 52.5 90)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "e4febb5f-ec02-4da3-bb53-226b1b5102ea")
+	)
 	(gr_circle
 		(center 73.660272 110.910272)
 		(end 94.873476 89.697069)
@@ -14304,7 +14314,7 @@
 		(uuid "e38b0a1e-4599-4631-87c2-d98053bb13bb")
 	)
 	(gr_text "@TomKeddie\nRFID-SAO\nNov2024\ni2c: 0x53/0x57"
-		(at 73.660272 110.910272 45)
+		(at 74.160272 111.410272 45)
 		(layer "B.SilkS")
 		(uuid "6499dedd-121a-4b92-b4ea-361f59cb6187")
 		(effects
@@ -14939,6 +14949,37 @@
 		(layer "B.Cu")
 		(net 8)
 		(uuid "62f366a5-ff01-4ecd-8a81-0a90d9a71e84")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.SilkS")
+		(uuid "fe938c7d-bf18-4da7-bc37-6adf575c8f2f")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 52.5 97.5) (xy 59.571068 90.428932) (xy 66.642136 97.5) (xy 59.571068 104.571068)
+			)
+		)
+		(filled_polygon
+			(layer "B.SilkS")
+			(island)
+			(pts
+				(xy 59.614402 90.488112) (xy 59.658749 90.516613) (xy 66.554455 97.412319) (xy 66.58794 97.473642)
+				(xy 66.582956 97.543334) (xy 66.554455 97.587681) (xy 59.658749 104.483387) (xy 59.597426 104.516872)
+				(xy 59.527734 104.511888) (xy 59.483387 104.483387) (xy 52.587681 97.587681) (xy 52.554196 97.526358)
+				(xy 52.55918 97.456666) (xy 52.587681 97.412319) (xy 59.483387 90.516613) (xy 59.54471 90.483128)
+			)
+		)
 	)
 	(zone
 		(net 0)
