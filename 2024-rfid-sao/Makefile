@@ -2,7 +2,7 @@ PREFIX=$(subst .kicad_pro,,$(shell ls -1 *.kicad_pro))
 
 all: pcb schematic
 
-schematic: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.jlc.csv
+schematic: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.jlc.csv $(PREFIX).kicad_sch.jlc.md
 
 pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf
 
@@ -17,6 +17,11 @@ pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf
 
 %.kicad_sch.jlc.csv : %.kicad_sch
 	kicad-cli sch export bom --fields "Value,Reference,Footprint,LCSC" --labels "Comment,Designator,Footprint,LCSC" --output $@ $<
+
+%.kicad_sch.jlc.md : %.kicad_sch.jlc.csv
+	head -n1 $< | awk -F'"' '{print "|"$$4"|"$$8"|"$$6"|"$$2"|"}' > $@
+	echo "|--|--|--|--|" >> $@
+	tail -n +2 $< | awk -F\" '{print "|"$$4"|"$$8"|"$$6"|"$$2"|"}' >> $@
 
 gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	rm -rf gerbers/
