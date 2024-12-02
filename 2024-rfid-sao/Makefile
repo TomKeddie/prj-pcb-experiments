@@ -21,7 +21,8 @@ pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf
 %.kicad_sch.jlc.md : %.kicad_sch.jlc.csv
 	head -n1 $< | awk -F'"' '{print "|"$$4"|"$$8"|"$$6"|"$$2"|"}' > $@
 	echo "|--|--|--|--|" >> $@
-	tail -n +2 $< | awk -F\" '{print "|"$$4"|"$$8"|"$$6"|"$$2"|"}' >> $@
+	# https://jlcpcb.com/partdetail/
+	tail -n +2 $< | awk -F\" '{print "|"$$4"|["$$8"](https://jlcpcb.com/partdetail/"$$8")|"$$6"|"$$2"|"}' >> $@
 
 gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	rm -rf gerbers/
