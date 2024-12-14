@@ -1,4 +1,4 @@
-all: gerbers/baggage-label-Edge_Cuts.gm1 gerbers/baggage-label-mid-Edge_Cuts.gm1 gerbers/baggage-label-small-Edge_Cuts.gm1
+all: gerbers/baggage-label-Edge_Cuts.gm1 gerbers/baggage-label-mid-Edge_Cuts.gm1 gerbers/baggage-label-small-Edge_Cuts.gm1 gerbers/baggage-label-blank-Edge_Cuts.gm1
 
 gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	rm -rf gerbers/
