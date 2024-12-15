@@ -1,0 +1,118 @@
+(footprint "TestPoint_Pad_D3.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD pad as test Point, diameter 3.0mm")
+	(tags "test point SMD pad")
+	(property "Reference" "REF**"
+		(at 3 1.25 0)
+		(layer "F.SilkS")
+		(uuid "35a551f9-c71d-4690-932f-b6172926aa57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AC_N"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "99d17618-facb-4d4a-8b2b-10984390c258")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03f16a6a-babd-4994-a3bc-eca12705ba21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41b3fdd9-9f92-4ad7-aba8-ae15b07ec239")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aee11aef-f6c0-4267-b6e2-8bd3103382d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9adf65cd-22aa-482c-b56e-a54015b7595e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e6ad5694-3a96-456f-a19a-fe3b4d72db24")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "63ffc484-55db-4395-b72b-7fa94094b01f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.4 0)
+		(layer "F.Fab")
+		(uuid "3901f60e-96da-426b-a353-0500c14882d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "fe1c8a37-e2f0-4cda-aa5b-e7d363cd3ad0")
+	)
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.pretty")(options "")(descr ""))
+  (lib (name "library1")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-pcb-experiments/2024-clock-retrofit/kicad/library.pretty")(options "")(descr "")(disabled))
+  (lib (name "Library2")(type "KiCad")(uri "/home/tom/tmp/Library.pretty")(options "")(descr "")(disabled))
+)

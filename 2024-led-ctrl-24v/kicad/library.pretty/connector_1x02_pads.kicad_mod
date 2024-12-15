@@ -1,0 +1,134 @@
+(footprint "connector_1x02_pads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/5-G-3.81; number of pins: 05; pin pitch: 3.81mm; Vertical || order number: 1803455 8A 160V")
+	(tags "phoenix_contact connector MCV_01x05_G_3.81mm")
+	(property "Reference" "REF**"
+		(at 0 -5.45 0)
+		(layer "F.SilkS")
+		(uuid "cd96b7d9-79b3-471b-b4b9-7bf0e3956afb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "connector_1x02_pads"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "527f66b7-91db-4cb3-8c73-d18eff4f909f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -3.81 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77c16926-bea0-4786-80c2-fef9a808fbec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.81 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b157d0e6-be83-46ec-8f58-ef7233e1e127")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3.81 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74c1e9ec-831c-45be-a00f-9ada756726db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.81 -4.76)
+		(end -3.81 3.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58b5220c-2e11-4d32-830c-22aa4e6524d0")
+	)
+	(fp_line
+		(start -3.81 3.49)
+		(end 3.81 3.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80f86e40-03ac-4646-bc14-7292d84330e7")
+	)
+	(fp_line
+		(start 3.81 -4.76)
+		(end -3.81 -4.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af062118-19a3-4d6a-92a7-fc84924d7c85")
+	)
+	(fp_line
+		(start 3.81 3.49)
+		(end 3.81 -4.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b15717d0-f4b1-455a-b439-eeaa43104fba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.55 0)
+		(layer "F.Fab")
+		(uuid "b4411dd2-bef3-4a7a-bf7f-c4a32fafa5dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2 0)
+		(size 3 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.138889)
+		(uuid "5e9380c9-9ac7-4b4a-8e8c-19fd0db83a01")
+	)
+	(pad "2" smd oval
+		(at 2 0)
+		(size 3 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f34db81d-6695-465f-9fc5-16a6376edb6d")
+	)
+)
