@@ -26,7 +26,7 @@ pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf
 gerbers/%-Edge_Cuts.gm1 : %.kicad_pcb
 	rm -rf gerbers/
 	mkdir -p gerbers/
-	kicad-cli pcb export gerbers -o gerbers/ --no-x2 --layers "F.Cu,B.Cu,Edge.Cuts,F.SilkS,B.SilkS,F.Paste,B.Paste,F.Mask,B.Mask" $<
+	kicad-cli pcb export gerbers -o gerbers/ --subtract-soldermask --no-x2 --layers "F.Cu,B.Cu,Edge.Cuts,F.SilkS,B.SilkS,F.Paste,B.Paste,F.Mask,B.Mask" $<
 	kicad-cli pcb export pos --format csv --units mm --side front --output gerbers/$<.top.pos.csv $(PREFIX).kicad_pcb
 	kicad-cli pcb export pos --format csv --units mm --side back --output gerbers/$<.bottom.pos.csv $(PREFIX).kicad_pcb
 	awk -F, '{print $$1","$$4","$$5","$$7","$$6}' gerbers/$<.top.pos.csv    | sed -e "s/Ref,/Designator,/" -e "s/,PosX,/,Mid X,/" -e "s/,PosY,/,Mid Y,/" -e "s/,Rot/,Rotation/" -e "s/,Side/,Layer/" > gerbers/$<.temp.top.csv
