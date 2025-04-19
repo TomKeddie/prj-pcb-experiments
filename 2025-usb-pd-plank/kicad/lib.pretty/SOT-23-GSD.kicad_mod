@@ -53,6 +53,18 @@
 			)
 		)
 	)
+	(property "JLCPCB_ROTATION_DELTA" "180"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57511f6d-eef5-4e0c-b489-3eb6412f6656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start 0 -1.56)

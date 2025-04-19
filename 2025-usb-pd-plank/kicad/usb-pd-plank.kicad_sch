@@ -4271,6 +4271,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Note that caps on PD IC are out of spec to reduce part count."
+		(exclude_from_sim no)
+		(at 137.16 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bf2907c-2fb5-4cf5-aa55-bfa610ecdfb2")
+	)
 	(text "- Source and Sink connectors\n- Function as PD sink with VBUS on terminal\n- Function as Source for PD query only (5v)\n- Function as tap for PD exchange"
 		(exclude_from_sim no)
 		(at 210.82 173.482 0)
@@ -6983,7 +6993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/16V"
+		(property "Value" "4.7uF/50V"
 			(at 149.86 77.4762 0)
 			(effects
 				(font
@@ -6992,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:C_0603_1608Metric"
+		(property "Footprint" "lib:C_1206_3216Metric"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -7019,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C29823"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -7803,7 +7813,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF/16V"
+		(property "Value" "4.7uF/50V"
 			(at 161.2963 82.55 90)
 			(effects
 				(font
@@ -7811,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lib:C_0603_1608Metric"
+		(property "Footprint" "lib:C_1206_3216Metric"
 			(at 161.29 86.36 0)
 			(effects
 				(font
@@ -7838,7 +7848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C29823"
 			(at 161.29 86.36 0)
 			(effects
 				(font
@@ -7946,7 +7956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "4.7uF/50V"
 			(at 69.85 85.0962 0)
 			(effects
 				(font
@@ -7982,7 +7992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1848"
+		(property "LCSC" "C29823"
 			(at 67.31 83.82 0)
 			(effects
 				(font
@@ -8498,7 +8508,7 @@
 		(at 137.16 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d2c17e2-5630-424c-946b-9fbaa3cf2f82")
@@ -8855,7 +8865,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 27.94 25.4 0)
 			(effects
 				(font
@@ -8890,7 +8900,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "C2297"
 			(at 30.48 25.4 0)
 			(effects
 				(font
@@ -9750,7 +9760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
+		(property "Value" "GREEN"
 			(at 66.04 170.18 0)
 			(effects
 				(font
@@ -9785,7 +9795,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2296"
+		(property "LCSC" "C2297"
 			(at 68.58 170.18 0)
 			(effects
 				(font
@@ -10420,7 +10430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF/16V"
+		(property "Value" "4.7uF/50V"
 			(at 127 77.4762 0)
 			(effects
 				(font
@@ -10429,7 +10439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:C_0603_1608Metric"
+		(property "Footprint" "lib:C_1206_3216Metric"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -10456,7 +10466,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C29823"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -11120,7 +11130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 76.2 26.67 0)
 			(effects
 				(font
@@ -11156,7 +11166,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25744"
 			(at 74.93 25.4 0)
 			(effects
 				(font
@@ -11487,7 +11497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 68.58 26.67 0)
 			(effects
 				(font
@@ -11523,7 +11533,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25744"
 			(at 67.31 25.4 0)
 			(effects
 				(font
@@ -11683,7 +11693,7 @@
 		(at 137.16 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

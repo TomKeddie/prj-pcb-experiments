@@ -16,9 +16,6 @@ except:
 
 footprints = board.Footprints()
 
-#for footprint in footprints:
-#    print(footprint.GetReference())
-
 try:
     posinfile = open(args.posinfile, newline='')
     try:
@@ -37,7 +34,9 @@ try:
                 if footprint:
                     jlcpcb_rotation_delta = footprint.GetFieldByName("JLCPCB_ROTATION_DELTA")
                     if jlcpcb_rotation_delta:
-                        row[4] += int(float(jlcpcb_rotation_delta.GetText()))
+                        delta=int(float(jlcpcb_rotation_delta.GetText()))
+                        print("{} : rotation delta={}".format(row[0], delta))
+                        row[4] += delta
                         if row[4] > 359:
                             row[4] -= 360
                         elif row[4] < -359:
