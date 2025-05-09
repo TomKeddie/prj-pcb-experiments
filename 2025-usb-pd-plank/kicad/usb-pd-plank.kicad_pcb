@@ -409,7 +409,7 @@
 				)
 			)
 		)
-		(property "Description" "P-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -418,6 +418,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "270"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5d54aba2-0b69-49fa-a3db-6fae8361249b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -434,7 +446,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4730df0b-db3b-4ba7-815a-738b9461b842")
+			(uuid "38dbdff4-b862-484b-a1f1-c1275c4948a1")
 		)
 		(fp_line
 			(start 0 -2.56)
@@ -444,7 +456,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "70471c64-ffbf-407c-a3e4-81c4e850d331")
+			(uuid "ac90d0c0-fa0f-4855-a7c6-71d53b1df4ce")
 		)
 		(fp_line
 			(start 0 2.56)
@@ -454,7 +466,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2c914fb9-6516-4520-9d15-2073bea622bf")
+			(uuid "914cf233-016b-4c7e-8861-dffd7c7d127c")
 		)
 		(fp_line
 			(start 0 2.56)
@@ -464,7 +476,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a81223fa-6de3-496f-bc8f-62390dd47d65")
+			(uuid "df983af8-8174-44b6-ab78-4a90f7a1c836")
 		)
 		(fp_poly
 			(pts
@@ -476,7 +488,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "c5dcc24a-3cb3-4e44-967e-8813d3676537")
+			(uuid "728e1c66-6013-410b-8f5d-ed807aa07143")
 		)
 		(fp_rect
 			(start -3.7 -2.7)
@@ -487,7 +499,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "60ba37d5-68bf-4198-9d33-b688a3c7f08b")
+			(uuid "c2bef585-f606-4d51-9358-f790b72871ef")
 		)
 		(fp_line
 			(start -1.95 -1.475)
@@ -497,7 +509,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bb7dcaaa-3d22-4dae-9163-c1e01a4b1bfd")
+			(uuid "847e8872-5281-4b4b-a2cd-c397f9b39214")
 		)
 		(fp_line
 			(start -1.95 2.45)
@@ -507,7 +519,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a2b6a52-683b-494a-835b-f6993553ab1e")
+			(uuid "76d58be4-c062-4f74-9dd0-6f21a8350da6")
 		)
 		(fp_line
 			(start -0.975 -2.45)
@@ -517,7 +529,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "664e21f4-dce2-4b01-858f-572b15b5c31e")
+			(uuid "4d5609e8-1290-4ada-9ef1-d7ddadc50aa0")
 		)
 		(fp_line
 			(start 1.95 -2.45)
@@ -527,7 +539,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "96907fc5-d1e9-4139-9bea-e1ea9aaba875")
+			(uuid "24bd15f5-359c-41f4-a7a1-c7533821cbaa")
 		)
 		(fp_line
 			(start 1.95 2.45)
@@ -537,7 +549,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "097e8c20-0a92-4217-9f3c-57b927ce80c2")
+			(uuid "70fb2291-8de1-41ee-bb93-f2f522574976")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1748,7 +1760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1761,7 +1773,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1771,6 +1783,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "180"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "46efca62-247d-49f3-b66e-29272540680f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1800,7 +1824,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "feb7d4c2-bfb7-43b6-9068-1dd0130ccc17")
+			(uuid "27f94b14-0c3d-482e-a8e1-0ae393f05f74")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -1810,7 +1834,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dfc0e15a-c126-4e03-9144-5fd939cbcbc9")
+			(uuid "55e592c0-094c-4418-af58-c0dc106bc0e6")
 		)
 		(fp_line
 			(start 0 -1.56)
@@ -1820,7 +1844,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d5a83aa1-84d6-4f5c-b06b-3dac03278cba")
+			(uuid "16bf5c20-019f-40cc-9a2e-23875b7ebb6c")
 		)
 		(fp_line
 			(start 0 -1.56)
@@ -1830,7 +1854,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e98a1027-74df-4fe5-aa6b-559b3b7a625f")
+			(uuid "9f6545ca-e314-470d-8cb6-09a735611641")
 		)
 		(fp_poly
 			(pts
@@ -1842,7 +1866,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "5eb85cc2-271c-44b1-80b4-49a2571bf964")
+			(uuid "87138ace-2159-44c1-9f33-63c5c77fe135")
 		)
 		(fp_line
 			(start 1.92 1.7)
@@ -1852,7 +1876,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "65e3f93f-de69-4fcf-8081-3293e8f1b023")
+			(uuid "8c7b2b05-0dcb-43f7-bdcf-ac499de6a336")
 		)
 		(fp_line
 			(start 1.92 -1.7)
@@ -1862,7 +1886,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a182abff-6508-481e-b655-3b8e70c24903")
+			(uuid "58dac4cd-0f93-4bec-a9d8-193d0c72bdd2")
 		)
 		(fp_line
 			(start -1.92 1.7)
@@ -1872,7 +1896,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "47c7815a-3501-40cf-9549-de414b91079a")
+			(uuid "0997252d-c863-4ad8-bb84-a97a04626653")
 		)
 		(fp_line
 			(start -1.92 -1.7)
@@ -1882,7 +1906,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "816bfc86-a9b7-4aa3-aea3-08a0cf235bf5")
+			(uuid "89646972-ea93-4808-9fdd-571c91d36018")
 		)
 		(fp_line
 			(start 0.65 1.45)
@@ -1892,7 +1916,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d71fb36f-99ea-40b8-9027-8099c6ad3aab")
+			(uuid "2c02f056-69ab-42d8-8b5d-eb5224955954")
 		)
 		(fp_line
 			(start 0.65 -1.45)
@@ -1902,7 +1926,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2ef9c230-d037-4f6c-ac44-3a3deb6eed90")
+			(uuid "d260b837-5465-44c5-9d0a-d7f5e7f0fcaa")
 		)
 		(fp_line
 			(start -0.325 -1.45)
@@ -1912,7 +1936,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e607ae73-b8d6-45af-9b5b-b8c415e02d1c")
+			(uuid "c5fb1906-f924-4e0d-b616-aa71fe3a7c4f")
 		)
 		(fp_line
 			(start -0.65 1.45)
@@ -1922,7 +1946,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "47facde1-0c8d-41fa-bb0f-d9ab5bee76be")
+			(uuid "ab94ead8-2a8c-4e25-8c27-a3984115a8d7")
 		)
 		(fp_line
 			(start -0.65 -1.125)
@@ -1932,7 +1956,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "da127ade-eb6a-4f3f-86ce-f1c7ca29d708")
+			(uuid "e9e6c4ea-abd8-407a-bd83-9a2a9bd7b99c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -3476,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Description" "P-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3485,6 +3509,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "270"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2b6aabf-847e-470e-8f6b-7a93a3eb0ec5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3501,7 +3537,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7d306ada-98a4-4a57-b48e-f3aca645c3a9")
+			(uuid "4ae99f9a-1b9a-46b9-92f4-fbe2f14e7907")
 		)
 		(fp_line
 			(start 0 2.56)
@@ -3511,7 +3547,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b0e6f2f9-9fc4-4e8f-86f6-4929240ab30c")
+			(uuid "a2a75534-9ad1-4a9e-91c9-f623ad7d194f")
 		)
 		(fp_line
 			(start 0 -2.56)
@@ -3521,7 +3557,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2191108f-a791-472f-a16c-89ee866dadcc")
+			(uuid "8fff9d63-fe12-4928-96e8-f74ff7eba586")
 		)
 		(fp_line
 			(start 0 -2.56)
@@ -3531,7 +3567,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "15719cc8-37d9-4a8d-a5de-73fc9375b661")
+			(uuid "c3190fb7-f872-44f5-bd02-2c6cba2e8a40")
 		)
 		(fp_poly
 			(pts
@@ -3543,7 +3579,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "44940063-1301-4875-b262-f5222d936639")
+			(uuid "543e41a5-82f9-491a-b731-d5cc6d63d71f")
 		)
 		(fp_rect
 			(start -3.7 -2.7)
@@ -3554,7 +3590,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "0ea70e56-f3c4-445f-89cf-b4d53b3e513f")
+			(uuid "86e2a4ba-c4e8-4ef8-855c-f98b56e9ba40")
 		)
 		(fp_line
 			(start 1.95 2.45)
@@ -3564,7 +3600,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4d726d32-d11b-476b-ade1-a07bee89d362")
+			(uuid "0ff5664b-61ef-4e24-843a-dea3ff754799")
 		)
 		(fp_line
 			(start 1.95 -2.45)
@@ -3574,7 +3610,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f41490ce-230e-45ea-a407-d00b38a3a3fb")
+			(uuid "be59b8db-0d62-4b67-8542-b084fc3b8715")
 		)
 		(fp_line
 			(start -0.975 -2.45)
@@ -3584,7 +3620,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8347f3e4-3fda-4a50-b6d6-f6f075514eb6")
+			(uuid "7ddda1a3-04d3-4103-9b4a-60380c5eb582")
 		)
 		(fp_line
 			(start -1.95 2.45)
@@ -3594,7 +3630,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "94ac866d-8ff9-474e-9de6-29d13c43ee2b")
+			(uuid "b370efcc-b192-4368-8941-53d8202e4e30")
 		)
 		(fp_line
 			(start -1.95 -1.475)
@@ -3604,7 +3640,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c178eb2a-80bd-4dc8-b1cd-f7564b74ba51")
+			(uuid "ad24830c-574d-4ab3-9d73-d0b7ca64593b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -3984,7 +4020,7 @@
 				)
 			)
 		)
-		(property "Description" "P-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3993,6 +4029,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "270"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "044a48ca-cb29-40b0-aecc-a6d6ba4211f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4009,7 +4057,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d14ebe1c-45e0-4ea7-867b-49896d4b34cc")
+			(uuid "4cefb6fb-19de-4e2d-9001-636978742074")
 		)
 		(fp_line
 			(start 0 -2.56)
@@ -4019,7 +4067,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dfe7f143-7840-40c1-9ea3-10a8f3784a0b")
+			(uuid "57f16a56-01f5-4e03-9277-58b76d15621b")
 		)
 		(fp_line
 			(start 0 2.56)
@@ -4029,7 +4077,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1feb1806-d861-4cbd-8543-3a1084704de0")
+			(uuid "a99bc42a-4c41-4a66-94e4-8be1595c3d53")
 		)
 		(fp_line
 			(start 0 2.56)
@@ -4039,7 +4087,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "12809362-770a-46bc-bf10-fd7bfffdd43e")
+			(uuid "c17f7a71-245e-411d-8f30-9f868041f8d4")
 		)
 		(fp_poly
 			(pts
@@ -4051,7 +4099,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "c67b7af6-0937-4023-8e21-0c1e07468c11")
+			(uuid "7bb4f45a-68de-466e-8140-6046f7fbda27")
 		)
 		(fp_rect
 			(start -3.7 -2.7)
@@ -4062,7 +4110,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "109dbbd1-a536-4360-84d6-958074049e0d")
+			(uuid "5e3f04d3-a8a1-4f45-ac11-1951af0b927e")
 		)
 		(fp_line
 			(start -1.95 -1.475)
@@ -4072,7 +4120,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ca138f87-cf5e-419b-b1c5-d19a178f9b3b")
+			(uuid "86bf6281-43f3-4890-8891-8efcc3efc1a2")
 		)
 		(fp_line
 			(start -1.95 2.45)
@@ -4082,7 +4130,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c8c5ddb9-a446-4fba-acc3-501fad259df2")
+			(uuid "6a4ee48e-3fbc-403a-9468-09e7b4e03908")
 		)
 		(fp_line
 			(start -0.975 -2.45)
@@ -4092,7 +4140,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ad807a62-30cd-4456-9421-1ba5a0053f93")
+			(uuid "802b58e7-90af-4de0-8cee-635b1e843073")
 		)
 		(fp_line
 			(start 1.95 -2.45)
@@ -4102,7 +4150,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6ca77453-35bc-4b6c-badd-bb6530f9e7a6")
+			(uuid "0496eb6c-b8eb-4e72-93cc-498e633dedf4")
 		)
 		(fp_line
 			(start 1.95 2.45)
@@ -4112,7 +4160,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4ebad73d-2533-43f2-b056-f1c8d1ea970b")
+			(uuid "942f8deb-e909-4a72-a484-b2e2e78c558f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -4874,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4887,7 +4935,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4897,6 +4945,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "180"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b26f5fd-b2b8-41a7-8a3e-799ba0c504eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4926,7 +4986,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d5501616-393b-4412-9e79-8906b8dc4da8")
+			(uuid "019f01b6-acf9-424d-b2dc-41feac855908")
 		)
 		(fp_line
 			(start 0 -1.56)
@@ -4936,7 +4996,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9e189f86-77d0-406e-ab95-fb3a2c5263f3")
+			(uuid "c3e960d5-2242-4ba7-92a4-1aee88496665")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -4946,7 +5006,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d9dfbdbd-4c3a-4ba4-94f7-daeeb6a5fa43")
+			(uuid "54a79be4-9832-4fbb-9953-3ca77cb10e17")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -4956,7 +5016,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1c301f37-17ab-4b51-b195-0496adb6731e")
+			(uuid "544831fc-3e59-48af-9c42-292a50827305")
 		)
 		(fp_poly
 			(pts
@@ -4968,7 +5028,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "267fb7d5-b9e8-48bb-bd39-b903a50bf72d")
+			(uuid "cfb07f3c-33f4-4130-873a-34b2499abb55")
 		)
 		(fp_line
 			(start -1.92 -1.7)
@@ -4978,7 +5038,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cd999ab3-2672-4f4d-a046-5e031526247b")
+			(uuid "09ccdd60-3606-4a01-9b98-4c1045079c4f")
 		)
 		(fp_line
 			(start -1.92 1.7)
@@ -4988,7 +5048,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "73757d13-0835-4db4-99d5-4bd5544f5f98")
+			(uuid "9af752f3-7312-4cb5-b990-ce7bf6090f6c")
 		)
 		(fp_line
 			(start 1.92 -1.7)
@@ -4998,7 +5058,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "14ebcc35-3ef5-417e-b1c6-3d4739025c9f")
+			(uuid "23b55885-fc09-4e92-bf74-7ff751776d9f")
 		)
 		(fp_line
 			(start 1.92 1.7)
@@ -5008,7 +5068,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c4fff1e4-66c1-41ac-8b07-28613c474ac9")
+			(uuid "6468a7b1-5036-432c-af14-159c45e6e8b3")
 		)
 		(fp_line
 			(start -0.65 -1.125)
@@ -5018,7 +5078,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "eda7292b-feea-4d20-b39c-9a3e24a28493")
+			(uuid "f18530a4-11ec-4b7b-9cab-b4226b6e93d1")
 		)
 		(fp_line
 			(start -0.65 1.45)
@@ -5028,7 +5088,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "70a1f426-4611-473b-8ff8-50db91ba1eba")
+			(uuid "4222a57f-3106-4fda-a4c2-cc6d1c14283a")
 		)
 		(fp_line
 			(start -0.325 -1.45)
@@ -5038,7 +5098,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bcd3e46c-e05e-4660-887c-ad55379599a0")
+			(uuid "19eb3da8-3e30-49b9-8a0c-6f43ff5ff33e")
 		)
 		(fp_line
 			(start 0.65 -1.45)
@@ -5048,7 +5108,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "33f7620e-85eb-4d93-a041-0a14f65629ef")
+			(uuid "811b4eb5-e53e-424e-8808-a6180e855e14")
 		)
 		(fp_line
 			(start 0.65 1.45)
@@ -5058,7 +5118,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "deafa4a1-5cd2-4121-aaf6-7051dbbf6a2e")
+			(uuid "dea6486e-76d2-43dc-9659-5e661c9858d6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -5366,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Description" "P-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5375,6 +5435,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "270"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "281e33c8-5f82-4c77-9f8b-4af16bdb5be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5391,7 +5463,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "23d70d7e-3a8f-4ee4-be93-c3166025ef85")
+			(uuid "aa47a32e-fdc6-4cf6-850b-5ab2f0bc464a")
 		)
 		(fp_line
 			(start 0 2.56)
@@ -5401,7 +5473,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c46141b-e59a-485c-a1d4-2bf8d172d6d7")
+			(uuid "c5c1880e-0462-4fe8-a66b-99dda0267c10")
 		)
 		(fp_line
 			(start 0 -2.56)
@@ -5411,7 +5483,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "46333fdb-835a-4074-a1ae-e6d5dac8791c")
+			(uuid "8fb8e106-5c42-4fc9-ba6b-3b8055f2e437")
 		)
 		(fp_line
 			(start 0 -2.56)
@@ -5421,7 +5493,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cd8c788a-0423-4290-a859-d64f7d54ac24")
+			(uuid "71409492-58fa-40a9-973f-36c99fbf125e")
 		)
 		(fp_poly
 			(pts
@@ -5433,7 +5505,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "a202669e-7d41-43a5-8083-2dd0bc927d5b")
+			(uuid "7f5020d8-743f-4d39-a681-41721df65319")
 		)
 		(fp_rect
 			(start -3.7 -2.7)
@@ -5444,7 +5516,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5303d8ee-a71c-4661-b94f-5ea8ab34a125")
+			(uuid "a7373b4d-5212-417d-b772-fb47d307353d")
 		)
 		(fp_line
 			(start 1.95 2.45)
@@ -5454,7 +5526,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dea0eb74-f6a6-4b46-bf20-af4a88806635")
+			(uuid "abc12a0d-cdaa-4403-8c50-ab10eec3f512")
 		)
 		(fp_line
 			(start 1.95 -2.45)
@@ -5464,7 +5536,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e53f45d1-758e-49bd-94fd-a89a63958fe8")
+			(uuid "8af182e6-fb20-4fca-83bf-0aec077b9ab1")
 		)
 		(fp_line
 			(start -0.975 -2.45)
@@ -5474,7 +5546,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "688b92c8-68c2-4a0e-b41f-ab23d48fbe25")
+			(uuid "a942d29e-0cd0-4fb5-88de-1738d4e2d1fe")
 		)
 		(fp_line
 			(start -1.95 2.45)
@@ -5484,7 +5556,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "654b97de-7b45-4816-8919-ffbedda92633")
+			(uuid "2284e858-2aa7-4613-baf8-f8ae061d3547")
 		)
 		(fp_line
 			(start -1.95 -1.475)
@@ -5494,7 +5566,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b49975bc-dfde-4866-8954-91fb862d8278")
+			(uuid "5b5b6864-1a7c-46a7-9585-b8c263924501")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -10223,7 +10295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10236,7 +10308,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10246,6 +10318,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "180"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7abecc92-d3be-457e-867f-fa65170a2ecc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10275,7 +10359,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "395d81fc-f97d-4c67-b05c-9a7e98bf042e")
+			(uuid "a4154961-db79-4fa6-90b8-ec3435be28a1")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -10285,7 +10369,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "159d3087-1653-4d75-9c4d-8c61a5b715b7")
+			(uuid "3ce25027-864c-44e4-a348-433760063c2d")
 		)
 		(fp_line
 			(start 0 -1.56)
@@ -10295,7 +10379,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1c611451-a32f-40ec-9285-07fb6866af9d")
+			(uuid "29585478-4b04-4aac-9f45-68078bdf6356")
 		)
 		(fp_line
 			(start 0 -1.56)
@@ -10305,7 +10389,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9c7c0735-bc7a-4f89-8999-98869232b1c1")
+			(uuid "1971ee3f-3ea9-48ed-811e-02d5e57df1fd")
 		)
 		(fp_poly
 			(pts
@@ -10317,7 +10401,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "5d8504a0-6372-4e24-9a63-bb5e0b4457a1")
+			(uuid "73a97ea5-a26d-4681-b64a-0dc0d2bbd233")
 		)
 		(fp_line
 			(start 1.92 1.7)
@@ -10327,7 +10411,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c863e42b-4154-4427-bcdc-308b0d73c00c")
+			(uuid "ed60773d-5559-477f-9848-92ea92803a0d")
 		)
 		(fp_line
 			(start 1.92 -1.7)
@@ -10337,7 +10421,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "411de004-9bd9-442f-9767-c3505da0557b")
+			(uuid "216454eb-18c9-4f2d-9989-0feb92e87b9f")
 		)
 		(fp_line
 			(start -1.92 1.7)
@@ -10347,7 +10431,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ccbaba99-b5f8-41c2-b62e-6f33ff77d9ea")
+			(uuid "099c0a09-29fe-4efa-b839-ff3f49d7d4b5")
 		)
 		(fp_line
 			(start -1.92 -1.7)
@@ -10357,7 +10441,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5d3b0420-b197-4eaf-b9db-16d93670309f")
+			(uuid "dea17b60-57e1-42a3-843a-d2eb4b73f27d")
 		)
 		(fp_line
 			(start 0.65 1.45)
@@ -10367,7 +10451,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "672c6b28-7f17-40ce-92be-fd40c76d8aba")
+			(uuid "8d38904d-1ff9-4b5e-8b8b-944ae0104ccc")
 		)
 		(fp_line
 			(start 0.65 -1.45)
@@ -10377,7 +10461,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a129f34-4299-4175-b418-c180f655433a")
+			(uuid "37d0d41d-30fb-4714-9d57-e6e890e9a42c")
 		)
 		(fp_line
 			(start -0.325 -1.45)
@@ -10387,7 +10471,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3ac2a217-f498-4114-9eaf-d227b0a4e3db")
+			(uuid "3bfa4b39-ee0f-4fef-a063-87bb03b3bca1")
 		)
 		(fp_line
 			(start -0.65 1.45)
@@ -10397,7 +10481,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4efeb445-9e88-4376-a848-796c566e46d0")
+			(uuid "e8af7596-0600-4f22-a22b-35b548485a87")
 		)
 		(fp_line
 			(start -0.65 -1.125)
@@ -10407,7 +10491,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "219e5549-ec61-4a89-9437-b7b9424d8510")
+			(uuid "3123a62a-c16c-48b7-a295-8b43be146976")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -10725,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10738,7 +10822,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10748,6 +10832,18 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB_ROTATION_DELTA" "180"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f01f96e8-fca6-499b-906c-944ef5b106d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10777,7 +10873,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "33085269-0eea-4459-a398-671bd7a16f07")
+			(uuid "d7629c2f-323e-4415-98a6-f691f19ce33d")
 		)
 		(fp_line
 			(start 0 -1.56)
@@ -10787,7 +10883,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "788206d9-76c0-4dd1-901c-b81637499ca4")
+			(uuid "f993b92e-1e28-4fc7-b168-3b09b5df0be6")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -10797,7 +10893,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8d84be04-866f-43b2-988f-b509e4072c43")
+			(uuid "fe2dd959-67f7-43d0-ae65-692c9aaec17b")
 		)
 		(fp_line
 			(start 0 1.56)
@@ -10807,7 +10903,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "79fbc15b-d1b8-471d-b9ec-a535cf8757dd")
+			(uuid "f98f9931-db84-4604-8308-1efb86c6b522")
 		)
 		(fp_poly
 			(pts
@@ -10819,7 +10915,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "ac3469f9-88f3-4493-bf6c-9ada1c95cced")
+			(uuid "c0026a8d-d020-4f1a-8aff-451c7cef5788")
 		)
 		(fp_line
 			(start -1.92 -1.7)
@@ -10829,7 +10925,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5dfb8d05-f5a2-464e-ad1c-b10098b2ac1e")
+			(uuid "a701a555-f63d-4d9f-ad4c-f083cb7ca591")
 		)
 		(fp_line
 			(start -1.92 1.7)
@@ -10839,7 +10935,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "614ef96d-bdea-4873-aff1-abb8ab34805b")
+			(uuid "cb573c18-a9b8-431b-9580-7662a276a054")
 		)
 		(fp_line
 			(start 1.92 -1.7)
@@ -10849,7 +10945,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b41b5216-6f87-41f4-8682-a3f13a577952")
+			(uuid "97297575-545d-42e8-bbb8-5a843b19cb27")
 		)
 		(fp_line
 			(start 1.92 1.7)
@@ -10859,7 +10955,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0b7bca99-b421-464d-b14d-9a6803941645")
+			(uuid "b03ca5d3-0d9f-4b7c-a50d-97c33ebd875d")
 		)
 		(fp_line
 			(start -0.65 -1.125)
@@ -10869,7 +10965,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e396576c-b86d-411a-b370-02bd8d95c0f2")
+			(uuid "7ad21fda-4b0d-4527-8897-3680553d6e98")
 		)
 		(fp_line
 			(start -0.65 1.45)
@@ -10879,7 +10975,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bd220376-1a0f-4bcd-8731-06cd2aac64f8")
+			(uuid "9682dca2-5dbf-405c-995b-6ad0e925066b")
 		)
 		(fp_line
 			(start -0.325 -1.45)
@@ -10889,7 +10985,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "57537dd0-79dc-45b1-8b17-316a84004ba5")
+			(uuid "ca3897d2-31e6-4a61-b28e-1c24e0a75161")
 		)
 		(fp_line
 			(start 0.65 -1.45)
@@ -10899,7 +10995,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4f632fb9-f0c7-4e43-b286-fa825721d282")
+			(uuid "9f32c06c-97e5-409b-86f1-fd31e9a2f563")
 		)
 		(fp_line
 			(start 0.65 1.45)
@@ -10909,7 +11005,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e168eb36-56d8-40f0-9d65-6191ec900c66")
+			(uuid "46754856-9015-4d47-bdf4-2912566bff05")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
