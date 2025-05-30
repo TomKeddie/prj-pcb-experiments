@@ -4,13 +4,16 @@ all: pcb schematic
 
 schematic: $(PREFIX).kicad_sch.pdf $(PREFIX).kicad_sch.jlc.csv $(PREFIX).kicad_sch.jlc.md
 
-pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf $(PREFIX).kicad_pcb.3d-top.png
+pcb: gerbers/$(PREFIX)-Edge_Cuts.gm1 $(PREFIX).kicad_pcb.dxf $(PREFIX).kicad_pcb.3d-top.png $(PREFIX).kicad_pcb.3d-isometric.png
 
 %.kicad_pcb.step : %.kicad_pcb
 	kicad-cli pcb export step --board-only $< -o $@
 
 %.kicad_pcb.dxf : %.kicad_pcb
 	kicad-cli pcb export dxf --layers "Edge.Cuts" $< -o $@
+
+%.kicad_pcb.3d-isometric.png : %.kicad_pcb
+	kicad-cli pcb render --quality high --rotate '315,0,315' --output $@ $<
 
 %.kicad_pcb.3d-top.png : %.kicad_pcb
 	kicad-cli pcb render --quality high --rotate --output $@ $<
