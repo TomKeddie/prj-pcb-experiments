@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
+  (lib (name "openscad")(type "KiCad")(uri "/home/tom/git/TomKeddie/tom-openscad/kicad/openscad.pretty")(options "")(descr ""))
+)
