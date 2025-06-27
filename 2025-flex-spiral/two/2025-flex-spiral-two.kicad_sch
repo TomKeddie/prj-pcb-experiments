@@ -1,0 +1,8723 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bca0b345-370b-4339-87dd-ece03584e427")
+	(paper "A4")
+	(lib_symbols
+		(symbol "lib:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib:led_small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "led_small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "led_small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "led_small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 114.3 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0330ed18-03e9-4782-a9d9-9c8591db620a")
+	)
+	(junction
+		(at 64.77 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06be4695-faf3-4ac5-9ba1-a307774f67a7")
+	)
+	(junction
+		(at 60.96 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "075ac867-3dcf-4365-bf07-c7cf895562ad")
+	)
+	(junction
+		(at 68.58 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c043a7f-7c1a-42aa-8a96-f8951687099c")
+	)
+	(junction
+		(at 137.16 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c370ed9-5279-4f28-bdd3-054563d545eb")
+	)
+	(junction
+		(at 91.44 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c5ac39-4865-48c9-9249-4125c5e7f114")
+	)
+	(junction
+		(at 49.53 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "195cb2db-fc5a-47c3-82d6-e5042219aee5")
+	)
+	(junction
+		(at 99.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "195f78b6-665b-4a5e-ae7e-8a8d05f869e8")
+	)
+	(junction
+		(at 160.02 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a68f481-0cea-474f-88e7-5123f0b2744a")
+	)
+	(junction
+		(at 121.92 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b3e94d9-e56e-42d5-82c8-2706f3982f53")
+	)
+	(junction
+		(at 121.92 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b6c30cc-6e8d-41e4-8dc6-3268d2e6abdb")
+	)
+	(junction
+		(at 137.16 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db4a045-aad3-46d2-95a4-388a41a177af")
+	)
+	(junction
+		(at 118.11 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e252103-701d-464c-b5f6-e4772c024d26")
+	)
+	(junction
+		(at 95.25 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e68883a-1729-455f-a405-e9955b2bc728")
+	)
+	(junction
+		(at 49.53 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f5fbcca-01a9-4ccc-9168-b9ab2ab96402")
+	)
+	(junction
+		(at 83.82 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "209a448c-0b9c-40a9-ac3e-f239838aa18b")
+	)
+	(junction
+		(at 68.58 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20f8b7b9-0a23-432e-8779-466faab2e4e5")
+	)
+	(junction
+		(at 152.4 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2188f243-a931-4c7b-afd4-a1d85410fcf9")
+	)
+	(junction
+		(at 106.68 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "241a096c-927f-4c55-9243-de49d54fc985")
+	)
+	(junction
+		(at 110.49 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b32869-78ca-45b7-800c-7ec4a1502ae6")
+	)
+	(junction
+		(at 125.73 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "254d8e4b-8193-438c-a1e7-e604c90970c6")
+	)
+	(junction
+		(at 167.64 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2553535d-eb4b-4e9a-aefd-c42a992f10cf")
+	)
+	(junction
+		(at 102.87 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26af5a8a-5f22-453a-ad1e-a1a269a7caff")
+	)
+	(junction
+		(at 179.07 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "270741ba-1640-4ec3-a75a-ff0afa06c56b")
+	)
+	(junction
+		(at 87.63 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28035331-a251-4147-aadb-563acfe685da")
+	)
+	(junction
+		(at 129.54 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28be7f1e-1831-4d4a-9200-bf0acf8b366a")
+	)
+	(junction
+		(at 163.83 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e942f6a-9448-41cf-8402-bd7d9ef5783d")
+	)
+	(junction
+		(at 91.44 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f489523-4d63-46c0-95f8-2fb91c5292ad")
+	)
+	(junction
+		(at 68.58 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f64fe5a-56e5-4c5c-bb41-0735746721b1")
+	)
+	(junction
+		(at 133.35 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30dc7e52-290d-49a3-af8b-32dbe23b9efe")
+	)
+	(junction
+		(at 53.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3115a22f-25a4-4054-abe3-86a33ab871ee")
+	)
+	(junction
+		(at 45.72 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320d7e21-ebd4-462f-a71e-9c9f8080fe03")
+	)
+	(junction
+		(at 60.96 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3462eb93-526d-4db2-92fc-d2b967686451")
+	)
+	(junction
+		(at 72.39 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a38f69-093c-45ec-9a91-53defb87e9c9")
+	)
+	(junction
+		(at 80.01 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37180e62-5a90-45ed-bd6a-9b2f300fef14")
+	)
+	(junction
+		(at 57.15 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3906b96c-5938-429d-8e78-48df55b51b3e")
+	)
+	(junction
+		(at 99.06 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf7b777-f577-4bc5-9f43-2a9920d6efbd")
+	)
+	(junction
+		(at 76.2 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f282a1d-3441-4275-9c2d-ccd6f19ac00f")
+	)
+	(junction
+		(at 137.16 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "435127a7-f937-4cb1-aa84-286839129ac4")
+	)
+	(junction
+		(at 118.11 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "440519e0-1adf-48d0-b7b3-54393423aeaa")
+	)
+	(junction
+		(at 114.3 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44f66997-3d7a-43b8-8b2f-3160c4839d53")
+	)
+	(junction
+		(at 125.73 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4607777d-4c46-49db-a316-8c100a41e52a")
+	)
+	(junction
+		(at 163.83 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4702d7f1-5ada-420b-a596-19eb8100d4d9")
+	)
+	(junction
+		(at 64.77 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cdad20-746f-4780-8181-cc4dd2715222")
+	)
+	(junction
+		(at 83.82 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a5f986b-8417-43f5-9990-ba5197f33805")
+	)
+	(junction
+		(at 140.97 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a97caef-2a39-4715-910c-ea2c2942c155")
+	)
+	(junction
+		(at 133.35 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bebc9ad-ced7-4c32-b797-f48f2a89996c")
+	)
+	(junction
+		(at 129.54 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c4adb53-d55a-42c9-98a8-2fd63469f849")
+	)
+	(junction
+		(at 80.01 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb684d3-9c12-41b5-90d1-f1d5f3d48001")
+	)
+	(junction
+		(at 38.1 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f643e0c-cf58-4d84-8973-ea0f82b7fc0c")
+	)
+	(junction
+		(at 60.96 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "536780aa-4d0d-4200-ab97-6d130adc2d9b")
+	)
+	(junction
+		(at 121.92 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54620a65-a1c1-439e-8cc7-b31c42c1ea06")
+	)
+	(junction
+		(at 167.64 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54cd3ba1-9af3-4f46-94a3-4d3009193930")
+	)
+	(junction
+		(at 87.63 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a2f9f84-9065-4d4e-9e8c-c2ea8f6553ed")
+	)
+	(junction
+		(at 114.3 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b61744c-0566-4650-a0e1-f57e065dae3d")
+	)
+	(junction
+		(at 133.35 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5be5288c-b53e-48fe-a26b-0bc44acbbb30")
+	)
+	(junction
+		(at 175.26 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c396787-8df6-41d5-83bd-9cc1247c6fb9")
+	)
+	(junction
+		(at 34.29 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cb274d1-400f-4972-aeb3-37af87e28934")
+	)
+	(junction
+		(at 41.91 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f998b03-cc83-4c9f-bc3b-6019c9cb31d6")
+	)
+	(junction
+		(at 144.78 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62404e29-7dad-4d8f-a7d7-215da596db39")
+	)
+	(junction
+		(at 144.78 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "655ced8d-ae21-4896-98e1-8082f708c12c")
+	)
+	(junction
+		(at 144.78 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66974992-1bf0-42c5-a25c-5ae88b78ec55")
+	)
+	(junction
+		(at 140.97 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67575a96-3286-46fd-8e97-8e91ec78198e")
+	)
+	(junction
+		(at 76.2 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68acaa2a-1575-4ae5-8507-e5e7462e2e99")
+	)
+	(junction
+		(at 60.96 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a999834-268f-498f-a2ad-17eb7cc235cd")
+	)
+	(junction
+		(at 121.92 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bddbaef-f4b4-4594-b254-65f4215bf75d")
+	)
+	(junction
+		(at 95.25 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c730e3c-7bc8-44ed-b2a2-061426813c1f")
+	)
+	(junction
+		(at 118.11 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cb345ba-988c-4966-81a1-8c4335013606")
+	)
+	(junction
+		(at 41.91 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f40fd99-1c78-4ef1-ae60-7a61e81edfe2")
+	)
+	(junction
+		(at 148.59 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7032fe78-9fc4-4c50-a3b9-054a53bb201c")
+	)
+	(junction
+		(at 156.21 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7093d484-89b3-4825-946f-e6909f51ac17")
+	)
+	(junction
+		(at 102.87 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71138bf1-f468-4778-a2b1-eb07d4088eb3")
+	)
+	(junction
+		(at 80.01 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71413a17-b079-45b0-9c08-3b82b64c2584")
+	)
+	(junction
+		(at 76.2 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ed7386-4984-4b1e-9d38-ecb83c4c7495")
+	)
+	(junction
+		(at 129.54 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73b3d111-5b52-4c09-bae0-7d7a405902c9")
+	)
+	(junction
+		(at 106.68 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75d668cd-76ff-4a8a-bee3-824598a63fd8")
+	)
+	(junction
+		(at 49.53 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab8d4c9-4f84-474f-8154-e1a127953a59")
+	)
+	(junction
+		(at 34.29 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ad3b4fc-506e-4c20-a47a-128f542a475c")
+	)
+	(junction
+		(at 156.21 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b1c6d78-fd98-451f-97b5-514196403341")
+	)
+	(junction
+		(at 53.34 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b6a3cfb-d59e-41ee-bd51-480eba06809b")
+	)
+	(junction
+		(at 38.1 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b8c677b-a874-4139-9a99-709be581ab71")
+	)
+	(junction
+		(at 91.44 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b9bb623-49c1-4e75-b5d0-2c31597eb403")
+	)
+	(junction
+		(at 99.06 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c688353-ae08-4fe7-8ded-46588558fb24")
+	)
+	(junction
+		(at 129.54 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eed4904-5469-4bb9-8cac-5e2baff3962e")
+	)
+	(junction
+		(at 57.15 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81cd2b76-33f2-4609-934c-ec8ab0e4f5eb")
+	)
+	(junction
+		(at 64.77 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82805617-cc7b-466c-9df6-7eb5e2db73cc")
+	)
+	(junction
+		(at 95.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8638e33e-e577-4dd9-9aa5-59158947296a")
+	)
+	(junction
+		(at 38.1 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895f1179-81e2-475d-8d45-24b279a847da")
+	)
+	(junction
+		(at 106.68 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bc45b6f-1e54-41fe-b0da-5cbabb85ef7e")
+	)
+	(junction
+		(at 118.11 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c45aa70-295f-4dc1-a181-537272267870")
+	)
+	(junction
+		(at 34.29 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e271557-61ba-4e68-8afe-be176ab17420")
+	)
+	(junction
+		(at 53.34 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "942d9f77-5314-4f9d-b569-ce08f6d82ec8")
+	)
+	(junction
+		(at 38.1 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960aca3a-66da-4651-a579-a60d261f0248")
+	)
+	(junction
+		(at 31.75 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "996398c1-8760-4655-8ebc-436f05a75016")
+	)
+	(junction
+		(at 171.45 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b37fb63-e8af-43c1-a1de-c4df3e5feb44")
+	)
+	(junction
+		(at 87.63 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b7f2cdf-f3f0-42c3-9cc9-986dcd02a26f")
+	)
+	(junction
+		(at 160.02 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d094108-fb62-43e8-8793-92473d664986")
+	)
+	(junction
+		(at 106.68 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d914501-96bb-4b79-85ee-8a1f1d439c20")
+	)
+	(junction
+		(at 152.4 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a043b546-66e0-41f4-82c6-11a064c25626")
+	)
+	(junction
+		(at 152.4 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a33948fe-55d7-4c6e-92b8-d3a851f235de")
+	)
+	(junction
+		(at 83.82 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a725c176-061d-47f1-8f16-53a36fba426c")
+	)
+	(junction
+		(at 140.97 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a763d702-f304-479d-8eac-0af0dd08c31f")
+	)
+	(junction
+		(at 83.82 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a96eacba-e58c-471c-99ca-43153d2e6461")
+	)
+	(junction
+		(at 45.72 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a996e47e-eccc-4341-8dd5-376b0e670cb0")
+	)
+	(junction
+		(at 64.77 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa002bb7-7e45-498d-8d50-c6b4e81d7a96")
+	)
+	(junction
+		(at 110.49 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b327a03d-9984-4919-bf02-7eb0be0b3869")
+	)
+	(junction
+		(at 125.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b89c3cd2-b145-4cbd-8518-31d735ce4d74")
+	)
+	(junction
+		(at 72.39 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b89e62a3-0231-4662-aa16-dc3f911e675d")
+	)
+	(junction
+		(at 68.58 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5b90e7-bc5b-46e0-b792-6e114af5bbd9")
+	)
+	(junction
+		(at 160.02 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c15304be-4f0a-4242-a58f-1874640b30b5")
+	)
+	(junction
+		(at 102.87 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c16ef327-9c1c-4536-8a43-078da9fa3c93")
+	)
+	(junction
+		(at 72.39 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c24428eb-9757-4713-bf5d-7b5a787b5903")
+	)
+	(junction
+		(at 41.91 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c415e244-2441-4589-9495-168f80d633ba")
+	)
+	(junction
+		(at 110.49 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74138b6-9309-42dd-b17e-a278cdf1f80f")
+	)
+	(junction
+		(at 45.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c78b5898-c93b-450b-a2b2-f07077069e4b")
+	)
+	(junction
+		(at 133.35 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c96e868e-c8c7-4aa7-8552-2abee7cb4105")
+	)
+	(junction
+		(at 49.53 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca2d8b85-6cb4-47cb-a198-866b4c6146b3")
+	)
+	(junction
+		(at 144.78 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca43dea3-8bd9-4723-8f64-58b6fa194cf5")
+	)
+	(junction
+		(at 160.02 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cadc70bc-dd90-4940-a6ef-821d6f7fa341")
+	)
+	(junction
+		(at 156.21 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf96fedf-02a6-47ec-99fd-e2e05ff14c86")
+	)
+	(junction
+		(at 91.44 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0752fe5-5f67-4525-b66a-4262345c402b")
+	)
+	(junction
+		(at 41.91 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2e0e424-c109-491d-8611-94230a72a25c")
+	)
+	(junction
+		(at 156.21 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d30858d5-3b70-48dc-b1dc-08cb3b80582d")
+	)
+	(junction
+		(at 148.59 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5d372ce-d2b9-4b55-81dd-aa8967377ee3")
+	)
+	(junction
+		(at 102.87 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6a2b4f9-7a9a-4f4b-9596-5832cc43c445")
+	)
+	(junction
+		(at 179.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7e343ea-fa80-43d0-a0d9-a1f6bdbd29dd")
+	)
+	(junction
+		(at 72.39 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9ed7690-9d2f-41ea-a08e-0c8b6cc759b5")
+	)
+	(junction
+		(at 57.15 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9f6fbf7-7a7a-40a8-a547-f541b25cd36e")
+	)
+	(junction
+		(at 95.25 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd7ec63-962c-4482-bdad-e83759f33de2")
+	)
+	(junction
+		(at 53.34 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dea6f0c0-249f-4421-bc97-affe4ed5cd99")
+	)
+	(junction
+		(at 140.97 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df0e1887-1b3c-4ecf-99ee-a408f52f0db6")
+	)
+	(junction
+		(at 114.3 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2877d56-a7f6-4752-8c03-52140608b205")
+	)
+	(junction
+		(at 87.63 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e583357d-284b-4a14-a685-0e4e9534bb52")
+	)
+	(junction
+		(at 34.29 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5ec3e28-1acb-477d-816b-446d1d00c5d1")
+	)
+	(junction
+		(at 80.01 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78dc8a3-c274-4b12-b81e-e5a441d10aab")
+	)
+	(junction
+		(at 175.26 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85e2d75-f0f3-498e-8cef-3febf3644d4a")
+	)
+	(junction
+		(at 137.16 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8fe6ef2-e739-406a-ab7d-51a863dec302")
+	)
+	(junction
+		(at 57.15 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea451091-fc54-4ba1-b681-88d8d331077d")
+	)
+	(junction
+		(at 152.4 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb02f5ac-b8d8-41b4-8668-766cfc5c9939")
+	)
+	(junction
+		(at 148.59 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb0cbbfa-05f5-4b31-bb23-ffd3967bb3f5")
+	)
+	(junction
+		(at 27.94 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb2e3c4d-f3de-4d84-9e08-9123b2e5fe8e")
+	)
+	(junction
+		(at 99.06 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edec8e66-91fa-4b40-99cb-e7e0bfa7b927")
+	)
+	(junction
+		(at 171.45 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f04833d9-d43e-467f-818c-5024a17e7ae6")
+	)
+	(junction
+		(at 110.49 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1692dd3-0a83-4bcd-8b3f-b9f569cfbba2")
+	)
+	(junction
+		(at 148.59 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f38aed7a-8dee-41cf-a367-3c12bbb6a4c1")
+	)
+	(junction
+		(at 76.2 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc3c6628-f9b6-4770-8a80-ee0fb8828c3b")
+	)
+	(junction
+		(at 125.73 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcdc9d61-0f5d-419b-a053-dd9e4c0bc1f8")
+	)
+	(junction
+		(at 45.72 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb0156d-f366-400d-9a7d-61ad02c128f9")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 60.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bce8d3-fada-47d2-aa4f-cb7b947fcbf2")
+	)
+	(wire
+		(pts
+			(xy 167.64 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011ee060-2c07-4832-ae9d-b64c330ad8b9")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 148.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01791e43-20d0-4d7c-9357-53bbb6343d28")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 133.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08136522-783b-496b-b819-fd9e36492322")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 171.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6982bb-3add-4af7-a41e-5f1ba04e179d")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 156.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dafbfd0-8a1a-41e2-bc67-2f20be43d1dd")
+	)
+	(wire
+		(pts
+			(xy 34.29 60.96) (xy 38.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc6b09a-b90e-4264-8138-9de794a5049f")
+	)
+	(wire
+		(pts
+			(xy 76.2 41.91) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1133b87e-8519-4350-b651-538dcd1c4989")
+	)
+	(wire
+		(pts
+			(xy 31.75 55.88) (xy 31.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cdc823-2051-4fcc-9918-49ae91f585b9")
+	)
+	(wire
+		(pts
+			(xy 27.94 60.96) (xy 27.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152185cc-d753-45b3-b459-70d71ef21465")
+	)
+	(wire
+		(pts
+			(xy 102.87 60.96) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168ffd93-6fc4-4211-9b21-59a66a22d3a9")
+	)
+	(wire
+		(pts
+			(xy 163.83 46.99) (xy 167.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174d84df-daac-47f2-965d-65e5fe9a72eb")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18883d31-a631-471a-9bae-efb3ded4b757")
+	)
+	(wire
+		(pts
+			(xy 175.26 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ee65fb-ea22-4343-ac14-ea864fc6d69a")
+	)
+	(wire
+		(pts
+			(xy 45.72 41.91) (xy 49.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193fe663-d7e6-4fa6-9eda-c16eb4e7850c")
+	)
+	(wire
+		(pts
+			(xy 34.29 41.91) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19427c43-6d73-4941-ac1c-f79169fa17dd")
+	)
+	(wire
+		(pts
+			(xy 99.06 46.99) (xy 102.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199f1453-33bb-47ae-8f26-caa48f8e0e66")
+	)
+	(wire
+		(pts
+			(xy 57.15 55.88) (xy 60.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef27ad6-164b-460d-a0d4-bb8520490393")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 68.58 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5c374b-03e9-4a42-9c5b-ebbc119102bf")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 31.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233485aa-2493-4201-a36e-aaa3f9b31227")
+	)
+	(wire
+		(pts
+			(xy 60.96 41.91) (xy 64.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c163bc-c903-4bfe-8d4a-85ff2249cbe5")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f4979d-5361-4f0b-aa25-cae48936e9b2")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 87.63 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26aedb1a-d12b-459c-8516-18ee7ce66af9")
+	)
+	(wire
+		(pts
+			(xy 91.44 41.91) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b512f6-e8dc-4478-bb7c-d587b3c1fcf0")
+	)
+	(wire
+		(pts
+			(xy 27.94 41.91) (xy 31.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3b8f7e-337c-403f-8494-8e418a1b36b4")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcf4285-70e2-4469-8ee5-b4dce9b05bfc")
+	)
+	(wire
+		(pts
+			(xy 95.25 41.91) (xy 99.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d35994e-b4a7-4712-b4c0-a76053f98833")
+	)
+	(wire
+		(pts
+			(xy 118.11 55.88) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd663f2-f8f8-4dbe-9ef0-609af563ed3e")
+	)
+	(wire
+		(pts
+			(xy 72.39 41.91) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3292f1a5-ac73-468f-b179-c9c29a0e1476")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 160.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bf8dc2-c326-4235-ae00-82b7c6de12c2")
+	)
+	(wire
+		(pts
+			(xy 49.53 46.99) (xy 53.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af4528e-fcf7-4bc7-b7d2-947d81038332")
+	)
+	(wire
+		(pts
+			(xy 68.58 60.96) (xy 72.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc1af34-dbf9-48bd-ae11-98d6aa05e98e")
+	)
+	(wire
+		(pts
+			(xy 57.15 60.96) (xy 60.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8d933a-376c-45f8-b759-734ebf8e8153")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 49.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4c0e2f-7548-49f2-a551-2728cb79ca9c")
+	)
+	(wire
+		(pts
+			(xy 102.87 55.88) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4058328d-39bf-4995-be4d-613a9e7e48df")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43274f63-9402-44bd-a8ba-10508314f8f2")
+	)
+	(wire
+		(pts
+			(xy 137.16 41.91) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a97a99-2c1b-4b4c-984d-2dd0ff20ac45")
+	)
+	(wire
+		(pts
+			(xy 80.01 55.88) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e91158-2591-443b-a634-24554b407295")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447ed231-2425-49b1-87e1-915c6221dcbf")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4583f90e-d4e7-4d4c-acb5-655eed9f0c48")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 45.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47782975-63d8-4e35-b8b5-9e0e76df659d")
+	)
+	(wire
+		(pts
+			(xy 160.02 60.96) (xy 163.83 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482d574d-b68f-472c-b6cd-742fc6e8559a")
+	)
+	(wire
+		(pts
+			(xy 137.16 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485cb55d-b180-4320-b197-e0febe2154ff")
+	)
+	(wire
+		(pts
+			(xy 49.53 55.88) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a28b95b-9087-4756-8a65-a915018f84ff")
+	)
+	(wire
+		(pts
+			(xy 121.92 46.99) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e08d005-2e9e-4311-abe1-89fc907da983")
+	)
+	(wire
+		(pts
+			(xy 87.63 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0b24f2-b4a1-4b71-ade9-4ba5e8a531f7")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 72.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e77a20f-306f-43f6-911b-d7e213813d61")
+	)
+	(wire
+		(pts
+			(xy 31.75 41.91) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa57a37-7fff-412b-a950-48789a6cfc5a")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 87.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a4afb0-1e12-449b-81c1-6f0af3eec0aa")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 38.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5701efb1-d555-4540-a338-44d8b566cfad")
+	)
+	(wire
+		(pts
+			(xy 106.68 46.99) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573a4b0c-8d44-4905-8d9e-63a7ce525f7b")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dbb458-0dfa-499f-8fdf-a77b7d326c26")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8b6f0d-8813-428e-bf05-8fc23ea8e2dc")
+	)
+	(wire
+		(pts
+			(xy 60.96 55.88) (xy 64.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6e0d8e-491b-411e-b23f-7d5e7e0c1959")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf9394a-8fa5-401a-a467-2ef6a678fa67")
+	)
+	(wire
+		(pts
+			(xy 140.97 46.99) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c326d5b-e665-4c06-9ff3-5f20864fb299")
+	)
+	(wire
+		(pts
+			(xy 99.06 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7d9d84-8e55-4034-9b72-dd85fb58858e")
+	)
+	(wire
+		(pts
+			(xy 152.4 41.91) (xy 156.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d985666-c2a1-48a3-b3bf-177885fb5962")
+	)
+	(wire
+		(pts
+			(xy 64.77 60.96) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec73446-b12b-4549-940f-c58fd98e402b")
+	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f10a9ca-9e3a-4fe6-87d3-4d417593c152")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fddacc9-ed2e-4142-b749-715793fca477")
+	)
+	(wire
+		(pts
+			(xy 45.72 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bf7857-6f94-48de-b7ce-ab48d6289a92")
+	)
+	(wire
+		(pts
+			(xy 175.26 41.91) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bab41a-5607-49d8-be8d-fcdad3fe8154")
+	)
+	(wire
+		(pts
+			(xy 171.45 46.99) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65db902d-31aa-42ef-a9dd-67ce83e6ef82")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 57.15 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674a6a57-ef98-4271-92a5-5155a8c53601")
+	)
+	(wire
+		(pts
+			(xy 34.29 60.96) (xy 27.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bcee65-fee6-4750-9a7e-f459f63abb5a")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 118.11 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680983bc-8a1f-4b3c-b30e-3bbed8aa2a4d")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e87596-48bd-463b-994c-f4b124c98629")
+	)
+	(wire
+		(pts
+			(xy 80.01 46.99) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aef3e00-2f31-4de1-abb5-1346b37f93b5")
+	)
+	(wire
+		(pts
+			(xy 34.29 46.99) (xy 38.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b062f02-e773-4564-afae-fb16da25051a")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 144.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b765329-3484-40fc-b1cc-5a3377cc849d")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f920dc3-b24d-4994-93e9-de06eea357d3")
+	)
+	(wire
+		(pts
+			(xy 148.59 41.91) (xy 152.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c5b464-f196-4bd5-9610-ec991b987c1e")
+	)
+	(wire
+		(pts
+			(xy 133.35 41.91) (xy 137.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e8d6dd-a775-4b70-9fc3-01eb527a8c1a")
+	)
+	(wire
+		(pts
+			(xy 129.54 41.91) (xy 133.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c14461-9417-4179-9c58-736254bff8c9")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d4950c-4055-4db5-87f6-cb21fb6e79ab")
+	)
+	(wire
+		(pts
+			(xy 179.07 41.91) (xy 182.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ead265-423b-41c8-8d0f-73daa0fe0047")
+	)
+	(wire
+		(pts
+			(xy 38.1 55.88) (xy 41.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7541c79b-e1c4-4684-b933-c24d2f826f99")
+	)
+	(wire
+		(pts
+			(xy 53.34 46.99) (xy 57.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755e7b3c-7293-4ec6-8074-fe698ba926b5")
+	)
+	(wire
+		(pts
+			(xy 68.58 46.99) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76774722-335b-4d61-af42-04b1bf450164")
+	)
+	(wire
+		(pts
+			(xy 38.1 46.99) (xy 41.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cf4c95-86ab-4d16-b691-5af46a6005f0")
+	)
+	(wire
+		(pts
+			(xy 83.82 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cc6635-9883-4a53-bc75-d312dbc2c131")
+	)
+	(wire
+		(pts
+			(xy 83.82 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f265ed7-f315-4f6b-860f-2061988bd370")
+	)
+	(wire
+		(pts
+			(xy 125.73 60.96) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f60df35-387d-4ad1-bd05-7280291a3dec")
+	)
+	(wire
+		(pts
+			(xy 38.1 41.91) (xy 41.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814fe10f-90b3-4b29-97ef-b40e99630b54")
+	)
+	(wire
+		(pts
+			(xy 87.63 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85574198-21bf-4f82-b98f-f379e371d7fe")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bde5c9-4a5f-4d0f-9dc0-de4a06cb2b5b")
+	)
+	(wire
+		(pts
+			(xy 133.35 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8731f101-d47d-45de-968f-635644162ad2")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8820b711-15e3-458f-bca4-9718976ea3b6")
+	)
+	(wire
+		(pts
+			(xy 148.59 46.99) (xy 152.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e5cab9-3093-4932-b0fe-2c84d3f10073")
+	)
+	(wire
+		(pts
+			(xy 121.92 41.91) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae2bf88-d687-4cd0-84d7-d4d604daac54")
+	)
+	(wire
+		(pts
+			(xy 60.96 46.99) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c08ce2a-e1e5-43ab-9e93-8cba8b036d3b")
+	)
+	(wire
+		(pts
+			(xy 53.34 55.88) (xy 57.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7f9abe-233c-4324-aaa8-1643fbba4141")
+	)
+	(wire
+		(pts
+			(xy 49.53 60.96) (xy 53.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901637f6-f3b7-4d21-942f-fb0359ad7846")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f5a672-3abb-4c19-beb7-586ec51d9864")
+	)
+	(wire
+		(pts
+			(xy 49.53 41.91) (xy 53.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915f735a-46d6-4310-aec2-01b36c6bc9f6")
+	)
+	(wire
+		(pts
+			(xy 160.02 46.99) (xy 163.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b07bf0-0620-45da-83a0-8c712da33b4b")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93261599-cec6-47b5-9cd1-c3f28fd38853")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96571824-fa1e-4d95-8d1a-2ee1f9596bec")
+	)
+	(wire
+		(pts
+			(xy 171.45 41.91) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9305cd-9e89-43ac-a9a9-4aea8e9cb41c")
+	)
+	(wire
+		(pts
+			(xy 114.3 41.91) (xy 118.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e279999-693c-4031-8345-5a42598fbc50")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0017f6a-4af5-459c-ab01-50c506884a1e")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 129.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09f1711-9503-43d5-b50f-cb63d027bb76")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 76.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20bdf54-cc44-4d3e-a9e1-f14c838dfda6")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a30290-6713-45ab-a168-8e1cfbc80d06")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cc4a3e-8d76-4221-9f01-7ae37949669c")
+	)
+	(wire
+		(pts
+			(xy 87.63 46.99) (xy 91.44 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a8134a-5cee-4e93-800f-1b356d2d47f3")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 102.87 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c4c8a9-4f9e-4228-9294-ee4eae04d914")
+	)
+	(wire
+		(pts
+			(xy 53.34 60.96) (xy 57.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71ff838-736c-4cf5-a979-f059c70397d7")
+	)
+	(wire
+		(pts
+			(xy 160.02 41.91) (xy 163.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a743f2e8-02b5-48f6-bcdf-8e3752ae91f3")
+	)
+	(wire
+		(pts
+			(xy 152.4 46.99) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0de366-e010-4876-9aa0-b0d6acd90ac1")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac42b5a4-3742-47dd-9b63-df55adbdadae")
+	)
+	(wire
+		(pts
+			(xy 41.91 46.99) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af14908c-8ecf-4bcb-91ce-e701544d19d9")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5757ba6-45cc-4e0c-aea4-e8e8486a68c2")
+	)
+	(wire
+		(pts
+			(xy 38.1 60.96) (xy 41.91 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5defaa4-4124-4ed3-a63f-9f3d4e7f32dc")
+	)
+	(wire
+		(pts
+			(xy 118.11 46.99) (xy 121.92 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c5d072-f462-406e-8623-303a057c85b5")
+	)
+	(wire
+		(pts
+			(xy 156.21 41.91) (xy 160.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73f4c3c-e672-4665-b3e5-469455278e9c")
+	)
+	(wire
+		(pts
+			(xy 72.39 55.88) (xy 76.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b829b805-fe7b-4315-ab1f-4934be3e4fe4")
+	)
+	(wire
+		(pts
+			(xy 106.68 41.91) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e52631-2bcd-4a56-b04b-b2653295eb68")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 68.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b953044a-ed8b-4f87-abb6-68966ade0c63")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ecbd5a-dccf-42a6-b55f-1ceac212ed37")
+	)
+	(wire
+		(pts
+			(xy 129.54 46.99) (xy 133.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0a1ee3-f62d-4f39-97f3-1e2585de45c1")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3d8a06-627f-4fec-b5a8-85d18b157e46")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb308da-f98b-41b3-aa4d-b1bea95fd00f")
+	)
+	(wire
+		(pts
+			(xy 140.97 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02fa240-b29d-4836-833c-6e0141a0cec6")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fdcef6-dc96-4a7f-8524-15fa0f204927")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1825a7c-8491-48aa-aec8-8bafea8800a9")
+	)
+	(wire
+		(pts
+			(xy 102.87 41.91) (xy 106.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c528e60d-3a37-4735-a92c-b22911330f07")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dfeedf-7b6f-4aef-9469-32955ff87e26")
+	)
+	(wire
+		(pts
+			(xy 95.25 60.96) (xy 99.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ac9130-8715-428b-9c59-f9cd853365bb")
+	)
+	(wire
+		(pts
+			(xy 118.11 41.91) (xy 121.92 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b10401-c31e-40f6-bbe0-eb4eb9894d3f")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91a3f34-3e60-403a-9d88-f26f0df54bf7")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 148.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9534a49-55e3-4682-a69b-d30a173a3998")
+	)
+	(wire
+		(pts
+			(xy 41.91 60.96) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba9d9ad-d389-4e19-874f-f7f29ec33698")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdcd854-3103-4845-921b-757d84abfcb5")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 64.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3d77d3-9f67-4ae6-a7fe-5237be0473c1")
+	)
+	(wire
+		(pts
+			(xy 121.92 60.96) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda8e20c-0fb6-4f48-937d-9da8560cf7ef")
+	)
+	(wire
+		(pts
+			(xy 27.94 46.99) (xy 34.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce668a86-fe34-4002-ae81-19774c28c243")
+	)
+	(wire
+		(pts
+			(xy 133.35 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d36e4d-ebb7-45ed-96a9-0554d778f69f")
+	)
+	(wire
+		(pts
+			(xy 72.39 46.99) (xy 76.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db755467-07c3-4e91-b7a6-93a8e1d8cea2")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 95.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfe49c7-30f5-4d5f-bc25-8851033da43c")
+	)
+	(wire
+		(pts
+			(xy 156.21 46.99) (xy 160.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17b183e-0fd2-4231-afa5-dcc40ed97ba7")
+	)
+	(wire
+		(pts
+			(xy 114.3 46.99) (xy 118.11 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d162ae-ba1d-4c1b-b1c7-b69558387c9e")
+	)
+	(wire
+		(pts
+			(xy 133.35 46.99) (xy 137.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57cc611-d327-4d21-9a22-a292f93b66ca")
+	)
+	(wire
+		(pts
+			(xy 148.59 55.88) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7f1353-ceac-4b03-a054-01695486455e")
+	)
+	(wire
+		(pts
+			(xy 95.25 46.99) (xy 99.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee219495-bb45-461a-90d2-1b25dd23fbb5")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e1a254-d790-4914-acb5-14075f6cc4c1")
+	)
+	(wire
+		(pts
+			(xy 87.63 41.91) (xy 91.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5aba4fb-01e8-4057-984f-a40f3e78d9f5")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f7eac9-f596-446d-becd-25f79c3bdd00")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f954b950-5bd1-4bd8-8eae-e9bc4c30e8d5")
+	)
+	(wire
+		(pts
+			(xy 57.15 41.91) (xy 60.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8ce43d-a936-48d9-b7f1-0f05a7d59efc")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 167.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc269f8e-a022-42ac-a7da-7a10c440356b")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9ed1dd-ddd7-4a7e-820a-beeb48b8d6a2")
+	)
+	(label "C"
+		(at 27.94 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15fa8696-df14-4941-8086-0a818f79d08c")
+	)
+	(label "A"
+		(at 27.94 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cf95bb2-6819-4f8a-add7-39ecc71bfd22")
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 80.01 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "021700af-25fe-48fb-a1a8-8b6e4cbb5d0d")
+		(property "Reference" "D53"
+			(at 80.01 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 82.55 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 80.01 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14858cdb-856e-410e-9530-b15e2fb74a6b")
+		)
+		(pin "2"
+			(uuid "917afcfb-d76a-455c-abcb-ecdb48ccc92d")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 167.64 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0807ef21-2259-43b9-9d16-3d4cdbf04bf9")
+		(property "Reference" "D36"
+			(at 167.64 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 170.18 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 167.64 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b10b1429-5f02-4786-803f-5da78aab5b61")
+		)
+		(pin "2"
+			(uuid "ab114d45-0f45-4b43-a735-198b92fa2cd8")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 156.21 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08a3bf01-b6cc-49e6-8df8-c9b2d420d5db")
+		(property "Reference" "D33"
+			(at 156.21 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 158.75 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 156.21 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 156.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 156.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9522385-51a2-4d10-b29d-406a1bc16a7e")
+		)
+		(pin "2"
+			(uuid "fc81801b-c12e-44e9-a316-6a52cc0149b1")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 76.2 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b74672e-ca9c-46b4-983b-4c7eb05e9e61")
+		(property "Reference" "D12"
+			(at 76.2 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 78.74 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 76.2 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e78fd8a3-5dee-4b23-8c29-383b094d5b18")
+		)
+		(pin "2"
+			(uuid "c0c86ff6-1151-4c77-97a6-905842183b35")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 114.3 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0baf83de-b201-4fa1-b786-46a67843de44")
+		(property "Reference" "D22"
+			(at 114.3 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 116.84 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 114.3 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14f50ca-2362-40ee-9d4b-be1acd6b965b")
+		)
+		(pin "2"
+			(uuid "e656a511-dd70-40d1-8a2a-0367cd3899a5")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 34.29 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cbafbae-423f-40c0-bb19-b9bdf327a4bd")
+		(property "Reference" "D1"
+			(at 34.29 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 36.83 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 34.29 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d1c875-aefa-416f-9589-f6d625aa96a2")
+		)
+		(pin "2"
+			(uuid "a8a0423d-17b6-4229-ae6f-588dd0985f2b")
+		)
+		(instances
+			(project ""
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 68.58 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10ae9687-cc00-4f9b-ace1-4fe77a5db58e")
+		(property "Reference" "D10"
+			(at 68.58 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 71.12 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 68.58 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7894b376-6635-4b62-925a-709a8809cd31")
+		)
+		(pin "2"
+			(uuid "194f30d7-4608-4df6-9c64-75901314dcd6")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 53.34 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "144e5329-50cd-4ef3-9726-e397987fbe5d")
+		(property "Reference" "D6"
+			(at 53.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 55.88 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 53.34 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "480de39b-cc52-4921-bfd1-b851167f785c")
+		)
+		(pin "2"
+			(uuid "70a550c1-8fcc-4aed-baa2-67575080efa0")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 64.77 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18248ebd-0cd8-4d50-861b-c7bf14775b4a")
+		(property "Reference" "D9"
+			(at 64.77 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 67.31 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 64.77 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c2ffc3-a7d1-4738-8f18-c2eb2ad7c38e")
+		)
+		(pin "2"
+			(uuid "37fbf8b9-227e-4b91-a376-e03a53e81248")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 99.06 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cd30655-b837-4acd-8d82-4ecf5db684ea")
+		(property "Reference" "D58"
+			(at 99.06 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 101.6 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 99.06 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bb24ab7-3f13-46a7-9950-979fab3e25c3")
+		)
+		(pin "2"
+			(uuid "f3e03710-f65f-47a6-9dbf-dbe64be08a19")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 179.07 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1eef3f8a-db53-4bfb-952f-e840ba554808")
+		(property "Reference" "D39"
+			(at 179.07 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 181.61 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 179.07 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b9cab16-138f-4f24-871e-4bcb148cb815")
+		)
+		(pin "2"
+			(uuid "87ed9eae-edb1-4cf2-9190-10deee08b1bc")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:TestPoint")
+		(at 27.94 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ef4b97f-8024-4319-a40d-5727d406f287")
+		(property "Reference" "TP2"
+			(at 24.13 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 21.59 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:TestPoint_Pad_D3.0mm"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 27.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1972ebde-9767-4f07-8c16-ee3879fc0e0f")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 175.26 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "203df395-cd03-47e3-bea3-13f672cada93")
+		(property "Reference" "D38"
+			(at 175.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 177.8 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 175.26 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 175.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 175.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2df2e7f1-380c-4384-864c-6f7738caca01")
+		)
+		(pin "2"
+			(uuid "8efd7031-a60a-41b1-a79a-51d7a079f2c7")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 80.01 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2195bc1c-0d0d-48c9-8c75-67de1962b086")
+		(property "Reference" "D13"
+			(at 80.01 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 82.55 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 80.01 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2615cbd9-efe0-4cfa-8359-353aed6ffc2c")
+		)
+		(pin "2"
+			(uuid "eb6869f3-885c-447c-bf73-a378efee6fe2")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 125.73 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2220da18-e83f-400e-81d6-747a6c5b71a5")
+		(property "Reference" "D25"
+			(at 125.73 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 128.27 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 125.73 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 125.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 125.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0413ef7-6b70-4ef2-9c7f-7abc8f49d265")
+		)
+		(pin "2"
+			(uuid "d40f7962-583d-4e0e-b09e-6fbcf7c9eb94")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 41.91 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24012255-29e2-422e-81d1-25248ce3bac5")
+		(property "Reference" "D3"
+			(at 41.91 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 44.45 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 41.91 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25b7cc7d-a761-4a0f-a676-6d3a4b133e43")
+		)
+		(pin "2"
+			(uuid "b9131865-17c1-4383-b458-2f4ff6dde437")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 110.49 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26b2ce73-d052-49fd-9924-a9900d2282a7")
+		(property "Reference" "D21"
+			(at 110.49 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 113.03 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 110.49 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8aa4346-5fbc-42a1-92b4-ffd6af608c2d")
+		)
+		(pin "2"
+			(uuid "e166d2ad-60e7-48b5-a5af-941c47442a31")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 72.39 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2716a19e-ef92-4b95-9e76-afb727307fda")
+		(property "Reference" "D11"
+			(at 72.39 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 74.93 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 72.39 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b5d8399-67b1-49ad-8700-27087ed5e4e1")
+		)
+		(pin "2"
+			(uuid "0d8fc5c3-d06a-4a00-b96e-ef5c67a3fd02")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 118.11 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27af657a-d79e-496c-994a-7e7adcb16192")
+		(property "Reference" "D63"
+			(at 118.11 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 120.65 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 118.11 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa8a126-40c4-494a-89ff-6adf91e2535a")
+		)
+		(pin "2"
+			(uuid "ffa37f1a-54da-422d-92dd-c5699ad3778f")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 76.2 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30eb6de5-f7d4-49c9-b1ef-22f6df7a095a")
+		(property "Reference" "D52"
+			(at 76.2 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 78.74 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 76.2 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3734283-abae-4c6e-9e6b-fb33d9b02de9")
+		)
+		(pin "2"
+			(uuid "713bf845-4e55-49cf-ac37-8436ebe0f7c2")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 45.72 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3baa0ae3-daf0-4420-b0e7-1be95dc11336")
+		(property "Reference" "D4"
+			(at 45.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 48.26 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 45.72 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a3eb08f-1d1c-476e-951b-9019e0dcf787")
+		)
+		(pin "2"
+			(uuid "4803b3be-a80c-47c8-8c91-7c0dbb7746ad")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 68.58 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bf20a5f-acfc-46d7-9b72-adc94803e376")
+		(property "Reference" "D50"
+			(at 68.58 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 71.12 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 68.58 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb4aa669-fdc7-4966-81d9-5501aaacef18")
+		)
+		(pin "2"
+			(uuid "60746f93-11f7-4b99-a8bf-4d3a87db0308")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 160.02 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bf777b6-5e38-4031-838a-c051bbb47573")
+		(property "Reference" "D74"
+			(at 160.02 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 162.56 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 160.02 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c68be57a-092c-444b-b0ee-559ee9c14129")
+		)
+		(pin "2"
+			(uuid "d9842029-9e90-498e-b96c-66475da2c56f")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 99.06 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d9a2574-7d19-43da-baa5-1463715b05fe")
+		(property "Reference" "D18"
+			(at 99.06 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 101.6 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 99.06 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c19d79f-e1fd-411b-8d81-f60b0664d0e1")
+		)
+		(pin "2"
+			(uuid "0feae770-b5ad-4b66-a1af-596e96560a4e")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 121.92 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40f3ce2e-2d84-4b76-affe-cde18a2404b5")
+		(property "Reference" "D24"
+			(at 121.92 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 124.46 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 121.92 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e684985b-98a9-4663-8856-c680be92115b")
+		)
+		(pin "2"
+			(uuid "1815bac8-62eb-4566-b5d0-0f1046331325")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 144.78 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42f3c0d1-447c-4af0-9bd8-5e76e564d8c1")
+		(property "Reference" "D30"
+			(at 144.78 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 147.32 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 144.78 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9f136a-5463-41cc-9d5a-75b55dd5c909")
+		)
+		(pin "2"
+			(uuid "d0b0a10d-9cb7-4938-bba4-05c577467ace")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 83.82 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f14e1f-bbd2-47ed-b6aa-5cb8f683650a")
+		(property "Reference" "D14"
+			(at 83.82 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 86.36 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 83.82 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd0e8399-ba3f-42b7-a6b6-0f6d88eb54ca")
+		)
+		(pin "2"
+			(uuid "1fb8cba7-2e58-4348-b891-c65e96c6d9a1")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 91.44 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "459c6203-99d4-4f70-8c35-f9cf7a9f21b5")
+		(property "Reference" "D16"
+			(at 91.44 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 93.98 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 91.44 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef34014-0bfd-4cba-8766-862c6ec42814")
+		)
+		(pin "2"
+			(uuid "e040dbcf-a166-44ea-844e-947eb2adbc9d")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 160.02 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49b29737-567e-4f3b-9f9a-aba1143ec77d")
+		(property "Reference" "D34"
+			(at 160.02 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 162.56 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 160.02 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2023b6a8-708f-46ab-be23-8c86b71dca89")
+		)
+		(pin "2"
+			(uuid "f5a44d37-579d-4a70-a96a-5ef1e1c50cbb")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 110.49 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a489186-da00-4587-b9ff-422b8062c2f3")
+		(property "Reference" "D61"
+			(at 110.49 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 113.03 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 110.49 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e12b2cd-971a-463b-ab02-32eab54f798b")
+		)
+		(pin "2"
+			(uuid "d78ff71e-fb56-4cfd-836e-e72b96d73e58")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 45.72 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "513bb7fc-9d7a-4b20-bceb-048c6a6ca904")
+		(property "Reference" "D44"
+			(at 45.72 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 48.26 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 45.72 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48bbbec6-c846-41c0-b7be-906d79ae6120")
+		)
+		(pin "2"
+			(uuid "ebb96a19-44ee-4e53-9366-b8c7aa03d1c8")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 49.53 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5421b8ad-0581-4fcd-bab1-5e9e438be715")
+		(property "Reference" "D45"
+			(at 49.53 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 52.07 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 49.53 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a30e0cde-79b8-44be-aa1a-9d3224c97689")
+		)
+		(pin "2"
+			(uuid "eea67f59-73ec-4585-bad2-8c9ce0c4dc72")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 133.35 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5683cb70-f13c-4542-bdf2-d79bbb7948b8")
+		(property "Reference" "D67"
+			(at 133.35 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 135.89 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 133.35 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94d38b33-09c2-4e9c-96e4-9b9628571425")
+		)
+		(pin "2"
+			(uuid "f418cf2a-672e-4a63-8d1d-12991df9d6bd")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 60.96 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "605c7df4-1456-45ef-bea1-e169bf04fbff")
+		(property "Reference" "D8"
+			(at 60.96 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 63.5 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 60.96 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26a56516-4d0a-480d-b035-7822f7dd01ac")
+		)
+		(pin "2"
+			(uuid "72118931-48a7-493d-987c-d34a5e960f43")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 87.63 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68f293c8-563b-489b-8a47-db7063e175ce")
+		(property "Reference" "D55"
+			(at 87.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 90.17 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 87.63 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f358a1c-930c-46a4-b65f-3629e37688de")
+		)
+		(pin "2"
+			(uuid "6a428b91-bd66-4ae7-be4b-17f75bd4c235")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 91.44 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f1a239d-a7bc-4652-b468-7b5d1d44ddbf")
+		(property "Reference" "D56"
+			(at 91.44 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 93.98 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 91.44 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70adf001-ad9b-4406-88fb-8e2b0f417ad4")
+		)
+		(pin "2"
+			(uuid "4170bc95-cf89-4572-8a30-94f5b90e0f3a")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 118.11 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7047610d-2c2d-476d-abc3-246802121856")
+		(property "Reference" "D23"
+			(at 118.11 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 120.65 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 118.11 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c729c85a-b325-4b5b-a8b8-53d3e3788bb7")
+		)
+		(pin "2"
+			(uuid "698850f8-057e-4a8d-9541-bade24913d54")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 57.15 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ebef9c6-8e85-43b0-bc9d-b02065ebbca1")
+		(property "Reference" "D47"
+			(at 57.15 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 59.69 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 57.15 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 57.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8658c41e-2ab3-431e-aa7b-245bd6d6b63a")
+		)
+		(pin "2"
+			(uuid "4bdb10a1-2007-4250-97c2-a175a6c19f76")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 144.78 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88957cac-8a11-4c31-99d5-a7c86774c39d")
+		(property "Reference" "D70"
+			(at 144.78 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 147.32 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 144.78 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "846f9577-11f7-41f9-9207-b7d9047597dc")
+		)
+		(pin "2"
+			(uuid "da30c7b5-cd3c-44fe-aa6d-7c0d13d37252")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 38.1 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eef52a2-a268-453b-b917-0ca0d850b573")
+		(property "Reference" "D42"
+			(at 38.1 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 40.64 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 38.1 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeadd199-85e5-49c5-a437-f0bedb938c67")
+		)
+		(pin "2"
+			(uuid "b2faecc8-1855-4908-ac1d-bc8e2cd61656")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 87.63 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90c46016-2441-48b9-a486-31f92781bf9b")
+		(property "Reference" "D15"
+			(at 87.63 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 90.17 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 87.63 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0309600c-20fd-42b1-9491-a1e0a9ab6ae3")
+		)
+		(pin "2"
+			(uuid "e35cbf2c-4caa-4a21-be5f-a821672a25ca")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 137.16 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95842300-6e22-4bb2-9ae0-7cdecd4301ce")
+		(property "Reference" "D68"
+			(at 137.16 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 139.7 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 137.16 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d1c9b3-e9b4-432f-a228-9e4df7c4d365")
+		)
+		(pin "2"
+			(uuid "57afc013-4bbb-4a7f-a77c-3816db34ea17")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 57.15 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96694d1e-7af9-47e1-bdb5-626244155b43")
+		(property "Reference" "D7"
+			(at 57.15 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 59.69 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 57.15 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf6f6bf-83c3-46b9-91cb-469faba318c5")
+		)
+		(pin "2"
+			(uuid "2d76b5c1-0cc5-47d3-8318-8c8d2c55aead")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 102.87 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ad40575-089a-411f-b137-6e86bc932579")
+		(property "Reference" "D19"
+			(at 102.87 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 105.41 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 102.87 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e29a217-b48e-496b-9db7-72b26bae4266")
+		)
+		(pin "2"
+			(uuid "a36c47c0-5db7-4c3e-8d0e-3392cda94166")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 140.97 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b34f0ad-c087-4d1b-9776-3d3384092a2c")
+		(property "Reference" "D29"
+			(at 140.97 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 143.51 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 140.97 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bfb560c-9765-4378-afe0-0a9cc5b23cd8")
+		)
+		(pin "2"
+			(uuid "7ee1c1bb-d2b9-4c7e-affe-db994c9a5731")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 114.3 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d298f10-6f70-466e-a300-71b90dfe6940")
+		(property "Reference" "D62"
+			(at 114.3 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 116.84 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 114.3 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "883af1fe-da7a-49f8-b427-e7bc0c61ecad")
+		)
+		(pin "2"
+			(uuid "44480f0f-b185-4708-a5fd-4b61ad6c0c99")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 129.54 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a104e318-b303-4301-915a-65300317d1fe")
+		(property "Reference" "D26"
+			(at 129.54 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 132.08 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7886370f-aa4a-4029-99cf-0aef98dba631")
+		)
+		(pin "2"
+			(uuid "66754c84-60bc-4b42-8ba9-5c777c1cf2b4")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 41.91 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2c0da0c-00c1-44e3-951d-1321481f3dea")
+		(property "Reference" "D43"
+			(at 41.91 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 44.45 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 41.91 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a20e0ea-1de2-4400-bf09-7764be58b2d9")
+		)
+		(pin "2"
+			(uuid "ccfd3053-0db0-4be3-bc4d-3693c9c4400f")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 140.97 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3ca0056-2179-491a-84f5-a14864d55489")
+		(property "Reference" "D69"
+			(at 140.97 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 143.51 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 140.97 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c153e39-74e2-4d65-a052-49d2b46b81c1")
+		)
+		(pin "2"
+			(uuid "fc019fdd-c9d8-412a-be81-aad387420dc9")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 182.88 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa015b49-100b-43da-a91e-0e9f23a84c67")
+		(property "Reference" "D40"
+			(at 182.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 185.42 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 182.88 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f47b778-5507-479d-8d50-8400a0ad62da")
+		)
+		(pin "2"
+			(uuid "796219ce-7a00-4c5e-b82b-d971d0e5a2c4")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 60.96 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab75c8e0-903f-4fd7-a4d3-fd2e0983d8e3")
+		(property "Reference" "D48"
+			(at 60.96 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 63.5 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 60.96 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f32894-37bf-42f6-8f8a-e214b8d849a9")
+		)
+		(pin "2"
+			(uuid "1098b9b5-ef47-42a4-8917-b8eded41086c")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 152.4 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aec88d62-8f04-4ee9-a367-dcbd0254839c")
+		(property "Reference" "D32"
+			(at 152.4 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 154.94 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 152.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83d4d6ab-563c-4502-b0ec-339ce47eecc1")
+		)
+		(pin "2"
+			(uuid "8f01c479-98c4-405a-94e5-5001cb62d218")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 137.16 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b353ad15-c3ed-4668-a836-1edae4adfe97")
+		(property "Reference" "D28"
+			(at 137.16 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 139.7 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 137.16 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 137.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 137.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4b545e-53c4-4095-b02c-f9834a84e3d6")
+		)
+		(pin "2"
+			(uuid "9e8acb97-c78f-452c-8585-5ee94adeb72f")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 53.34 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3bed14a-f866-4b83-80cc-034bd6cade31")
+		(property "Reference" "D46"
+			(at 53.34 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 55.88 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 53.34 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84c0ebcf-0057-4f8f-a8af-f2722699a28c")
+		)
+		(pin "2"
+			(uuid "de2741c5-3122-40cb-9a41-8e1437e63cbe")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 163.83 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4e0a6fd-c21c-45f7-9a12-ed34c16afff1")
+		(property "Reference" "D35"
+			(at 163.83 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 166.37 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 163.83 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6868ea28-e0f5-465a-86b2-66764393b917")
+		)
+		(pin "2"
+			(uuid "c94247a8-4d07-4d20-827f-e6829e8b82c6")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 72.39 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c151a33f-adac-4a32-9e24-45981932df9d")
+		(property "Reference" "D51"
+			(at 72.39 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 74.93 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 72.39 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "171a1325-34b3-4390-afc3-6f3b4b839249")
+		)
+		(pin "2"
+			(uuid "ea8c0d60-869d-41ff-a929-9cadd1cebb54")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 171.45 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c31c9438-f3fd-495c-82a8-bf391a8e820d")
+		(property "Reference" "D37"
+			(at 171.45 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 173.99 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 171.45 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0acca2e9-6390-4504-aca2-4b9477ffbe22")
+		)
+		(pin "2"
+			(uuid "9b616b5c-88c4-4083-aaf6-38c5977598c5")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 49.53 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4edc40a-ec4a-467a-89ef-3ce64637234c")
+		(property "Reference" "D5"
+			(at 49.53 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 52.07 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 49.53 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ae70fa-22a6-410a-9737-f749e3f2c104")
+		)
+		(pin "2"
+			(uuid "e9dd8526-f813-4bc8-bf11-de3c3393de96")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 64.77 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7389bfe-6594-4003-996a-65c1d2b6a614")
+		(property "Reference" "D49"
+			(at 64.77 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 67.31 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 64.77 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b92688d-e954-432b-bd14-758c9f87713b")
+		)
+		(pin "2"
+			(uuid "42fc8dbb-6a65-4e9e-aca1-e19a641b0b27")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 133.35 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caf8d5f0-c869-4476-8435-1c35aeb3f073")
+		(property "Reference" "D27"
+			(at 133.35 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 135.89 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 133.35 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "660b3911-e860-4a82-84b4-daad4baa0d54")
+		)
+		(pin "2"
+			(uuid "be7b930b-1d02-4599-8576-8ea227b19ffb")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 156.21 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3bac45e-9a49-46d2-9fac-f06108218917")
+		(property "Reference" "D73"
+			(at 156.21 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 158.75 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 156.21 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cad623e0-94f5-4993-a4f2-018393e2313f")
+		)
+		(pin "2"
+			(uuid "7be8041a-8681-4963-b254-01d85d1f757f")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 38.1 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d629e829-f06c-450f-98f8-e414ef9f3ce2")
+		(property "Reference" "D2"
+			(at 38.1 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 40.64 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 38.1 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a810f8b7-3af3-41cb-a5ff-875f54acb0b6")
+		)
+		(pin "2"
+			(uuid "01cc828e-1093-4675-a6a2-c09af3dd70b6")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 125.73 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d84bb7b1-3bc6-4f14-9718-ac7832409d83")
+		(property "Reference" "D65"
+			(at 125.73 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 128.27 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 125.73 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c0dd465-6091-426d-b401-4a9a36aa0de8")
+		)
+		(pin "2"
+			(uuid "7bfe5931-27f6-493c-95ce-11ef9f7ba5c7")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 148.59 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcef2335-c24f-44bf-9353-5f9a1464512a")
+		(property "Reference" "D31"
+			(at 148.59 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 151.13 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 148.59 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f81fb373-25c1-4e1d-a246-bc8a887bb3ee")
+		)
+		(pin "2"
+			(uuid "204f8a71-a8c8-4f96-898b-ea193e74c7a1")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 95.25 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1f03e3c-14ca-4da7-b3b7-83674655d2b7")
+		(property "Reference" "D17"
+			(at 95.25 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 97.79 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 95.25 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "055fcfac-7312-4f38-863b-6fdbea3a1452")
+		)
+		(pin "2"
+			(uuid "c46ad6d4-9633-461c-98fa-a2fce18b0023")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 102.87 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e973e5eb-f933-4743-953b-1c843e5c20dd")
+		(property "Reference" "D59"
+			(at 102.87 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 105.41 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 102.87 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28708874-b4ce-4d9c-84d1-94c6cb7c3a47")
+		)
+		(pin "2"
+			(uuid "1164f97a-d073-4798-b15d-36dc1ef96964")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:TestPoint")
+		(at 27.94 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed8a6cbc-b8ba-42cd-8d21-3c06b4804eae")
+		(property "Reference" "TP1"
+			(at 24.13 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at 21.59 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:TestPoint_Pad_D3.0mm"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29354eef-9766-49b6-92a0-a82d8e9b950c")
+		)
+		(instances
+			(project ""
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 106.68 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee88085f-9890-4890-8fe4-4a7fa833aa69")
+		(property "Reference" "D20"
+			(at 106.68 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 109.22 45.6564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 106.68 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fbaa9cf-ba8b-4bdd-9828-38f6cb13f948")
+		)
+		(pin "2"
+			(uuid "e8b94e2a-96e7-4832-836c-49713234d12b")
+		)
+		(instances
+			(project "2025-flex-spiral"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 83.82 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eedc10d2-5f86-4091-9c34-f7920b5352a7")
+		(property "Reference" "D54"
+			(at 83.82 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 86.36 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 83.82 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f17b07-bb55-4a61-832b-b7a3a4757922")
+		)
+		(pin "2"
+			(uuid "9290428f-7302-4d50-a2a4-ccc5b025049e")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 129.54 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2e9587d-2e97-4caa-8721-7247c97b4296")
+		(property "Reference" "D66"
+			(at 129.54 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 132.08 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 129.54 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "089d993d-6fc4-46aa-b446-b3565b918d1e")
+		)
+		(pin "2"
+			(uuid "5db75b7b-59ac-4d98-a8d9-88a7bc22704a")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 106.68 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3e844fb-ef52-4388-8b47-411f7f40901b")
+		(property "Reference" "D60"
+			(at 106.68 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 109.22 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 106.68 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fded8343-5e71-438f-a264-54ae8c98a7ed")
+		)
+		(pin "2"
+			(uuid "8dd104c8-2f70-4399-ab81-7db822a1ff10")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 163.83 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f416cca2-42fc-4e30-91d0-354f835efc0f")
+		(property "Reference" "D75"
+			(at 163.83 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 166.37 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 163.83 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5036e4f2-e9a8-4cb1-b206-039a6b4ca935")
+		)
+		(pin "2"
+			(uuid "7f03bd7d-0fff-4a11-96c5-446f9012bf1e")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 34.29 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4ee09ef-e4db-4b3f-9538-b39f8c2a71fc")
+		(property "Reference" "D41"
+			(at 34.29 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 36.83 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 34.29 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd7090fc-9054-4a6b-9452-e331da99077c")
+		)
+		(pin "2"
+			(uuid "7e905978-690b-407c-8c21-c62e541bec2c")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 152.4 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7b6d262-cc3c-428d-a461-09c2907c99eb")
+		(property "Reference" "D72"
+			(at 152.4 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 154.94 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 152.4 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0711fc1-6bf9-40a8-ba28-bea3b4b092b9")
+		)
+		(pin "2"
+			(uuid "28995906-915d-4341-aaf9-0d28baf9f2ac")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 148.59 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcaa5df1-da1a-493e-802e-96321145e73e")
+		(property "Reference" "D71"
+			(at 148.59 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 151.13 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 148.59 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b5a7ad-fd83-4642-afa9-e1eea5e4b370")
+		)
+		(pin "2"
+			(uuid "4c8b5665-0183-4c5c-8f1a-e0401a3ad275")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 95.25 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2b85ff-36a7-47e3-bafe-a5e75645818d")
+		(property "Reference" "D57"
+			(at 95.25 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 97.79 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 95.25 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2838be0e-c5ed-471c-940b-73be61c7bb11")
+		)
+		(pin "2"
+			(uuid "d1ff73e6-b731-4895-8d95-6d0c019f9f6b")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:led_small")
+		(at 121.92 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff8563d1-9ffa-4c15-b5fb-2ec5b1f93e4d")
+		(property "Reference" "D64"
+			(at 121.92 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "led_small"
+			(at 124.46 59.6264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lib:LED_0603_1608Metric"
+			(at 121.92 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f171dd0-8f18-42cb-952c-6f6c07fa7d02")
+		)
+		(pin "2"
+			(uuid "5a27fa92-1358-4be9-ada7-dcf57be3e23b")
+		)
+		(instances
+			(project "2025-flex-spiral-two"
+				(path "/bca0b345-370b-4339-87dd-ece03584e427"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
