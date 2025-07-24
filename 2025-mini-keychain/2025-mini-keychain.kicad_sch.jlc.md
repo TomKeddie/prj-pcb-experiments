@@ -1,0 +1,2 @@
+|Designator|LCSC|Footprint|Comment|
+|--|--|--|--|
