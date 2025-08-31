@@ -1,0 +1,6 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","DSI_IN","AliExpress_1x22_P0.5mm_Horizontal_Drawer",115.000000,-100.000000,90.000000,top
+"J2","DSI_OUT","AliExpress_1x34_P0.5mm_Horizontal_Drawer",75.000000,-100.000000,-90.000000,top
+"R3","0R","R_0603_1608Metric",100.000000,-88.750000,0.000000,top
+"R4","0R","R_0603_1608Metric",96.500000,-88.750000,0.000000,top
+"R5","0R","R_0603_1608Metric",93.000000,-88.750000,0.000000,top

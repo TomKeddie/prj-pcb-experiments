@@ -1,0 +1,10 @@
+|Designator|LCSC|Footprint|Comment|
+|--|--|--|--|
+|J1|[](https://jlcpcb.com/partdetail/)|lib:AliExpress_1x22_P0.5mm_Horizontal_Drawer|DSI_IN|
+|J2|[](https://jlcpcb.com/partdetail/)|lib:AliExpress_1x34_P0.5mm_Horizontal_Drawer|DSI_OUT|
+|R1|[](https://jlcpcb.com/partdetail/)|lib:R_0603_1608Metric|0R|
+|R2|[](https://jlcpcb.com/partdetail/)|lib:R_0603_1608Metric|0R|
+|R3|[](https://jlcpcb.com/partdetail/)|lib:R_0603_1608Metric|0R|
+|R4|[](https://jlcpcb.com/partdetail/)|lib:R_0603_1608Metric|0R|
+|R5|[](https://jlcpcb.com/partdetail/)|lib:R_0603_1608Metric|0R|
+|R6|[](https://jlcpcb.com/partdetail/)|lib:R_0603_1608Metric|0R|

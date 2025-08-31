@@ -1,0 +1,19 @@
+** Drc report for 2025-mipi-rpi-conv-dsi.kicad_pcb **
+** Created on 2025-08-31T09:26:15-0700 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 3 Footprint errors **
+[net_conflict]: No pad found for pin 28 in schematic.
+    Local override; warning
+    @(75.0000 mm, 100.0000 mm): Footprint J2
+[net_conflict]: No pad found for pin 29 in schematic.
+    Local override; warning
+    @(75.0000 mm, 100.0000 mm): Footprint J2
+[net_conflict]: No pad found for pin 30 in schematic.
+    Local override; warning
+    @(75.0000 mm, 100.0000 mm): Footprint J2
+
+** End of Report **
