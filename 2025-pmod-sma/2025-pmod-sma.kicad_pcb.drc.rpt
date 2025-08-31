@@ -1,0 +1,99 @@
+** Drc report for 2025-pmod-sma.kicad_pcb **
+** Created on 2025-08-30T18:29:59-0700 **
+
+** Found 25 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(116.8400 mm, 132.0800 mm): PCB text '1
+2
+3
+4
+7
+8
+9
+10' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.5725 mm, 129.6500 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 115.1400 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 116.0000 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 117.6800 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 118.5400 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 120.2200 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 121.0800 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 122.7600 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 123.6200 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 125.3000 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 126.1600 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 127.8400 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8851 mm, 128.7000 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(115.7725 mm, 128.2700 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5400 mm, 113.0300 mm): Segment of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5400 mm, 114.3000 mm): Segment of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8400 mm, 111.6500 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3413 mm, 130.3500 mm): Segment on Edge.Cuts
+    @(107.8125 mm, 129.6500 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3413 mm, 130.3500 mm): Segment on Edge.Cuts
+    @(110.5725 mm, 114.1900 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3413 mm, 130.3500 mm): Segment on Edge.Cuts
+    @(110.5725 mm, 116.8400 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3413 mm, 130.3500 mm): Segment on Edge.Cuts
+    @(110.5725 mm, 119.3800 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3413 mm, 130.3500 mm): Segment on Edge.Cuts
+    @(110.5725 mm, 121.9200 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3413 mm, 130.3500 mm): Segment on Edge.Cuts
+    @(110.5725 mm, 124.4600 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(108.3413 mm, 130.3500 mm): Segment on Edge.Cuts
+    @(110.5725 mm, 127.0000 mm): Segment of J1 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

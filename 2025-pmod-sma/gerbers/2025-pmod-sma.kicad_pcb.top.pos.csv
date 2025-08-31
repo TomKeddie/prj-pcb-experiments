@@ -1,0 +1,4 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","Conn_02x06_Top_Bottom","PinHeader_2x06_P2.54mm_Horizontal_Top_Bottom",114.502500,-128.270000,180.000000,top
+"J2","Conn_02x08_Top_Bottom","PinHeader_2x08_P2.54mm_Vertical_Top_Bottom",121.920000,-113.030000,0.000000,top
+"J3","Conn_01x02","SMA_Amphenol_901-143_Horizontal",133.350000,-128.230000,180.000000,top

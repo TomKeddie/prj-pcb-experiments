@@ -1,0 +1,4 @@
+"Comment","Designator","Footprint","LCSC"
+"Conn_02x06_Top_Bottom","J1","lib:PinHeader_2x06_P2.54mm_Horizontal_Top_Bottom",""
+"Conn_02x08_Top_Bottom","J2","lib:PinHeader_2x08_P2.54mm_Vertical_Top_Bottom",""
+"Conn_01x02","J3","lib:SMA_Amphenol_901-143_Horizontal",""
