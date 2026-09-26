@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/tom/git/TomKeddie/prj-pcb-experiments/blue-pill-bmp/hardware/blue-pill-bmp.sch</source>
-    <date>Tue 15 Dec 2020 09:17:31 PM</date>
+    <date>Sat May  8 16:47:07 2021</date>
     <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -381,7 +381,7 @@
     </comp>
     <comp ref="VR1">
       <value>LM1117MPX-3.3</value>
-      <footprint>VREG_LM1117MPX-3.3</footprint>
+      <footprint>tom-semiconductors:VREG_LM1117MPX-3.3</footprint>
       <fields>
         <field name="LCSC">C9662</field>
         <field name="MANUFACTURER">Texas Instruments</field>

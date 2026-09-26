@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LED_SMD")(type "KiCad")(uri "${KICAD7_FOOTPRINT_DIR}/LED_SMD.pretty")(options "")(descr ""))
+)

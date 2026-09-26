@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "MicroMod_Environmental")(type "KiCad")(uri "")(options "")(descr ""))
+)

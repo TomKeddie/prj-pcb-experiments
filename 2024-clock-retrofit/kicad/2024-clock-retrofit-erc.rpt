@@ -1,0 +1,204 @@
+ERC report (2025-05-31T18:57:15-0700, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(17.78 mm, 27.94 mm): Symbol #PWR06 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(27.94 mm, 19.05 mm): Symbol #PWR01 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(27.94 mm, 24.13 mm): Symbol #PWR03 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(35.56 mm, 31.75 mm): Symbol #PWR07 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(60.96 mm, 26.67 mm): Symbol #PWR04 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(67.31 mm, 36.83 mm): Symbol #PWR09 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(35.56 mm, 102.87 mm): Symbol #PWR013 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(125.73 mm, 44.45 mm): Symbol #PWR05 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(125.73 mm, 49.53 mm): Symbol #PWR08 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(153.67 mm, 19.05 mm): Symbol #PWR02 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(140.97 mm, 73.66 mm): Symbol #PWR011 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(125.73 mm, 110.49 mm): Symbol #PWR090 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(153.67 mm, 69.85 mm): Symbol #PWR010 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(125.73 mm, 115.57 mm): Symbol #PWR091 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(153.67 mm, 83.82 mm): Symbol #PWR012 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(30.48 mm, 187.96 mm): Symbol #PWR032 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(34.29 mm, 187.96 mm): Symbol #PWR033 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(106.68 mm, 165.10 mm): Symbol #PWR027 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(140.97 mm, 138.43 mm): Symbol #PWR025 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(97.79 mm, 172.72 mm): Symbol #PWR029 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(97.79 mm, 177.80 mm): Symbol #PWR030 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(153.67 mm, 134.62 mm): Symbol #PWR024 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(116.84 mm, 167.64 mm): Symbol #PWR028 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(106.68 mm, 185.42 mm): Symbol #PWR031 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(205.74 mm, 109.22 mm): Symbol #PWR016 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(205.74 mm, 109.22 mm): Symbol #FLG01 [PWR_FLAG]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(209.55 mm, 110.49 mm): Symbol #PWR017 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(209.55 mm, 110.49 mm): Symbol #FLG02 [PWR_FLAG]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(207.01 mm, 129.54 mm): Symbol #PWR021 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(234.95 mm, 107.95 mm): Symbol #PWR014 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(234.95 mm, 116.84 mm): Symbol #PWR018 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(231.14 mm, 129.54 mm): Symbol #PWR022 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(250.19 mm, 118.11 mm): Symbol #PWR020 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(264.16 mm, 107.95 mm): Symbol #PWR015 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(264.16 mm, 116.84 mm): Symbol #PWR019 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(274.32 mm, 130.81 mm): Symbol #PWR023 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(274.32 mm, 146.05 mm): Symbol #PWR026 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(63.50 mm, 62.23 mm): Symbol #PWR066 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(72.39 mm, 53.34 mm): Symbol #PWR062 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(57.15 mm, 87.63 mm): Symbol #PWR070 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(97.79 mm, 53.34 mm): Symbol #PWR063 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(63.50 mm, 97.79 mm): Symbol #PWR078 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(72.39 mm, 91.44 mm): Symbol #PWR074 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(104.14 mm, 62.23 mm): Symbol #PWR067 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(97.79 mm, 91.44 mm): Symbol #PWR075 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(57.15 mm, 123.19 mm): Symbol #PWR082 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(107.95 mm, 87.63 mm): Symbol #PWR071 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(127.00 mm, 62.23 mm): Symbol #PWR068 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(104.14 mm, 97.79 mm): Symbol #PWR079 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(135.89 mm, 53.34 mm): Symbol #PWR064 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(72.39 mm, 128.27 mm): Symbol #PWR086 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(120.65 mm, 87.63 mm): Symbol #PWR072 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(127.00 mm, 97.79 mm): Symbol #PWR080 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(97.79 mm, 128.27 mm): Symbol #PWR087 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(135.89 mm, 91.44 mm): Symbol #PWR076 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(107.95 mm, 123.19 mm): Symbol #PWR083 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(161.29 mm, 53.34 mm): Symbol #PWR065 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(120.65 mm, 123.19 mm): Symbol #PWR084 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(167.64 mm, 62.23 mm): Symbol #PWR069 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(161.29 mm, 91.44 mm): Symbol #PWR077 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(135.89 mm, 128.27 mm): Symbol #PWR088 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(171.45 mm, 87.63 mm): Symbol #PWR073 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(167.64 mm, 97.79 mm): Symbol #PWR081 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(161.29 mm, 128.27 mm): Symbol #PWR089 [+5V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(171.45 mm, 123.19 mm): Symbol #PWR085 [+5V]
+
+***** Sheet /Hour Leds/
+
+***** Sheet /Minute Leds/
+
+ ** ERC messages: 65  Errors 0  Warnings 65

@@ -1,0 +1,30 @@
+** Drc report for 2024-clock-retrofit.kicad_pcb **
+** Created on 2025-05-31T19:02:35-0700 **
+
+** Found 6 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error (excluded)
+    @(167.0000 mm, 63.0000 mm): Zone [+5V] on F.Cu
+    @(170.7875 mm, 133.5000 mm): Pad 2 [+5V] of D59 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error (excluded)
+    @(167.0000 mm, 63.0000 mm): Zone [+5V] on F.Cu
+    @(161.5000 mm, 123.7875 mm): Pad 2 [+5V] of D55 on F.Cu
+[lib_footprint_mismatch]: Footprint 'ESP32-WROOM-32D' does not match copy in library 'library'.
+    Local override; warning
+    @(135.0000 mm, 106.5000 mm): Footprint U2
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error (excluded)
+    @(145.6125 mm, 121.0000 mm): Pad 1 [/LED_TEMP] of D4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error (excluded)
+    @(147.1875 mm, 121.0000 mm): Pad 2 [Net-(D4-A)] of D4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error (excluded)
+    @(146.4000 mm, 121.0000 mm): Footprint D4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "jlcpcb-basic-resistor")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/scripts/build/jlcpcb-basic-resistor.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-resistor-0402")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/scripts/build/jlcpcb-basic-resistor-0402.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-resistor-0603")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/scripts/build/jlcpcb-basic-resistor-0603.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-resistor-0805")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/scripts/build/jlcpcb-basic-resistor-0805.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-resistor-1206")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/scripts/build/jlcpcb-basic-resistor-1206.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpcb-basic-capacitor")(type "KiCad")(uri "/home/tom/git/TomKeddie/prj-kicad-jlcpcb/scripts/build/jlcpcb-basic-capacitor.kicad_sym")(options "")(descr ""))
+)

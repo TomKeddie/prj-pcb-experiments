@@ -1,0 +1,14 @@
+** Drc report for /home/tom/git/TomKeddie/prj-pcb-experiments/blue-pill-bmp/hardware/blue-pill-bmp.kicad_pcb **
+** Created on 2021-05-08 16:45:57 **
+
+** Found 2 DRC errors **
+ErrType(19): Pad too close to pad
+    @(101.810 mm, 97.110 mm): Pad of J2 on All copper layers
+    @(103.150 mm, 96.950 mm): Pad B12 of J2 on F.Cu and others
+ErrType(19): Pad too close to pad
+    @(101.810 mm, 102.890 mm): Pad of J2 on All copper layers
+    @(103.150 mm, 102.550 mm): Pad A9 of J2 on F.Cu and others
+
+** Found 0 unconnected pads **
+
+** End of Report **

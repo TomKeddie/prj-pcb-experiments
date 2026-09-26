@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LED")(type "KiCad")(uri "${KICAD7_SYMBOL_DIR}/LED.kicad_sym")(options "")(descr ""))
+)

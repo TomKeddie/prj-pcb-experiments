@@ -170,11 +170,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|1016000|1600200|350c539a-a464-438b-b4db-77e1025c9943|7e249ff1-29bf-404c-a0b6-623468a6d6c8",
-      "multiple_net_names|215900|1117600|f5e556a4-ac7a-4c1e-b4d1-2709b3ffb91a|50e09ded-6139-4027-9cb8-e13c52c3f8f0",
-      "multiple_net_names|215900|1244600|f9ae6958-8d37-4205-a9ae-5428c3069dac|f7b84db1-26c6-4349-b217-42089934b9c2"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
